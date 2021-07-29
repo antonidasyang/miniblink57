@@ -2,110 +2,22 @@
 branches: {
   }
 fileChange:
-  /gen:
-    newFile: !uuid 'd7be58df8670bcd792538efab2777c8f0abfdf25'
-    oldFile: !uuid 'bf2eb0ae43fb7208bedb4ad07efbc314c196bdac'
-  /gen/blink:
-    newFile: !uuid 'c2fb55142ed96ed93079213a8e18ca525285bfd8'
-    oldFile: !uuid '5b0f9a3c051fec9414a02a10bebf8b7b5902506c'
-  /gen/blink/bindings:
-    newFile: !uuid '59c9efec3c3f0c1347f9e08c23f9b46aa1f18b30'
-    oldFile: !uuid '0ed07e849c835be1dc9eacdbefb87147b86df3e1'
-  /gen/blink/bindings/modules:
-    newFile: !uuid '6d82b10ab577087ef83c26fe39831d4c70c3d4db'
-    oldFile: !uuid 'dfea540c1c32d5eee960e8ea9915d7fefbe799d8'
-  /gen/blink/bindings/modules/v8:
-    newFile: !uuid '1d93fb1b9951e6a27d71a388da7ad7db3799d9a5'
-    oldFile: !uuid '3a7ad8f4806131b9e975a3cb309f183466db4a5e'
-  /gen/blink/bindings/modules/v8/OffscreenCanvasRenderingContext2DOrWebGLRenderingContextOrWebGL2RenderingContext.cpp:
-    newFile: !uuid 'f23d5fa060c4d11c32d22e97b5d51e4b7fc64957'
-    oldFile: !uuid 'db4e8b59b565baa8bfd6ca9951f59240f8892944'
-  /gen/blink/bindings/modules/v8/RenderingContext.cpp:
-    newFile: !uuid '8a5fa51596376da317344d54aefaa9205d073223'
-    oldFile: !uuid '2f9f3bf70b239a814ff2c1b8fd65eb1354bebbbe'
-  /gen/blink/bindings/modules/v8/V8AmbientLightSensor.h:
-    newFile: null
-    oldFile: !uuid '879006c2108a36b06fc5cc4bca5fcae54f312aab'
-  /gen/blink/bindings/modules/v8/V8AmbientLightSensor.h-:
-    newFile: !uuid '879006c2108a36b06fc5cc4bca5fcae54f312aab'
-    oldFile: null
-  /gen/blink/bindings/modules/v8/V8Bluetooth.h:
-    newFile: null
-    oldFile: !uuid 'fb1f318c2d25f1a5a1740c2cfddd209f4e4318ac'
-  /gen/blink/bindings/modules/v8/V8Bluetooth.h-:
-    newFile: !uuid 'fb1f318c2d25f1a5a1740c2cfddd209f4e4318ac'
-    oldFile: null
-  /gen/blink/bindings/modules/v8/V8DedicatedWorkerGlobalScopePartial.cpp:
-    newFile: !uuid '7c55f781b2054aecf2a1753b54b8b935dc90c88a'
-    oldFile: !uuid '758a525a7270be007af59c428940c7674f64bc8d'
-  /gen/blink/bindings/modules/v8/V8FaceDetector.h:
-    newFile: null
-    oldFile: !uuid '2cfca694dc2afab4e57621e2f47358de285595e8'
-  /gen/blink/bindings/modules/v8/V8FaceDetector.h-:
-    newFile: !uuid '2cfca694dc2afab4e57621e2f47358de285595e8'
-    oldFile: null
-  /gen/blink/bindings/modules/v8/V8HTMLCanvasElementPartial.cpp:
-    newFile: !uuid 'dcb673610538808d36c83ccf4447038c38363a30'
-    oldFile: !uuid 'f4cf5f428c210e685a92f7d2bbe80347e602adc4'
-  /gen/blink/bindings/modules/v8/V8HTMLVideoElementPartial.cpp:
-    newFile: !uuid '02fc3cb4f1d2de7e1c1d334e06e6cd37dd713ec2'
-    oldFile: !uuid '3a0baf21131f55319db7bbc4d683908ef56aa630'
-  /gen/blink/bindings/modules/v8/V8IDBFactory.h:
-    newFile: null
-    oldFile: !uuid 'b3b52cfe0663067155cc8fde6c1dde3a9ffabe4d'
-  /gen/blink/bindings/modules/v8/V8IDBFactory.h-:
-    newFile: !uuid 'b3b52cfe0663067155cc8fde6c1dde3a9ffabe4d'
-    oldFile: null
-  /gen/blink/bindings/modules/v8/V8NavigatorPartial.cpp:
-    newFile: !uuid '0bd30c9c9f41cb3605862b3c223cee20c11bfa6d'
-    oldFile: !uuid '6723f276994d032050053ca0f2489641afac0373'
-  /gen/blink/bindings/modules/v8/V8Notification.h:
-    newFile: null
-    oldFile: !uuid '7346b98606a9baf1848a7df64675ac291107fec2'
-  /gen/blink/bindings/modules/v8/V8Notification.h-:
-    newFile: !uuid '7346b98606a9baf1848a7df64675ac291107fec2'
-    oldFile: null
-  /gen/blink/bindings/modules/v8/V8OffscreenCanvasPartial.cpp:
-    newFile: !uuid '204a5ab72e73f51aaac8113406d11faa9fc1cf02'
-    oldFile: !uuid 'da2d7461994fcece34dda915da45c82e097ad044'
-  /gen/blink/bindings/modules/v8/V8Permissions.h:
-    newFile: null
-    oldFile: !uuid '6fade72145eed2842c4897afc4bbf529ec3b200c'
-  /gen/blink/bindings/modules/v8/V8Permissions.h-:
-    newFile: !uuid '6fade72145eed2842c4897afc4bbf529ec3b200c'
-    oldFile: null
-  /gen/blink/bindings/modules/v8/V8TextDetector.h:
-    newFile: null
-    oldFile: !uuid 'b8c1e97a41e078dd4d00028da9da68abd919cfaf'
-  /gen/blink/bindings/modules/v8/V8TextDetector.h-:
-    newFile: !uuid 'b8c1e97a41e078dd4d00028da9da68abd919cfaf'
-    oldFile: null
-  /gen/blink/bindings/modules/v8/V8WebGL2RenderingContext.h:
-    newFile: null
-    oldFile: !uuid 'a3493a8f423054f660809f7fda238c3a37c322f4'
-  /gen/blink/bindings/modules/v8/V8WebGL2RenderingContext.h-:
-    newFile: !uuid 'a3493a8f423054f660809f7fda238c3a37c322f4'
-    oldFile: null
-  /gen/blink/bindings/modules/v8/V8WindowPartial.cpp:
-    newFile: !uuid 'daa185fab043ba2942610def8310fd47fe1e8128'
-    oldFile: !uuid 'd2d249ca5c3cf1d935a728883ef0df53f04d8154'
-  /gen/blink/bindings/modules/v8/V8WorkerGlobalScopePartial.cpp:
-    newFile: !uuid '1979498e371aa73a01c1bfea7b52fa857cfb8fce'
-    oldFile: !uuid '9cbf38a78c8ac48903658b4649704da84d2894f1'
-  /gen/blink/bindings/modules/v8/V8WorkerNavigatorPartial.cpp:
-    newFile: !uuid 'b6f5411aa39a1efbd1f06b295e59f65451ec198a'
-    oldFile: !uuid '571f3b0fc2f39f23494c2eb0ad93d96c8d6c365f'
-  /gen/blink/bindings/modules/v8/initPartialInterfacesInModules.cpp:
-    newFile: !uuid '90c737b5be9b12cebb5b0a1c0e0618103e9a9615'
-    oldFile: !uuid 'c31bce7dc8449b4878663ef5ecdb168c7414370a'
-gitCommitId: !uuid 'b287b578e5b56506cdae2973a2fd24a8662a05f1'
-renames:
-  /gen/blink/bindings/modules/v8/V8AmbientLightSensor.h-: /gen/blink/bindings/modules/v8/V8AmbientLightSensor.h
-  /gen/blink/bindings/modules/v8/V8Bluetooth.h-: /gen/blink/bindings/modules/v8/V8Bluetooth.h
-  /gen/blink/bindings/modules/v8/V8FaceDetector.h-: /gen/blink/bindings/modules/v8/V8FaceDetector.h
-  /gen/blink/bindings/modules/v8/V8IDBFactory.h-: /gen/blink/bindings/modules/v8/V8IDBFactory.h
-  /gen/blink/bindings/modules/v8/V8Notification.h-: /gen/blink/bindings/modules/v8/V8Notification.h
-  /gen/blink/bindings/modules/v8/V8Permissions.h-: /gen/blink/bindings/modules/v8/V8Permissions.h
-  /gen/blink/bindings/modules/v8/V8TextDetector.h-: /gen/blink/bindings/modules/v8/V8TextDetector.h
-  /gen/blink/bindings/modules/v8/V8WebGL2RenderingContext.h-: /gen/blink/bindings/modules/v8/V8WebGL2RenderingContext.h
-revisionId: 10
+  /gpu:
+    newFile: !uuid '67ac038a3e8262b4b54f1c11ba35d59c82b3f8d7'
+    oldFile: !uuid 'da1a1be9cbe65c24deabc19ddaec814995991364'
+  /gpu/command_buffer:
+    newFile: !uuid '1557f30c0e1be41a5318b7b376685f500af9d4ab'
+    oldFile: !uuid '5d1dab7a988a72fd8150a2acb5195ee99377045a'
+  /gpu/command_buffer/client:
+    newFile: !uuid '8d4e285b57088c3dce616cfcfe400983d6e6df3d'
+    oldFile: !uuid '71289913dffcce017a19d57850feb126389b23dd'
+  /gpu/command_buffer/client/gpu_memory_buffer_manager.cc:
+    newFile: !uuid '427ca1b1f307251d870dfa8c092199a9375846ed'
+    oldFile: !uuid '14b8bed8f8d08b5cea7a16769587a2382c29f524'
+  /gpu/command_buffer/client/gpu_memory_buffer_manager.h:
+    newFile: !uuid 'f4316db79238785116673a72969bf03872bf817d'
+    oldFile: !uuid '03ec251729f5a2bbcf49a536381b0f78570b583f'
+gitCommitId: !uuid '2516839edab50d755aa6c99bb35f2e444d3e2fb6'
+renames: {
+  }
+revisionId: 11
