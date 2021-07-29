@@ -2,22 +2,115 @@
 branches: {
   }
 fileChange:
-  /gpu:
-    newFile: !uuid '67ac038a3e8262b4b54f1c11ba35d59c82b3f8d7'
-    oldFile: !uuid 'da1a1be9cbe65c24deabc19ddaec814995991364'
-  /gpu/command_buffer:
-    newFile: !uuid '1557f30c0e1be41a5318b7b376685f500af9d4ab'
-    oldFile: !uuid '5d1dab7a988a72fd8150a2acb5195ee99377045a'
-  /gpu/command_buffer/client:
-    newFile: !uuid '8d4e285b57088c3dce616cfcfe400983d6e6df3d'
-    oldFile: !uuid '71289913dffcce017a19d57850feb126389b23dd'
-  /gpu/command_buffer/client/gpu_memory_buffer_manager.cc:
-    newFile: !uuid '427ca1b1f307251d870dfa8c092199a9375846ed'
-    oldFile: !uuid '14b8bed8f8d08b5cea7a16769587a2382c29f524'
-  /gpu/command_buffer/client/gpu_memory_buffer_manager.h:
-    newFile: !uuid 'f4316db79238785116673a72969bf03872bf817d'
-    oldFile: !uuid '03ec251729f5a2bbcf49a536381b0f78570b583f'
-gitCommitId: !uuid '2516839edab50d755aa6c99bb35f2e444d3e2fb6'
+  /mbvip:
+    newFile: !uuid '9526130cb32a5d757bd43c62e097a42dad369d60'
+    oldFile: null
+  /mbvip/common:
+    newFile: !uuid '709f3e64c2a4a226b8f95f29d6dd0615f7fcf3c8'
+    oldFile: null
+  /mbvip/common/Base64.js:
+    newFile: !uuid 'f3fb70db6beef0c05b2e03ba6a81bc96e14706bf'
+    oldFile: null
+  /mbvip/common/BindJsQuery.cpp:
+    newFile: !uuid '625e2086b0ed6838872bb1c4f08a25b68f540a91'
+    oldFile: null
+  /mbvip/common/BindJsQuery.h:
+    newFile: !uuid '4a8de436417f68090c5e1eb884944864797fabb3'
+    oldFile: null
+  /mbvip/common/CallMgr.cpp:
+    newFile: !uuid '710a83b315f6f295f38f9dd9c93c7943864db47d'
+    oldFile: null
+  /mbvip/common/CallMgr.h:
+    newFile: !uuid '805375e99c0a94609c588ae7ff469b544151f5dc'
+    oldFile: null
+  /mbvip/common/CallbackClosure.h:
+    newFile: !uuid 'efd82c075ba96f851aef5662fb29a1ee6378f67c'
+    oldFile: null
+  /mbvip/common/HeartbeatTimerWin.h:
+    newFile: !uuid 'a8885e4bd7461a43141cbf7aaf9f2aa45b765430'
+    oldFile: null
+  /mbvip/common/LiveIdDetect.cpp:
+    newFile: !uuid '9fd750c24e051505b8de231115b5748d4a767a12'
+    oldFile: null
+  /mbvip/common/LiveIdDetect.h:
+    newFile: !uuid '6520fc0fc179814d2b08bbfb742857d75c697182'
+    oldFile: null
+  /mbvip/common/MtRenderMain.cpp:
+    newFile: !uuid '8578c0421218bf538944e3625730cef5d3692e7c'
+    oldFile: null
+  /mbvip/common/PrimeNumber.h:
+    newFile: !uuid 'd9a2c3c12bf0fcc8478fc94d364acaadf111bb10'
+    oldFile: null
+  /mbvip/common/SimpleRsa.h:
+    newFile: !uuid 'a98dd3ff23b075b7240e7086845f232a5334d33f'
+    oldFile: null
+  /mbvip/common/StringUtil.cpp:
+    newFile: !uuid 'a8a9859a9e648c0caad959c66703bfe9ab8229ab'
+    oldFile: null
+  /mbvip/common/StringUtil.h:
+    newFile: !uuid '7854bef93b44642fdddabaf79105a207c769b44d'
+    oldFile: null
+  /mbvip/common/ThreadCall.cpp:
+    newFile: !uuid '82ca7645ddd5cb46bd2574c403292265f143f56d'
+    oldFile: null
+  /mbvip/common/ThreadCall.h:
+    newFile: !uuid 'a139256882e5c6e3fd5ab11b4c49dc8787f3332c'
+    oldFile: null
+  /mbvip/common/TimeUtil.h:
+    newFile: !uuid 'b3912791c4c76a1749b36065fa708d67b43feb1e'
+    oldFile: null
+  /mbvip/common/UrlUtil.h:
+    newFile: !uuid '0a5be69741f25266c61640779ee9d96de16ddf3a'
+    oldFile: null
+  /mbvip/common/Util.h:
+    newFile: !uuid 'ef97e2b6e1aef5ea26e58f8d3f24ee5af845e9bb'
+    oldFile: null
+  /mbvip/common/cJSON.cpp:
+    newFile: !uuid '0a18fb53e57fab30db0412214050f6751d6591b6'
+    oldFile: null
+  /mbvip/common/cJSON.h:
+    newFile: !uuid '945953f86fcbf7b1ff9622bb11cdef4fd79de869'
+    oldFile: null
+  /mbvip/core:
+    newFile: !uuid 'ea4570585665f1617885f50c684821da522bca3e'
+    oldFile: null
+  /mbvip/core/MbCallback.h:
+    newFile: !uuid 'e904aab03679464bd1a59f5e3069b55f8631a51c'
+    oldFile: null
+  /mbvip/core/MbWebView.cpp:
+    newFile: !uuid '6bfd26616a0a5be6f219bbcd894d97c71efeb32c'
+    oldFile: null
+  /mbvip/core/MbWebView.h:
+    newFile: !uuid 'e2d162975107d069a71f4aad1c5f19cbb7527add'
+    oldFile: null
+  /mbvip/core/PromptWnd.h:
+    newFile: !uuid 'd1899fb4d38d977a4e60bf36810105dd8713d554'
+    oldFile: null
+  /mbvip/core/RenderInit.h:
+    newFile: !uuid '9ddac65b5d766c5af4f414164971ee798af64a3c'
+    oldFile: null
+  /mbvip/core/RenderInit.js:
+    newFile: !uuid '0b9fcbbbb78f3b07b6c50a600d8066ce00497585'
+    oldFile: null
+  /mbvip/core/TestDll.cpp:
+    newFile: !uuid '7b259ba4b9e8d8a843584d50f14804098d223c68'
+    oldFile: null
+  /mbvip/core/mb-change.cpp:
+    newFile: !uuid '054cf94d4a697b04359c6c6effe5d74968da58bb'
+    oldFile: null
+  /mbvip/core/mb.cpp:
+    newFile: !uuid '82bd5baaf8bb5b7ad14cd803a345f70b8817d697'
+    oldFile: null
+  /mbvip/core/mb.h:
+    newFile: !uuid '3c0e9589f6f6f30cd7c5dd425eed6fd983cd92f6'
+    oldFile: null
+  /mbvip/core/mtmb.cpp:
+    newFile: !uuid '704de72fd46106154a8d9a0f0c6a1ca44645b21c'
+    oldFile: null
+  /mbvip/core/mtmb.h:
+    newFile: !uuid '43bb1ee75d8706ad417af1139a6eb252a45a8a20'
+    oldFile: null
+gitCommitId: !uuid '1f60c0866c347c10cd0cc48d20a44b5aff42ab10'
 renames: {
   }
-revisionId: 11
+revisionId: 12
