@@ -2,58 +2,64 @@
 branches: {
   }
 fileChange:
-  /base:
-    newFile: !uuid '3a633a9752729815d15beb32b77c07a17ed29ac7'
-    oldFile: !uuid '675ae4f47d8d01b53f78a7c761fc375e50f0c753'
-  /base/COMPtr.h:
-    newFile: !uuid 'f5018bed1ee68018c9a11426562f4861701f04d3'
-    oldFile: null
-  /base/WindowsVersion.cpp:
-    newFile: !uuid 'fe3dbac511aac2b2f776acfef8dbdc5397e542ce'
-    oldFile: null
-  /base/WindowsVersion.h:
-    newFile: !uuid 'ff4294ae50318d2c9ded86c5f68c7f8663339d1d'
-    oldFile: null
-  /base/memory:
-    newFile: !uuid 'afaabd435ea023c76100475fa613e45a2510a78e'
-    oldFile: !uuid '6b329ee199b447bbb94c0b32cb6f2ef95a68aa9b'
-  /base/memory/weak_ptr.cc:
-    newFile: !uuid '307d782acdc4a7a27ce016a9062f36790a3ec8ec'
-    oldFile: !uuid '342274abfdaf0f32535d6664a45b3b711d02bbcc'
-  /base/message_loop:
-    newFile: !uuid 'b378a0a1ffec37c24cfdf04b6c993688f96a6d98'
-    oldFile: !uuid '8f78b5cd4751c249d34069794c8e99395f75f769'
-  /base/message_loop/message_loop.cc:
-    newFile: !uuid '00d3afd6f5e3ea2c4631f28460a3122952cebbb8'
-    oldFile: !uuid '17b4b7eba26bb64accd6b9f09799d2207b11457c'
-  /base/message_loop/message_loop.h:
-    newFile: !uuid 'd96eed51336f6b59a3910013978d9c2ed4d19bbd'
-    oldFile: !uuid 'e9cebe8b79286f5735444235140d1543c1a2322e'
-  /base/message_loop/message_loop_task_runner.cc:
-    newFile: !uuid '0e2277e7ce27038faa5c96f4077e931d0a97817b'
-    oldFile: !uuid '735a752caee58be512c2d21f0a5f5e0604953006'
-  /base/run_loop.cc:
-    newFile: !uuid '6fe952fa60e959ab7968b1c8826bb6c53d73b9e9'
-    oldFile: !uuid '737cb66197deb5192c687993722c19c20703b74b'
-  /base/run_loop.h:
-    newFile: !uuid '9912203206460a2d129e87574138dcc99ce05a02'
-    oldFile: !uuid 'dc614859416f47f19a09cdf6afd711fa8108df49'
-  /base/strings:
-    newFile: !uuid '644620fc09070ef36dc308d8f24e07a12bbfcbd8'
-    oldFile: !uuid '8f0afc5cdb0e8b7454cd337116c3c4951a19d655'
-  /base/strings/string_util.h:
-    newFile: !uuid '930e6e1e357d7188bbbe461f7c8d998696638ac1'
-    oldFile: !uuid '935fd6f36b38af240a851b26f344933fd8e50054'
-  /base/win:
-    newFile: !uuid 'ef661e6533648128ccdbd76f32f6e83601f435fa'
-    oldFile: !uuid '401f49da83b0236e53dd42b02fdda93cc277b9bd'
-  /base/win/event_trace_controller.h:
-    newFile: !uuid '35528c663a48b18f27a209225bc7d162354b4469'
-    oldFile: !uuid '3881ffc8ad2eb908cd4463e4738271bede0f0b10'
-  /base/win/event_trace_provider.h:
-    newFile: !uuid 'baf564ab5818b715f783e8aa0915c44eac505026'
-    oldFile: !uuid 'fc3efbdd7603ecc9d3891f571b6d4e0c6fce8a59'
-gitCommitId: !uuid 'eec11b20ef4b1e6f3ccf78404d0730b04fad1f59'
+  /build:
+    newFile: !uuid '9b21a1894c15d51097c5f28f53cc2b997d3cce73'
+    oldFile: !uuid '69d8f13b60c7f79b63639d671941ae2c808b8b4b'
+  /build/blink:
+    newFile: !uuid '85100bc2f6a1f0cabab743d2c910d18deecf9bea'
+    oldFile: !uuid '4a6b0ac918623a427c79dd147d5cb5e8c67df6b9'
+  /build/blink/blink.vcxproj:
+    newFile: !uuid 'b00b4bb221c4b4084e8e46119eeb5f3e47494c2a'
+    oldFile: !uuid '17a468ec57fd56c6eb95842eae7e71a5ec1f90ce'
+  /build/blink/blink.vcxproj.filters:
+    newFile: !uuid '3d4bdf4b66b6c35450ffcc37d1b09f4fc48b42f7'
+    oldFile: !uuid '0684ba82948a886b0441f1d64f7f77a05db7623a'
+  /build/chromium:
+    newFile: !uuid '91daf16bb0d40b2d5b57430429cc6b83a42aaa58'
+    oldFile: !uuid '8ca197a4c18d342cdd44c7c8fadc0ba139b48591'
+  /build/chromium/chromium.vcxproj:
+    newFile: !uuid 'd83dfcf848778d985b543d10e2cb490abb34508d'
+    oldFile: !uuid 'c5b4fd1a637cac6b24a916acd3930ec7c5391000'
+  /build/chromium/chromium.vcxproj.filters:
+    newFile: !uuid '3fd7cf8007136a9c4e2facccca38b25f15e7f8b5'
+    oldFile: !uuid 'ea02651436dba5814210e837c9a467d291f2c028'
+  /build/minichrome57.sln:
+    newFile: !uuid 'fdd4d847f5698a7bdc171e3b96e26f2bf8080fbe'
+    oldFile: !uuid '99ccea93e1a001e603f448f5324b46edb8787d72'
+  /build/ots:
+    newFile: !uuid '4d02a4d7f7cfa28be038787a78416dfcbb165f1a'
+    oldFile: !uuid 'f3bbf5a7bebdfb93f60c79a2456186bc7b53bf88'
+  /build/ots/ots.vcxproj:
+    newFile: !uuid 'ff29439bd7a338d85983b2b216152ffd23d84b96'
+    oldFile: !uuid 'd1050affdaf4a54840bcc695003cb04572d22010'
+  /build/ots/ots.vcxproj.filters:
+    newFile: !uuid '7eb459fa5a4c843855ee92b72469b9198f7feae2'
+    oldFile: !uuid 'aba51a46a57f48d27e78bb9b62980cd95db27a3b'
+  /build/skia:
+    newFile: !uuid '79a6d7f32322de78f0ffa90dd75a726a557f2587'
+    oldFile: !uuid 'b33577627158c05b67739cf04c7db13628199eb9'
+  /build/skia/skia.vcxproj:
+    newFile: !uuid '6a9aa7f784ec3d30cb8654141f55232951ac3e51'
+    oldFile: !uuid '9602c46040d1a8420d07fb40b297aeffcabac121'
+  /build/skia/skia.vcxproj.filters:
+    newFile: !uuid '2aa2b0208fe37134e9cadddc2bd0b7f6836d8e5d'
+    oldFile: !uuid '12a7154a0f8364298a213fdd7a9a1391e6b9cc50'
+  /build/v8_5_7:
+    newFile: !uuid '73ea058f31ff7a0ef0a56a0643a887522d1a5850'
+    oldFile: !uuid '02f91552db8ebe45972f8dd14fcef54ecb57d8ff'
+  /build/v8_5_7/v8_5_7_1.vcxproj:
+    newFile: !uuid '4c9b561e7397d13f558c36457ee2620504fed942'
+    oldFile: !uuid '601d1b9ce62b7ba6117a890fdf6d90dc5d0d1849'
+  /build/zlib:
+    newFile: !uuid 'ddda287d6bd911db91e1b85cec702aba1ceae17f'
+    oldFile: !uuid 'db7e3b546f44d65cd788feb8a451faa800014c8f'
+  /build/zlib/zlib.vcxproj:
+    newFile: !uuid '34bd507bd2ed4b460a18d7e81a608453b358765f'
+    oldFile: !uuid 'bc92294bb00ed7f62cc3e560297ca89396d0cfbf'
+  /build/zlib/zlib.vcxproj.filters:
+    newFile: !uuid 'd87461d314620b9ca76acfbbaaaf3f843a3e9d56'
+    oldFile: !uuid 'db50fa72d413c2d6f5039ab8acbc7200b3692a4e'
+gitCommitId: !uuid '9c96b0f8df85ace581c15da8388554eb00ad2ddf'
 renames: {
   }
-revisionId: 6
+revisionId: 7
