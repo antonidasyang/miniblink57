@@ -2,64 +2,49 @@
 branches: {
   }
 fileChange:
-  /build:
-    newFile: !uuid '9b21a1894c15d51097c5f28f53cc2b997d3cce73'
-    oldFile: !uuid '69d8f13b60c7f79b63639d671941ae2c808b8b4b'
-  /build/blink:
-    newFile: !uuid '85100bc2f6a1f0cabab743d2c910d18deecf9bea'
-    oldFile: !uuid '4a6b0ac918623a427c79dd147d5cb5e8c67df6b9'
-  /build/blink/blink.vcxproj:
-    newFile: !uuid 'b00b4bb221c4b4084e8e46119eeb5f3e47494c2a'
-    oldFile: !uuid '17a468ec57fd56c6eb95842eae7e71a5ec1f90ce'
-  /build/blink/blink.vcxproj.filters:
-    newFile: !uuid '3d4bdf4b66b6c35450ffcc37d1b09f4fc48b42f7'
-    oldFile: !uuid '0684ba82948a886b0441f1d64f7f77a05db7623a'
-  /build/chromium:
-    newFile: !uuid '91daf16bb0d40b2d5b57430429cc6b83a42aaa58'
-    oldFile: !uuid '8ca197a4c18d342cdd44c7c8fadc0ba139b48591'
-  /build/chromium/chromium.vcxproj:
-    newFile: !uuid 'd83dfcf848778d985b543d10e2cb490abb34508d'
-    oldFile: !uuid 'c5b4fd1a637cac6b24a916acd3930ec7c5391000'
-  /build/chromium/chromium.vcxproj.filters:
-    newFile: !uuid '3fd7cf8007136a9c4e2facccca38b25f15e7f8b5'
-    oldFile: !uuid 'ea02651436dba5814210e837c9a467d291f2c028'
-  /build/minichrome57.sln:
-    newFile: !uuid 'fdd4d847f5698a7bdc171e3b96e26f2bf8080fbe'
-    oldFile: !uuid '99ccea93e1a001e603f448f5324b46edb8787d72'
-  /build/ots:
-    newFile: !uuid '4d02a4d7f7cfa28be038787a78416dfcbb165f1a'
-    oldFile: !uuid 'f3bbf5a7bebdfb93f60c79a2456186bc7b53bf88'
-  /build/ots/ots.vcxproj:
-    newFile: !uuid 'ff29439bd7a338d85983b2b216152ffd23d84b96'
-    oldFile: !uuid 'd1050affdaf4a54840bcc695003cb04572d22010'
-  /build/ots/ots.vcxproj.filters:
-    newFile: !uuid '7eb459fa5a4c843855ee92b72469b9198f7feae2'
-    oldFile: !uuid 'aba51a46a57f48d27e78bb9b62980cd95db27a3b'
-  /build/skia:
-    newFile: !uuid '79a6d7f32322de78f0ffa90dd75a726a557f2587'
-    oldFile: !uuid 'b33577627158c05b67739cf04c7db13628199eb9'
-  /build/skia/skia.vcxproj:
-    newFile: !uuid '6a9aa7f784ec3d30cb8654141f55232951ac3e51'
-    oldFile: !uuid '9602c46040d1a8420d07fb40b297aeffcabac121'
-  /build/skia/skia.vcxproj.filters:
-    newFile: !uuid '2aa2b0208fe37134e9cadddc2bd0b7f6836d8e5d'
-    oldFile: !uuid '12a7154a0f8364298a213fdd7a9a1391e6b9cc50'
-  /build/v8_5_7:
-    newFile: !uuid '73ea058f31ff7a0ef0a56a0643a887522d1a5850'
-    oldFile: !uuid '02f91552db8ebe45972f8dd14fcef54ecb57d8ff'
-  /build/v8_5_7/v8_5_7_1.vcxproj:
-    newFile: !uuid '4c9b561e7397d13f558c36457ee2620504fed942'
-    oldFile: !uuid '601d1b9ce62b7ba6117a890fdf6d90dc5d0d1849'
-  /build/zlib:
-    newFile: !uuid 'ddda287d6bd911db91e1b85cec702aba1ceae17f'
-    oldFile: !uuid 'db7e3b546f44d65cd788feb8a451faa800014c8f'
-  /build/zlib/zlib.vcxproj:
-    newFile: !uuid '34bd507bd2ed4b460a18d7e81a608453b358765f'
-    oldFile: !uuid 'bc92294bb00ed7f62cc3e560297ca89396d0cfbf'
-  /build/zlib/zlib.vcxproj.filters:
-    newFile: !uuid 'd87461d314620b9ca76acfbbaaaf3f843a3e9d56'
-    oldFile: !uuid 'db50fa72d413c2d6f5039ab8acbc7200b3692a4e'
-gitCommitId: !uuid '9c96b0f8df85ace581c15da8388554eb00ad2ddf'
+  /cc:
+    newFile: !uuid '1fc12d58bc63916cf4261bd4618304abd8e9b37f'
+    oldFile: !uuid '1128809f9ee0088c920ceda8be6259977f7348e8'
+  /cc/animation:
+    newFile: !uuid '20f7e63b9f76bb276a0a354d6f63053512c92be4'
+    oldFile: !uuid 'f8e09832ee00778dd41268da9ae6da9fc403762b'
+  /cc/animation/animation_host.cc:
+    newFile: !uuid '7c2bc975e8377bb2e87a40ebf52694d1e3a00273'
+    oldFile: !uuid 'fcd195c228a2668e98ed72b16a41e66675170e93'
+  /cc/layers:
+    newFile: !uuid '2000bacf5fa53d597c9239cafc5a0430ed42049c'
+    oldFile: !uuid 'b4d020d19e3f45ad2edab14feaa423b6404108d9'
+  /cc/layers/picture_layer_impl.cc:
+    newFile: !uuid 'd19c63e970fb9198a4abbd71950c834e0840a290'
+    oldFile: !uuid '334fd69d0e94a099d26d765a07ea00e0b98dde41'
+  /cc/output:
+    newFile: !uuid 'd4a78551a1ae3771b113423189ae128f8ccb4fc9'
+    oldFile: !uuid '5ac412b673533991948b733ee7e7556e1e145bba'
+  /cc/output/output_surface.h:
+    newFile: !uuid '8b3e0fd6780c2d74af60dc4a73934d8e2ed89b78'
+    oldFile: !uuid '7812c18720c5cd66b334f42c4f4adc1a444ec9a6'
+  /cc/surfaces:
+    newFile: !uuid '71fdf52fbad1175144ac63ea890b56f1bd3c8bc9'
+    oldFile: !uuid 'e3a17f10092f18d46ea37cc1b8e0777906c1bb8d'
+  /cc/surfaces/display_scheduler.cc:
+    newFile: !uuid '0aba3fa256e9f4caf8a9510031669f303c0dc226'
+    oldFile: !uuid '538fe38769f4836ae5abb7e4e686636bfb8ab42e'
+  /cc/tiles:
+    newFile: !uuid '4ad6bc557533790bf74ed5e832297873052d681b'
+    oldFile: !uuid '2d913778d2505079f3604c9c9f64e93d1354039e'
+  /cc/tiles/tile_manager.cc:
+    newFile: !uuid '8714f96d7a0f6da5b20f476b4193afdbd464d093'
+    oldFile: !uuid 'e3aaa72d951bcc2b718b598089566b0591d7060b'
+  /cc/trees:
+    newFile: !uuid '47b5c30fb6342e07334815df37826e61487b9e0e'
+    oldFile: !uuid '56bbc88457e5821afea4bd1533329a462537fce3'
+  /cc/trees/layer_tree_host_impl.cc:
+    newFile: !uuid 'fd7a327bd622c53ebcda820ba7ae046ab0f2043a'
+    oldFile: !uuid '07dd4e9d3271ff26a8a4ce4337a51eee76e93f29'
+  /cc/trees/layer_tree_host_in_process.h:
+    newFile: !uuid '6949d14e4ff7e0e2360938ea5be97258eb414039'
+    oldFile: !uuid '79fde4de5f75d1bf2bd24e4e7d663d6cb67ae689'
+gitCommitId: !uuid 'c398aed83ac445fdacd43a9d53d38c2c7dcb1c6a'
 renames: {
   }
-revisionId: 7
+revisionId: 8
