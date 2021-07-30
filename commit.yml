@@ -2,103 +2,16 @@
 branches: {
   }
 fileChange:
-  /third_party:
-    newFile: !uuid '58f369409dd0d52d800947bf28e56fdf9a6e1cde'
-    oldFile: !uuid '0deb6f144632a34d6d44ba64c7dd874690867872'
-  /third_party/WebKit:
-    newFile: !uuid 'fad8a91a683d69c01e956573d1c512757cfda6da'
-    oldFile: !uuid 'a5574b4e7b3057a00e04fba6ac9e0d24f15c3f7d'
-  /third_party/WebKit/Source:
-    newFile: !uuid '0774f251852884da6e4e655ef2be8a7aa28c951c'
-    oldFile: !uuid 'aac787b9a9bf527380ee5776c626737a1fc997ce'
-  /third_party/WebKit/Source/core:
-    newFile: !uuid '91c32880a1b3734a25c3669264b9c41f3e9dbef5'
-    oldFile: !uuid 'd09996dd3d2fe94f1ded1ad7599a2e6c1cafe7b4'
-  /third_party/WebKit/Source/core/editing:
-    newFile: !uuid '58987e8165a5353e0cd4b3ab53106d08c197e61f'
-    oldFile: !uuid '12f4037759298f4298658bd88ee7d7dbed2e2b55'
-  /third_party/WebKit/Source/core/editing/FrameSelection.cpp:
-    newFile: !uuid 'ea0e6c10a1119a9e893a547156d912fbc9d39963'
-    oldFile: !uuid '6d348143e97194d7819bc5a2d6ac64e69aaee1f8'
-  /third_party/WebKit/Source/core/html:
-    newFile: !uuid '42ebe93f1769080db0c458f1c0d937bae92082c7'
-    oldFile: !uuid 'c9efb89e38bdbdefe7eca163ed9ff2c83671c296'
-  /third_party/WebKit/Source/core/html/HTMLFrameElementBase.cpp:
-    newFile: !uuid 'b0ce047d532b6aeae54957ec2b796f3a503fb3d5'
-    oldFile: !uuid '386a14280a54c9a3268dc0cc6dad8050897a9ddc'
-  /third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:
-    newFile: !uuid 'df91e4b1649837e622d49476f6296cd10aa57bbd'
-    oldFile: !uuid 'bab9631cd8bb775395697d487551c75c3c23c2c0'
-  /third_party/WebKit/Source/core/loader:
-    newFile: !uuid '6cdf55c5c6a5b10f944f422224d06632c0a0b285'
-    oldFile: !uuid '1f9a1cadf9491ad91fdff22867570bb9ad876cec'
-  /third_party/WebKit/Source/core/loader/CookieJar.cpp:
-    newFile: !uuid 'da5bf185c5d596c554f7c4b855443c86d26a3622'
-    oldFile: !uuid 'a419044d6f6d8cc953b5242d58ba9fdd0b4a334a'
-  /third_party/WebKit/Source/core/paint:
-    newFile: !uuid '7c5e9233604a400a285e0e9669116f86dd371b0b'
-    oldFile: !uuid 'b7f99c13b2e5b0a1219a130f839d3750f037d7e1'
-  /third_party/WebKit/Source/core/paint/InlineTextBoxPainter.cpp:
-    newFile: !uuid '6af000b5744b93816cc4186871f13148dc2fa1c5'
-    oldFile: !uuid '36ae9b02cee56d1ed4909bf53a997a17262fe679'
-  /third_party/WebKit/Source/modules:
-    newFile: !uuid 'b520d5363892db99d1f2aa959fc002309b1b98b4'
-    oldFile: !uuid '74c2ee46f2374e7680ecd65a17588990c09aa1c5'
-  /third_party/WebKit/Source/modules/websockets:
-    newFile: !uuid '01a3d8497c0277c8d06dca3b016270ca299a9f79'
-    oldFile: !uuid 'a31fe40f7a871e18c1f332a8522efba355ff3909'
-  /third_party/WebKit/Source/modules/websockets/WebSocketChannel.cpp:
-    newFile: !uuid 'd47754d3d425b9a01f8055ea098fcb99e5f54da8'
-    oldFile: !uuid '93044b67712ac4652dd3379773b86819a51a1bb6'
-  /third_party/WebKit/Source/modules/websockets/WebSocketHandleImpl.h:
-    newFile: !uuid '1e99fdf54fc2f4d07922d79e3cb3d95fdab09cec'
-    oldFile: !uuid '4e848af6ef4b639b1393c59091b156fd4e5c68fb'
-  /third_party/WebKit/Source/modules/websockets/WorkerWebSocketChannel.cpp:
-    newFile: !uuid '7b42d05cc6efdcdcc1c8acf5266c9e688c7cdf54'
-    oldFile: !uuid 'e9c66a14ffe5eb8b060c0bcdfca4785da557dd88'
-  /third_party/WebKit/Source/platform:
-    newFile: !uuid 'eb5056e709518b4942e28cc88c06841b053acc45'
-    oldFile: !uuid 'd5d507aa896d597d4a0d775e3bc4af218d92e81c'
-  /third_party/WebKit/Source/platform/fonts:
-    newFile: !uuid 'd8469c206e985dc7b66dfcfb7247c32c340fd371'
-    oldFile: !uuid 'ec91ac475dc9f691b115aa0104f08abe00a971bb'
-  /third_party/WebKit/Source/platform/fonts/win:
-    newFile: !uuid 'a01fce5d6572829cc3e42c95bf8a1482bb6fe799'
-    oldFile: !uuid '24f8ff8dcb5662079fd5bafff8503b9960b13913'
-  /third_party/WebKit/Source/platform/fonts/win/FontCacheSkiaWin.cpp:
-    newFile: !uuid '487ad7c2033ddf8eece9d669d9e9926000dd7887'
-    oldFile: !uuid '3908661281f7242047305a436f705238ea6404cf'
-  /third_party/WebKit/Source/platform/fonts/win/FontPlatformDataWin.cpp:
-    newFile: !uuid '916724d4cea6572aeddc0955dc44c420abd31887'
-    oldFile: !uuid 'e0e78ea9ce954723b6d17adb67d2864e26a3c7fa'
-  /third_party/WebKit/Source/platform/graphics:
-    newFile: !uuid '4d3cde4a59c1828264d872d86b4af2cafe65d6f5'
-    oldFile: !uuid 'd1dc84c62f21d3822e278d35ca76ee8fed0bcf8e'
-  /third_party/WebKit/Source/platform/graphics/filters:
-    newFile: !uuid '1bf007daeede5064a0d3cb2b63680a0f8753f01d'
-    oldFile: !uuid '0fa342cb18aca2aa7e31b799ffcd1ff6deb93a90'
-  /third_party/WebKit/Source/platform/graphics/filters/FEMerge.cpp:
-    newFile: !uuid 'c6e84e7a960e41ad43b5c8672b06276c12a1fd71'
-    oldFile: !uuid '5ee90cd0f7b9332b1a662afc331f7631926d064c'
-  /third_party/WebKit/Source/platform/network:
-    newFile: !uuid 'd21df591e0ad24fb9d4ac9bfbb1075cd800e9d77'
-    oldFile: !uuid 'b11b70c8f2954b1ca48530a6a78ef5331f0f9c9e'
-  /third_party/WebKit/Source/platform/network/LinkHeader.cpp:
-    newFile: !uuid 'ba202f1c013866d34f566206f53ff57824f8323e'
-    oldFile: !uuid 'fdaac4c890b6b50c6f33aeb60721a8198b3ed66a'
-  /third_party/WebKit/Source/platform/network/LinkHeaderUtil.cpp:
-    newFile: !uuid '80169d57b945c6ddc9b05741b730f6ffb5fcff5c'
-    oldFile: null
-  /third_party/WebKit/Source/platform/network/LinkHeaderUtil.h:
-    newFile: !uuid '93a4e91a8478068b9fcc54f483746770c0c17f34'
-    oldFile: null
-  /third_party/WebKit/Source/platform/weborigin:
-    newFile: !uuid '8f1acb53192e67ca92e27deff87b02c4ca43e4e4'
-    oldFile: !uuid '00f84bf711e7182413364e8c406aea28fafa6f75'
-  /third_party/WebKit/Source/platform/weborigin/KnownPorts.cpp:
-    newFile: !uuid 'e6860f75d1134f466f6f79e9006b830da198018b'
-    oldFile: !uuid 'b3c74bf210b18def10f340d850be66ea15946918'
-gitCommitId: !uuid '4a154134eac44abe39237187e27bc6444e5c59f4'
+  /net:
+    newFile: !uuid '68639e9722bbbed0af212da4f9dc44713e540da1'
+    oldFile: !uuid 'a6761f880d3fb005651b6e03fb85f8cf60cf6855'
+  /net/websocket:
+    newFile: !uuid '10dd96dc98046b24254d5b14aa7357c5ca7e8f78'
+    oldFile: !uuid '23c0e91e493bd40268d6f5104c1c82c711e904d5'
+  /net/websocket/WebSocketChannelImpl.cpp:
+    newFile: !uuid '4962d3908e679ddb8ee5d1d29df1d5a863da97e6'
+    oldFile: !uuid '2cf9d26173e7d89f3cd40bde7606af71f65c838b'
+gitCommitId: !uuid '2de5edbd3b5eb4197df1b132858815f38f1a05bb'
 renames: {
   }
-revisionId: 17
+revisionId: 18
