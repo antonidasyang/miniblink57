@@ -2,16 +2,34 @@
 branches: {
   }
 fileChange:
-  /base:
-    newFile: !uuid 'a5552122ab89508b1b74bf72626738c2aa86e8b9'
-    oldFile: !uuid '3a633a9752729815d15beb32b77c07a17ed29ac7'
-  /base/strings:
-    newFile: !uuid '2da0e77fefa77e1cd3e543bee9355721ed38bfe4'
-    oldFile: !uuid '644620fc09070ef36dc308d8f24e07a12bbfcbd8'
-  /base/strings/string_tokenizer.h:
-    newFile: !uuid 'a52a1842abec7f4fa95b566fb3e0fa77641b63fc'
-    oldFile: !uuid '1c26e7071cbb4aa19897e8a70b4048a5c06370bf'
-gitCommitId: !uuid '2cf846430740d156176e4bcf5d56b4535cd9b875'
+  /gen:
+    newFile: !uuid '8857cf65ac7e305860a459ef35af8437c4bfbd60'
+    oldFile: !uuid 'd7be58df8670bcd792538efab2777c8f0abfdf25'
+  /gen/blink:
+    newFile: !uuid '4a10df273032ad8969a6a8d530ff2bcebd54e40a'
+    oldFile: !uuid 'c2fb55142ed96ed93079213a8e18ca525285bfd8'
+  /gen/blink/bindings:
+    newFile: !uuid '2ff9e2becb29378aca56158b958997dbd35b322f'
+    oldFile: !uuid '59c9efec3c3f0c1347f9e08c23f9b46aa1f18b30'
+  /gen/blink/bindings/modules:
+    newFile: !uuid 'ea024a3f10c865cfc1e9eb35a56405ffbab41e1e'
+    oldFile: !uuid '6d82b10ab577087ef83c26fe39831d4c70c3d4db'
+  /gen/blink/bindings/modules/v8:
+    newFile: !uuid '84e9aca41ae3327b965e8dd30cd598135886ce74'
+    oldFile: !uuid '1d93fb1b9951e6a27d71a388da7ad7db3799d9a5'
+  /gen/blink/bindings/modules/v8/V8WindowPartial.cpp:
+    newFile: !uuid '47174e8a9d730ff3029b4943fdd4f971c2dca5a7'
+    oldFile: !uuid 'daa185fab043ba2942610def8310fd47fe1e8128'
+  /gen/blink/core:
+    newFile: !uuid '6c789508625b42d987db0507470e99ff894083bf'
+    oldFile: !uuid '19d39d2f10739c8deaf52d75df255ac013ae99f7'
+  /gen/blink/core/UserAgentStyleSheets.h:
+    newFile: !uuid '9eb3c87c005829104ab0ff70689eb62aa9fd5d64'
+    oldFile: !uuid '659e2ed872b676e3a766bf4f1c7f697dea03ef72'
+  /gen/blink/core/UserAgentStyleSheetsData.cpp:
+    newFile: !uuid '4e49bdad7da46e425792fcd8d6722b3177466409'
+    oldFile: !uuid 'eabe772accc8e20a226218753d270796e340fbfb'
+gitCommitId: !uuid '917e609c1d4fe2966e058f4d031364d3e330a4a4'
 renames: {
   }
-revisionId: 19
+revisionId: 20
