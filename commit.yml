@@ -2,250 +2,103 @@
 branches: {
   }
 fileChange:
-  /wke:
-    newFile: !uuid '4013153de6cf0f41884ff8c8e667e9e6195b00ad'
-    oldFile: null
-  /wke/wke.cpp:
-    newFile: !uuid 'b549e4c42009d6e653c171df34f17d7653d1c287'
-    oldFile: null
-  /wke/wke.h:
-    newFile: !uuid '19ffe4a4b1b8d84ade4e99136d224d4d043f0962'
-    oldFile: null
-  /wke/wke2.cpp:
-    newFile: !uuid 'c3bcef9bca848177f1aaf238528901c82d57ebcc'
-    oldFile: null
-  /wke/wke2.h:
-    newFile: !uuid '92134ae64e475eba62369d22839b84ed77a06a4e'
-    oldFile: null
-  /wke/wkeGlobalVar.cpp:
-    newFile: !uuid '34b582294b53f8368f7b50c81d3657d4a25169fb'
-    oldFile: null
-  /wke/wkeGlobalVar.h:
-    newFile: !uuid 'ef6cc392d552f74f9c3382fc9a91e71961bc95f3'
-    oldFile: null
-  /wke/wkeJsBind.cpp:
-    newFile: !uuid '0d98a7f4301c352855891022ba12097e7fcaedad'
-    oldFile: null
-  /wke/wkeJsBind.h:
-    newFile: !uuid '3b73a8afd6d6ef5cdb620391fb62729ec8304af4'
-    oldFile: null
-  /wke/wkeMediaPlayer.h:
-    newFile: !uuid 'a75778e85c9f680ee404ef2c1e38bee1a0eb029b'
-    oldFile: null
-  /wke/wkeNetHook.cpp:
-    newFile: !uuid 'cd6ac6459c48338f1014bef7b053055203afc584'
-    oldFile: null
-  /wke/wkeNetHook.h:
-    newFile: !uuid 'ba8422e2bcc9b65704dfe6ab78a212020bbe2ac3'
-    oldFile: null
-  /wke/wkeString.cpp:
-    newFile: !uuid 'ed3fe49715e860a6f00a700e1d9e65e0953ba0d2'
-    oldFile: null
-  /wke/wkeString.h:
-    newFile: !uuid '0e914913b50ca7c9d0e7f05e3c46270f54dd63c6'
-    oldFile: null
-  /wke/wkeUtil.h:
-    newFile: !uuid '5496f897663e052d883fe1babc09d1bd5ede77e2'
-    oldFile: null
-  /wke/wkeWebView.cpp:
-    newFile: !uuid 'aa193c4ffb91927df2c41f6db6034d26f0b7c21a'
-    oldFile: null
-  /wke/wkeWebView.h:
-    newFile: !uuid 'd26b91372311f434838719cb5c19849a4dfa714b'
-    oldFile: null
-  /wke/wkeWebWindow.cpp:
-    newFile: !uuid '14be3ba03e045b78e2efb742ecaefda2a7be9336'
-    oldFile: null
-  /wke/wkeWebWindow.h:
-    newFile: !uuid 'd082274de79b8ae49d6f2e6ba1619f56c8b177cf'
-    oldFile: null
-  /wke/wkedefine.h:
-    newFile: !uuid '21ea0e18a662b82948ca681f63377c7e95ec5af2'
-    oldFile: null
-  /wkexe:
-    newFile: !uuid '2b3e13c2d8d48472e46dd42d8e620839f687a6d8'
-    oldFile: null
-  /wkexe/vip:
-    newFile: !uuid '8e3d7fc52b29ebff15aa98ffe8c5ffd3777bd597'
-    oldFile: null
-  /wkexe/vip/Cmdline.cpp:
-    newFile: !uuid 'c35484f0d0b7b3390fe02169991dc14aa530989d'
-    oldFile: null
-  /wkexe/vip/Cmdline.h:
-    newFile: !uuid 'ac42292c60bcd32e0d53b7be9fc69931e6168b71'
-    oldFile: null
-  /wkexe/vip/DiaTest.cpp:
-    newFile: !uuid '7923b5bec01969d3009d2286235429600de2f25e'
-    oldFile: null
-  /wkexe/vip/Getopt.c:
-    newFile: !uuid '7c9e46a2595d4ef1688c7fa0ceb554103af55699'
-    oldFile: null
-  /wkexe/vip/Getopt.h:
-    newFile: !uuid '2967753288546c07e26a494d51acc75c482ea7f6'
-    oldFile: null
-  /wkexe/vip/HideWndHelp.h:
-    newFile: !uuid '4af92899524db424600e66079e8848c401ccdafe'
-    oldFile: null
-  /wkexe/vip/OGLES2HelloAPI_Windows.cpp:
-    newFile: !uuid '44075f453ca79a0544847e2b3af483f1984f1388'
-    oldFile: null
-  /wkexe/vip/ReadMe.txt:
-    newFile: !uuid '62c4f72f7c8ee706a13ef2768660d9c535f1ab99'
-    oldFile: null
-  /wkexe/vip/RegWnd.h:
-    newFile: !uuid 'ac45f75680e6b634a217f3211333aae975a00a79'
-    oldFile: null
-  /wkexe/vip/RegWnd.html:
-    newFile: !uuid 'e9464560637eef072880af4741cd5f7e0a0a7693'
-    oldFile: null
-  /wkexe/vip/RegWndHtml.h:
-    newFile: !uuid '2c6c0a15b1be547fa3dd7156c08ec00f63d71cda'
-    oldFile: null
-  /wkexe/vip/Resource.h:
-    newFile: !uuid 'e58ed902ede8030d1c4a532e23f44d63791de8ae'
-    oldFile: null
-  /wkexe/vip/RootWindow.cpp:
-    newFile: !uuid '2b5f71ec8346474da76428a2329f60a869524495'
-    oldFile: null
-  /wkexe/vip/RootWindow.h:
-    newFile: !uuid '9ebdbedaafbaa1e8b4555a1e29afb0a6341dedc7'
-    oldFile: null
-  /wkexe/vip/TestAudio.cpp:
-    newFile: !uuid '394ce5c57cf2a1879912899ac911baa632492639'
-    oldFile: null
-  /wkexe/vip/conditionvar.h:
-    newFile: !uuid 'b61b4bd4ed2131fd7ac38198018bb6845fba8929'
-    oldFile: null
-  /wkexe/vip/condvar.cpp:
-    newFile: !uuid 'd6b3284528dbd2a1e15273765059e7a7dd8a9e8c'
-    oldFile: null
-  /wkexe/vip/cookies.dat:
-    newFile: !uuid '0dd080e58411da5a307ef35673830e9d2c25fb55'
-    oldFile: null
-  /wkexe/vip/delete-virus.cpp:
-    newFile: !uuid 'f021e40ffc723be857c37282699b73d0c9864cea'
-    oldFile: null
-  /wkexe/vip/main-ue.cpp:
-    newFile: !uuid '564dbf7d3413e24c0f873187ab7d3e73ff83bc4c'
-    oldFile: null
-  /wkexe/vip/main.cpp:
-    newFile: !uuid 'dad74b049ecf5f1fb2c13249957903e6d94f337c'
-    oldFile: null
-  /wkexe/vip/small.ico:
-    newFile: !uuid 'b3ec03bd617f32e58128fa977fd6ac9605124f4b'
-    oldFile: null
-  /wkexe/vip/srw.cpp:
-    newFile: !uuid '776769a49c1a983d7cbe5098c054da269cc17e9f'
-    oldFile: null
-  /wkexe/vip/stdafx.cpp:
-    newFile: !uuid 'd7201c1a94de3451dff9314c73ebe766ea901231'
-    oldFile: null
-  /wkexe/vip/stdafx.h:
-    newFile: !uuid '55fc2c24ccce59b19cadc0d79a6a0d714fd87814'
-    oldFile: null
-  /wkexe/vip/targetver.h:
-    newFile: !uuid 'd7bf6885553ea0ac5aef7419115ebe7360e087a3'
-    oldFile: null
-  /wkexe/vip/testdll.aps:
-    newFile: !uuid 'b71b52146b4009dae4beec58aa4f31519d033ccc'
-    oldFile: null
-  /wkexe/vip/testdll.cpp:
-    newFile: !uuid 'e970a5179717d39b4723c942e647767d9d391a58'
-    oldFile: null
-  /wkexe/vip/testdll.h:
-    newFile: !uuid 'e60f2eb7ed3fb990255cb8177346f89c102cdf00'
-    oldFile: null
-  /wkexe/vip/testdll.ico:
-    newFile: !uuid 'b3ec03bd617f32e58128fa977fd6ac9605124f4b'
-    oldFile: null
-  /wkexe/vip/testdll.rar:
-    newFile: !uuid 'bd1f2820a376a64237390a421b5196341a6da64a'
-    oldFile: null
-  /wkexe/vip/testdll.rc:
-    newFile: !uuid '7d48b45163808c77379a67ffb3b157bc2f76c6ee'
-    oldFile: null
-  /wkexe/wke:
-    newFile: !uuid 'd89a8173af3fc6d2c0709d03420516e964176bc4'
-    oldFile: null
-  /wkexe/wke/HideWndHelp.h:
-    newFile: !uuid '08a2ce7fdf1d650e4dfae11b41fb8ad95781955a'
-    oldFile: null
-  /wkexe/wke/Resource.h:
-    newFile: !uuid 'c9a7519a983eb54ff5c9c45392e269437cb3a1ac'
-    oldFile: null
-  /wkexe/wke/RootWindow.cpp:
-    newFile: !uuid '76428b498deced4814d590c116b83f89441e544b'
-    oldFile: null
-  /wkexe/wke/RootWindow.h:
-    newFile: !uuid '2f0b17ac8e3d00ff3483b8cc8c04f2fa73bd4275'
-    oldFile: null
-  /wkexe/wke/TestPbCall.cpp:
-    newFile: !uuid '86970a92079a9768d7b85a8d3f3cd8f89af8e0a9'
-    oldFile: null
-  /wkexe/wke/TestWnd.h:
-    newFile: !uuid '36e01bd96d38c1bcc37f9288f421eb80e65c39fa'
-    oldFile: null
-  /wkexe/wke/app.cpp:
-    newFile: !uuid '5c8aa7bdaebaf4ff7c2ea6593365fe6ccc632990'
-    oldFile: null
-  /wkexe/wke/app.h:
-    newFile: !uuid '92dfff7ad76206574d67584215762f03680702cf'
-    oldFile: null
-  /wkexe/wke/app_core.cpp:
-    newFile: !uuid '4d55a513935e1f7730c72d70016133f4cdc2cfb7'
-    oldFile: null
-  /wkexe/wke/cmdline.cpp:
-    newFile: !uuid '525b2c8281756a1d310136fb7810fb4c10746b58'
-    oldFile: null
-  /wkexe/wke/cmdline.h:
-    newFile: !uuid '3b149d38eae7627cca4a7cf87cc33993cf2d0bb6'
-    oldFile: null
-  /wkexe/wke/getopt.c:
-    newFile: !uuid 'fc7b1a0699f2926f5a62cc19a4bfad153d233547'
-    oldFile: null
-  /wkexe/wke/getopt.h:
-    newFile: !uuid '5ed4a466a499db19d61794e068765b9d36c40bfc'
-    oldFile: null
-  /wkexe/wke/gwkemgr.cpp:
-    newFile: !uuid '1a89e9529fc6aa996f2f0ec01ec7edae182813df'
-    oldFile: null
-  /wkexe/wke/gwkemgr.h:
-    newFile: !uuid '1639e33e927adf957e0a4ff9c1ebd2493757c8b9'
-    oldFile: null
-  /wkexe/wke/main.cpp:
-    newFile: !uuid 'b9b98051a8921053830eaad019d6554f203a0385'
-    oldFile: null
-  /wkexe/wke/miniblinkbug.cpp:
-    newFile: !uuid 'a020773f77119eac608abb58b4feeea923459603'
-    oldFile: null
-  /wkexe/wke/path.cpp:
-    newFile: !uuid '898b1c2fbf947c75eac0cc8dc8df699266e79460'
-    oldFile: null
-  /wkexe/wke/path.h:
-    newFile: !uuid '675636a967078ef35a0d2dcd7b6be2168d722230'
-    oldFile: null
-  /wkexe/wke/render.cpp:
-    newFile: !uuid '8b6eddd6355701498f3eed607252e8e359aa9abc'
-    oldFile: null
-  /wkexe/wke/render.h:
-    newFile: !uuid 'bc59757738f7a4293f9a829abbc436097684bbb7'
-    oldFile: null
-  /wkexe/wke/renderGDI.h:
-    newFile: !uuid 'a7937e3e4dd13c7b13730ac64c2972717bb958ea'
-    oldFile: null
-  /wkexe/wke/small.ico:
-    newFile: !uuid '1e84c6e8d537d2cec5b39725608627404756f371'
-    oldFile: null
-  /wkexe/wke/targetver.h:
-    newFile: !uuid 'aadba2f81f048e0fcd947f06413f6ad21e43fa97'
-    oldFile: null
-  /wkexe/wke/testcall.h:
-    newFile: !uuid 'e60f2eb7ed3fb990255cb8177346f89c102cdf00'
-    oldFile: null
-  /wkexe/wke/toolstip.cpp:
-    newFile: !uuid 'cfc6c6bd3fed9a93fcf1ea6faac17d6fb8162375'
-    oldFile: null
-gitCommitId: !uuid '3f424bcdbb9d1922ba0624ec26f527501ed4ca74'
+  /third_party:
+    newFile: !uuid '58f369409dd0d52d800947bf28e56fdf9a6e1cde'
+    oldFile: !uuid '0deb6f144632a34d6d44ba64c7dd874690867872'
+  /third_party/WebKit:
+    newFile: !uuid 'fad8a91a683d69c01e956573d1c512757cfda6da'
+    oldFile: !uuid 'a5574b4e7b3057a00e04fba6ac9e0d24f15c3f7d'
+  /third_party/WebKit/Source:
+    newFile: !uuid '0774f251852884da6e4e655ef2be8a7aa28c951c'
+    oldFile: !uuid 'aac787b9a9bf527380ee5776c626737a1fc997ce'
+  /third_party/WebKit/Source/core:
+    newFile: !uuid '91c32880a1b3734a25c3669264b9c41f3e9dbef5'
+    oldFile: !uuid 'd09996dd3d2fe94f1ded1ad7599a2e6c1cafe7b4'
+  /third_party/WebKit/Source/core/editing:
+    newFile: !uuid '58987e8165a5353e0cd4b3ab53106d08c197e61f'
+    oldFile: !uuid '12f4037759298f4298658bd88ee7d7dbed2e2b55'
+  /third_party/WebKit/Source/core/editing/FrameSelection.cpp:
+    newFile: !uuid 'ea0e6c10a1119a9e893a547156d912fbc9d39963'
+    oldFile: !uuid '6d348143e97194d7819bc5a2d6ac64e69aaee1f8'
+  /third_party/WebKit/Source/core/html:
+    newFile: !uuid '42ebe93f1769080db0c458f1c0d937bae92082c7'
+    oldFile: !uuid 'c9efb89e38bdbdefe7eca163ed9ff2c83671c296'
+  /third_party/WebKit/Source/core/html/HTMLFrameElementBase.cpp:
+    newFile: !uuid 'b0ce047d532b6aeae54957ec2b796f3a503fb3d5'
+    oldFile: !uuid '386a14280a54c9a3268dc0cc6dad8050897a9ddc'
+  /third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:
+    newFile: !uuid 'df91e4b1649837e622d49476f6296cd10aa57bbd'
+    oldFile: !uuid 'bab9631cd8bb775395697d487551c75c3c23c2c0'
+  /third_party/WebKit/Source/core/loader:
+    newFile: !uuid '6cdf55c5c6a5b10f944f422224d06632c0a0b285'
+    oldFile: !uuid '1f9a1cadf9491ad91fdff22867570bb9ad876cec'
+  /third_party/WebKit/Source/core/loader/CookieJar.cpp:
+    newFile: !uuid 'da5bf185c5d596c554f7c4b855443c86d26a3622'
+    oldFile: !uuid 'a419044d6f6d8cc953b5242d58ba9fdd0b4a334a'
+  /third_party/WebKit/Source/core/paint:
+    newFile: !uuid '7c5e9233604a400a285e0e9669116f86dd371b0b'
+    oldFile: !uuid 'b7f99c13b2e5b0a1219a130f839d3750f037d7e1'
+  /third_party/WebKit/Source/core/paint/InlineTextBoxPainter.cpp:
+    newFile: !uuid '6af000b5744b93816cc4186871f13148dc2fa1c5'
+    oldFile: !uuid '36ae9b02cee56d1ed4909bf53a997a17262fe679'
+  /third_party/WebKit/Source/modules:
+    newFile: !uuid 'b520d5363892db99d1f2aa959fc002309b1b98b4'
+    oldFile: !uuid '74c2ee46f2374e7680ecd65a17588990c09aa1c5'
+  /third_party/WebKit/Source/modules/websockets:
+    newFile: !uuid '01a3d8497c0277c8d06dca3b016270ca299a9f79'
+    oldFile: !uuid 'a31fe40f7a871e18c1f332a8522efba355ff3909'
+  /third_party/WebKit/Source/modules/websockets/WebSocketChannel.cpp:
+    newFile: !uuid 'd47754d3d425b9a01f8055ea098fcb99e5f54da8'
+    oldFile: !uuid '93044b67712ac4652dd3379773b86819a51a1bb6'
+  /third_party/WebKit/Source/modules/websockets/WebSocketHandleImpl.h:
+    newFile: !uuid '1e99fdf54fc2f4d07922d79e3cb3d95fdab09cec'
+    oldFile: !uuid '4e848af6ef4b639b1393c59091b156fd4e5c68fb'
+  /third_party/WebKit/Source/modules/websockets/WorkerWebSocketChannel.cpp:
+    newFile: !uuid '7b42d05cc6efdcdcc1c8acf5266c9e688c7cdf54'
+    oldFile: !uuid 'e9c66a14ffe5eb8b060c0bcdfca4785da557dd88'
+  /third_party/WebKit/Source/platform:
+    newFile: !uuid 'eb5056e709518b4942e28cc88c06841b053acc45'
+    oldFile: !uuid 'd5d507aa896d597d4a0d775e3bc4af218d92e81c'
+  /third_party/WebKit/Source/platform/fonts:
+    newFile: !uuid 'd8469c206e985dc7b66dfcfb7247c32c340fd371'
+    oldFile: !uuid 'ec91ac475dc9f691b115aa0104f08abe00a971bb'
+  /third_party/WebKit/Source/platform/fonts/win:
+    newFile: !uuid 'a01fce5d6572829cc3e42c95bf8a1482bb6fe799'
+    oldFile: !uuid '24f8ff8dcb5662079fd5bafff8503b9960b13913'
+  /third_party/WebKit/Source/platform/fonts/win/FontCacheSkiaWin.cpp:
+    newFile: !uuid '487ad7c2033ddf8eece9d669d9e9926000dd7887'
+    oldFile: !uuid '3908661281f7242047305a436f705238ea6404cf'
+  /third_party/WebKit/Source/platform/fonts/win/FontPlatformDataWin.cpp:
+    newFile: !uuid '916724d4cea6572aeddc0955dc44c420abd31887'
+    oldFile: !uuid 'e0e78ea9ce954723b6d17adb67d2864e26a3c7fa'
+  /third_party/WebKit/Source/platform/graphics:
+    newFile: !uuid '4d3cde4a59c1828264d872d86b4af2cafe65d6f5'
+    oldFile: !uuid 'd1dc84c62f21d3822e278d35ca76ee8fed0bcf8e'
+  /third_party/WebKit/Source/platform/graphics/filters:
+    newFile: !uuid '1bf007daeede5064a0d3cb2b63680a0f8753f01d'
+    oldFile: !uuid '0fa342cb18aca2aa7e31b799ffcd1ff6deb93a90'
+  /third_party/WebKit/Source/platform/graphics/filters/FEMerge.cpp:
+    newFile: !uuid 'c6e84e7a960e41ad43b5c8672b06276c12a1fd71'
+    oldFile: !uuid '5ee90cd0f7b9332b1a662afc331f7631926d064c'
+  /third_party/WebKit/Source/platform/network:
+    newFile: !uuid 'd21df591e0ad24fb9d4ac9bfbb1075cd800e9d77'
+    oldFile: !uuid 'b11b70c8f2954b1ca48530a6a78ef5331f0f9c9e'
+  /third_party/WebKit/Source/platform/network/LinkHeader.cpp:
+    newFile: !uuid 'ba202f1c013866d34f566206f53ff57824f8323e'
+    oldFile: !uuid 'fdaac4c890b6b50c6f33aeb60721a8198b3ed66a'
+  /third_party/WebKit/Source/platform/network/LinkHeaderUtil.cpp:
+    newFile: !uuid '80169d57b945c6ddc9b05741b730f6ffb5fcff5c'
+    oldFile: null
+  /third_party/WebKit/Source/platform/network/LinkHeaderUtil.h:
+    newFile: !uuid '93a4e91a8478068b9fcc54f483746770c0c17f34'
+    oldFile: null
+  /third_party/WebKit/Source/platform/weborigin:
+    newFile: !uuid '8f1acb53192e67ca92e27deff87b02c4ca43e4e4'
+    oldFile: !uuid '00f84bf711e7182413364e8c406aea28fafa6f75'
+  /third_party/WebKit/Source/platform/weborigin/KnownPorts.cpp:
+    newFile: !uuid 'e6860f75d1134f466f6f79e9006b830da198018b'
+    oldFile: !uuid 'b3c74bf210b18def10f340d850be66ea15946918'
+gitCommitId: !uuid '4a154134eac44abe39237187e27bc6444e5c59f4'
 renames: {
   }
-revisionId: 16
+revisionId: 17
