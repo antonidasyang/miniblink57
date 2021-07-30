@@ -2,16 +2,16 @@
 branches: {
   }
 fileChange:
-  /net:
-    newFile: !uuid '68639e9722bbbed0af212da4f9dc44713e540da1'
-    oldFile: !uuid 'a6761f880d3fb005651b6e03fb85f8cf60cf6855'
-  /net/websocket:
-    newFile: !uuid '10dd96dc98046b24254d5b14aa7357c5ca7e8f78'
-    oldFile: !uuid '23c0e91e493bd40268d6f5104c1c82c711e904d5'
-  /net/websocket/WebSocketChannelImpl.cpp:
-    newFile: !uuid '4962d3908e679ddb8ee5d1d29df1d5a863da97e6'
-    oldFile: !uuid '2cf9d26173e7d89f3cd40bde7606af71f65c838b'
-gitCommitId: !uuid '2de5edbd3b5eb4197df1b132858815f38f1a05bb'
+  /base:
+    newFile: !uuid 'a5552122ab89508b1b74bf72626738c2aa86e8b9'
+    oldFile: !uuid '3a633a9752729815d15beb32b77c07a17ed29ac7'
+  /base/strings:
+    newFile: !uuid '2da0e77fefa77e1cd3e543bee9355721ed38bfe4'
+    oldFile: !uuid '644620fc09070ef36dc308d8f24e07a12bbfcbd8'
+  /base/strings/string_tokenizer.h:
+    newFile: !uuid 'a52a1842abec7f4fa95b566fb3e0fa77641b63fc'
+    oldFile: !uuid '1c26e7071cbb4aa19897e8a70b4048a5c06370bf'
+gitCommitId: !uuid '2cf846430740d156176e4bcf5d56b4535cd9b875'
 renames: {
   }
-revisionId: 18
+revisionId: 19
