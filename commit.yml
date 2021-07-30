@@ -2,34 +2,25 @@
 branches: {
   }
 fileChange:
-  /gen:
-    newFile: !uuid '8857cf65ac7e305860a459ef35af8437c4bfbd60'
-    oldFile: !uuid 'd7be58df8670bcd792538efab2777c8f0abfdf25'
-  /gen/blink:
-    newFile: !uuid '4a10df273032ad8969a6a8d530ff2bcebd54e40a'
-    oldFile: !uuid 'c2fb55142ed96ed93079213a8e18ca525285bfd8'
-  /gen/blink/bindings:
-    newFile: !uuid '2ff9e2becb29378aca56158b958997dbd35b322f'
-    oldFile: !uuid '59c9efec3c3f0c1347f9e08c23f9b46aa1f18b30'
-  /gen/blink/bindings/modules:
-    newFile: !uuid 'ea024a3f10c865cfc1e9eb35a56405ffbab41e1e'
-    oldFile: !uuid '6d82b10ab577087ef83c26fe39831d4c70c3d4db'
-  /gen/blink/bindings/modules/v8:
-    newFile: !uuid '84e9aca41ae3327b965e8dd30cd598135886ce74'
-    oldFile: !uuid '1d93fb1b9951e6a27d71a388da7ad7db3799d9a5'
-  /gen/blink/bindings/modules/v8/V8WindowPartial.cpp:
-    newFile: !uuid '47174e8a9d730ff3029b4943fdd4f971c2dca5a7'
-    oldFile: !uuid 'daa185fab043ba2942610def8310fd47fe1e8128'
-  /gen/blink/core:
-    newFile: !uuid '6c789508625b42d987db0507470e99ff894083bf'
-    oldFile: !uuid '19d39d2f10739c8deaf52d75df255ac013ae99f7'
-  /gen/blink/core/UserAgentStyleSheets.h:
-    newFile: !uuid '9eb3c87c005829104ab0ff70689eb62aa9fd5d64'
-    oldFile: !uuid '659e2ed872b676e3a766bf4f1c7f697dea03ef72'
-  /gen/blink/core/UserAgentStyleSheetsData.cpp:
-    newFile: !uuid '4e49bdad7da46e425792fcd8d6722b3177466409'
-    oldFile: !uuid 'eabe772accc8e20a226218753d270796e340fbfb'
-gitCommitId: !uuid '917e609c1d4fe2966e058f4d031364d3e330a4a4'
+  /build:
+    newFile: !uuid 'd38b7565ad88958ba91e57d7ebbabcd762174eda'
+    oldFile: !uuid '9b21a1894c15d51097c5f28f53cc2b997d3cce73'
+  /build/blink:
+    newFile: !uuid '0227cad72848ab41e931de56dbaf77421a0035e7'
+    oldFile: !uuid '85100bc2f6a1f0cabab743d2c910d18deecf9bea'
+  /build/blink/blink.vcxproj:
+    newFile: !uuid '719b511569d456f34e33d7cd0e9d362498c31129'
+    oldFile: !uuid 'b00b4bb221c4b4084e8e46119eeb5f3e47494c2a'
+  /build/blink/blink.vcxproj.filters:
+    newFile: !uuid '07211d4f5a2e73a08460b7a894f66039ef8531a1'
+    oldFile: !uuid '3d4bdf4b66b6c35450ffcc37d1b09f4fc48b42f7'
+  /build/skia:
+    newFile: !uuid 'ea322fb124277b02df762485c589ffc5d0ffdba6'
+    oldFile: !uuid '79a6d7f32322de78f0ffa90dd75a726a557f2587'
+  /build/skia/skia.vcxproj:
+    newFile: !uuid 'b5371fde7aaab895dbaec632c3203b37a938e9a8'
+    oldFile: !uuid '6a9aa7f784ec3d30cb8654141f55232951ac3e51'
+gitCommitId: !uuid '88f4eb10098c9f85f3c17cadbdbbd386951bfba5'
 renames: {
   }
-revisionId: 20
+revisionId: 21
