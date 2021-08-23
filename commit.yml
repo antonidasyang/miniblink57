@@ -2,25 +2,46 @@
 branches: {
   }
 fileChange:
-  /build:
-    newFile: !uuid 'd38b7565ad88958ba91e57d7ebbabcd762174eda'
-    oldFile: !uuid '9b21a1894c15d51097c5f28f53cc2b997d3cce73'
-  /build/blink:
-    newFile: !uuid '0227cad72848ab41e931de56dbaf77421a0035e7'
-    oldFile: !uuid '85100bc2f6a1f0cabab743d2c910d18deecf9bea'
-  /build/blink/blink.vcxproj:
-    newFile: !uuid '719b511569d456f34e33d7cd0e9d362498c31129'
-    oldFile: !uuid 'b00b4bb221c4b4084e8e46119eeb5f3e47494c2a'
-  /build/blink/blink.vcxproj.filters:
-    newFile: !uuid '07211d4f5a2e73a08460b7a894f66039ef8531a1'
-    oldFile: !uuid '3d4bdf4b66b6c35450ffcc37d1b09f4fc48b42f7'
-  /build/skia:
-    newFile: !uuid 'ea322fb124277b02df762485c589ffc5d0ffdba6'
-    oldFile: !uuid '79a6d7f32322de78f0ffa90dd75a726a557f2587'
-  /build/skia/skia.vcxproj:
-    newFile: !uuid 'b5371fde7aaab895dbaec632c3203b37a938e9a8'
-    oldFile: !uuid '6a9aa7f784ec3d30cb8654141f55232951ac3e51'
-gitCommitId: !uuid '88f4eb10098c9f85f3c17cadbdbbd386951bfba5'
+  /base:
+    newFile: !uuid '3e0af1381694806093c7f559264017e771639698'
+    oldFile: !uuid 'a5552122ab89508b1b74bf72626738c2aa86e8b9'
+  /base/memory:
+    newFile: !uuid 'aebb7bbb01d4fce0c4a4234aec2e3817cd36a9e2'
+    oldFile: !uuid 'afaabd435ea023c76100475fa613e45a2510a78e'
+  /base/memory/discardable_memory_allocator.cc:
+    newFile: !uuid '902b410da3f622fc998de54f5ac04d2c568dcb61'
+    oldFile: !uuid 'e75476d6b4273d46a9ebd4191cddf5d2317dee87'
+  /base/synchronization:
+    newFile: !uuid 'd080f40c59abf51e68c01a0fab11be2d5fbb8a36'
+    oldFile: !uuid '7c0b8a245b81e8f3a85524cd5ee1b566fb7a1676'
+  /base/synchronization/condition_variable_win.cc:
+    newFile: !uuid '3464f8009b768a54e1dd48af089a547e44bb7672'
+    oldFile: !uuid 'a2fac7fd02d2966fc70880120f90bc6a0ad51830'
+  /base/synchronization/lock_impl_win.cc:
+    newFile: !uuid 'bc0b5be58480b63e1947da1b11305e8412dbf567'
+    oldFile: !uuid '8edc9c9b61af4383321151e65f6adf9c8b43d52a'
+  /base/synchronization/read_write_lock_win.cc:
+    newFile: !uuid 'f6a69b068e4460d9ca070f3718afed420d0abf7e'
+    oldFile: !uuid '61d42d746e2d453a3b9f016ef6673c71a7671f72'
+  /base/synchronization/sync_xp.h:
+    newFile: !uuid 'c29076ee8824237da0ec0342b76f832f10665bb5'
+    oldFile: null
+  /base/time:
+    newFile: !uuid '944d51c58727f058f087a4cdb370287d8112773c'
+    oldFile: !uuid 'dbf15b80b351c836abbf03484b2083e451f878dd'
+  /base/time/time_win.cc:
+    newFile: !uuid 'fd78e05b7ddc5b3a3541e99e5666faef8b6892f3'
+    oldFile: !uuid '83f550a26253f82de4db04751f6f127a1afb54f1'
+  /base/win:
+    newFile: !uuid 'a1ecba26358ba79e4fb885725852fad93c50fdc6'
+    oldFile: !uuid 'ef661e6533648128ccdbd76f32f6e83601f435fa'
+  /base/win/event_trace_controller.h:
+    newFile: !uuid 'b5f7114836c6fad94df9fd1df55fa35a7c464a04'
+    oldFile: !uuid '35528c663a48b18f27a209225bc7d162354b4469'
+  /base/win/event_trace_provider.h:
+    newFile: !uuid 'ffe92605058a23efe18b0ee89c9ad10d18a34b00'
+    oldFile: !uuid 'baf564ab5818b715f783e8aa0915c44eac505026'
+gitCommitId: !uuid 'bdd8218c655bdf4e85eaa36d754c8bd0f4060a88'
 renames: {
   }
-revisionId: 21
+revisionId: 22
