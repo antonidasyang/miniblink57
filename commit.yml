@@ -2,34 +2,28 @@
 branches: {
   }
 fileChange:
-  /gen:
-    newFile: !uuid '6033eabe598fdfcf5664db9da7ded1fb868e2f12'
-    oldFile: !uuid '8857cf65ac7e305860a459ef35af8437c4bfbd60'
-  /gen/blink:
-    newFile: !uuid 'cffc381a4b43dcd5c050b6f8e40981bd9c7966c3'
-    oldFile: !uuid '4a10df273032ad8969a6a8d530ff2bcebd54e40a'
-  /gen/blink/bindings:
-    newFile: !uuid '1a87023df2c2b656fd7a6e2bd087aa22053adcca'
-    oldFile: !uuid '2ff9e2becb29378aca56158b958997dbd35b322f'
-  /gen/blink/bindings/core:
-    newFile: !uuid '307fac1176f027885a23a2c4408bec078d0d9530'
-    oldFile: !uuid '3d3419e58ec23a3f4f0e9a5cd4d606d7fe643a02'
-  /gen/blink/bindings/core/v8:
-    newFile: !uuid 'd281e3c59efb356d1835797087b44fe0f0bc69ed'
-    oldFile: !uuid '3904791dd0e9c24d9163fa31ae513e2989e2c455'
-  /gen/blink/bindings/core/v8/V8XSLTProcessor.h:
-    newFile: !uuid 'ba0000625e0e5323bc3b2eeb2463887883c2b096'
-    oldFile: null
-  /gen/blink/bindings/core/v8/_V8XSLTProcessor.h:
-    newFile: null
-    oldFile: !uuid 'ba0000625e0e5323bc3b2eeb2463887883c2b096'
-  /gen/v8_5_7:
-    newFile: !uuid '878f94479e4066077060f6b87db4573dd965a4a2'
-    oldFile: !uuid '2e1a89f1d6fc857d38880a8526ff9d0e9ba97af5'
-  /gen/v8_5_7/extras-libraries.cc:
-    newFile: !uuid '8bfb01b72894037dc87170bc7cdda087e417e64f'
-    oldFile: !uuid '3ccddc4e9e0426fe317bec096f13809d6d15431b'
-gitCommitId: !uuid '4810d64cf29a9ef020194f9feb6f6ac59e95b9f4'
-renames:
-  /gen/blink/bindings/core/v8/V8XSLTProcessor.h: /gen/blink/bindings/core/v8/_V8XSLTProcessor.h
-revisionId: 26
+  /mbvip:
+    newFile: !uuid '9d8ca79ec6e43b8017717e0d39d870aa5c4c6817'
+    oldFile: !uuid '9526130cb32a5d757bd43c62e097a42dad369d60'
+  /mbvip/common:
+    newFile: !uuid '9cbce962606ffa48d823609af4989fe2f454689f'
+    oldFile: !uuid '709f3e64c2a4a226b8f95f29d6dd0615f7fcf3c8'
+  /mbvip/common/ThreadCall.cpp:
+    newFile: !uuid 'faf25988f784e5afcfb248dac39722783538e6ae'
+    oldFile: !uuid '82ca7645ddd5cb46bd2574c403292265f143f56d'
+  /mbvip/common/ThreadCall.h:
+    newFile: !uuid '6c159c960bb7fd6dbe8bb8e5eee013e1f3fee6f6'
+    oldFile: !uuid 'a139256882e5c6e3fd5ab11b4c49dc8787f3332c'
+  /mbvip/core:
+    newFile: !uuid 'f5398f1c28acc7bcaf4d0a752cdf5c21a4f11053'
+    oldFile: !uuid 'ea4570585665f1617885f50c684821da522bca3e'
+  /mbvip/core/mb.cpp:
+    newFile: !uuid 'c4906757de1109640475086ac0e3d0eed379a990'
+    oldFile: !uuid '82bd5baaf8bb5b7ad14cd803a345f70b8817d697'
+  /mbvip/core/mb.h:
+    newFile: !uuid 'f9e81e4707de2181f15e1217b89ae9794c742042'
+    oldFile: !uuid '3c0e9589f6f6f30cd7c5dd425eed6fd983cd92f6'
+gitCommitId: !uuid '039ba3a12cbfa43fbb9945d2ad3eb414d48c5aff'
+renames: {
+  }
+revisionId: 27
