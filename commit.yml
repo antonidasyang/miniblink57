@@ -2,46 +2,232 @@
 branches: {
   }
 fileChange:
-  /v8_5_7:
-    newFile: !uuid 'b15dc30a56d6c10244a29eac72b3bce9eb763b16'
-    oldFile: !uuid '1d3f986a90715651c60d55e9b4ecbc5b97d7718b'
-  /v8_5_7/src:
-    newFile: !uuid 'e6cebba6b43b7aa138fa8a13d5884223d3fd1074'
-    oldFile: !uuid '87c47cee9a4fedfd5b7093e758fcfdfb012cefc8'
-  /v8_5_7/src/api.cc:
-    newFile: !uuid 'dde2b87a3f730d2034e3669dd964d6d9d7e9aaae'
-    oldFile: !uuid '19b64f662d63b1c822f32da2e06829b399beb03b'
-  /v8_5_7/src/builtins:
-    newFile: !uuid 'afc7f8a88340848a3a4f577fb194d7325b19b030'
-    oldFile: !uuid 'dfd704a6199eaa6900a26c9d918b6f0221f95693'
-  /v8_5_7/src/builtins/builtins-api.cc:
-    newFile: !uuid '30afd2a46f41171a0d619df052e65b0d27b47b5d'
-    oldFile: !uuid 'defc4dcf6256e554793739ecef40e8ae988835a0'
-  /v8_5_7/src/builtins/builtins-conversion.cc:
-    newFile: !uuid 'a8bb3bb59a0fb6296abad8b0bc72743322213e6d'
-    oldFile: !uuid '5292b16cde0eb5aaaea281368f8d2c94c2db4177'
-  /v8_5_7/src/builtins/ia32:
-    newFile: !uuid '8f20c1ff0d7f38cfcd46e739aa87c0b2b4b35e15'
-    oldFile: !uuid 'cc0331b8738091a1e59092cfbcf09dbe1bfa3b95'
-  /v8_5_7/src/builtins/ia32/builtins-ia32.cc:
-    newFile: !uuid '1504917655ad45f1a201190d3e7300ef9c3d5c20'
-    oldFile: !uuid '401723f523976bc2893f6db436bdf64da197d745'
-  /v8_5_7/src/ic:
-    newFile: !uuid 'fa3bff8ce4e5f7313c0d03e2bbc95ad1a104a59f'
-    oldFile: !uuid '8ac19703d80ae78b390fce0c16abd9f36ea666b6'
-  /v8_5_7/src/ic/ic.cc:
-    newFile: !uuid '1124af02a29f7114b002dee955f07a52a10fb2f0'
-    oldFile: !uuid '5c1e9e3a072851942605c19df78a8d64129ffd0b'
-  /v8_5_7/src/objects.cc:
-    newFile: !uuid 'f41b635f300fa6913cfd0ae96cdfc196a1b847cd'
-    oldFile: !uuid '4429c273a850f1ec0e025592bea4005ab596c2be'
-  /v8_5_7/src/parsing:
-    newFile: !uuid '4921f22f91fcd2b1e99c74fbf1f5bb11ce0991b3'
-    oldFile: !uuid '1994071ff4d4858764621de3ffdd0057bca341e4'
-  /v8_5_7/src/parsing/parser-base.h:
-    newFile: !uuid '7456870c316ef59418eaa810407a4da275e9058a'
-    oldFile: !uuid 'ba89162129053ba48f5c0cc9349c5433f5ce6335'
-gitCommitId: !uuid 'c51daa4787e009ef89dbc668d741797559603f43'
+  /third_party:
+    newFile: !uuid '687d1a3316cae14a07dbc8d4a48fb21cff337967'
+    oldFile: !uuid '93abb9daa919718d69d08790f28a6b9cbd8e14e7'
+  /third_party/WebKit:
+    newFile: !uuid '255fead278d793cb1523789cd073c04a97fc16f8'
+    oldFile: !uuid '5430b04026a2aba9085dae68b9bbae181fe90a37'
+  /third_party/WebKit/Source:
+    newFile: !uuid '1ea732b491d86a2f1a3c74f2bda0038f87848503'
+    oldFile: !uuid 'db05aa806cc59f4c04fdd2254bbb1ce03dfe3034'
+  /third_party/WebKit/Source/bindings:
+    newFile: !uuid '4e7ac192529d35beace34c7b9ba96595e18d57ce'
+    oldFile: !uuid '7e18d698848ac8108e04cf7e2ad0ac4eb848b27e'
+  /third_party/WebKit/Source/bindings/modules:
+    newFile: !uuid '9ce3b09a4782695b8adcc36e20590b4565db2818'
+    oldFile: !uuid '4dcf811af36a2805e10574b2960435b17ae3b50d'
+  /third_party/WebKit/Source/bindings/modules/v8:
+    newFile: !uuid '1765e382f97f91d5fef534e123825c0e1371bdd0'
+    oldFile: !uuid 'f31d445e317e4c80614ea1792207ff97cdd2fe81'
+  /third_party/WebKit/Source/bindings/modules/v8/DictionaryHelperForModules.cpp:
+    newFile: !uuid '46cd7215ac7d9dcdcfd34c0c33faa71d61bf0f46'
+    oldFile: !uuid '27f8db9e50a17a855a0a33647577fcd13a89fa86'
+  /third_party/WebKit/Source/core:
+    newFile: !uuid 'c9087e32aae9e41938a267523e4265c7611fd28e'
+    oldFile: !uuid 'fe82c5ba5de99623723362977441d4b9abd2d868'
+  /third_party/WebKit/Source/core/fetch:
+    newFile: !uuid '72bc633460a05d591e1dc2ec7613c42815f020d1'
+    oldFile: !uuid '7bb1f258ab385b48ca28b2b1506d50bda9620baa'
+  /third_party/WebKit/Source/core/fetch/CrossOriginAccessControl.cpp:
+    newFile: !uuid 'b18b6f82cd635ae3233a5ba14647a0f65ef9db98'
+    oldFile: !uuid '227f69cec347a8e5048df0610760fbf1612a3319'
+  /third_party/WebKit/Source/core/frame:
+    newFile: !uuid '3078011949a52ae347f725c54a5c4e0e885ee86e'
+    oldFile: !uuid '492be965d69f4ae7269f693be6f8ac9117cfa01d'
+  /third_party/WebKit/Source/core/frame/DOMWindow.cpp:
+    newFile: !uuid '1dee05727e420563d151c67d22e28c8da5e20f1c'
+    oldFile: !uuid '0fe0d2eb7948227077a50a42f57eb53811dbaf0b'
+  /third_party/WebKit/Source/core/frame/SubresourceIntegrity.cpp:
+    newFile: !uuid 'a26e61ffc89c0c45795d30c41d2d855ff429a2dd'
+    oldFile: !uuid 'bf645b13dacb619b228358f513d3a5ed46335a19'
+  /third_party/WebKit/Source/core/html:
+    newFile: !uuid '27792aa5436f65e52a86a046b555a6597a438141'
+    oldFile: !uuid '80cf817e481c3cf5318774d1854debaa44ef4680'
+  /third_party/WebKit/Source/core/html/forms:
+    newFile: !uuid '3683c9763d234c16220338e02ba5291d34054ad3'
+    oldFile: !uuid '25396cc3f8c08f5223a9cd4faf2e189d7fed0ee1'
+  /third_party/WebKit/Source/core/html/forms/EmailInputType.cpp:
+    newFile: !uuid '0fc36fcec027688b3e337e97cf81086bee7ed35e'
+    oldFile: !uuid '6b84d905b634ca63d31644f1769146b79174d6e1'
+  /third_party/WebKit/Source/core/loader:
+    newFile: !uuid 'f7087dffd2c275ed230aa0259e2357dfb5130066'
+    oldFile: !uuid '25292289d30067a9526de26cff977c65dc411f27'
+  /third_party/WebKit/Source/core/loader/CrossOriginPreflightResultCache.cpp:
+    newFile: !uuid '6148f8bfce568149fd658148ac97295bf5ef4e85'
+    oldFile: !uuid 'ad816de337d83fff63b6497990cabcf134b324ac'
+  /third_party/WebKit/Source/core/loader/TextTrackLoader.cpp:
+    newFile: !uuid 'e986eb1c37121542c46e3e402f1176aa85257e44'
+    oldFile: !uuid 'b2ef087bd0168f8ee837186b2a7c5abcadc8ce05'
+  /third_party/WebKit/Source/modules:
+    newFile: !uuid 'dc6680e51868fe72eb739fbadebd55f30940c322'
+    oldFile: !uuid 'b520d5363892db99d1f2aa959fc002309b1b98b4'
+  /third_party/WebKit/Source/modules/fetch:
+    newFile: !uuid 'b5f47ea52bc8df8da6cdcdcea65418e72bd0f9f0'
+    oldFile: !uuid '9b8a01d94a6b3af0949d0d95f6eed918f6acd52f'
+  /third_party/WebKit/Source/modules/fetch/RequestInit.cpp:
+    newFile: !uuid 'f072b9c2da277c125827e73abcfaf77361fc62bb'
+    oldFile: !uuid '371d3bd943043a1b287c8ca6835e1dd8df45696f'
+  /third_party/WebKit/Source/platform:
+    newFile: !uuid '6eef8ff3a35cd2ca3c4164b10818cce91100eebd'
+    oldFile: !uuid 'e80635cf5641b34ac198d34a631b48f34c9d6481'
+  /third_party/WebKit/Source/platform/blob:
+    newFile: !uuid '774752d16a1b04f99234176c69f13a5f5f4fb4be'
+    oldFile: !uuid '2010dfd1a7e18b3d6be8ee68890717b2746932a1'
+  /third_party/WebKit/Source/platform/blob/BlobURL.cpp:
+    newFile: !uuid '7fd50783d70de55757c0961b745aef3888f0175a'
+    oldFile: !uuid '3856ca5267402d94fb1a856c726bc9ce4ca10f1f'
+  /third_party/WebKit/Source/platform/fonts:
+    newFile: !uuid '676a9c9727001100ddfdf879d03c3e3d9352ad5e'
+    oldFile: !uuid '2ec972e13d2ae5c8fd702b60398bc997b6234e9e'
+  /third_party/WebKit/Source/platform/fonts/shaping:
+    newFile: !uuid '8e47cc40cdf7dbba7024ebce1717d95788880f24'
+    oldFile: !uuid '489894a9aefa6a1a7816b1c0e44cfadc11c0b0d1'
+  /third_party/WebKit/Source/platform/fonts/shaping/CachingWordShaper.cpp:
+    newFile: !uuid 'd5dc02d52e6c4c4a6546dd4ce2e8a81f385f5081'
+    oldFile: !uuid '917443151f500b38ce26a4b9face6724254d1b01'
+  /third_party/WebKit/Source/platform/text:
+    newFile: !uuid '685d69322a1fcf4df931cad15875f13a500ad656'
+    oldFile: !uuid '1fe26c57083856eec7202421ad1a378137590156'
+  /third_party/WebKit/Source/platform/text/Character.cpp:
+    newFile: !uuid '3ad140871124b6f8c5111d2f1b065b5913c96d98'
+    oldFile: !uuid '8074770389806f53c73861dba58dec493a4a8dd5'
+  /third_party/WebKit/Source/platform/text/TextBreakIterator.cpp:
+    newFile: !uuid 'de9630bf5bc4ca17dc103a52c7a40983c5350a01'
+    oldFile: !uuid '5120aea20931b44a3bd8eac70f36a2720a7fb062'
+  /third_party/WebKit/Source/platform/weborigin:
+    newFile: !uuid '7b8f625cf14b55674715d038449b2de61638417c'
+    oldFile: !uuid '43c12ee8e6d145aad96b569369e8f01eee0881a7'
+  /third_party/WebKit/Source/platform/weborigin/KURL.cpp:
+    newFile: !uuid '4465a41032c5a289db0c1849871dec2dd5edd0f2'
+    oldFile: !uuid 'e4b89156dd4c3c5ba3d308f21655086606e71c22'
+  /third_party/WebKit/Source/platform/weborigin/KURL.h:
+    newFile: !uuid '7ed6acd4a4d509b901419dd94a1e8acf22753631'
+    oldFile: !uuid '3f2c7aa37d95b58135cca5db247572ec8c6a5304'
+  /third_party/WebKit/Source/platform/weborigin/SecurityOrigin.cpp:
+    newFile: !uuid '17708e1990d2e066b3c5e3ad6ef7576fe986cae6'
+    oldFile: !uuid '5ce9a0c4aa1e765ac24868c6601fd334ef88201e'
+  /third_party/WebKit/Source/web:
+    newFile: !uuid '69be3c45457b3a94965fa1ef74c3527d83ad7d08'
+    oldFile: !uuid 'b71c01408bf38ae8f6e5f25324edcdc762304d19'
+  /third_party/WebKit/Source/web/WebPluginContainerImpl.cpp:
+    newFile: !uuid 'dc489d99e6fb80fc269ef123f5239581d2cf8930'
+    oldFile: !uuid 'a08431ceb916499c43c75b780ee18fee1d508d15'
+  /third_party/WebKit/public:
+    newFile: !uuid '49018b4530d29bedb5d3945267417e93070e3c16'
+    oldFile: !uuid '21fac5754b4e7abe536a07ed46b76b25ed4cfe3f'
+  /third_party/WebKit/public/web:
+    newFile: !uuid '806f5627e7333e73f31f2e8fa1ca1042e230b554'
+    oldFile: !uuid '183022407060c8bd5c0b9867975c0785e4e28c7e'
+  /third_party/WebKit/public/web/WebPlugin.h:
+    newFile: !uuid '1ff25a8585177a095079a477d03d9e3d9ed64c7b'
+    oldFile: !uuid 'def67f6a72b41c6d53029bb48d6d9b9b256b33d9'
+  /third_party/brotli:
+    newFile: !uuid 'ce560913d0034c7a5f2f71bd4fadc3b9ca889b2e'
+    oldFile: null
+  /third_party/brotli/LICENSE:
+    newFile: !uuid 'd645695673349e3947e8e5ae42332d0ac3164cd7'
+    oldFile: null
+  /third_party/brotli/README.chromium:
+    newFile: !uuid '466adacca2e386c0de270fe24ad636fe7cfe066d'
+    oldFile: null
+  /third_party/brotli/README.md:
+    newFile: !uuid '90df0945d7661a3356d081053eecfd558faea97f'
+    oldFile: null
+  /third_party/brotli/brotli.gyp:
+    newFile: !uuid 'f7b3aa1a2c4b4738bd2889d93a6f7b7ae7e7456b'
+    oldFile: null
+  /third_party/brotli/brotli.sln:
+    newFile: !uuid 'd7006eca79ca9c185b3f87cb257d678246c8c469'
+    oldFile: null
+  /third_party/brotli/brotli.vcxproj:
+    newFile: !uuid '3c7a83fdb00af1c7467316236759b782c6126567'
+    oldFile: null
+  /third_party/brotli/brotli.vcxproj.filters:
+    newFile: !uuid '6cc63b1ae4c352d749213624ef745cc2a1ca2a9c'
+    oldFile: null
+  /third_party/brotli/dec:
+    newFile: !uuid '9b75ca673420948a04fcf7dbe34d9655532bc622'
+    oldFile: null
+  /third_party/brotli/dec/bit_reader.c:
+    newFile: !uuid 'ddd014e662f4fc2581d0e512f58c4abd8da2294b'
+    oldFile: null
+  /third_party/brotli/dec/bit_reader.h:
+    newFile: !uuid 'f390348f1f377feba6d33d26a4d708e9ba28a115'
+    oldFile: null
+  /third_party/brotli/dec/context.h:
+    newFile: !uuid 'fcc4276aefdc4c60d175451fa0218ee76e39884b'
+    oldFile: null
+  /third_party/brotli/dec/decode.c:
+    newFile: !uuid 'f0bb469d024250235be22eb5fd770e6b7c29a3cb'
+    oldFile: null
+  /third_party/brotli/dec/decode.h:
+    newFile: !uuid '78a156e568e42d7a923d98d2a2ca676a23db931e'
+    oldFile: null
+  /third_party/brotli/dec/dictionary.c:
+    newFile: !uuid '4033ae9ede78a66b8a5f13dc236ed6afd8c1ffb0'
+    oldFile: null
+  /third_party/brotli/dec/dictionary.h:
+    newFile: !uuid 'c016686c580f12d959b4e5df77eb10eae7c1015e'
+    oldFile: null
+  /third_party/brotli/dec/huffman.c:
+    newFile: !uuid '0628c361addd6b3267970eb093632cf8e9c262df'
+    oldFile: null
+  /third_party/brotli/dec/huffman.h:
+    newFile: !uuid 'bb67f4b2d6b239c6cd9c5cc75cbff246432b36aa'
+    oldFile: null
+  /third_party/brotli/dec/port.h:
+    newFile: !uuid 'f8fc4a88ab9e51e68e52de3a35a09baaa45d3713'
+    oldFile: null
+  /third_party/brotli/dec/prefix.h:
+    newFile: !uuid '91e43e92961dd440e58f0acd060102b45f452a91'
+    oldFile: null
+  /third_party/brotli/dec/state.c:
+    newFile: !uuid 'f4f239a9f86b3e8c9e0d94836a1f4d9437a0473f'
+    oldFile: null
+  /third_party/brotli/dec/state.h:
+    newFile: !uuid '0d9329b79063cab3cb6d0d123bc83a89bca75fd2'
+    oldFile: null
+  /third_party/brotli/dec/streams.c:
+    newFile: !uuid '007c51391768514533fa18be05cdc156fe723dd5'
+    oldFile: null
+  /third_party/brotli/dec/streams.h:
+    newFile: !uuid '99eb12595b3bdf367425ccc80bee4b8cd6a9a486'
+    oldFile: null
+  /third_party/brotli/dec/transform.h:
+    newFile: !uuid '572914ae94c31695854cb831b6d92b04866676d7'
+    oldFile: null
+  /third_party/brotli/dec/types.h:
+    newFile: !uuid '8a9cc4a82d41fccaa1cab0caf5d3d75178010d90'
+    oldFile: null
+  /third_party/icu:
+    newFile: !uuid 'e29cc12ae00c595f360257363b6b6650e8c3654c'
+    oldFile: !uuid '7722b9a7a80840a4246cfaf0ddbcac669ad03eee'
+  /third_party/icu/source:
+    newFile: !uuid '0fd0c5a6a3b86e5ddbce1e3c99e6d5d47aad69d1'
+    oldFile: !uuid '19ce87e7c6953e636bcb8d27c7dadf8bbb1f483e'
+  /third_party/icu/source/common:
+    newFile: !uuid 'fa924b3aaeba1835ad4e9bf37a20a536bd141e32'
+    oldFile: !uuid '31d31ae93a2652ff5b992af075443451740e42b3'
+  /third_party/icu/source/common/unicode:
+    newFile: !uuid '41841ad248ae1aaf6ba9418c7017bdc691d86c4d'
+    oldFile: !uuid '6934d47ba9f0a06f63f9e58aef52f439c510b0c9'
+  /third_party/icu/source/common/unicode/uchar.h:
+    newFile: !uuid 'd82f068b0d09bdd65f3f7b47d6d6a2b248e91e96'
+    oldFile: !uuid '33344528ab4fa8f030efa95520956b05efa2afa7'
+  /third_party/ots:
+    newFile: !uuid '14fa4d6adecd0d0f7cd1a0dac8f0e530d9174084'
+    oldFile: !uuid '2adbb470fef3c3d240cb3035ac5897c84bd01df8'
+  /third_party/ots/src:
+    newFile: !uuid '72810af0de0985533a49c0c94a41c1cef81bf905'
+    oldFile: !uuid '873ca3f3192bf02a1955e3219b5d3f1c43f1dfcd'
+  /third_party/ots/src/ots.cc:
+    newFile: !uuid '99a2dca8b603a12982ff5dfc23bcce6d161de59e'
+    oldFile: !uuid 'e17f92bf01b9e0bef6c9ad7cc5f81f7669dc4bc0'
+  /third_party/ots/src/woff2.cc:
+    newFile: !uuid '5acb28a80a729228f0d08ee6fbf5e410561f65b7'
+    oldFile: !uuid 'c9c1c4697efccaea2ae501e4355fc875a99e4274'
+gitCommitId: !uuid '1138b2b6b0c92ec2515dd2161e55b895e38748c4'
 renames: {
   }
-revisionId: 28
+revisionId: 29
