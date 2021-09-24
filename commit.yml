@@ -2,46 +2,28 @@
 branches: {
   }
 fileChange:
-  /content:
-    newFile: !uuid 'f8c60c8f5e8d6060b8f84ec06d5112b0f3837d8d'
-    oldFile: !uuid '1849eaa4fb08c4b07ca476af064b632399e6bdf5'
-  /content/browser:
-    newFile: !uuid '3eec583dd4690b14fbab6f1800ae2ebc24176c29'
-    oldFile: !uuid 'c2dfc77dc10fd556f7bd54310c8359eb86818f98'
-  /content/browser/WebFrameClientImpl.cpp:
-    newFile: !uuid '9ae65f19b354d30dbcdf832628fa0201d48a0fee'
-    oldFile: !uuid '1c8c82e5175b657525350dbb647971b850fbb74d'
-  /content/browser/WebPageImpl.cpp:
-    newFile: !uuid '14196f78859ef3b95b8b0b1e4192cdea5c67b404'
-    oldFile: !uuid 'a2ed603cad0e63bea7c14d5f228a9bc70aa15c0b'
-  /content/ui:
-    newFile: !uuid '2fc3245506df35bdf4a2cd1727ff365eab335d89'
-    oldFile: !uuid 'f27ca3d74be0242db36c9417565a5b7c4ea5349b'
-  /content/ui/PopupMenuWin.cpp:
-    newFile: !uuid '36d623f76285e26f6811002cfee7ae4992415b74'
-    oldFile: !uuid 'e8755856dae3d7cd4acee4907adfa2f1bf61e7a7'
-  /content/web_impl_win:
-    newFile: !uuid '97bdb28541396a3a8b08a54cd440aba200ea0763'
-    oldFile: !uuid 'aecf6cda8fc66e97ccb3f2579efcef2413c8c416'
-  /content/web_impl_win/BlinkPlatformImpl.cpp:
-    newFile: !uuid 'c021a5323f89cc068118f2b73c4d8a1cc28889c7'
-    oldFile: !uuid '14cb188ddc05235c7b0a868b607104d4d5565567'
-  /content/web_impl_win/npapi:
-    newFile: !uuid 'e6ab4f3e41ed6a90ff6c1e324f7246bb439ceea3'
-    oldFile: !uuid '096f7d51f0007eecef0f6946ce90ab5fa2353eac'
-  /content/web_impl_win/npapi/PluginPackageWin.cpp:
-    newFile: !uuid '0841b4ab8ef4533d4931d3ae8ad8acca21015f3e'
-    oldFile: !uuid '0b3fd47ba7a8b13e7953ab45673d4ff753e3903e'
-  /content/web_impl_win/npapi/WebPluginImpl.cpp:
-    newFile: !uuid 'ab0b82b664748ae773492ce520404bae2aab662a'
-    oldFile: !uuid '5b5ec2caee880103015794d7f899017abfaf1c13'
-  /content/web_impl_win/npapi/WebPluginImpl.h:
-    newFile: !uuid '5b8c6ffe9e19dd416ed83fa2bf02e9d7f15fb665'
-    oldFile: !uuid '2af36cc85417eb3ef133c9815ad745c84099f643'
-  /content/web_impl_win/npapi/WebPluginImplWin.cpp:
-    newFile: !uuid 'fb6d731443668573c1f22628dc5983b9d6209dc2'
-    oldFile: !uuid '7a4a42b3c82354e2723b9c0c32f09e442c29aea4'
-gitCommitId: !uuid '5e22391c4690eac96329695f8fa371f72a0e032c'
+  /third_party:
+    newFile: !uuid 'c1e42ba69d6d2c1c160910e63e791bf674b9af84'
+    oldFile: !uuid '687d1a3316cae14a07dbc8d4a48fb21cff337967'
+  /third_party/WebKit:
+    newFile: !uuid '5f2b9f0f0013e4e3f8ea9390ffa8b82f97aeb33f'
+    oldFile: !uuid '255fead278d793cb1523789cd073c04a97fc16f8'
+  /third_party/WebKit/Source:
+    newFile: !uuid 'df8699c7f07d5f472854c2fbc461c14830e143b8'
+    oldFile: !uuid '1ea732b491d86a2f1a3c74f2bda0038f87848503'
+  /third_party/WebKit/Source/bindings:
+    newFile: !uuid '4dacffe5630ca93eee714603b9a60e709e103e1a'
+    oldFile: !uuid '4e7ac192529d35beace34c7b9ba96595e18d57ce'
+  /third_party/WebKit/Source/bindings/core:
+    newFile: !uuid '39ffcd23fe2476bdd2a61eec2fb5dc38297b1572'
+    oldFile: !uuid 'bc18ed915ee9f8b206f0aea0881147bc2a28312a'
+  /third_party/WebKit/Source/bindings/core/v8:
+    newFile: !uuid '366e0bc4c15e32fae4b2dec75aa804797f1c22c6'
+    oldFile: !uuid '63c9b14dd1dec05dd640b8c12d0c54dd7da86518'
+  /third_party/WebKit/Source/bindings/core/v8/NPV8Object.cpp:
+    newFile: !uuid 'c1dc1ea629c644fbd9adb8b527d3391fc6152b57'
+    oldFile: !uuid '96d84eca1321d9e113c51f5ea9c385cbfc5265e4'
+gitCommitId: !uuid 'b98242c59782e581ffb98ccdf24a18c78a809dac'
 renames: {
   }
-revisionId: 30
+revisionId: 31
