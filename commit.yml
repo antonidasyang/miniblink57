@@ -2,25 +2,25 @@
 branches: {
   }
 fileChange:
-  /gen:
-    newFile: !uuid 'b7cefaf3c9b5e33635e10083de2270cfe78e723f'
-    oldFile: !uuid '6033eabe598fdfcf5664db9da7ded1fb868e2f12'
-  /gen/blink:
-    newFile: !uuid 'a9cba607b3d645e6d125503fd42d6b7fecc72eb8'
-    oldFile: !uuid 'cffc381a4b43dcd5c050b6f8e40981bd9c7966c3'
-  /gen/blink/bindings:
-    newFile: !uuid '2791774dcc7f3a6d1d6e157117ac23fd4f0ec3a3'
-    oldFile: !uuid '1a87023df2c2b656fd7a6e2bd087aa22053adcca'
-  /gen/blink/bindings/core:
-    newFile: !uuid 'aeefcbb47d3c1ab491f9d48e97f313c9e50c2ae1'
-    oldFile: !uuid '307fac1176f027885a23a2c4408bec078d0d9530'
-  /gen/blink/bindings/core/v8:
-    newFile: !uuid '5abc5b17a8a648146a50f1f05eeb9ad777370d0a'
-    oldFile: !uuid 'd281e3c59efb356d1835797087b44fe0f0bc69ed'
-  /gen/blink/bindings/core/v8/V8ConsoleBase.cpp:
-    newFile: !uuid '703d374ba1d4ca5a24ffa8f6e739c409356d9e47'
-    oldFile: !uuid '6298fe84957ff2eeec6664543820322835469594'
-gitCommitId: !uuid '16756e5187a448a83eb05a6d9b4557c762cd2f0b'
+  /third_party:
+    newFile: !uuid '736847746d56fe443fe79e8597c58f37197c0219'
+    oldFile: !uuid 'c1e42ba69d6d2c1c160910e63e791bf674b9af84'
+  /third_party/WebKit:
+    newFile: !uuid '918290051ac6ff2c424aa71175b3f60b4d3f98c2'
+    oldFile: !uuid '5f2b9f0f0013e4e3f8ea9390ffa8b82f97aeb33f'
+  /third_party/WebKit/Source:
+    newFile: !uuid '0879ac3cc0856b340820aac70daf71e777117de2'
+    oldFile: !uuid 'df8699c7f07d5f472854c2fbc461c14830e143b8'
+  /third_party/WebKit/Source/modules:
+    newFile: !uuid '51ea428a5ecb9adbe60103849a55a36f9419e15c'
+    oldFile: !uuid 'dc6680e51868fe72eb739fbadebd55f30940c322'
+  /third_party/WebKit/Source/modules/canvas2d:
+    newFile: !uuid 'e05f6a65c20aeeb0cae07b8185c6ec8919adc305'
+    oldFile: !uuid '0f5149080f189f9aefe2f2478cc6604fedae0958'
+  /third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:
+    newFile: !uuid '2a39d3a2c05d2108beda3f07a931eb430028187f'
+    oldFile: !uuid 'a51503eb46136e1c11ec1fb041a9f0a606c5832f'
+gitCommitId: !uuid 'e0da8ac5b2bd2b6e3efbd0af055915cf12c9226f'
 renames: {
   }
-revisionId: 32
+revisionId: 33
