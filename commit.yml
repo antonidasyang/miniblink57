@@ -2,28 +2,37 @@
 branches: {
   }
 fileChange:
-  /net:
-    newFile: !uuid 'f40e9cd6a9d762142d689285060c3ff28b65f996'
-    oldFile: !uuid '68639e9722bbbed0af212da4f9dc44713e540da1'
-  /net/BlinkSynchronousLoader.h:
-    newFile: !uuid '02f0ec200d2a7d015cbb366ff7ee69b2b848b660'
-    oldFile: !uuid 'ad967a065ffc35f9394c68ab96272570ec8f3442'
-  /net/DataURL.cpp:
-    newFile: !uuid '57749d076c1cf3294633b0a9c31f8d7b5854fbd4'
-    oldFile: !uuid 'd7a71ce8eab64c86fc448e29f873404187a5f72f'
-  /net/DataURL.h:
-    newFile: !uuid '5bceef810bac64e885358ded0760c1014d64cdcd'
-    oldFile: !uuid '036fbf3f83ef17bc90a78160bf7d2b30bab00c41'
-  /net/FlattenHTTPBodyElement.h:
-    newFile: !uuid '47abdbf7efd35e4464a5a04d62dbbe4d03b5dfa6'
-    oldFile: !uuid 'a22eb207d94af9d22b8c9fd4fdf233e11667e81c'
-  /net/WebURLLoaderManager.cpp:
-    newFile: !uuid 'f34b9f42254df52df738b1d61f94fb3aa6ad020d'
-    oldFile: !uuid 'e3b399517bc3c01f70aa994139ee494c247371d7'
-  /net/WebURLLoaderManagerAsynTask.h:
-    newFile: !uuid 'd1ab8a4453e17b1f6122d35b4d98f42821c7b4b1'
-    oldFile: !uuid 'de041a2c1c4755566dccac37e24f0d14e54b5ef0'
-gitCommitId: !uuid 'a78e6fbcbaa90b9f4d6e7acababca83241ec847f'
+  /base:
+    newFile: !uuid '2d777215a3c3fdfd8b689a570c84dcf2ace707e6'
+    oldFile: !uuid '3e0af1381694806093c7f559264017e771639698'
+  /base/optional.h:
+    newFile: !uuid '7fec5f611b49726fb759ffd67c2cce536fe8af54'
+    oldFile: !uuid '12a126358314917ba5d502d62f50a6c343d7f83c'
+  /base/power_monitor:
+    newFile: !uuid 'dfd105bf975e9f51149f116f31f9143e2bfe4dd8'
+    oldFile: !uuid '71fdffeeb82d922a0fabee5d66d1425a419aa4aa'
+  /base/power_monitor/power_monitor_device_source.cc:
+    newFile: !uuid '408b5ea50abeeb348e99875c3605c1bfaffe037c'
+    oldFile: !uuid '57959e5d52f288eb9f90f823a020968bbc8c0233'
+  /base/power_monitor/power_monitor_device_source_win.cc:
+    newFile: !uuid 'f6d7dfd02f7cceb3ebc5296b1d48f905556f5c4c'
+    oldFile: !uuid '9d47b861956e0ab924b7d3b879be35cf102663c3'
+  /base/synchronization:
+    newFile: !uuid 'c3c4c88a6c05f158961414244e8412b4e8eef78f'
+    oldFile: !uuid 'd080f40c59abf51e68c01a0fab11be2d5fbb8a36'
+  /base/synchronization/sync_xp.h:
+    newFile: !uuid '8b84b61f08686139e721fe3d5e261824a781dd9b'
+    oldFile: !uuid 'c29076ee8824237da0ec0342b76f832f10665bb5'
+  /base/win:
+    newFile: !uuid '7b0eff8abd46679cd7ab0a3ea7486cefbaa54b34'
+    oldFile: !uuid 'a1ecba26358ba79e4fb885725852fad93c50fdc6'
+  /base/win/event_trace_controller.h:
+    newFile: !uuid 'fc2f33d5bec6c17e6cbb31bb32385af8e9f9ac2a'
+    oldFile: !uuid 'b5f7114836c6fad94df9fd1df55fa35a7c464a04'
+  /base/win/event_trace_provider.h:
+    newFile: !uuid '5c0e00ccc6bea9f424fc50c14e866dc5764f4ff8'
+    oldFile: !uuid 'ffe92605058a23efe18b0ee89c9ad10d18a34b00'
+gitCommitId: !uuid '729096cea7499ee22d0956c49589a19010b83131'
 renames: {
   }
-revisionId: 35
+revisionId: 36
