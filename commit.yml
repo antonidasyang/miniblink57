@@ -2,37 +2,22 @@
 branches: {
   }
 fileChange:
-  /base:
-    newFile: !uuid '2d777215a3c3fdfd8b689a570c84dcf2ace707e6'
-    oldFile: !uuid '3e0af1381694806093c7f559264017e771639698'
-  /base/optional.h:
-    newFile: !uuid '7fec5f611b49726fb759ffd67c2cce536fe8af54'
-    oldFile: !uuid '12a126358314917ba5d502d62f50a6c343d7f83c'
-  /base/power_monitor:
-    newFile: !uuid 'dfd105bf975e9f51149f116f31f9143e2bfe4dd8'
-    oldFile: !uuid '71fdffeeb82d922a0fabee5d66d1425a419aa4aa'
-  /base/power_monitor/power_monitor_device_source.cc:
-    newFile: !uuid '408b5ea50abeeb348e99875c3605c1bfaffe037c'
-    oldFile: !uuid '57959e5d52f288eb9f90f823a020968bbc8c0233'
-  /base/power_monitor/power_monitor_device_source_win.cc:
-    newFile: !uuid 'f6d7dfd02f7cceb3ebc5296b1d48f905556f5c4c'
-    oldFile: !uuid '9d47b861956e0ab924b7d3b879be35cf102663c3'
-  /base/synchronization:
-    newFile: !uuid 'c3c4c88a6c05f158961414244e8412b4e8eef78f'
-    oldFile: !uuid 'd080f40c59abf51e68c01a0fab11be2d5fbb8a36'
-  /base/synchronization/sync_xp.h:
-    newFile: !uuid '8b84b61f08686139e721fe3d5e261824a781dd9b'
-    oldFile: !uuid 'c29076ee8824237da0ec0342b76f832f10665bb5'
-  /base/win:
-    newFile: !uuid '7b0eff8abd46679cd7ab0a3ea7486cefbaa54b34'
-    oldFile: !uuid 'a1ecba26358ba79e4fb885725852fad93c50fdc6'
-  /base/win/event_trace_controller.h:
-    newFile: !uuid 'fc2f33d5bec6c17e6cbb31bb32385af8e9f9ac2a'
-    oldFile: !uuid 'b5f7114836c6fad94df9fd1df55fa35a7c464a04'
-  /base/win/event_trace_provider.h:
-    newFile: !uuid '5c0e00ccc6bea9f424fc50c14e866dc5764f4ff8'
-    oldFile: !uuid 'ffe92605058a23efe18b0ee89c9ad10d18a34b00'
-gitCommitId: !uuid '729096cea7499ee22d0956c49589a19010b83131'
+  /cc:
+    newFile: !uuid '8cc1feebfc555be42b21e81fd3d9f389cd2a1ba3'
+    oldFile: !uuid '1fc12d58bc63916cf4261bd4618304abd8e9b37f'
+  /cc/resources:
+    newFile: !uuid '22a4409885488b6b4631782dd785f40ee66bb252'
+    oldFile: !uuid 'da24f8b05abd720af72495ea7eac7927f1b070aa'
+  /cc/resources/video_resource_updater.cc:
+    newFile: !uuid '719a417e7b400b89f9e71c75981aa5d7dd60d7dd'
+    oldFile: !uuid '1a588986cff8c09d984b358442b559a3b5a8aade'
+  /cc/surfaces:
+    newFile: !uuid '1d5d721519d169168be19c8e124b434bf6b16c33'
+    oldFile: !uuid '71fdf52fbad1175144ac63ea890b56f1bd3c8bc9'
+  /cc/surfaces/display.cc:
+    newFile: !uuid '0577b34570b96d47b8c4f9d13e217e6a643c565f'
+    oldFile: !uuid 'd253760c322fff3edb45f58463dfc48b1fc53279'
+gitCommitId: !uuid '4af28afa0374efc63c898e65ec498debe9d28a50'
 renames: {
   }
-revisionId: 36
+revisionId: 37
