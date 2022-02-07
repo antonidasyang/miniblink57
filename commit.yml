@@ -2,31 +2,34 @@
 branches: {
   }
 fileChange:
-  /v8_5_7:
-    newFile: !uuid 'd2f5a3fcf823cd01680a61ab3cfd72dc9b96320e'
-    oldFile: !uuid 'b15dc30a56d6c10244a29eac72b3bce9eb763b16'
-  /v8_5_7/include:
-    newFile: !uuid '3b47b7ef71ec1a1fdb669022e3c0ee3fc755b038'
-    oldFile: !uuid 'cf85d9115578737232597cad3b7ef01a8fef61f3'
-  /v8_5_7/include/v8-inspector-protocol.h:
-    newFile: !uuid '69072d3fa18e52a7c6ae37321ef85de99b800d7c'
-    oldFile: !uuid '1c9ffb91ddb264b7acb3ded264c466c5ee58a384'
-  /v8_5_7/src:
-    newFile: !uuid 'f7a66fc2de065196cfc3dde15b32f169e576e6b1'
-    oldFile: !uuid 'e6cebba6b43b7aa138fa8a13d5884223d3fd1074'
-  /v8_5_7/src/base:
-    newFile: !uuid '95628efe2decf7cb4e2b61a1ba352230fe9bda5a'
-    oldFile: !uuid '8293ab36c8b445b5399317d739eb654ee0d4cb87'
-  /v8_5_7/src/base/macros.h:
-    newFile: !uuid '529c02d6fd1dfa8cd857f03a6a48946489e3067f'
-    oldFile: !uuid '33a0ef0f4f8fb937382a17001a0a3848260f9eab'
-  /v8_5_7/src/runtime:
-    newFile: !uuid 'b359d421bd6a8cb94250adacd4687d8b52573bbe'
-    oldFile: !uuid '8bab48dc33d5badcb2344feade1cd73969b21334'
-  /v8_5_7/src/runtime/runtime-compiler.cc:
-    newFile: !uuid 'b1c14703b0756a1ff222edcd3b0b4f65c828bd49'
-    oldFile: !uuid 'f607b6f2e4d8a2f902b3279643d99cd8e2c9e644'
-gitCommitId: !uuid '66881fc43ac886a40d6df60a3ede92c112dae301'
+  /wke:
+    newFile: !uuid 'ab6a96e7bfecf206d96986d4022a9cbaeec2e472'
+    oldFile: !uuid '4013153de6cf0f41884ff8c8e667e9e6195b00ad'
+  /wke/wke.cpp:
+    newFile: !uuid 'e5fb15de842acbe1442a64fe0d19e9761b362869'
+    oldFile: !uuid 'b549e4c42009d6e653c171df34f17d7653d1c287'
+  /wke/wke2.cpp:
+    newFile: !uuid 'e0d57ebd9c50470eea0f00c36a2aaa9b99597f96'
+    oldFile: !uuid 'c3bcef9bca848177f1aaf238528901c82d57ebcc'
+  /wke/wkeGlobalVar.cpp:
+    newFile: !uuid '66bffeccfbdd443a7d172fa04eb1818b043bf859'
+    oldFile: !uuid '34b582294b53f8368f7b50c81d3657d4a25169fb'
+  /wke/wkeGlobalVar.h:
+    newFile: !uuid '4a2d9bdd56e3e566f5c0ddcd815234078ae0afa8'
+    oldFile: !uuid 'ef6cc392d552f74f9c3382fc9a91e71961bc95f3'
+  /wke/wkeJsBind.cpp:
+    newFile: !uuid 'bde8c57c4358225f66d9ea2a56ae02f90b57085c'
+    oldFile: !uuid '0d98a7f4301c352855891022ba12097e7fcaedad'
+  /wke/wkeWebView.cpp:
+    newFile: !uuid '2d4849116eaf891eaa2be53c8e18dcf3a4d02697'
+    oldFile: !uuid 'aa193c4ffb91927df2c41f6db6034d26f0b7c21a'
+  /wke/wkeWebView.h:
+    newFile: !uuid '2bb2408b8e32370bfccb778258fc271444d2700e'
+    oldFile: !uuid 'd26b91372311f434838719cb5c19849a4dfa714b'
+  /wke/wkedefine.h:
+    newFile: !uuid '6cbe4e26fce5d5cd242ca31df3d0a5970064d8aa'
+    oldFile: !uuid '21ea0e18a662b82948ca681f63377c7e95ec5af2'
+gitCommitId: !uuid '38bbd606f08f946b6dafd3ae5380b675940380f4'
 renames: {
   }
-revisionId: 46
+revisionId: 47
