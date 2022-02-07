@@ -2,16 +2,28 @@
 branches: {
   }
 fileChange:
-  /gpu:
-    newFile: !uuid 'e9bff6204efa1b1632205b734ef91ba35c7d6c2a'
-    oldFile: !uuid '67ac038a3e8262b4b54f1c11ba35d59c82b3f8d7'
-  /gpu/GLES2:
-    newFile: !uuid '22cd01ae8da8a8c4b005dc3198c3531b2cf5b804'
-    oldFile: !uuid 'b3769e92fbdc9d436a317cbd4ac9c761d16544b6'
-  /gpu/GLES2/gl2extchromium.h:
-    newFile: !uuid 'b11cb089f155ef6209300a73302f3c1e04fd8c3a'
-    oldFile: !uuid 'a3b419e547476804125c9526bc80552a41e1564c'
-gitCommitId: !uuid 'd894c61e63092af936a7542a446a69deb16e00aa'
+  /mbvip:
+    newFile: !uuid 'a40bd19df54de32c1290aa08285bf169384efb58'
+    oldFile: !uuid '9d8ca79ec6e43b8017717e0d39d870aa5c4c6817'
+  /mbvip/common:
+    newFile: !uuid '43ee47674f93f5608d6d00d79649bcfd91651009'
+    oldFile: !uuid '9cbce962606ffa48d823609af4989fe2f454689f'
+  /mbvip/common/ThreadCall.cpp:
+    newFile: !uuid '1b79b7cfc9ea578db0adf1cf1d4fc5a6a49d18b2'
+    oldFile: !uuid 'faf25988f784e5afcfb248dac39722783538e6ae'
+  /mbvip/common/Util.h:
+    newFile: !uuid '2d6ba5f4c08a73f344befc58a82ae0ebb150fc76'
+    oldFile: !uuid 'ef97e2b6e1aef5ea26e58f8d3f24ee5af845e9bb'
+  /mbvip/common/cJSON.h:
+    newFile: !uuid '35846cc6738f1af36a2c28902a404526a0f88086'
+    oldFile: !uuid '945953f86fcbf7b1ff9622bb11cdef4fd79de869'
+  /mbvip/core:
+    newFile: !uuid 'b44dc28e5411872a21140ba6328ce1ff87d0fc64'
+    oldFile: !uuid 'f5398f1c28acc7bcaf4d0a752cdf5c21a4f11053'
+  /mbvip/core/mb.cpp:
+    newFile: !uuid 'eddbe10f295edb5f4e1f225aaaf0d7359192414e'
+    oldFile: !uuid 'c4906757de1109640475086ac0e3d0eed379a990'
+gitCommitId: !uuid '36dae1fa374187b50d83e421063b770a339498e6'
 renames: {
   }
-revisionId: 41
+revisionId: 42
