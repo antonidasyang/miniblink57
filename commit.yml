@@ -2,34 +2,16 @@
 branches: {
   }
 fileChange:
-  /ui:
-    newFile: !uuid '5b2d43a8d1a00d793275a9976bfc186f82ea464e'
-    oldFile: !uuid '2ef3578ac084650c059b67118dad05d73e64dd5f'
-  /ui/gfx:
-    newFile: !uuid '2f5a48dfcf2e688e90180106e692ff4d378eb0fc'
-    oldFile: !uuid '10726e5f527cb886baa4604ebe3e22d1da443591'
-  /ui/gfx/buffer_format_util.cc:
-    newFile: !uuid 'a8d653d898a7c6c64bd1f046815cca24f2dc7af6'
-    oldFile: !uuid 'd98eb02a89c7ceb2250b5d622d70b3fb5b895bc4'
-  /ui/gfx/buffer_types.h:
-    newFile: !uuid 'db331268960abbb7d44e23476d3586bc3a30a293'
-    oldFile: !uuid '94b981820daa3cc99d6f5e9923099da10cd4b3fe'
-  /ui/gfx/color_space.cc:
-    newFile: !uuid 'b7cb573e7d5b6ae3ca7c5c92727ed97f605aef9d'
-    oldFile: !uuid 'f997e6691c3747e7d1927ef2f630cbb32739bb31'
-  /ui/gfx/color_space.h:
-    newFile: !uuid 'df90dabaff1d773ee594d960b5d246bd692c0487'
-    oldFile: !uuid 'c6b0cf9b25e17cc2ef763688c71ceb5d358a7492'
-  /ui/gfx/color_space_win.cc:
-    newFile: !uuid '2ff8fdc95246916ba06d1b2d6c2b0c9d3d069218'
-    oldFile: null
-  /ui/gfx/color_space_win.h:
-    newFile: !uuid '02d80ff72dc41d5ae0e9831a11084ee482356d0e'
-    oldFile: null
-  /ui/gfx/icc_profile.cc:
-    newFile: !uuid '415eb7fa5782f03be2ad84e7bc0ec45fe4e17a00'
-    oldFile: !uuid '2ba8a8b7075f8b71e8ddf352688c696a044d5177'
-gitCommitId: !uuid '17327ce4a080d339d527158fb5a24b88d36ec3a9'
+  /url:
+    newFile: !uuid 'e4f2ac40942e4885bbe641d607915fcd8f759166'
+    oldFile: !uuid '39f243b73f0972994b19186c2c9267b5f8b2b4d4'
+  /url/scheme_host_port.h:
+    newFile: !uuid 'b954dc56b7d635312d7a16ea093377143813a169'
+    oldFile: !uuid '4c1ad039d22eb12db98c7e9685baef5941ffa666'
+  /url/url_canon_host.cc:
+    newFile: !uuid '209e51d1d1dcfe25004aa6f191957e76d88efae6'
+    oldFile: !uuid 'fae00de4eef165028a85ebc8eb1f34093d537760'
+gitCommitId: !uuid 'b9395d5d44d69d3b7a52a89de2cbac1d359f4462'
 renames: {
   }
-revisionId: 44
+revisionId: 45
