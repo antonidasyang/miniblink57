@@ -2,22 +2,112 @@
 branches: {
   }
 fileChange:
-  /cc:
-    newFile: !uuid '8cc1feebfc555be42b21e81fd3d9f389cd2a1ba3'
-    oldFile: !uuid '1fc12d58bc63916cf4261bd4618304abd8e9b37f'
-  /cc/resources:
-    newFile: !uuid '22a4409885488b6b4631782dd785f40ee66bb252'
-    oldFile: !uuid 'da24f8b05abd720af72495ea7eac7927f1b070aa'
-  /cc/resources/video_resource_updater.cc:
-    newFile: !uuid '719a417e7b400b89f9e71c75981aa5d7dd60d7dd'
-    oldFile: !uuid '1a588986cff8c09d984b358442b559a3b5a8aade'
-  /cc/surfaces:
-    newFile: !uuid '1d5d721519d169168be19c8e124b434bf6b16c33'
-    oldFile: !uuid '71fdf52fbad1175144ac63ea890b56f1bd3c8bc9'
-  /cc/surfaces/display.cc:
-    newFile: !uuid '0577b34570b96d47b8c4f9d13e217e6a643c565f'
-    oldFile: !uuid 'd253760c322fff3edb45f58463dfc48b1fc53279'
-gitCommitId: !uuid '4af28afa0374efc63c898e65ec498debe9d28a50'
+  /content:
+    newFile: !uuid '54a53186b041853f73495935a94a3c98dcdc66bf'
+    oldFile: !uuid 'f8c60c8f5e8d6060b8f84ec06d5112b0f3837d8d'
+  /content/OrigChromeMgr.cpp:
+    newFile: !uuid '9e86437c0bda454e9aa428bf15949da54713d968'
+    oldFile: !uuid '999aa65b3a148b7deac45c16c7d168f1ae55a629'
+  /content/OrigChromeMgr.h:
+    newFile: !uuid 'a442d066496e208da7bff35ae51cd5044a1a6b7a'
+    oldFile: !uuid 'c898ca0b18e20da4a23c655bd765004f4691014e'
+  /content/RenderWidgetCompositor.cpp:
+    newFile: !uuid 'af72f15628de981c8c299c5ea66bc803e1a01c3b'
+    oldFile: !uuid 'c6740f1ac80f8d4ef74c3efd379aea5eac6b2fdc'
+  /content/browser:
+    newFile: !uuid 'c0e8ff36f84dfe93e24917a3d8b1da95c54c8e16'
+    oldFile: !uuid '3eec583dd4690b14fbab6f1800ae2ebc24176c29'
+  /content/browser/WebFrameClientImpl.cpp:
+    newFile: !uuid '4cb7fc5ee57d861ed585f72854351a828779b335'
+    oldFile: !uuid '9ae65f19b354d30dbcdf832628fa0201d48a0fee'
+  /content/browser/WebFrameClientImpl.h:
+    newFile: !uuid 'f88bac0c497d74c2c952ac67b31c4be1a1d8a22d'
+    oldFile: !uuid '49f92a8acdc5dc8677a02f325bb0a80e077510b0'
+  /content/browser/WebPage.cpp:
+    newFile: !uuid '5d14e17806548f2c36caf81626bdc40bf01a5b6b'
+    oldFile: !uuid '55e91652d4777722305cfa9ea9db1a10819a25c4'
+  /content/browser/WebPageImpl.cpp:
+    newFile: !uuid '95ac507ecc4535b57cdfc80490fc6ad3c405408f'
+    oldFile: !uuid '14196f78859ef3b95b8b0b1e4192cdea5c67b404'
+  /content/browser/WebPageImpl.h:
+    newFile: !uuid '40a6241132fbab258ddfa6c5a966acade7d422d1'
+    oldFile: !uuid '413d3dff411d9c0e41f9fcb26c86ac616353ca12'
+  /content/compositor:
+    newFile: !uuid 'a8aadc96a71956ff4e971fd844ba06017b1419ed'
+    oldFile: !uuid 'dff6f11bdaac281ba69c45f4150db762eaacb112'
+  /content/compositor/SoftwareOutputSurface.cpp:
+    newFile: !uuid 'e5e97466b518d2f4ecce1c7bb22f1a5615f9e7f5'
+    oldFile: !uuid '28bf5e200aee99a86d6db7e2168bc2978abd454f'
+  /content/devtools:
+    newFile: !uuid '4929b6783e9473e87f391c9e69bc40df63fe0554'
+    oldFile: !uuid '0e13a6485a3e4dfa504060b34566ad61b44c51f0'
+  /content/devtools/DevToolsAgent.cpp:
+    newFile: !uuid 'abe36f2a354b87421c4d015692d7d4cb136ce050'
+    oldFile: !uuid '1b1b7fdd783425cf052a5f3f931d3ac11f28eee7'
+  /content/devtools/DevToolsAgent.h:
+    newFile: !uuid '261a0f919257e43636643581aa74480c4bf67789'
+    oldFile: !uuid '64b917cd5cac9e9ddb987cda60ecddd604b4c4e2'
+  /content/devtools/DevToolsClient.cpp:
+    newFile: !uuid 'b790b95312c1a4169dd5da97ce2da74de309abee'
+    oldFile: !uuid '2ec45a794df4512b44f0228efbe4cbfb08e29964'
+  /content/devtools/DevToolsClient.h:
+    newFile: !uuid '146c2e7ab6c9282629adf407ad08096bb378734a'
+    oldFile: !uuid '1f6629715a311bbe9de65edab0caae85a6ebea6b'
+  /content/devtools/DevToolsProtocolDispatcher.cpp:
+    newFile: !uuid 'bc52a6eb77913471c49408eda45d2ac06ad6b1f2'
+    oldFile: !uuid 'ac98eea96c51d754efa1fd19e93b9e9ea9aecf9d'
+  /content/media:
+    newFile: !uuid 'd3e00c12ed2c459fff4146ffc20a76a935b04626'
+    oldFile: !uuid 'd80b9e95fc7972573df83426812d834856b6bc50'
+  /content/media/audio_device_factory.cc:
+    newFile: !uuid '03148ee304b46d5665a9fa2997d2017bb1b613e7'
+    oldFile: !uuid '67ecbd42193db531466068294df337ecdc2df157'
+  /content/media/audio_renderer_mixer_manager.cc:
+    newFile: !uuid '810a74cd21f760ceef9b17c9f50b5cdddfc0c219'
+    oldFile: !uuid '483cce900f28db6cc72ac947bec8442e787ec886'
+  /content/media/audio_renderer_mixer_manager.h:
+    newFile: !uuid '687094b1cdd4b014d88d78dcc2009febc0674be6'
+    oldFile: null
+  /content/ui:
+    newFile: !uuid '323d79127e67f96d7d4727b47ab024d6bfc55b18'
+    oldFile: !uuid '2fc3245506df35bdf4a2cd1727ff365eab335d89'
+  /content/ui/DragHandle.cpp:
+    newFile: !uuid '7e03c3aa9408b885d5f68b7288af1a32c0312ba1'
+    oldFile: !uuid '0df82b330f6cc4482eaeef95794e778f160809cc'
+  /content/ui/DragHandle.h:
+    newFile: !uuid '86d1b8c9481c076c3392e3f42d8ff8fc252ab07f'
+    oldFile: !uuid '2c28e11f60273184530ba4eae2b0c93d4318f09a'
+  /content/ui/PopupMenuWin.cpp:
+    newFile: !uuid '3984cc39328048803890ee996010430d54a22104'
+    oldFile: !uuid '36d623f76285e26f6811002cfee7ae4992415b74'
+  /content/ui/PopupMenuWin.h:
+    newFile: !uuid '1fcd0b7aed88a5d3171337fb29c8cb8c309c7194'
+    oldFile: !uuid '401aed7a501745776489dc5a1de5b2e2cd47ea14'
+  /content/web_impl_win:
+    newFile: !uuid '7057473030211ec7f69bae8db06c8205f58323cd'
+    oldFile: !uuid '97bdb28541396a3a8b08a54cd440aba200ea0763'
+  /content/web_impl_win/BlinkPlatformImpl.cpp:
+    newFile: !uuid 'ad735505af3e9a6ad6941694b15db04e4d56b866'
+    oldFile: !uuid 'c021a5323f89cc068118f2b73c4d8a1cc28889c7'
+  /content/web_impl_win/WebTaskRunnerImpl.cpp:
+    newFile: !uuid 'bf25440a987a0cca49d882dc7bb7b51c922469ab'
+    oldFile: !uuid 'b9418cca25b27e3259fe0f7f0752b7c026f738c4'
+  /content/web_impl_win/npapi:
+    newFile: !uuid '73699066d968185f84eaf68a0605ef671772c035'
+    oldFile: !uuid 'e6ab4f3e41ed6a90ff6c1e324f7246bb439ceea3'
+  /content/web_impl_win/npapi/PluginStream.cpp:
+    newFile: !uuid 'd00ba5aab232556dd75fef6b6da1a81d8e0fac34'
+    oldFile: !uuid '05f1faddecea3e520daf7d872cbb442e4366df63'
+  /content/web_impl_win/npapi/WebPluginImpl.cpp:
+    newFile: !uuid '1c273f901a784da8edefb78980d3f3830f7f917d'
+    oldFile: !uuid 'ab0b82b664748ae773492ce520404bae2aab662a'
+  /content/web_impl_win/npapi/WebPluginImpl.h:
+    newFile: !uuid '8064ecddd3f081d59d4592d413b7ae69da6ff67e'
+    oldFile: !uuid '5b8c6ffe9e19dd416ed83fa2bf02e9d7f15fb665'
+  /content/web_impl_win/npapi/WebPluginImplWin.cpp:
+    newFile: !uuid 'e1e3b87b21ec2e7339382ef4ec437a3fad488b4c'
+    oldFile: !uuid 'fb6d731443668573c1f22628dc5983b9d6209dc2'
+gitCommitId: !uuid '70b852c74b829c1d56c87329c13d1cda3728afd2'
 renames: {
   }
-revisionId: 37
+revisionId: 38
