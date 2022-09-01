@@ -2,148 +2,1906 @@
 branches: {
   }
 fileChange:
-  /base:
-    newFile: !uuid '095e7daf5da74a9ab2c3c62ed2476b442d3da7b2'
-    oldFile: !uuid '2d777215a3c3fdfd8b689a570c84dcf2ace707e6'
-  /base/WindowsVersion.cpp:
-    newFile: !uuid '544fd0b2c0640ef37e7d3af4f9a934eeb541264c'
-    oldFile: !uuid 'fe3dbac511aac2b2f776acfef8dbdc5397e542ce'
-  /base/base_paths_posix.cc:
-    newFile: !uuid 'cec9915e14a7a2767f0f902be6367e46860ce384'
-    oldFile: !uuid '575ed1f8a9b3fcb1a2b200dbab078afa972dac61'
-  /base/compiler_specific.h:
-    newFile: !uuid 'c49b5d6c264fb7f3a0f5349c0e0d3b496a292343'
-    oldFile: !uuid '9e2a927b02166593bcbe132a77f0e683133f676b'
-  /base/debug:
-    newFile: !uuid '416bbb998daa44d29e4eb2c1557a3120cd2ace93'
-    oldFile: !uuid '577207a359b059d12333025e2a5701f0e09b7dbe'
-  /base/debug/stack_trace.cc:
-    newFile: !uuid '086ed40a41169ccd6ce26a2a899366dc18ee5b98'
-    oldFile: !uuid '87b9c8816f2a72ade30daeb419d48a04b74c581f'
-  /base/files:
-    newFile: !uuid 'a62f2bba65494a44368cc7dfe3bb0d201877ab73'
-    oldFile: !uuid '680e1d290660f70ba4c1fd1e5f2971b546e5c09d'
-  /base/files/file_path.cc:
-    newFile: !uuid '1e8a34767e691d904a1c6ff11e9b89e9a770b89c'
-    oldFile: !uuid '4ed18538cc0a230c33497c7a61e294816d7c3633'
-  /base/files/important_file_writer.h:
-    newFile: !uuid '8e811611403263e6d96f936bd6226a521c36cd3f'
-    oldFile: !uuid '042be741aae2daa6e644746dd28ba782a126d22c'
-  /base/gtest_prod_util.h:
-    newFile: !uuid 'f2887cc83f754fac94b5112ec119d725fe6cd614'
-    oldFile: !uuid 'dc0aba1b380b2e46340016cbe5f2806ca6f9f5e8'
-  /base/guid.cc:
-    newFile: !uuid 'f61ffae75cd34ebd1536ea84d3d1518100fdd2d2'
-    oldFile: !uuid '4c16c155449e3f62281f4c9bb1118adf42195ed5'
-  /base/guid_posix.cc:
-    newFile: !uuid 'beda9eaa759f6c59d6544011132e37da60946e37'
-    oldFile: !uuid '60c8b04a72c729749009cf92c1d773e1e72a31cb'
-  /base/hash.cc:
-    newFile: !uuid 'fd229296d294023cfa68e74b2b4af653c35bd873'
-    oldFile: !uuid 'c5f6084357468fcfeca8b1b55ed4147be316c7c3'
-  /base/json:
-    newFile: !uuid '8dcbd2119d7c5842d5ae3b2d6bab76af54e7db86'
-    oldFile: !uuid '61792e99ba5738d06a67998820f4c31398a9a0cc'
-  /base/json/json_parser.cc:
-    newFile: !uuid 'bc2e13135b681c27c8ba744a3bebccacb6091aea'
-    oldFile: !uuid '2c315432290ac542c8692005e256c03b3eef450c'
-  /base/json/json_writer.cc:
-    newFile: !uuid 'ac3b4ccc868277194826803a33ecee6a0fb50db6'
-    oldFile: !uuid '84960e412bfa96520e9c1303715051f7f3073c30'
-  /base/json/string_escape.cc:
-    newFile: !uuid '5ba4e7b11be1799a080c88671f114197014e314f'
-    oldFile: !uuid 'f838059bb290b3823ec68e6becbf7f0df2c2c6c8'
-  /base/logging_base.cc:
-    newFile: !uuid '604a180926ee39a9931123284b7136aa49513676'
-    oldFile: !uuid 'b342c36c90eacf0a1068658b34a64eb20934033f'
-  /base/message_loop:
-    newFile: !uuid '55204be1272a9d6d449a48360071c7197bfd865f'
-    oldFile: !uuid 'b378a0a1ffec37c24cfdf04b6c993688f96a6d98'
-  /base/message_loop/message_loop.cc:
-    newFile: !uuid '07557f891a9f275d86d9d8547ae3b0f0729b726e'
-    oldFile: !uuid '00d3afd6f5e3ea2c4631f28460a3122952cebbb8'
-  /base/metrics:
-    newFile: !uuid 'f3791aecb932739b47fa5c0ec22c8eb8270694bd'
-    oldFile: !uuid 'f7711c87a823f65ec8b42e7dbdc00c25a193fcb1'
-  /base/metrics/persistent_memory_allocator.cc:
-    newFile: !uuid 'e5e9e5b316e2dff450c4770a32effa7c048e1dee'
-    oldFile: !uuid '3bb9ab757099d0a3f67b235db92c7d1a64aa12ea'
-  /base/rand_util.cc:
-    newFile: !uuid '0e1aa7d73cfd4e6c6d7d6de54e58d8ade5c7e82a'
-    oldFile: !uuid '88fb22102fd1dc0a2ce6b7092394a288fe807324'
-  /base/rand_util.h:
-    newFile: !uuid 'de6c3e3ac3caca3d33b9f675d5c442cf980a0dbb'
-    oldFile: !uuid '500e2b5fd57adda8fe28dc417de19333c973a66a'
-  /base/rand_util_posix.cc:
-    newFile: !uuid 'd93635c92ac266d32ba98b459fafdd353a1d6c54'
-    oldFile: !uuid '831edc268294c69611c0401f90d107508731380a'
-  /base/strings:
-    newFile: !uuid 'cad282ade8e6450cad1b92ff2c19aae4aba45669'
-    oldFile: !uuid '2da0e77fefa77e1cd3e543bee9355721ed38bfe4'
-  /base/strings/safe_sprintf.cc:
-    newFile: !uuid '4655b6ea57bf522c0c62ae7d73eea821dd84bb90'
-    oldFile: !uuid '16c15f583bbd33302c5432d5ef3e56e53abeadae'
-  /base/strings/string16.cc:
-    newFile: !uuid '5afd7cec42c3324b69a58423dadb2ccdaf93be98'
-    oldFile: !uuid '21cc9983f9f068cbdd00ccdee7840ed5a07c9670'
-  /base/strings/string16.h:
-    newFile: !uuid 'ecea4ec18e35eab177de7c58c0fab63ae1f38bac'
-    oldFile: !uuid '219f6cbc7e07b170803626782abf669fcca6626d'
-  /base/strings/string_piece.cc:
-    newFile: !uuid 'fad7d63d8ffffa8417de47fcd54274cfd1d62ce0'
-    oldFile: !uuid 'f8094f75919857422c9be077a66de07353a56334'
-  /base/strings/utf_string_conversion_utils.cc:
-    newFile: !uuid 'df2dc76527a428a408ee32e7313bac7db56bb8df'
-    oldFile: !uuid '105d7bc50638ac49b7b7bf2553b64a0c6a594a7c'
-  /base/synchronization:
-    newFile: !uuid 'da88196581f88e9c7b0e30f4dfd6f3409ad53e26'
-    oldFile: !uuid 'c3c4c88a6c05f158961414244e8412b4e8eef78f'
-  /base/synchronization/lock_impl_posix.cc:
-    newFile: !uuid '3dcfed258ae53189b92dfda92ecd0d2c1836cd47'
-    oldFile: !uuid '0754a646ec82a2b6a32b27b0d7256a6249284fb1'
-  /base/synchronization/read_write_lock_posix.cc:
-    newFile: !uuid '2a054d953e919cdfc8362904968deb23e23700b3'
-    oldFile: !uuid '3fd0fdba70695ea0cf8be1afdc853db2d2258e19'
-  /base/synchronization/sync_xp.h:
-    newFile: !uuid '629560cfb941a5988d868720b571e62dba7bbf20'
-    oldFile: !uuid '8b84b61f08686139e721fe3d5e261824a781dd9b'
-  /base/template_util.h:
-    newFile: !uuid '1090daf729684b5963fcd628ce8d235353be9cb4'
-    oldFile: !uuid '0ddeeacaac53c2baf2274b3a15bef21bf30a1564'
-  /base/time:
-    newFile: !uuid '935124232f3afbbbd5291d2230c53ad15df82d87'
-    oldFile: !uuid '944d51c58727f058f087a4cdb370287d8112773c'
-  /base/time/time.cc:
-    newFile: !uuid '6784f3501dffc1bb3332d162cbdc6e40986f4f2e'
-    oldFile: !uuid 'acff0eff1ae057555d664d9115c6c761190e1229'
-  /base/trace_event:
-    newFile: !uuid '89f0e5d621de46c8081759b2a7d7cabe56917afc'
-    oldFile: !uuid 'd08af54b7d8a89b45753af73b874373a416b1c14'
-  /base/trace_event/trace_event_argument.cc:
-    newFile: !uuid '422b39f9d4be39b56a627a1a854f27ba40fe12c6'
-    oldFile: !uuid '7e543fb0efe0d0d98e6cc8f1680ebf224c7e1423'
-  /base/trace_event/trace_event_impl.cc:
-    newFile: !uuid 'c705544073f1c5e03a0f6db8f803f6c7ef63551a'
-    oldFile: !uuid 'ec5a4a136957fe85f181013640a0a2d16be92396'
-  /base/trace_event/trace_event_memory_overhead.cc:
-    newFile: !uuid 'eccb8a614c1a3179b87818114dd7083e11130d59'
-    oldFile: !uuid '3622f9026abc4fce4c1c6e8b1e8e6b870e4b6b41'
-  /base/values.cc:
-    newFile: !uuid '43dbe6dd156c84250ad18a01c4e6b58bbbf2e87b'
-    oldFile: !uuid '0c736f93008ec8397be21fa55412f405c2c062a3'
-  /base/version.cc:
-    newFile: !uuid '99e81c31473e1e230bcee8c1f70151494d1b59df'
-    oldFile: !uuid 'edfcb62c654f79a2de712c4bb1bb328e792c05f1'
-  /base/win:
-    newFile: !uuid 'cb04ecd4251c259c97f0d70b618406d01971f131'
-    oldFile: !uuid '7b0eff8abd46679cd7ab0a3ea7486cefbaa54b34'
-  /base/win/event_trace_provider.h:
-    newFile: !uuid '5199b3ccdfee8e42102a58b6f15a0ea1cf4fbb7c'
-    oldFile: !uuid '5c0e00ccc6bea9f424fc50c14e866dc5764f4ff8'
-  /base/win/scoped_handle.h:
-    newFile: !uuid '573743fcb721539e78685139722f9fdb504b5b3b'
-    oldFile: !uuid 'd576a590037a655a7c8a2003f9b5d9ea5dc20999'
-gitCommitId: !uuid '41c3bdf22b7117775416d72538c895c04418f345'
+  /build:
+    newFile: !uuid '9b31278ef55b45c74d31ad1f5025d1b9d994a5a7'
+    oldFile: !uuid 'd38b7565ad88958ba91e57d7ebbabcd762174eda'
+  /build/blink:
+    newFile: !uuid '816d2787276ee862bfc0a14dd11159067c235c33'
+    oldFile: !uuid '0227cad72848ab41e931de56dbaf77421a0035e7'
+  /build/blink/blink.vcxproj:
+    newFile: !uuid '1486412b1c67a560b3d04c4d2bbb4b7c628ffdea'
+    oldFile: !uuid '719b511569d456f34e33d7cd0e9d362498c31129'
+  /build/blink/blink.vcxproj.filters:
+    newFile: !uuid 'be410a4d17ad0be4950b3f7c03e227493cb25c21'
+    oldFile: !uuid '07211d4f5a2e73a08460b7a894f66039ef8531a1'
+  /build/build_config.h:
+    newFile: !uuid 'efcd431f6baf81675ed8e94a0d84547c4ace5339'
+    oldFile: !uuid 'b21d11e02d1572f150418b0f5b437b929bb397ec'
+  /build/chromium:
+    newFile: !uuid 'b268b4cf78f94b5ca9c5e311d264d0bc8fee8e5b'
+    oldFile: !uuid '91daf16bb0d40b2d5b57430429cc6b83a42aaa58'
+  /build/chromium/chromium.vcxproj:
+    newFile: !uuid '82c27dc8f1fd1cbf23f32d8c8ba2173cdf5526ba'
+    oldFile: !uuid 'd83dfcf848778d985b543d10e2cb490abb34508d'
+  /build/chromium/chromium.vcxproj.filters:
+    newFile: !uuid '7713c3f78cf865b64e8bef8d7b96320d24002cf0'
+    oldFile: !uuid '3fd7cf8007136a9c4e2facccca38b25f15e7f8b5'
+  /build/libxml:
+    newFile: !uuid 'a482e2f078e75bbbdc39763645024255883ae948'
+    oldFile: !uuid '001ccf66684148b3016b6cd5085fe18db2c69866'
+  /build/libxml/libxml.vcxproj:
+    newFile: !uuid '3bac3ef6121e4afe0f9f80f03dc42d630cb2a9c3'
+    oldFile: !uuid '6b150041bb877395e9853986bb9b65936d079ad5'
+  /build/minichrome57.sln:
+    newFile: !uuid '551262b6355be8f3b503bb7d1e026877c7fd527c'
+    oldFile: !uuid 'fdd4d847f5698a7bdc171e3b96e26f2bf8080fbe'
+  /build/ots:
+    newFile: !uuid 'dfb05a1586e6a5a17d7b7713f3d674e1cc00e75a'
+    oldFile: !uuid '4d02a4d7f7cfa28be038787a78416dfcbb165f1a'
+  /build/ots/ots.vcxproj:
+    newFile: !uuid 'd7a194e5ebd7a40fb749c731c845bffe9c3eba0a'
+    oldFile: !uuid 'ff29439bd7a338d85983b2b216152ffd23d84b96'
+  /build/ots/ots.vcxproj.filters:
+    newFile: !uuid 'df9bbabad02cfef8394b1e1101d6d77b0c45b003'
+    oldFile: !uuid '7eb459fa5a4c843855ee92b72469b9198f7feae2'
+  /build/skia:
+    newFile: !uuid 'f3cfddf127aa5b81ffcf9159f65c6e601efb4d18'
+    oldFile: !uuid 'ea322fb124277b02df762485c589ffc5d0ffdba6'
+  /build/skia/skia.vcxproj:
+    newFile: !uuid '6acc5034d4e2ceb4daad3d3a0e7bdbe95480795a'
+    oldFile: !uuid 'b5371fde7aaab895dbaec632c3203b37a938e9a8'
+  /build/skia/skia.vcxproj.filters:
+    newFile: !uuid '8ae28711284b1211baa335c6472bab17c379c0af'
+    oldFile: !uuid '2aa2b0208fe37134e9cadddc2bd0b7f6836d8e5d'
+  /build/v8_5_7:
+    newFile: !uuid '70ea98670f547465557fb10b62b83bc93bf77be8'
+    oldFile: !uuid '73ea058f31ff7a0ef0a56a0643a887522d1a5850'
+  /build/v8_5_7/v8_5_7_1.vcxproj:
+    newFile: !uuid 'beb188b94d1fbf6e56b17a0457cdfb9863b3eae4'
+    oldFile: !uuid '4c9b561e7397d13f558c36457ee2620504fed942'
+  /build/v8_5_7/v8_5_7_1.vcxproj.filters:
+    newFile: !uuid 'a617b815cb5a67235ed425348f8c5810a8c9d97c'
+    oldFile: !uuid 'b27f73cf016c84a06c031fdcc82b76fb2178b59f'
+  /build/zlib:
+    newFile: !uuid '9a9a08853549c83ab60b5d22d538cf8b37dabbb5'
+    oldFile: !uuid 'ddda287d6bd911db91e1b85cec702aba1ceae17f'
+  /build/zlib/zlib.vcxproj:
+    newFile: !uuid '319b59a2f5fda008725dfc8346bc880da911551b'
+    oldFile: !uuid '34bd507bd2ed4b460a18d7e81a608453b358765f'
+  /content:
+    newFile: !uuid '2c6518442c1adb487e194dc59ce6d4343c003f40'
+    oldFile: !uuid 'c2812ab03684d90204c351e1f306bf08823581ec'
+  /content/media:
+    newFile: !uuid '46032cf4441bad03f2b76cf2a850f0a3d6619027'
+    oldFile: !uuid 'd3e00c12ed2c459fff4146ffc20a76a935b04626'
+  /content/media/audio_renderer_mixer_manager.h-:
+    newFile: null
+    oldFile: !uuid '467e1a8d438bf3b47a5dbecb8d7e1290c0ee5a83'
+  /gen:
+    newFile: !uuid 'f701e5c6abe0d1f0a9437e1dbbb01e9104ff9d98'
+    oldFile: !uuid '436a3846aa74abf8f78216a542e44c50083a24da'
+  /gen/blink:
+    newFile: !uuid '358d735973532de5a0837ba45fb24225fc558ff9'
+    oldFile: !uuid 'd12e4461ee97d47649ca81f7ffdd32f2c5c96097'
+  /gen/blink/bindings:
+    newFile: !uuid '34b3dae867a31fd3a1bdb98b50d832ae137177f3'
+    oldFile: !uuid 'd59d168fbe99052c25bea60116905e85a795ca48'
+  /gen/blink/bindings/core:
+    newFile: !uuid '810e384da54628ba69c2bf9ae2600e03ef91ca11'
+    oldFile: !uuid '00d5c7c6b10aec4dd0ab3f1860387a098e4cfcd8'
+  /gen/blink/bindings/core/v8:
+    newFile: !uuid '36efd8e5151a18e0e5e7781cdb75eb001baa371b'
+    oldFile: !uuid 'e97fde1c649c1a2c71a3b11d5b984ac4e8bceb01'
+  /gen/blink/bindings/core/v8/V8URLSearchParams.cpp:
+    newFile: !uuid '3ed1b2746d02ce11e1159138423bada41bf9c6ce'
+    oldFile: !uuid '28a778018328e8e76d265ee960785529514fa278'
+  /gen/blink/core:
+    newFile: !uuid '8f7b4e05c6b2230036bbccc96c8088ab41ccacc4'
+    oldFile: !uuid 'b88a375e74a376fb9f84aeed7876969764c2963e'
+  /gen/blink/core/inspector:
+    newFile: !uuid '7162a8e54aea1573b2bc6798e7b3bad8901fecc0'
+    oldFile: !uuid '3c965e48f28da3f50d70f986badbc29d5ff1a40f'
+  /gen/blink/core/inspector/protocol:
+    newFile: !uuid 'e108ba47285b21024d52233de88644884d5478c8'
+    oldFile: !uuid 'd5b7f1de94696aecaad8a5f6abd11b90c62ee8e4'
+  /gen/blink/core/inspector/protocol/Protocol.cpp:
+    newFile: !uuid 'ef89ce1a6b3bcede739e8ad7508b96bde4a0896d'
+    oldFile: !uuid 'da5c046df72ebf65d190ba67b000b3b67641cf02'
+  /gen/v8_5_7:
+    newFile: !uuid '53109e310aa65471b019097f26355c28214817cf'
+    oldFile: !uuid '60c0374c7596bc4b0fcf1db4644904eac0f469a4'
+  /gen/v8_5_7/src:
+    newFile: !uuid '9c5a2983f1eda68218959709a43a4969238e1a55'
+    oldFile: !uuid '7baab94b9c4bd90667e4a68540588f55ee900df3'
+  /gen/v8_5_7/src/inspector:
+    newFile: !uuid '2933317710c108482aec42f381775c1416737589'
+    oldFile: !uuid '3f4ad2a50b7b92b390eddf25534dd03f35df8e74'
+  /gen/v8_5_7/src/inspector/protocol:
+    newFile: !uuid '4709342f3829507e2186148e50003203ad0debb7'
+    oldFile: !uuid '1966c37972fe5603edfa9025f654c8bacc164ae4'
+  /gen/v8_5_7/src/inspector/protocol/Protocol.cpp:
+    newFile: !uuid '8e32273e98912fbd2052b908d4e4bee529f0793f'
+    oldFile: !uuid '88ba8973e54486703e6218088bef3259fe5638e2'
+  /gen/v8_7_5:
+    newFile: !uuid '1e12b18a02580539b64cea4d183fb1352c27b5f6'
+    oldFile: !uuid 'e3891b998069aa5422f7de174aceed7ab5abbbd2'
+  /gen/v8_7_5/extras-libraries.cc:
+    newFile: !uuid '2b11e5901a319725249e805118450447f50edf57'
+    oldFile: !uuid '2752ef02a18811ff2a78e412334f2cec129cd6c5'
+  /gen/v8_7_5/src:
+    newFile: !uuid '16bbc1ff29f92780bc106f000627823f06c6a5db'
+    oldFile: !uuid 'b42bc0193729f66fc4fca459722e6ace120ddf5e'
+  /gen/v8_7_5/src/inspector:
+    newFile: !uuid '898ce638864d88ac888d539c0ce8fbceebd9d3de'
+    oldFile: !uuid '2424ef119eb2af856bb6dbf1434d41ef4e307cfd'
+  /gen/v8_7_5/src/inspector/protocol:
+    newFile: !uuid 'e950e8d1d98290d63db171efe5f51986bd222990'
+    oldFile: !uuid 'dfdb3f5b798a27a845cade172097a8b912edae97'
+  /gen/v8_7_5/src/inspector/protocol/ProtocolV8.cpp:
+    newFile: !uuid 'dccf0a20e13552a24f45110b25ae4b3965e3f2d4'
+    oldFile: !uuid '208aede7e37a39e600fcc0671c9af640d696d8d1'
+  /gin:
+    newFile: !uuid '7edfca0473d0bd2138361a2c6277b4aacc777277'
+    oldFile: !uuid '21d45ae0502abe1720351cf76f7f6355d62baf0a'
+  /gin/arguments.cc:
+    newFile: !uuid 'de4ed3cf133dff23aab9818eb477edad241f1178'
+    oldFile: !uuid '777f7849e62e38f39674dd9548b3b73a247dbe6e'
+  /gin/arguments.h:
+    newFile: !uuid 'e070358db0bc5c54da45b2ca3cff4ed78985bac8'
+    oldFile: !uuid '302f816426352ece4412a11aa4a70242e6f733b3'
+  /gin/converter.cc:
+    newFile: !uuid 'bb0462baf88ae077f7c16dafb13e09885e824436'
+    oldFile: !uuid '015740b72b7d47869181483e6faa420125231a5b'
+  /gin/converter.h:
+    newFile: !uuid '9c9c8021cab1653ae6daefa6a74b2496a28d6a46'
+    oldFile: !uuid '482143cfdb995c7a39335eb6aaff43e41c5ed8fc'
+  /gin/dictionary.cc:
+    newFile: !uuid '222c732964bc89b75c24eb33983847d0889cff1e'
+    oldFile: !uuid '64c14a05a0df308be7a69f0b222ca0fc5ed58809'
+  /gin/dictionary.h:
+    newFile: !uuid 'd2cbfa10cca9f6e0fc13d84747bf61e4ce0b33a2'
+    oldFile: !uuid 'a0313edcd262c3454de266531b168e2b9a04e087'
+  /gin/function_template.cc:
+    newFile: !uuid '46285f9206842d7e6ceb741d3a679515076a1f3a'
+    oldFile: !uuid '26ba5f14f05acdc7ef4be688d6dd6e581dfc5706'
+  /gin/function_template.h:
+    newFile: !uuid '045123555c7d27e8060728f120df39c8bbad0b6f'
+    oldFile: !uuid '83209290000e405af0368f54f6a60553f38b2b4b'
+  /gin/interceptor.h:
+    newFile: !uuid 'ef1a2f54b7a14966e82ce0063427286b80541edc'
+    oldFile: !uuid '3da2ececf96277fcf04d3408cb2e86f4ab88f585'
+  /gin/isolate_holder.cc:
+    newFile: !uuid '6bf8f06c7b5fdac9f884236bc84de3997ac5158f'
+    oldFile: !uuid '702f694a106393e4de37f29eedeab0df764b2717'
+  /gin/object_template_builder.cc:
+    newFile: !uuid '41e0ab85ee875fe576f2ed05e0992c0d6e8c0b7b'
+    oldFile: !uuid '72bb064f7b312aa830eec1c71b00cbcd9c160f4a'
+  /gin/object_template_builder.h:
+    newFile: !uuid '75b1983b4305c91bbaa38710bc7a10eb3bb6b201'
+    oldFile: !uuid 'd7f604e06885aa996b70ddcea1db1344613f873c'
+  /gin/public:
+    newFile: !uuid 'af61557ae54d7e57598b45fad454544c54e77ae5'
+    oldFile: !uuid 'cf26a535c67eb5a1ccd996cf05957d00abb78adc'
+  /gin/public/isolate_holder.h:
+    newFile: !uuid '052ba897ef2792011ba2478323e750aef2767efc'
+    oldFile: !uuid '7bd8580d7353e56355f389317e823ff9be9b020f'
+  /gin/v8_initializer.cc:
+    newFile: !uuid '248a8a368a63b5263573d885e932fa8adcfdc300'
+    oldFile: !uuid '51dcecb1aff7d16973ebd2287eb6dbc1dd732232'
+  /gin/v8_initializer.h:
+    newFile: !uuid 'decaf2eb5ef910b0272ec724bf00ee5981d1a6a1'
+    oldFile: !uuid 'bf9eaa60934648172bd1c3ac603d076f4f476183'
+  /gin/v8_platform.cc:
+    newFile: !uuid '73a886fb87196708a41ed1843314e44fe3bcec12'
+    oldFile: !uuid '0ceb5a09b6f04fb038753fbe241426a61906de65'
+  /gin/v8_task_runner.h:
+    newFile: !uuid 'ee02817f6a770e94bdb9b58be0e27b98a4ebfacc'
+    oldFile: !uuid '99163ee319fd6fb358d311c6a3a4c76448c34afb'
+  /gin/wrappable.cc:
+    newFile: !uuid '8f8bf33c478780e84a59825879cce727e5064773'
+    oldFile: !uuid 'bb571a0cc491fbd2138f19f5d822db3dde5aac44'
+  /gin/wrappable.h:
+    newFile: !uuid 'f94f7af25327b428afe1bee966b933893fab7bb0'
+    oldFile: !uuid '116c673ac1258d148673b66d91c9a0f0d343410e'
+  /gpu:
+    newFile: !uuid 'a4fb7f6e1ed4265c21b2d57a1d3a2323959d56d5'
+    oldFile: !uuid 'e9bff6204efa1b1632205b734ef91ba35c7d6c2a'
+  /gpu/command_buffer:
+    newFile: !uuid '384cf757ec7d1d9b9fdd6a0464b4e88f783b78e2'
+    oldFile: !uuid '1557f30c0e1be41a5318b7b376685f500af9d4ab'
+  /gpu/command_buffer/common:
+    newFile: !uuid 'a1dd92faf699c6d0bdd5bb705bf136af50b5b89d'
+    oldFile: !uuid '0a8fc84d209bc197f7f99dc5553d265b9f87dbb7'
+  /gpu/command_buffer/common/mailbox.cc:
+    newFile: !uuid '20bdf676888151fc52dfbd90999c93d2e128d90e'
+    oldFile: !uuid 'd605f8beda63b46bd0fa0c9937d9e6fe8dc686ca'
+  /media:
+    newFile: !uuid 'd84059d33267ee24c1b1197245a6ff86b183fd94'
+    oldFile: !uuid 'e53dd71b68e0ca4a101504d3fa6ddae24e086bb2'
+  /media/base:
+    newFile: !uuid '1e6f537b55c2aa865a4a089202684a05ae1c3cac'
+    oldFile: !uuid 'a968fb9e59294233bb6894330435282c412f8877'
+  /media/base/audio_latency.cc:
+    newFile: !uuid '471d9438e76503f2380ca896d33223aa9b1cc47a'
+    oldFile: !uuid '4047c36460ed66c71ec76b66ad654e42c8cfc8e4'
+  /media/base/channel_mixing_matrix.cc:
+    newFile: !uuid '011e1271e188a4ce599e384fa4ac208d5048db72'
+    oldFile: !uuid '0b6e92bd7842d15d16353d6e37cd6d64455d0ce0'
+  /media/base/feedback_signal_accumulator.h:
+    newFile: !uuid '4bb37d8e7f0267ac51d4772522ebf6e6a804f79e'
+    oldFile: !uuid '6ea5bc486959e517023fd8c7fbe73c99328b92e4'
+  /media/base/vector_math.cc:
+    newFile: !uuid '9d47e1d6abd23f094707c2c8304059300e3eb600'
+    oldFile: !uuid '3db99c86bb6e1bec75c80355d43a17671b6be7df'
+  /media/capture:
+    newFile: !uuid 'e4538483c914424632537a3c8e04df6eee8305e8'
+    oldFile: !uuid 'be449ce991b290a70aac6b806990c3ac4e975f79'
+  /media/capture/content:
+    newFile: !uuid 'addd07b9b969068396657a471a747ca57f4beb9d'
+    oldFile: !uuid '3ed7875d395eedd7c0a93516d5233efd33bc674f'
+  /media/capture/content/video_capture_oracle.cc:
+    newFile: !uuid '6cd79ef15c5ed72687e0c0c266413cd1f57be333'
+    oldFile: !uuid '9933a9733e0cae4847c3504cd5b1146e5f95a740'
+  /media/formats:
+    newFile: !uuid '179ff1fa0e283f222af4062e2b70eb3a7c8bca71'
+    oldFile: !uuid '5069316f9e391ba576a43790aff38ed2fba46998'
+  /media/formats/mp2t:
+    newFile: !uuid '7a1c1db3c0449af88012ca3527b4dfa3b19e820b'
+    oldFile: !uuid 'e49b006e4ed38ca5ff6560c42f7334dbdab270a4'
+  /media/formats/mp2t/ts_section_psi.cc:
+    newFile: !uuid 'fcceb5a679cbb8bb701453dc0d71993ca7e3f17e'
+    oldFile: !uuid '6ab2e9f7461e104290252a47f78272f444307e9f'
+  /net:
+    newFile: !uuid '10275969e21c1f1135d7605f0e7e8fa66bedf87b'
+    oldFile: !uuid 'f40e9cd6a9d762142d689285060c3ff28b65f996'
+  /net/ActivatingObjCheck.cpp:
+    newFile: !uuid '3685caeda5f72dba9bc532ddcc89e5138605fd87'
+    oldFile: !uuid '6834fcd713fcbce8d6218354abb0136d543aadd0'
+  /net/ActivatingObjCheck.h:
+    newFile: !uuid '052dfae188aa652f7421f004c2d2169b211f46ec'
+    oldFile: !uuid '450eeb3c081a4f1b72afe05f80607784999c0fb0'
+  /net/BlobResourceLoader.cpp:
+    newFile: !uuid 'cda9791159d933496ec1b322e0597c79047a0b5c'
+    oldFile: !uuid 'd3d7453a6700216300072fe601cc587ff2c7a710'
+  /net/CurlCacheEntry.cpp:
+    newFile: !uuid '5b474d8d9f06b116370d26d06101f104bb5c3559'
+    oldFile: !uuid '7db33d146247015eb7f53d313b0c5b2044304eed'
+  /net/DefaultFullPath.cpp:
+    newFile: !uuid '0d45d5165f99d4aeeae4e40febe348270fe9976a'
+    oldFile: !uuid 'bff262b3dcf34f8b650dcf9a6184888ba33bca69'
+  /net/DefaultFullPath.h:
+    newFile: !uuid 'd631e26b7ff59528965fe109d3f8c867290bcf42'
+    oldFile: !uuid '14b2b95df5aefa3861f7bb338ed39c6445aa8834'
+  /net/DownloadFileBlobCache.h:
+    newFile: !uuid 'dc7bf7589737e17b70e4e4d25a8aa405eb454216'
+    oldFile: !uuid '6c3be4fcd61115fefd8a6e0a358e9cdcbe253963'
+  /net/FileSystem.h:
+    newFile: !uuid 'e19530b178ef633f56031986c2cd41277b53219b'
+    oldFile: !uuid '2177ad404c7a0a157850ed58cd3d3e2096ec952e'
+  /net/FileSystemWin.cpp:
+    newFile: !uuid '2e871b653a4201a1389fd72103036b510a746f64'
+    oldFile: !uuid '63b705eb61e4996449b3633d309b35ee6b4e57b6'
+  /net/FlattenHTTPBodyElement.h:
+    newFile: !uuid '8e25288394652b8891815874baa620b267aafdf9'
+    oldFile: !uuid '47abdbf7efd35e4464a5a04d62dbbe4d03b5dfa6'
+  /net/PageNetExtraData.cpp:
+    newFile: !uuid '64aebe216373aed5fc485d71e329632546d80c98'
+    oldFile: !uuid '2aa56401252d5609bf852282fd721d4edcc11d06'
+  /net/PathWalker.cpp:
+    newFile: !uuid '4aaf394ee0bc653912fd0d4bf9c48fc09f668821'
+    oldFile: !uuid 'af1adae3fe289ba30cf73bf6071fbcf15192e379'
+  /net/PathWalker.h:
+    newFile: !uuid '8df307d36692d071ebddabf41a6ea41fe3764bf7'
+    oldFile: !uuid 'b5a4d01aea4640ea3c5366cf8a9d1c2517bbd50e'
+  /net/RequestPeer.h:
+    newFile: !uuid '23ac56fb547d8841b2e0dee8796f5daa16baaa7d'
+    oldFile: !uuid '90bb627a5368b795cea4aaf5688c48ae9ce370fe'
+  /net/WebStorageAreaImpl.cpp:
+    newFile: !uuid '38d3569ddc90d72357dc36105aab7556c49c1e51'
+    oldFile: !uuid 'd972a48c318832e1d29ce93dde486ca05f840558'
+  /net/WebURLLoaderInternal.h:
+    newFile: !uuid '9b71d832cfa7e279a5b1c6000dfad6f9332b8070'
+    oldFile: !uuid '215fbb6a6358d65b20ae7fe846d7dea695ce5e92'
+  /net/WebURLLoaderManager.cpp:
+    newFile: !uuid '1aead9b41bd6ee32c395b670c06136256cabedaa'
+    oldFile: !uuid 'f34b9f42254df52df738b1d61f94fb3aa6ad020d'
+  /net/WebURLLoaderManager.h:
+    newFile: !uuid '12c90bff735fbab014bb73d5dff30061e121b7ed'
+    oldFile: !uuid 'b6351366d00ccaab2789864dc237873b77fc39d7'
+  /net/WebURLLoaderManagerAsynTask.h:
+    newFile: !uuid 'c74fee84fc4003a1cc402f3c1ef2ddaabe2a9f66'
+    oldFile: !uuid 'd1ab8a4453e17b1f6122d35b4d98f42821c7b4b1'
+  /net/WebURLLoaderManagerMainTask.h:
+    newFile: !uuid 'da369848cf55059e2989c93ecbbc11790f322d4a'
+    oldFile: !uuid 'a4ae142d72eb4aff99b52bde63a03a9332456774'
+  /net/WebURLLoaderManagerUtil.cpp:
+    newFile: !uuid '009f9e68c12619cf7823730329fbac55b2316127'
+    oldFile: !uuid '8f28478299cef91452b5adb247b9e1da6eb27057'
+  /net/WebURLLoaderManagerUtil.h:
+    newFile: !uuid '1ec11212acff2bde5ea090718563ac878977b75e'
+    oldFile: !uuid 'fc9cc36c0a6cebca0e2e9f4e8cc4751400a99755'
+  /net/cookies:
+    newFile: !uuid '7ccd244a2ac7a7ec6636b884c2e16e14f921a9c1'
+    oldFile: !uuid 'b57bff330797848001ae1217373323f6cf84bead'
+  /net/cookies/WebCookieJarCurlImpl.cpp:
+    newFile: !uuid 'a37df2d7b873574fa32b4810de1dc156cbd001e7'
+    oldFile: !uuid '1c0d1f67019f3bddac44a1f65a5a608ed6b81107'
+  /net/websocket:
+    newFile: !uuid '64a0d7aebd6a08dfeadec304a3864ac47db06a6e'
+    oldFile: !uuid '10dd96dc98046b24254d5b14aa7357c5ca7e8f78'
+  /net/websocket/SocketStreamHandle.h:
+    newFile: !uuid '8557332f40fd364881916c3a8c191d9e347ad2a6'
+    oldFile: !uuid '97be0b3c2378ddf594442e928e63a6b2c1676d8e'
+  /net/websocket/SocketStreamHandleCurl.cpp:
+    newFile: !uuid 'a9257194d75218bd3d369cef00a07efdaf764aa1'
+    oldFile: !uuid '2aef85c8c0f9f50e4779b484aa9639a4b4928b4f'
+  /net/websocket/WebSocketChannelImpl.cpp:
+    newFile: !uuid 'ec99a1cd1d8b6ead6eaa2ed8cc4db71a4e70b8fd'
+    oldFile: !uuid '4962d3908e679ddb8ee5d1d29df1d5a863da97e6'
+  /skia:
+    newFile: !uuid '341a552a53642893930eec2af2033ea733a9c01d'
+    oldFile: !uuid 'e6e3aface1d4542a4782399e684b6585ca9b2e99'
+  /skia/ext:
+    newFile: !uuid 'f847dbecbecf99803471c03e3da1a04218980802'
+    oldFile: !uuid '255921b100e1be88a9ab1d480d5c03e3cbcf6729'
+  /skia/ext/benchmarking_canvas.cc:
+    newFile: !uuid 'a500529a56357ae9719cff4eba336ce57550f7d2'
+    oldFile: !uuid 'df6e0b0335c86f46b8ef4875d4a826472db34aed'
+  /skia/ext/bitmap_platform_device_cairo.cc:
+    newFile: !uuid 'b37076987279f7bd0bc84853c14aa1008ec93049'
+    oldFile: !uuid '2586600e6fd6bf4754c92ca62f908529fdb7aa79'
+  /skia/ext/bitmap_platform_device_cairo.h:
+    newFile: !uuid 'c558cb84c7633c65215a68b305c5ec6b90dbce84'
+    oldFile: !uuid 'f909068ac62b8a544e77dcd5ec776c1f73f62ed0'
+  /skia/ext/bitmap_platform_device_win.cc:
+    newFile: !uuid '4e3900ba6f271c1597502976acc26053e3cb9f35'
+    oldFile: !uuid '08a6f91e957b3b3d2c25ccef9115d12bdb24dcfe'
+  /skia/ext/bitmap_platform_device_win.h:
+    newFile: !uuid '6f80d425417025baefe016130679b61beb3e09c1'
+    oldFile: !uuid 'a9d67a4686fadbba84c642a8e7708152e7cf3ca6'
+  /skia/ext/convolver.cc:
+    newFile: !uuid '47a5023f50b2f0bc3aea28393caedb43b55e13ee'
+    oldFile: !uuid '9592bba01f25eb16aaea6861854b11a8d9dec38b'
+  /skia/ext/image_operations_bench.cc:
+    newFile: !uuid 'a1a5e518c5cf89659aa9632f954f090b5fe04220'
+    oldFile: !uuid 'ada21629ead53dec3ea7cc0dd1f76bce6458a27b'
+  /skia/ext/platform_canvas.h:
+    newFile: !uuid '766ff90c2d136527ca92de3ab045efdf9bdaf417'
+    oldFile: !uuid '79f6955c426b2d677eaffdbb44ebc318b1ac7f98'
+  /skia/ext/platform_device.h:
+    newFile: !uuid 'bc12048f0fe347e6c2d5ba72f486060e65144b4a'
+    oldFile: !uuid '779c7559986c64e375171b21b037cba15c1a3396'
+  /skia/ext/recursive_gaussian_convolution.cc:
+    newFile: !uuid '8846feb9b79532b60687ec7d5d2a55ce2f34dc9a'
+    oldFile: !uuid '8c0c163abdb3f2fbf345f6586936a3c6bc9ac51e'
+  /skia/ext/skia_utils_win.h:
+    newFile: !uuid 'a41577ab2b4f9b681e6f0e4239d96d4d83afa2a9'
+    oldFile: !uuid 'f922d377d023b274bcdbf58ef9ab9fd6f99d1725'
+  /third_party:
+    newFile: !uuid '9d68232d3e6da5e52a5f9bdc3b9b24e2e1ba0ee9'
+    oldFile: !uuid 'c537e08a5dcc5e88f0eee11adee7fb4a0a13030c'
+  /third_party/WebKit:
+    newFile: !uuid '83897ba844dfed3161ae03d30792795ad40217f5'
+    oldFile: !uuid '2ba75ac0b1fcea474def3e93b6f404f56644572a'
+  /third_party/WebKit/Source:
+    newFile: !uuid '3b0283bf7192069de0979ea9b2757cbdac50f370'
+    oldFile: !uuid '3bd9ff262bd378bd798530f5dfb331b6aa9ff0ce'
+  /third_party/WebKit/Source/bindings:
+    newFile: !uuid '1bd3573a546e27d02642f410e899b60085374f90'
+    oldFile: !uuid '83daba22beab0ef967e97a33b8701111444cc1b3'
+  /third_party/WebKit/Source/bindings/core:
+    newFile: !uuid 'ce5d70704da715b98d8b44debbd778375ce33465'
+    oldFile: !uuid 'd5830e71a42b7fb803e2285ea652cf92f7124caf'
+  /third_party/WebKit/Source/bindings/core/v8:
+    newFile: !uuid 'a786963836b4cc759f7d650748b015f304d6799d'
+    oldFile: !uuid '26462b6fe1c786077ad3a370c452c81f0018ac1b'
+  /third_party/WebKit/Source/bindings/core/v8/ExceptionMessages.cpp:
+    newFile: !uuid '6a18f6631c055d33fdd6cd7aadd5f89955958ee9'
+    oldFile: !uuid '7077132cbacc4bbea588106b320256dd78111893'
+  /third_party/WebKit/Source/bindings/core/v8/NPV8Object.cpp:
+    newFile: !uuid 'd198b2578576a33909d8b968c8f52ecc95e0134c'
+    oldFile: !uuid 'c1dc1ea629c644fbd9adb8b527d3391fc6152b57'
+  /third_party/WebKit/Source/bindings/core/v8/ScriptController.cpp:
+    newFile: !uuid '75d7c51e873e30f7b325710097da10e7a01c3e88'
+    oldFile: !uuid '0d266b25423b4a14e23a2b67f2d28ffe02520340'
+  /third_party/WebKit/Source/bindings/core/v8/V8Binding.cpp:
+    newFile: !uuid 'e878133f08c6dc410eb25f4aba3322012605be99'
+    oldFile: !uuid '48298b5a64ea96901727fcad28110a8890c36313'
+  /third_party/WebKit/Source/bindings/core/v8/V8Initializer.cpp:
+    newFile: !uuid '6279952d610807b0d5722dca3cbc4cb6adf9aa47'
+    oldFile: !uuid '48da23fd27ee9c064b680999d850835ac8dea82c'
+  /third_party/WebKit/Source/bindings/core/v8/V8PerIsolateData.cpp:
+    newFile: !uuid '15bb300aaecf332999cc1d6f6b883e3108a02a6a'
+    oldFile: !uuid '0692e83a7ea6becf7475bc86275b1d9bd63586c4'
+  /third_party/WebKit/Source/bindings/core/v8/V8PerIsolateData.h:
+    newFile: !uuid '243d43779ab5cdabb4ede4c5124d85163dc8d3e2'
+    oldFile: !uuid 'f5b31bfcae04ad5cdc5e48a63017b129570aa57c'
+  /third_party/WebKit/Source/bindings/core/v8/npruntime.cpp:
+    newFile: !uuid '8a2c7554a91b86cfa4c82b868a910bd631ffe7b9'
+    oldFile: !uuid 'd600cc21e96bc57219b7427c3fce70b9bc956f45'
+  /third_party/WebKit/Source/bindings/modules:
+    newFile: !uuid '70e8a9e69b2a78c081c41d2eb54baaebc08c4540'
+    oldFile: !uuid '9ce3b09a4782695b8adcc36e20590b4565db2818'
+  /third_party/WebKit/Source/bindings/modules/v8:
+    newFile: !uuid '93a6070b283a125b4575066cb2be55efd130635c'
+    oldFile: !uuid '1765e382f97f91d5fef534e123825c0e1371bdd0'
+  /third_party/WebKit/Source/bindings/modules/v8/V8BindingForModules.cpp:
+    newFile: !uuid '0dbe954eebf9e970a5ae13f0dbaf120db4680954'
+    oldFile: !uuid '0759388e75e9a84cd0319b5965f012da374dceda'
+  /third_party/WebKit/Source/core:
+    newFile: !uuid '2fe5e2eb6de878b29035b0a28d32273561103205'
+    oldFile: !uuid '644aa338619dee3c3ed4a1e1ec0b095d0a2bbabc'
+  /third_party/WebKit/Source/core/animation:
+    newFile: !uuid 'd3322ad6c08149441d20c1dd3b550e5d246f2e29'
+    oldFile: !uuid 'b9e776ad85574f4d19b1284b8dad6449f7b3080b'
+  /third_party/WebKit/Source/core/animation/Animation.cpp:
+    newFile: !uuid '241b83e340d0b17ec3ff5b41cfbd7dd8d1a92b47'
+    oldFile: !uuid '172697ad06fe1c05ec30145559aa7a376d658241'
+  /third_party/WebKit/Source/core/animation/AnimationEffectReadOnly.cpp:
+    newFile: !uuid '020f1784acd0ac69032de1ee4f086a0d2a8bf140'
+    oldFile: !uuid '8d7cfb4b34b3616f96f395799f4c3626042399e8'
+  /third_party/WebKit/Source/core/animation/AnimationEffectReadOnly.h:
+    newFile: !uuid '225c2751e268d9f4460c5c2562c7accb91c86a34'
+    oldFile: !uuid '1bd70a01c2eae78cee7075d9cb250322c69b5fdd'
+  /third_party/WebKit/Source/core/animation/AnimationEffectReadOnlyTest.cpp:
+    newFile: !uuid '1d1d265e60b6da6095331ac5c51dcecf643ee3ce'
+    oldFile: !uuid '656cfca76168b823ffef9a328deca16006095543'
+  /third_party/WebKit/Source/core/animation/AnimationEffectTimingReadOnly.cpp:
+    newFile: !uuid '5a88b5d55435ea16bba2bcf749afea96ebff9163'
+    oldFile: !uuid 'bf69b4cedfea16e561131ec1bfcd22fa37c7a2fd'
+  /third_party/WebKit/Source/core/animation/AnimationTest.cpp:
+    newFile: !uuid 'c3c0e95be29aff5efeb1b2b256eeef424644cdef'
+    oldFile: !uuid '2f6ac7c5b0beb98c8ac6818f52d683691c65c2d8'
+  /third_party/WebKit/Source/core/animation/AnimationTimeline.cpp:
+    newFile: !uuid '95c4811eeea03c3e5080196d9febe9aa625021b0'
+    oldFile: !uuid '7cc89de1c9008fe95df2df2434027f52813ea081'
+  /third_party/WebKit/Source/core/animation/CompositorAnimations.cpp:
+    newFile: !uuid '0cc14cbcc8391f2faf6fa78a1a627126852f93e1'
+    oldFile: !uuid '3554c1b73d6bb750cc3c586a1ec2e08a4184a6c1'
+  /third_party/WebKit/Source/core/animation/EffectInput.cpp:
+    newFile: !uuid 'd6f4870aeea5f3411a011431c5001d47a6f8ed83'
+    oldFile: !uuid 'b9e89fe38f0aea9e431be037e699f5f8c1a40cd1'
+  /third_party/WebKit/Source/core/animation/InvalidatableInterpolation.cpp:
+    newFile: !uuid 'c71da643ad9e12ec6e2e459a51c58ec8aefe1683'
+    oldFile: !uuid '4c0b36fee8a5833d6944629552450882d5220376'
+  /third_party/WebKit/Source/core/animation/KeyframeEffectTest.cpp:
+    newFile: !uuid 'c84f317ac7a124f1097267af3c6cc7d86c763fe0'
+    oldFile: !uuid '9d1b0fe1ae605063c4e4f7875994ec2b50116df4'
+  /third_party/WebKit/Source/core/animation/PrimitiveInterpolation.h:
+    newFile: !uuid 'f49eb47ad784bec35758a7d4ae09dc1c59c6b425'
+    oldFile: !uuid 'b117240fb50eae83378124c373904826f85fd776'
+  /third_party/WebKit/Source/core/animation/Timing.h:
+    newFile: !uuid '840aea51ce5866b511285690840deba49f7986ea'
+    oldFile: !uuid 'c529ff8bbea1dc37a6f94d95a4194411fcfb0b55'
+  /third_party/WebKit/Source/core/animation/TimingCalculations.h:
+    newFile: !uuid '895b6264145df148aa32b327d34af7c60a6328ed'
+    oldFile: !uuid '1201b61a910cf152d341e11a5d9cb47dfd435d50'
+  /third_party/WebKit/Source/core/animation/TimingInput.cpp:
+    newFile: !uuid 'fa9f705c76f9b6c825713355cdb8e689a37cb0b4'
+    oldFile: !uuid 'ff942846e443fe7c44a3518f44288960f4ba86e0'
+  /third_party/WebKit/Source/core/animation/TimingInputTest.cpp:
+    newFile: !uuid '02cecebfcaf46324d1b838c9c300e1e2f6711a99'
+    oldFile: !uuid '3cc9a2c25741100daeee8e148a6e19fe79806383'
+  /third_party/WebKit/Source/core/animation/css:
+    newFile: !uuid 'df3f3e817d85f88c7d118f9074bfb00586f19a0f'
+    oldFile: !uuid '5658a87e6cced8a90c2b24236117288132bcbd3a'
+  /third_party/WebKit/Source/core/animation/css/CSSAnimations.cpp:
+    newFile: !uuid '1ae21f56f8b553b68849c9f6104c04b4d6751804'
+    oldFile: !uuid '926ac5a94b6fcc4123d85d03ae763798637fefc0'
+  /third_party/WebKit/Source/core/css:
+    newFile: !uuid '98a15a4e44e1297c0da905777f0c3586cc51561a'
+    oldFile: !uuid 'b5b4028199e475dcafa115807619d049a00f8cbe'
+  /third_party/WebKit/Source/core/css/CSSCalculationValue.cpp:
+    newFile: !uuid 'd4dee346fca0aea68d7298d92ce47574878b398d'
+    oldFile: !uuid 'f27bc9305769dedef57473fa1bfcaa4a265dc869'
+  /third_party/WebKit/Source/core/css/CSSGradientValue.cpp:
+    newFile: !uuid 'f39c073f93ab7f419b76414b8d8303e31d65413b'
+    oldFile: !uuid 'b4875052bddf98094f926177bc3a959c988369f5'
+  /third_party/WebKit/Source/core/css/CSSMatrix.cpp:
+    newFile: !uuid 'ae909b7c6eb692b1a2cd1c8a7bd8d73291a2275c'
+    oldFile: !uuid '75ded5b9cd6608b8b41da344b92b79357a54424d'
+  /third_party/WebKit/Source/core/css/CSSPrimitiveValue.cpp:
+    newFile: !uuid '6c35ef286675f5a03b7c1dcd2dde337030da3f71'
+    oldFile: !uuid 'f10bbf5a4c997e6a32feb2d8f607254359131aa5'
+  /third_party/WebKit/Source/core/css/CSSToLengthConversionData.h:
+    newFile: !uuid '7c2268af7940cc985d4ffbc5943f0442e334adf8'
+    oldFile: !uuid 'e000d2135f8887fe1b3785f293bfe7e9e37b2af5'
+  /third_party/WebKit/Source/core/css/cssom:
+    newFile: !uuid 'b41812e833e1bb53895ebe768b3cfd5e06b18922'
+    oldFile: !uuid 'fa1ff8fdc81d693928b716c2615626e62f76d7b8'
+  /third_party/WebKit/Source/core/css/cssom/CSSUnparsedValue.h:
+    newFile: !uuid '8f018b2a88ce2fb8cf9895c8392cc6bc0412e882'
+    oldFile: !uuid 'c3d0765bdc086a9106396d5eb9669615332cbe8d'
+  /third_party/WebKit/Source/core/dom:
+    newFile: !uuid 'cf637f4c3f439572cd1abc5566cce4de3b3af02a'
+    oldFile: !uuid '9d17d55da164b30e32271f05364a50dd71a4fac3'
+  /third_party/WebKit/Source/core/dom/ContainerNode.cpp:
+    newFile: !uuid '9f3ef9d715232e8001e9b8b5996cef922f156c4a'
+    oldFile: !uuid '5f943121f3c78034bf66c0ce3bbf63cab94f9648'
+  /third_party/WebKit/Source/core/dom/Document.cpp:
+    newFile: !uuid '9d0ac2afaacb666d67dd975260e75327c1563947'
+    oldFile: !uuid '9464e6f6015f40602a707442610e8134a6bf8c61'
+  /third_party/WebKit/Source/core/dom/IntersectionObserver.cpp:
+    newFile: !uuid '3fd0c680e4ecb58bd4257d6b346abb7e5b247b00'
+    oldFile: !uuid '363e809030625b0d2cfa07ded7f9f67e58474720'
+  /third_party/WebKit/Source/core/events:
+    newFile: !uuid '36f72557193892c3e49cf08991c1da703dd6f0de'
+    oldFile: !uuid '8b9307a9bcc4c2df669d7215e81b21430ada44aa'
+  /third_party/WebKit/Source/core/events/AnimationPlaybackEvent.cpp:
+    newFile: !uuid 'be65c71b6657ba5d480ca7b1ff025feb9ba98fac'
+    oldFile: !uuid '87f5c5124f4ec392996438b99162d7a257425dfa'
+  /third_party/WebKit/Source/core/events/PointerEventFactory.cpp:
+    newFile: !uuid 'b309515bd6f0f638f02bbe18e43467bdc70f633f'
+    oldFile: !uuid '2cec0facdd3ab74ffd86cc6c18bfe2f42c39d5c3'
+  /third_party/WebKit/Source/core/fetch:
+    newFile: !uuid '12fb852f5ea7c7e8cc98f93949327679a305b972'
+    oldFile: !uuid '72bc633460a05d591e1dc2ec7613c42815f020d1'
+  /third_party/WebKit/Source/core/fetch/Resource.cpp:
+    newFile: !uuid 'ba1cb5ad5ec3ebc769d3c76c644037460b21cf63'
+    oldFile: !uuid '234af59d6c4d66b64c4c45512a5f73f3d39454ce'
+  /third_party/WebKit/Source/core/fetch/ResourceFetcher.cpp:
+    newFile: !uuid '3dbc69b9bd01ff46cc4092f26f8df9719b016bf1'
+    oldFile: !uuid 'fb928c1998a32556eee9362b4d85766eef8492e0'
+  /third_party/WebKit/Source/core/html:
+    newFile: !uuid '585e9adac86d0237d5906371b276661e828a70cf'
+    oldFile: !uuid '67ecd8e25315c8008f35d7cd4ebbb3386f4bbdc1'
+  /third_party/WebKit/Source/core/html/HTMLInputElement.cpp:
+    newFile: !uuid 'a6ba57e97de63a67131358f77ce23923a042f7b6'
+    oldFile: !uuid '90d7ec9a83677c5492abf6540771e4592d19144e'
+  /third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:
+    newFile: !uuid '8c56e3349fa7d1e26f36abcfa4ad7aef944e1a90'
+    oldFile: !uuid 'a388ec0bb886f6ab47144c1cb4068b8340aac66b'
+  /third_party/WebKit/Source/core/html/HTMLProgressElement.cpp:
+    newFile: !uuid 'f7863b3e05a97f2e4f4b6daffa675a79bdcffd73'
+    oldFile: !uuid 'e071580aa1c2e08e470cdb6ddd89bea52807c6e2'
+  /third_party/WebKit/Source/core/html/forms:
+    newFile: !uuid '2367d6cd2085859f82dcd4ec3d1f7078daaa4a55'
+    oldFile: !uuid '3683c9763d234c16220338e02ba5291d34054ad3'
+  /third_party/WebKit/Source/core/html/forms/BaseTemporalInputType.cpp:
+    newFile: !uuid 'afac4f8024762fa57eea165d3a482038d4a0719e'
+    oldFile: !uuid 'b10fff8070e941d0dd632e9f4fc497cb13977140'
+  /third_party/WebKit/Source/core/html/forms/ChooserOnlyTemporalInputTypeView.cpp:
+    newFile: !uuid '4320cdc062d3d01802047e39e3637bbac9a18fff'
+    oldFile: !uuid '17e36e6ae6b22cebe17324a2814f23f6fdc25f69'
+  /third_party/WebKit/Source/core/html/forms/MonthInputType.cpp:
+    newFile: !uuid 'b34a66cda1f9a448c3c4a522dfe4e40fb15bd350'
+    oldFile: !uuid '5e96c60e7fbbc5382a9ea6f992dacc51f3419b87'
+  /third_party/WebKit/Source/core/html/forms/MultipleFieldsTemporalInputTypeView.cpp:
+    newFile: !uuid '94e774ce03d7237dc9203af81f53c922c669e0df'
+    oldFile: !uuid '931bb48d0ad5cbad0cb7596d114fafc475be90be'
+  /third_party/WebKit/Source/core/html/forms/NumberInputType.cpp:
+    newFile: !uuid '66978702361e17ad1bf5cd1752a513f2f8e23022'
+    oldFile: !uuid '0ded183eb81f8db44cdca8d2801cebf5433ce4a5'
+  /third_party/WebKit/Source/core/html/forms/RangeInputType.cpp:
+    newFile: !uuid '10da9fd1783dca21d0c9487f4d8a4b2fb9d3e8e1'
+    oldFile: !uuid 'd0160f2bf37c4d086e848cb6ed5f88d79c172355'
+  /third_party/WebKit/Source/core/html/forms/TimeInputType.cpp:
+    newFile: !uuid '7308526ed95006ce65337af6546790e1f73d00dc'
+    oldFile: !uuid '241d1852f806d8398cda92a9773edbe5b59470b5'
+  /third_party/WebKit/Source/core/html/parser:
+    newFile: !uuid '218d022f78a125828d50d13b92a7f8630e865821'
+    oldFile: !uuid '3ccfb20bc75118e73e2ed82819416236f23c9159'
+  /third_party/WebKit/Source/core/html/parser/HTMLParserIdioms.cpp:
+    newFile: !uuid 'd055454ef6cbcd03ae1888b737abae3c69e43245'
+    oldFile: !uuid '43c78c83af86ce304c7532da01a59ac5a5731fbf'
+  /third_party/WebKit/Source/core/html/shadow:
+    newFile: !uuid '342e7af4035a6937ca8e3757f12fc2b8b9380608'
+    oldFile: !uuid 'd6dec0f425360b52b0f9e6ce335a7073c58e3413'
+  /third_party/WebKit/Source/core/html/shadow/MediaControlElements.cpp:
+    newFile: !uuid '53dbfc3b37ace7a8dc9708b15a976796718c6e84'
+    oldFile: !uuid '1b21336a736fd99d120ab72133676766cb42f677'
+  /third_party/WebKit/Source/core/html/shadow/MediaControls.cpp:
+    newFile: !uuid '8f4d2fcbb9ad1024a1c191fb159f1384c83a410d'
+    oldFile: !uuid 'cb95de4345fbfc9af895941705f72543a5da4058'
+  /third_party/WebKit/Source/core/html/track:
+    newFile: !uuid '708616546a1bf906516edb99f2220de8b9dfaf87'
+    oldFile: !uuid 'f163a950c05217c74eed7b845ff4195475dfd712'
+  /third_party/WebKit/Source/core/html/track/TextTrack.cpp:
+    newFile: !uuid '5b02017554b046cb7cdf3191be4f3f4cf6c76edf'
+    oldFile: !uuid '46de9372400b52f68abdeaa8de7134fc540a8dfe'
+  /third_party/WebKit/Source/core/html/track/vtt:
+    newFile: !uuid '7bd4b6699e77d06196b9c132b3b8ba74e45ee533'
+    oldFile: !uuid '880627803a181703babbd8b30503c5917b3af90d'
+  /third_party/WebKit/Source/core/html/track/vtt/VTTCue.cpp:
+    newFile: !uuid '4e0498b4947cb56d082b41e20743e172a8592a6a'
+    oldFile: !uuid 'b7824f5a16234297a957d90f32f1e107ffded36a'
+  /third_party/WebKit/Source/core/layout:
+    newFile: !uuid 'b93c5c04b53bef7209c704f042b2a2480ee9d858'
+    oldFile: !uuid '4237bc63271eca582001ea76d1fa150d2bd8192d'
+  /third_party/WebKit/Source/core/layout/LayoutFlexibleBox.cpp:
+    newFile: !uuid '9310d930781a5950f4c34289bd2f24dd37c222c0'
+    oldFile: !uuid 'e36689009cde7e88737dcab909bec7679939d48c'
+  /third_party/WebKit/Source/core/layout/LayoutTheme.cpp:
+    newFile: !uuid 'd1a49c3f8d9a3b4bfa64460479e6f2eba1e8fb50'
+    oldFile: !uuid '735f05329abe7ec280de3a70d1d29b9196ecbd83'
+  /third_party/WebKit/Source/core/layout/LayoutVTTCue.cpp:
+    newFile: !uuid 'd1c15153a51d5a513d4797ef98817e20081107ec'
+    oldFile: !uuid '1f38f186f42c39ea0f8b4cddc0f026f44a3f22e8'
+  /third_party/WebKit/Source/core/layout/svg:
+    newFile: !uuid '84ffc0352de5979e900c8386b085d76ed2e4ad84'
+    oldFile: !uuid '09de4426027524df87f8c62bb4cd5eb9b392c72c'
+  /third_party/WebKit/Source/core/layout/svg/SVGCharacterData.h:
+    newFile: !uuid '66c4914ccb21b856d70f7c45ee4f301c886ad9a8'
+    oldFile: !uuid '9427fe8a7951882d03cc4858085f0e8e7bbd06b0'
+  /third_party/WebKit/Source/core/paint:
+    newFile: !uuid 'cd29b4519beb9c887d6734d43844a5c164b4d838'
+    oldFile: !uuid '738514d660684c400cec8394048c093fd7973a7b'
+  /third_party/WebKit/Source/core/paint/MediaControlsPainter.cpp:
+    newFile: !uuid 'b002b9edafc6962dd823839045dfe6a0485bb5db'
+    oldFile: !uuid '53a59950c0c445e754a29ba4fd7287af52f1b81f'
+  /third_party/WebKit/Source/core/style:
+    newFile: !uuid '51e2eee4f64410b20b89d9683427dbd7904367e2'
+    oldFile: !uuid 'cd87bb1cf602dc2180215decb1e9ff0f38a079fc'
+  /third_party/WebKit/Source/core/style/ComputedStyle.cpp:
+    newFile: !uuid 'fa7dacfea3f61129bcde362737877126b5e12f06'
+    oldFile: !uuid '9a407d1dff5e996a10b88130ac09ca3e1e98d982'
+  /third_party/WebKit/Source/core/style/StylePath.cpp:
+    newFile: !uuid '3ae8aa6a6df1857b05191f930df546ccee2b94ba'
+    oldFile: !uuid 'ca83c63f45680d6201b02063bf5c94331b7d97fe'
+  /third_party/WebKit/Source/core/svg:
+    newFile: !uuid 'c9e591689294b00d52e8aa9301f784ca3b1f153d'
+    oldFile: !uuid 'c19e125fc206af763854d4ca216143872ee0f1dd'
+  /third_party/WebKit/Source/core/svg/SVGAnimationElement.cpp:
+    newFile: !uuid '7ddd98864afaa9a943ba1143bc7efb7b3dda5fc0'
+    oldFile: !uuid '0e2ddc5e8736b1e86c3b037aa26f61f905a3f241'
+  /third_party/WebKit/Source/core/svg/SVGPathParser.cpp:
+    newFile: !uuid '339df739e9f94ce897811ee12506edcc66de7afa'
+    oldFile: !uuid 'a8660c83d6644cafa690965fd2dfee5c32b6e87d'
+  /third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:
+    newFile: !uuid 'bf6eb5ac17b771523f549cbcbc6ea1b5b117d0d7'
+    oldFile: !uuid '9929f767d0dbc08651dc9a40a78988ca5763d7f0'
+  /third_party/WebKit/Source/core/svg/animation:
+    newFile: !uuid '4b633524fd0d13e68ad04690ed3fe003b272425e'
+    oldFile: !uuid 'f7121f85de44f9d06962624022b67b1b8364ac13'
+  /third_party/WebKit/Source/core/svg/animation/SMILTime.h:
+    newFile: !uuid '866ed476bc9eade899a25eba16d5a75911f7456a'
+    oldFile: !uuid 'ae59d6e6ed3bdecf0ee00e50ce9bc9a7dea37f1e'
+  /third_party/WebKit/Source/core/svg/animation/SMILTimeContainer.cpp:
+    newFile: !uuid '943db1e90526cb570c74dbc16c82d30c1bfa45a4'
+    oldFile: !uuid '9cae7263d910c24b38253452fb1d89356c741de1'
+  /third_party/WebKit/Source/core/workers:
+    newFile: !uuid 'e06ffb0f253a5f9e52eb12c8d00fbc418e9b0016'
+    oldFile: !uuid '3367afc46fa0c12ebaa71f49977be62fe1ab5b6b'
+  /third_party/WebKit/Source/core/workers/InProcessWorkerMessagingProxy.cpp:
+    newFile: !uuid '570fa9b5932259f77172a44331425dbad44d48db'
+    oldFile: !uuid 'fa9d38dca288f7cc8b311dbe7a455403a36998be'
+  /third_party/WebKit/Source/core/xml:
+    newFile: !uuid '48c14e5a1faee97806ee3a8895f3d9919b37dc7d'
+    oldFile: !uuid 'f1d691068fab11b982efc4ca1930fd3913edb394'
+  /third_party/WebKit/Source/core/xml/XPathFunctions.cpp:
+    newFile: !uuid 'f342186510c37f18acd1dc885a7a4a37a714be34'
+    oldFile: !uuid '7c04714f526252b7138f27046df9dd39d311720e'
+  /third_party/WebKit/Source/core/xml/XPathValue.cpp:
+    newFile: !uuid '1e3bd77cb495d11b8dccc96e1e2bd4dcd003c24b'
+    oldFile: !uuid '541bdab3ea0e38b811819f3c0b2eb8aad6a4ae62'
+  /third_party/WebKit/Source/modules:
+    newFile: !uuid 'c8844da033e57233aaa628fbc783b2ea157670d5'
+    oldFile: !uuid 'f468b380a85dab252eb8edf7b9858d4d25498168'
+  /third_party/WebKit/Source/modules/canvas2d:
+    newFile: !uuid 'c8b25d5f5212770f4b6be70bbfb01faa038d6ff1'
+    oldFile: !uuid '6f573f140256a6128149a3830d450a0426b31e12'
+  /third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:
+    newFile: !uuid 'cc32077f91f57b5e88be4e43e6e2c9980e65b6c9'
+    oldFile: !uuid '2a39d3a2c05d2108beda3f07a931eb430028187f'
+  /third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:
+    newFile: !uuid 'fb76b3794dd862db5eecc620265cedb3ff5c4f9c'
+    oldFile: !uuid '8aeb3950917b9e1f1bd0aaa37976866433267524'
+  /third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:
+    newFile: !uuid '2595b160c0b4ea72e30e1bdde08e707e63184e97'
+    oldFile: !uuid '71be410b2582d0e730ad41a689a9e8a746d77511'
+  /third_party/WebKit/Source/modules/crypto:
+    newFile: !uuid '5c63f4c17756fec9f82f852dfd963edf77568d4e'
+    oldFile: !uuid '02bb37fab69a9f60b60bec1f96ab835501030b51'
+  /third_party/WebKit/Source/modules/crypto/NormalizeAlgorithm.cpp:
+    newFile: !uuid '5407ea2f280e5b808dc965688545d6dc30e6a88a'
+    oldFile: !uuid '29dfa79fce177c61b8d385fe62fe379ef423554d'
+  /third_party/WebKit/Source/modules/encryptedmedia:
+    newFile: !uuid 'ee17df3759d915a12ce522cf135f469c992e9939'
+    oldFile: !uuid '6d855e0f8e47898d5cb82009bc9cf33ac3fb580e'
+  /third_party/WebKit/Source/modules/encryptedmedia/MediaKeySession.cpp:
+    newFile: !uuid '3e13b24414189267ee8c0fd40c2a9b59aabe3be7'
+    oldFile: !uuid '31962866df3e87a6b0354d9fc9b915e99b144700'
+  /third_party/WebKit/Source/modules/mediasource:
+    newFile: !uuid '927d5b7b9c669c9eb01e3b0768c7466f820d3558'
+    oldFile: !uuid 'aaba29138a53bb68ea64dab0a2d4630721599644'
+  /third_party/WebKit/Source/modules/mediasource/MediaSource.cpp:
+    newFile: !uuid 'b2a8f29de2668fa504a01696406f293881f91c75'
+    oldFile: !uuid '76028e58b66ab4f00ce5d2b869d8581d204bf2a9'
+  /third_party/WebKit/Source/modules/mediasource/SourceBuffer.cpp:
+    newFile: !uuid '28f2abe58dad1aca063cf342d35fb265d29a315a'
+    oldFile: !uuid '5c83c7c9345580ed26c0518c29e7340069c6ed9d'
+  /third_party/WebKit/Source/modules/nfc:
+    newFile: !uuid '5d078b7042a5d36505617bdb6ae78aebe3fd6b62'
+    oldFile: !uuid 'e379e3a42bc5d085cfdaaef8ef0cb53be9fae031'
+  /third_party/WebKit/Source/modules/nfc/NFC.cpp:
+    newFile: !uuid 'a4d58d279a5ca04f7b654b35538399189a48a1be'
+    oldFile: !uuid '3cfb434fa03a8cadf740edfedfd3c6cab2b01705'
+  /third_party/WebKit/Source/modules/storage:
+    newFile: !uuid '8cb7c14a796e871be91c04b3b439857115a3bfd7'
+    oldFile: !uuid '8037b925f3f153beb4b9bd2cd51c29bc4c293fbc'
+  /third_party/WebKit/Source/modules/storage/StorageNamespaceController.cpp:
+    newFile: !uuid 'a529b8182a10abb2562c536fc3d36e0e9bb82eae'
+    oldFile: !uuid 'dceecaf5f0ccee6e39be9b9eab9ca8cb098c26ff'
+  /third_party/WebKit/Source/modules/webaudio:
+    newFile: !uuid '0dd0cbe533d8aad4fc76a9249c22c8913826a767'
+    oldFile: !uuid '4291e345ed64e47f5c1c54a817b7fc08a9afcfd3'
+  /third_party/WebKit/Source/modules/webaudio/AudioBufferSourceNode.cpp:
+    newFile: !uuid 'cf7c960b8dbeee535151e585f5b10ee84939df41'
+    oldFile: !uuid '4d9481f835363f9809c9f9f2ff58a619fda3eb96'
+  /third_party/WebKit/Source/modules/webaudio/AudioParam.cpp:
+    newFile: !uuid '8dd525a35fb19c19d2daacf57048ae4ed7ca0335'
+    oldFile: !uuid '6e3421c2be197d0df0a5df43add3b3687bc2f774'
+  /third_party/WebKit/Source/modules/webaudio/AudioParamTimeline.cpp:
+    newFile: !uuid '6be1c123fa97f886fb52c0b15ca2114e84eac152'
+    oldFile: !uuid '7f1aca2e39deb21e0e450a17151a1ab60bbe866f'
+  /third_party/WebKit/Source/modules/webaudio/DelayDSPKernel.cpp:
+    newFile: !uuid 'e96ad0d80231a85d0a14b66e238d345cd2c0c22a'
+    oldFile: !uuid '982fddcd237455058636802b0e9a9d2aea126601'
+  /third_party/WebKit/Source/modules/webaudio/IIRFilterNode.cpp:
+    newFile: !uuid 'cd0f93e8b619f0b28841eac1a4694adbf9506b65'
+    oldFile: !uuid 'a06443f15eb09b4afdcfdb7f3ae1ae110f019448'
+  /third_party/WebKit/Source/modules/webaudio/PannerNode.cpp:
+    newFile: !uuid '63314e7533a1a3e66f232f7374e6d0643e0e89e9'
+    oldFile: !uuid '254ad6542862cbeeb35f6d400489fae34de721eb'
+  /third_party/WebKit/Source/modules/webgl-:
+    newFile: !uuid 'b24b6580be903d8664c12c33c409f7113600da50'
+    oldFile: !uuid 'fe8424bee44624ceb165385d81f4c4a8787c6347'
+  /third_party/WebKit/Source/modules/webgl-/WebGLRenderingContextBase.cpp:
+    newFile: !uuid '48c9c210070db8d5f79645094749cdc9d5367761'
+    oldFile: !uuid '9e47d4ff5df3435986290c120db4e440d9dfd0da'
+  /third_party/WebKit/Source/platform:
+    newFile: !uuid 'f7d4f2560a5f54bb3e9baf73d0f6acba0fe80301'
+    oldFile: !uuid '809bb3c5b583520de551c247104ec8844482e32b'
+  /third_party/WebKit/Source/platform/DateComponents.cpp:
+    newFile: !uuid '0e0e94ad7ae116abab2713ccde752b13c84f4888'
+    oldFile: !uuid '10cbcaf7cfb0efb3192765d9f57ecba8fa4c62bd'
+  /third_party/WebKit/Source/platform/Decimal.cpp:
+    newFile: !uuid '48f496a8ac650cc3223910522b30809a86aaf5ad'
+    oldFile: !uuid '610a1d6cd3bc20a20bb71fea1e7a75e7f2e4b98f'
+  /third_party/WebKit/Source/platform/DecimalTest.cpp:
+    newFile: !uuid '3947bd7f841a42cd93d6c7bcbd918dee09ae5f6b'
+    oldFile: !uuid '0b1f16279874a05a13640d70d5b53a4bbc96ce29'
+  /third_party/WebKit/Source/platform/FileMetadata.h:
+    newFile: !uuid 'f6cb248ec74240158cdf14a5936d10ca41b36562'
+    oldFile: !uuid '6e4e9b5591ad883d71072e2305d90dae4623c59c'
+  /third_party/WebKit/Source/platform/Length.cpp:
+    newFile: !uuid 'b826a574b157d3a81b95dac6906d9ec7f884c263'
+    oldFile: !uuid '960ab818eca337537ee139b39357009bfeca8bfb'
+  /third_party/WebKit/Source/platform/PlatformTouchPoint.h:
+    newFile: !uuid '7ef7d652dd97d5acd7098e9303a3e4a31f833afb'
+    oldFile: !uuid 'ce071c85310918ba1c99bb77583c99451e91049a'
+  /third_party/WebKit/Source/platform/audio:
+    newFile: !uuid 'f49e5e33f353dd9a55166a1cd2af5bcefac4ced9'
+    oldFile: !uuid '1949fe6c660fb3838e9ff3737875fb3abb949027'
+  /third_party/WebKit/Source/platform/audio/AudioDelayDSPKernel.cpp:
+    newFile: !uuid 'b219dfe7f5fad1de9cc582524a843780ecfa18a7'
+    oldFile: !uuid '54d21bbd8f1da2d7cc8c17c92f09698fa5d903a5'
+  /third_party/WebKit/Source/platform/audio/AudioResampler.cpp:
+    newFile: !uuid 'ca734c3c8a4cb7b16484d573cf18c1ac53c5c055'
+    oldFile: !uuid '79608364818d0bf68fc4d6dc6a0c53fe709da93e'
+  /third_party/WebKit/Source/platform/audio/DynamicsCompressorKernel.cpp:
+    newFile: !uuid 'b31c99536f42bb5a595dba7843edf0f8f0e30fbf'
+    oldFile: !uuid 'dd41c626a8d8672b9c9829c3d519cc8b538ed0e8'
+  /third_party/WebKit/Source/platform/audio/Reverb.cpp:
+    newFile: !uuid '75278d288b02729ed44020b2e0687babbfba55d5'
+    oldFile: !uuid 'd39819bed23ff728e7286f9b718ef39401cfa9aa'
+  /third_party/WebKit/Source/platform/fonts:
+    newFile: !uuid '5b92e33073d160cdd2895409ec9430cce26c037a'
+    oldFile: !uuid 'bd175ef0c2005719bd9640159a9d15a8d26ba313'
+  /third_party/WebKit/Source/platform/fonts/Font.h:
+    newFile: !uuid 'b7c48770ef94c0c128b5730542dfd8cf91c0122e'
+    oldFile: !uuid 'f7c65e43e5b917334b89042f908f6ed73afffbdc'
+  /third_party/WebKit/Source/platform/fonts/FontCache.cpp:
+    newFile: !uuid '15a7d3cd156cc1ca65b9792e1eb2809f0174d93b'
+    oldFile: !uuid 'cb30cbfdbb4d18efbc851ca646a7f7426da7cd33'
+  /third_party/WebKit/Source/platform/fonts/FontDescription.cpp:
+    newFile: !uuid 'ab3690b8a3800042e16e65f281a57c5806cac3e7'
+    oldFile: !uuid '20da0c1d6c4537b706094671b8931057ccc57753'
+  /third_party/WebKit/Source/platform/fonts/FontDescription.h:
+    newFile: !uuid '727a74883d2e1e0ff9861d6e89c7aa87ad19557c'
+    oldFile: !uuid 'c686a07dc2fa0ba00073605a20417b20b05fbc6f'
+  /third_party/WebKit/Source/platform/fonts/linux:
+    newFile: !uuid '75b59094784e68ba6ac284e0ab91024a728c63a2'
+    oldFile: !uuid '16d5ba4cbfce4f0827b458b3b95fcbc746f8a7d5'
+  /third_party/WebKit/Source/platform/fonts/linux/FontCacheLinux.cpp:
+    newFile: !uuid '7c28a38386ce0ab00e1a3f27da612ed2996e93cd'
+    oldFile: !uuid 'e5010c73cc17649534f1bde9c89d3a27582fc745'
+  /third_party/WebKit/Source/platform/fonts/opentype:
+    newFile: !uuid 'ceb70f05ae41b4dd070536e887f062048a8b007c'
+    oldFile: !uuid '00a4f084e323c5198d53bb5148086f502a2573cd'
+  /third_party/WebKit/Source/platform/fonts/opentype/OpenTypeVerticalData.cpp:
+    newFile: !uuid '6f97ca253ac99b3271a4af1fe1614ef578b3044d'
+    oldFile: !uuid 'ebcad66d202e657a86aeacbf93dcdbcb66aa2d3e'
+  /third_party/WebKit/Source/platform/fonts/skia:
+    newFile: !uuid '15df9999ea79ccb32f2c3f956abfb0c4cd4057d3'
+    oldFile: !uuid '4f304c37f8df714a7287bbfec24d995b37a4bc4a'
+  /third_party/WebKit/Source/platform/fonts/skia/FontCacheSkia.cpp:
+    newFile: !uuid 'd2a2d82eade689acfe3b39fc0ebeb6eed7dc10c6'
+    oldFile: !uuid '0ee99906a601b56006015cc7081ca94e7d2436b9'
+  /third_party/WebKit/Source/platform/fonts_origin:
+    newFile: !uuid '64fff7cd313c7c2709fd6bfc67076b887fdc07c9'
+    oldFile: !uuid '59c449cf6146a14e59c6f55cc15d140d272100f2'
+  /third_party/WebKit/Source/platform/fonts_origin/opentype:
+    newFile: !uuid 'aaf4083a3935ee62294e270a804026ca2c040241'
+    oldFile: !uuid '9128a54e7323c37a7d09881b00f8b8274cdc502d'
+  /third_party/WebKit/Source/platform/fonts_origin/opentype/OpenTypeVerticalData.cpp:
+    newFile: !uuid '4682a6d88895a5e003a51a7a99bc461920afef7a'
+    oldFile: !uuid 'd266f1af2982d813ee922cdcd76bf7301b69d052'
+  /third_party/WebKit/Source/platform/geometry:
+    newFile: !uuid 'a6154f88d250bffea274b3b3a962669117e2df16'
+    oldFile: !uuid 'd7024f9fd56381c1872d4387d2e00c11f71547fa'
+  /third_party/WebKit/Source/platform/geometry/FloatPoint.cpp:
+    newFile: !uuid '7fdd959830cbba4248123de4bb8369a565215618'
+    oldFile: !uuid '485481309ca8f8ccf0c0dfc0b3df0a74a67715fe'
+  /third_party/WebKit/Source/platform/geometry/FloatQuad.cpp:
+    newFile: !uuid 'c528371409c106e9a8da06f2228b5e5e996c2052'
+    oldFile: !uuid '7985ea764da0d62d12f4423f5c1c6a763b8d7c37'
+  /third_party/WebKit/Source/platform/graphics:
+    newFile: !uuid '2362a97e56b182c8b9a5a8c96011dabb2bf47011'
+    oldFile: !uuid 'fbc6dd046e36881bd374121f5ef5b4c7f420a90b'
+  /third_party/WebKit/Source/platform/graphics/paint:
+    newFile: !uuid 'd0225c974c4404cf1409fabcfccaa22fa2ab7937'
+    oldFile: !uuid '3025fa257e6f8a068060b808efc399be95df5ea3'
+  /third_party/WebKit/Source/platform/graphics/paint/DisplayItem.h:
+    newFile: !uuid 'f86334325e92f8c3ff3f880dfa99840d28123b14'
+    oldFile: !uuid 'd017adeef400564e8d6ca6b7ce00a1bfa8d1d35a'
+  /third_party/WebKit/Source/platform/graphics/skia:
+    newFile: !uuid '6b74ec233eec9f75f587263bbdbf96ebf8e0a52f'
+    oldFile: !uuid '8a84f9e91cd87f11fc8e9f1acea38a37d15f34ef'
+  /third_party/WebKit/Source/platform/graphics/skia/SkiaUtils.h:
+    newFile: !uuid '45cfaaf3c5db750f4710bdc9caef66ee2b3a443d'
+    oldFile: !uuid '6c0bb315964c5f0bfaac9aca4101e82cdd717c54'
+  /third_party/WebKit/Source/platform/heap:
+    newFile: !uuid 'b3e752cc026cc2a66513fd78338d148f0bfde5cd'
+    oldFile: !uuid '9ead885ec6474e4b9ddc9128b1cedc3ab3d1a6a1'
+  /third_party/WebKit/Source/platform/heap/HeapAllocator.h:
+    newFile: !uuid '5c2fb4843b0627429f1212961aa3671b6056fa29'
+    oldFile: !uuid '83496ef56b24094589ffecfca5aeca022111e727'
+  /third_party/WebKit/Source/platform/heap/SafePoint.cpp:
+    newFile: !uuid '51664e9c289180d1cd987d48eb4434c380deb457'
+    oldFile: !uuid '41a95d86f560be0eb9d7c42632bdf6b37632608e'
+  /third_party/WebKit/Source/platform/heap/asm:
+    newFile: !uuid '0f0e74f7368f0d6405c903929b7a91dd3f903ed2'
+    oldFile: !uuid 'e72b5327749590fb4aea1a503daae6e68e267e7f'
+  /third_party/WebKit/Source/platform/heap/asm/SaveRegisters_x86.cpp:
+    newFile: !uuid 'c4ba0d633b759233e9ce967fcff8004444cf13fa'
+    oldFile: !uuid '99d63e5170c9e690c25858903a74b5c02c70a8e0'
+  /third_party/WebKit/Source/platform/json:
+    newFile: !uuid '0eaf7538aecd401c2688fecfea99ac10a1cf0220'
+    oldFile: !uuid 'd890f7680f29443b2be728768180b7f5700a9bc0'
+  /third_party/WebKit/Source/platform/json/JSONValues.cpp:
+    newFile: !uuid '31096174846dc8f4c58d9a67bb8f39327c2ac2c2'
+    oldFile: !uuid 'ec3d2a58394d9d63ee9a5eaf75fbb1bf29cc087c'
+  /third_party/WebKit/Source/platform/network:
+    newFile: !uuid 'fb0119fe6759ce4a9dd47b475bd9355b39e4d8d1'
+    oldFile: !uuid '254ae7d8488839f92c13eea1dbbabefca00bca4d'
+  /third_party/WebKit/Source/platform/network/HTTPParsers.cpp:
+    newFile: !uuid '23070c0f53c01a0d41adf8e015dc719314fd5c2c'
+    oldFile: !uuid '11a7824410f05c66ce8f90a4254ab6e98686d658'
+  /third_party/WebKit/Source/platform/network/HTTPParsersTest.cpp:
+    newFile: !uuid 'ad9029ada4a182e9b7258c0ca1f73295da20a95d'
+    oldFile: !uuid '6dbf1cde1cbc04d930f894563147fa67181cc838'
+  /third_party/WebKit/Source/platform/network/ResourceResponse.cpp:
+    newFile: !uuid '5d6936db906587df7298aaaf96abd777064eee4c'
+    oldFile: !uuid 'e5f0e7883ea81f3fb521d0711fd945bec21eba58'
+  /third_party/WebKit/Source/platform/scroll:
+    newFile: !uuid '4bd1010ffe4503760913b65e926930d9c5236380'
+    oldFile: !uuid 'ea15f412140a1e1678a742f7c85862e0e10547fa'
+  /third_party/WebKit/Source/platform/scroll/ScrollableArea.h:
+    newFile: !uuid 'b4e2dacf3dcf10b5e6466fcdfefd912b09009498'
+    oldFile: !uuid 'f739ae23cfdf950fd80c4e4291d5efa6e1d6254a'
+  /third_party/WebKit/Source/platform/text:
+    newFile: !uuid 'bd4ac5bdbcb289c3d4333d36f96094033efcac6d'
+    oldFile: !uuid 'e43ce4b4c59466a44d9f948fce0cacd486069e1c'
+  /third_party/WebKit/Source/platform/text/LocaleWin.cpp:
+    newFile: !uuid 'd44cd5344572c1e5e1069c59496719e68d217421'
+    oldFile: !uuid 'df8e1611be740f6cb9ae78ee7d71ea86ab0d77a8'
+  /third_party/WebKit/Source/platform/text/SimpleTextBreakIterator.h:
+    newFile: !uuid 'ef562bf15a543ecb28bd9fda3a5ffeeb9c7062bd'
+    oldFile: !uuid '782680235e16c6a39304d51a7b2bd846e912953a'
+  /third_party/WebKit/Source/platform/text/TextBreakIterator.h:
+    newFile: !uuid '9d5c5fd6367422e67dfb4c947aa6e651f884b238'
+    oldFile: !uuid '204950fa8bb6c912e53769ca4505a2d8c0098bc1'
+  /third_party/WebKit/Source/platform/text/TextBreakIteratorICU.cpp:
+    newFile: !uuid 'd4ebae69da672b744603e6bc79ee4079b0afd0fb'
+    oldFile: !uuid 'a61880cf1dc0996525f470e72e96b17fbab58386'
+  /third_party/WebKit/Source/platform/transforms:
+    newFile: !uuid 'c0b9a276ea5efa1afa76fa1757a1cc961f0720f5'
+    oldFile: !uuid '20fb0090ac11643fd39dda3e564a1b7c07928e5b'
+  /third_party/WebKit/Source/platform/transforms/PerspectiveTransformOperation.h:
+    newFile: !uuid '2add3f7874d834ac33069ec37b7a4bba0ca26484'
+    oldFile: !uuid '60a53789549a614c9efdaea746b5c351126c70d6'
+  /third_party/WebKit/Source/platform/transforms/TransformationMatrix.cpp:
+    newFile: !uuid 'd70b3064880fe832e9696c0fcddac362822d6ba0'
+    oldFile: !uuid 'cc2b340d6b8cb8aeaedd7c46e3a3cdbe18dc3ef3'
+  /third_party/WebKit/Source/platform/weborigin:
+    newFile: !uuid 'bcc0fe4f0d636bf9a8024b3dca08d43736afbcea'
+    oldFile: !uuid '9d91e6603139ff7ff0e4dceb84c9a5947ed871e2'
+  /third_party/WebKit/Source/platform/weborigin/KURL.cpp:
+    newFile: !uuid 'd97ce7a5184be1c060e43e5eb048687fc1bfa444'
+    oldFile: !uuid '538ea6ec12202831feb8e8975cad24f5471cb9c5'
+  /third_party/WebKit/Source/platform/win:
+    newFile: !uuid '7c47544f0590fabdd4ce2f6df4bafda2b6cd77d1'
+    oldFile: !uuid 'fb433e1d072de171a4c8166c822587761a72aead'
+  /third_party/WebKit/Source/platform/win/HWndDC.h:
+    newFile: !uuid 'fecfb3d51e6e8fda6375cb386111c31fcd32b8fb'
+    oldFile: !uuid '29da03cd219be3e37a73887058414ab4f059c22f'
+  /third_party/WebKit/Source/web:
+    newFile: !uuid '907b2579b0550649435fcd681d849685caab4e85'
+    oldFile: !uuid '0d73b0482a702e237c4b8783972e2fd2200218cf'
+  /third_party/WebKit/Source/web/StorageClientImpl.cpp:
+    newFile: !uuid 'feb33042c8ce26567a179fac4eafe51a05f72cf9'
+    oldFile: !uuid '291e58719aa3b4e218fc5241a50e5061ab492635'
+  /third_party/WebKit/Source/web/WebSettingsImpl.h:
+    newFile: !uuid '251ec6dda18b5d7a0cb4333c0aaad0551c35795a'
+    oldFile: !uuid 'dad0d56fa8756f596e3da09772bcdcc9bff7d626'
+  /third_party/WebKit/Source/web/win:
+    newFile: !uuid '8962a959cf9e1d0d4835874fab153acdbf2e1576'
+    oldFile: !uuid '128276e9e4e76485823b4d2d50c1bb13f3c207ab'
+  /third_party/WebKit/Source/web/win/WebFontRendering.cpp:
+    newFile: !uuid '07f41577ed08c1883cf7be25341bc39e4e879d38'
+    oldFile: !uuid '3751bdcb6baf3749bb38d7358efda6a81d7ceeff'
+  /third_party/WebKit/Source/wtf:
+    newFile: !uuid 'b97fbe67dde4ea01938b20cc9efa15204f9c8e34'
+    oldFile: !uuid '402c907e9103b2839353343bf16730e28460dafc'
+  /third_party/WebKit/Source/wtf/Compiler.h:
+    newFile: !uuid '57158809e2476f42f60099cb93e0fcdd843b3119'
+    oldFile: !uuid 'ca9771cf96efbceda1647f8bcc62c016b27dd2e0'
+  /third_party/WebKit/Source/wtf/DateMath.cpp:
+    newFile: !uuid '522d0b3af3c61ef80021a2e031b862bc8236bbd8'
+    oldFile: !uuid '5eaf1db9112108e0f269c42b9ffd72aa46201e5d'
+  /third_party/WebKit/Source/wtf/MathExtras.h:
+    newFile: !uuid 'c56fdc7652e8657e5ae6cff8b89cf5151869deea'
+    oldFile: !uuid 'fbf5a3941d540bd90c526484bc6b24fcc72eefa5'
+  /third_party/WebKit/Source/wtf/ThreadingPthreads.cpp:
+    newFile: !uuid '39cdb846b78354e0a384bf3e6f4d4cd784641c13'
+    oldFile: !uuid 'e02a6dacaa4d12a0d7618b15edcb7c4e2f4b52fc'
+  /third_party/WebKit/Source/wtf/text:
+    newFile: !uuid '449733e3d5fcb82dc9ce373cb25741b8e04781d9'
+    oldFile: !uuid '94395ad33f223d18eeaa4d22f9c9ffdb4af94d87'
+  /third_party/WebKit/Source/wtf/text/AtomicString.h:
+    newFile: !uuid '40951cf9a36bc7a681c37b92b22532563e96abb8'
+    oldFile: !uuid '468cccc0d29088f32feb13e369dd892fedb68038'
+  /third_party/WebKit/Source/wtf/text/StringImpl.cpp:
+    newFile: !uuid 'b32959186f62b47ab42d4d9e4afd5bdc6f4a301a'
+    oldFile: !uuid '551ae905285efbc9be25fc8e61f5358f886410ec'
+  /third_party/WebKit/Source/wtf/text/StringView.h:
+    newFile: !uuid 'a7a6e844fab29cf29f051a0dbf72fe3102872733'
+    oldFile: !uuid 'e8d128acf55f3e7503f44c87889249b7fb578645'
+  /third_party/WebKit/Source/wtf/text/TextCodecICU.cpp:
+    newFile: !uuid 'f5a51f689d7bd831491345b1b1c9e37332b8ca42'
+    oldFile: !uuid '9e6f73c573bed03b1b6fc537ab08e6224c7fd47b'
+  /third_party/WebKit/Source/wtf/text/WTFString.h:
+    newFile: !uuid '0a4b69686d555ad930ebb1c7f4fa94676f57f8c1'
+    oldFile: !uuid 'e7c053c2ea32df8b9526103fb68a6f9a554ad837'
+  /third_party/WebKit/Source/wtf/text/WTFStringUtil.cpp:
+    newFile: !uuid '47472fd6ac2265c2bbf4870072280004c06ce656'
+    oldFile: !uuid '374f7bc2905d8f5d5c0a1e2381bad5bd38e1d27e'
+  /third_party/WebKit/Source/wtf/text/WTFStringUtil.h:
+    newFile: !uuid '04abfbdacf35f824f8a4bc14182f23988388fa8f'
+    oldFile: !uuid '34bec942db4b68823f19e6551f08d49d0eb5b589'
+  /third_party/WebKit/Source/wtf/text/qt4:
+    newFile: !uuid 'b8b47491cbe4b65813a7160e87034c8e18615c56'
+    oldFile: !uuid 'fab48087e108b4eb2a7a11932482bdcdebbf469e'
+  /third_party/WebKit/Source/wtf/text/qt4/UnicodeQt4.h:
+    newFile: !uuid '03cb4ed775b0a450587395231c4f722b55801fd4'
+    oldFile: !uuid '5e73a61cf6a7b6882a0895567ce3760e38542ce8'
+  /third_party/WebKit/Source/wtf/typed_arrays:
+    newFile: !uuid 'ed3a9ef88e44a5ef7919b10ab72e861dbb9659a9'
+    oldFile: !uuid '3ee0afd17077b12371ef38b55b4795231b7bf8a4'
+  /third_party/WebKit/Source/wtf/typed_arrays/IntegralTypedArrayBase.h:
+    newFile: !uuid '93b587674d530df62694f945a819c1d268273511'
+    oldFile: !uuid 'ed5679d7db0e868b602e5b8fc0d2aefe97c739c1'
+  /third_party/WebKit/Source/wtf/typed_arrays/Uint8ClampedArray.h:
+    newFile: !uuid '5cbc8251fca586a48e3f6b85c3242ecd350f0714'
+    oldFile: !uuid '2614bada8fb736aca9c51466915c579fa8364319'
+  /third_party/WebKit/public:
+    newFile: !uuid 'a21e9af7d0c1c1eb78a8631c3d0ae4e7a4240bf5'
+    oldFile: !uuid 'fcedecf7298c94a5c2b9548641bac07165bd02a4'
+  /third_party/WebKit/public/platform:
+    newFile: !uuid '1048afe97de574418c7915b9ae21f490d19dec18'
+    oldFile: !uuid 'e2abd18ea5d5b117456bdfa4c89f7837ddd5f87f'
+  /third_party/WebKit/public/platform/WebCommon.h:
+    newFile: !uuid '29d025562c9e7f28c079a46b8d8bf3fc0594ce87'
+    oldFile: !uuid '1883dcb0aec237aadf6b59235151ac37bb681f76'
+  /third_party/WebKit/public/platform/WebHTTPBody.h:
+    newFile: !uuid '6f7b8d6658fedfc258a2d5e6f3ce57604182b99a'
+    oldFile: !uuid '2d0e6697d8df0775847262a40bad0d4faa09a327'
+  /third_party/WebKit/public/platform/WebMediaPlayer.h:
+    newFile: !uuid '1bbf44ff5eb00c20b53d694ef851855fb9e90718'
+    oldFile: !uuid 'dd92ed43ef7436607a116b37e32d2cc64df24760'
+  /third_party/WebKit/public/platform/WebString.h:
+    newFile: !uuid 'bd4216112de453e3fa5ca5561cd44af45e462282'
+    oldFile: !uuid '9fe73fd0331b0e0518c9503bc96c1cf1a093d344'
+  /third_party/harfbuzz-ng:
+    newFile: !uuid '8895269f8561b056fc3146dcb1f249d85eb4e85e'
+    oldFile: !uuid '46d200e2c4ee050305330517dc678a3547244b7a'
+  /third_party/harfbuzz-ng/src:
+    newFile: !uuid '45f061f4e6d6349972160c34b86a1eb132a02989'
+    oldFile: !uuid '405d97c0b0f097867d82b5ff39cada8ee4d106e5'
+  /third_party/harfbuzz-ng/src/hb-common.cc:
+    newFile: !uuid 'e67059d10bec2d0809c7a82d06d3a97e44845807'
+    oldFile: !uuid '2b16aff9cc6c035b1187135c6bf2bc282de184cc'
+  /third_party/icu:
+    newFile: !uuid '4f7627b0670e594c140fbb7f29debfe121ff289d'
+    oldFile: !uuid 'faff7bf23b26daabf6367cce006395611bbf024c'
+  /third_party/icu/source:
+    newFile: !uuid '554a80c64b2518714c4d46d1c3595d258cf9299d'
+    oldFile: !uuid '43564c9cd2b2f2d87eae7ddabd31cedbefb49dd8'
+  /third_party/icu/source/common:
+    newFile: !uuid 'c230520458e98d19c3218e9c0e43893d77e44c85'
+    oldFile: !uuid '30e3b29d1044608d44d437e24a8123b311bc685f'
+  /third_party/icu/source/common/unicode:
+    newFile: !uuid '4ac6eca36f492a739f25eaecd78fbd31cc9f8875'
+    oldFile: !uuid '9b48c13f5fe0583fca587ea32ab5a85dbd88a45b'
+  /third_party/icu/source/common/unicode/umachine.h:
+    newFile: !uuid '1f53ff9a2a96d9c68a9612c83bda51d780a52d66'
+    oldFile: !uuid '71339790c971b9ccc7de92d566d9b01bb285a258'
+  /third_party/libcurl:
+    newFile: !uuid 'e65a1a444366a28ac9bed3537e36b5b96b280290'
+    oldFile: !uuid '3d6ae6b6948f1ff3a6d431b35b5aeeb65876d221'
+  /third_party/libcurl/include:
+    newFile: !uuid '6f2bbcbe66d635ede66f30d5fad41f6937c6592a'
+    oldFile: !uuid 'a7ac5c02ff4c70e5210aebb3be36c42a7118b361'
+  /third_party/libcurl/include/curl:
+    newFile: !uuid '348e0728db29e72d16dd8fc18bad190cee3e28aa'
+    oldFile: !uuid '0392a4ba0158564916029f15af2a8abf760ae6c7'
+  /third_party/libcurl/include/curl/system.h:
+    newFile: !uuid '4a632fea65a39807c108766060bde00655c317cd'
+    oldFile: !uuid 'a54fd584fff0a3d2a0c05efef0164802360d46e3'
+  /third_party/libcurl/src:
+    newFile: !uuid '3675400c8c6ecc2ad2b00cc1fdaf4ff11c0446c3'
+    oldFile: !uuid 'a7b0c59ac02de265a73ed5a8d9acf15ebb811dd9'
+  /third_party/libcurl/src/curl_setup.h:
+    newFile: !uuid 'f58ff597a317231e3ef82a41533482c4c9e96b42'
+    oldFile: !uuid '24989874eb5e9130a02d71d54fc3749c3ad1384a'
+  /third_party/libcurl/src/curl_setup_once.h:
+    newFile: !uuid '8a9798b773ea570bd6117338c3b84d220704e5d0'
+    oldFile: !uuid '6d01ea156a5511a910f8fc8df5a9df4265dd10b7'
+  /third_party/libcurl/src/file.c:
+    newFile: !uuid 'f77b60de67a44e46c8b2dffd651aaca0ce79e331'
+    oldFile: !uuid 'eeea402fb8bea5cdf150635712a310e51d9306e6'
+  /third_party/libcurl/src/hostip4.c:
+    newFile: !uuid 'a6d98a20569c4d18df51bd99ef562aa5bcaadf54'
+    oldFile: !uuid '9d6f115ae64e0ca6c5c46c1743345a1ebb264efb'
+  /third_party/libxml:
+    newFile: !uuid '1b633dd52da46e670e49dc0a41580a0c1ebf1286'
+    oldFile: !uuid '09d436a1aab6c2253c04ab0f29bf1b2a54581ff7'
+  /third_party/libxml/linux:
+    newFile: !uuid '50c4b16bc20ec608c2bc0b0bb0d25018bc4b44d5'
+    oldFile: !uuid 'eff4e5c4d7c085f777933d31541ee6e1336c5826'
+  /third_party/libxml/linux/include:
+    newFile: !uuid 'a5989b570d0e3bcbf7c498f59f1c56e23642b71d'
+    oldFile: !uuid 'f7b806ed371f9cecbbbdc2ea2fd7f71fc3dc5a30'
+  /third_party/libxml/linux/include/libxml:
+    newFile: !uuid 'da27bb402973d19b572862d66a2df8a33ddf080f'
+    oldFile: !uuid '92b965aa0ead972e483cea6184e4807e29939b01'
+  /third_party/libxml/linux/include/libxml/xmlversion.h:
+    newFile: !uuid 'cdbb742571e57556b84c5e16ad7ecc614a84d4b1'
+    oldFile: !uuid 'e9bba30e6e32a2e1ba2547dd3caeb34daeb932b4'
+  /third_party/libxml/src:
+    newFile: !uuid 'c773b41dc34a5e5c3ecf4e404039cedaf6bf2eea'
+    oldFile: !uuid '08cf586e633d8d402ca840c09fab81d355bffbdf'
+  /third_party/libxml/src/encoding.c:
+    newFile: !uuid '26fc1c5cdbe6f8ac33d20e447edef5161a318eaf'
+    oldFile: !uuid 'ca737ecd47df9eb9b8c85cf0299cb84bb185c622'
+  /third_party/libxml/src/include:
+    newFile: !uuid '5ce46e4a1e0bbe6c9b61aecce764c26052eef658'
+    oldFile: !uuid '5d996a1e248af59a9f7a291027432027a2c62dc9'
+  /third_party/libxml/src/include/libxml:
+    newFile: !uuid 'b3ceca62ddf782fe16b789d5715323a634614a70'
+    oldFile: !uuid '4d2d2fa3cfe14477d45d885a5bb619d2624bcc81'
+  /third_party/libxml/src/include/libxml/dict.h:
+    newFile: !uuid '9e0dfeedb7abc2f38270f783efa08d44456875c8'
+    oldFile: !uuid '6bb4f95fbcedd4a6e149fc2a8234ab18462f0e8d'
+  /third_party/libxml/src/include/libxml/xmlexports.h:
+    newFile: !uuid 'c9be393e6a881bb15ea769bb9e78a89d22123103'
+    oldFile: !uuid 'a0d6ae27f11fe8f26b729793d61fe86123e55141'
+  /third_party/libxml/src/include/libxml/xmlregexp.h:
+    newFile: !uuid '893d46b8c3360e7fb00de624c17325e4432cff19'
+    oldFile: !uuid '2e6dec7d2775578fa2480988f9b5f46773ace0c8'
+  /third_party/libxml/src/libxml.h:
+    newFile: !uuid 'cdf9592aabd1c924b2fa5c9e7d45c4a9c11e045d'
+    oldFile: !uuid 'b6b048c118db7210a6baaf6901a22bde56346df8'
+  /third_party/libxml/src/trio.h:
+    newFile: !uuid '623b73fd7e1ec69d67adc932bc3a5c42131a291f'
+    oldFile: !uuid '8f5e8401c9bc5d94bbb751994e0b78c03ed25ad5'
+  /third_party/libxml/src/xpath.c:
+    newFile: !uuid '6c31fa16213a99d3277c3309f1fd0d7e8129da5a'
+    oldFile: !uuid '9423ef808a364dbfe7d1b9a21c17b61f8c8cb019'
+  /third_party/libxslt:
+    newFile: !uuid '483e97400a4b97d19b1b5af45444da71d2ee8395'
+    oldFile: !uuid '2e7c0b8d291e5a02eb525144848e8dd7c840dcb0'
+  /third_party/libxslt/libxslt:
+    newFile: !uuid '1fcb40ae8b6db2d5153243c6a8f8956982866de7'
+    oldFile: !uuid '281fefab875d014918ac0da3c6338e855317fab3'
+  /third_party/libxslt/libxslt/libxslt.h:
+    newFile: !uuid '3986422833dde2cae60219c74c1500aa477af9e6'
+    oldFile: !uuid '2f6f20d8ea879454b12675708ec73d149a636814'
+  /third_party/ots:
+    newFile: !uuid 'aad0df7b38e3886983e3e034d5236e94c31683fa'
+    oldFile: !uuid '14fa4d6adecd0d0f7cd1a0dac8f0e530d9174084'
+  /third_party/ots/include:
+    newFile: !uuid 'ca498ac2865b5898ec98fd589611e10263ad5970'
+    oldFile: !uuid '15bbaff81522fda01184729db4402ac9091b645c'
+  /third_party/ots/include/opentype-sanitiser.h:
+    newFile: !uuid '2cb41520c8c1cc8d864ff88450b64abe13b977b7'
+    oldFile: !uuid 'bb8b40ba3e2e8654db620c3b3c872be06350c2a5'
+  /third_party/ots/src:
+    newFile: !uuid '19bdc4c576c8ba2e90f8170e43139f6cf0bef573'
+    oldFile: !uuid '72810af0de0985533a49c0c94a41c1cef81bf905'
+  /third_party/ots/src/cff.cc:
+    newFile: !uuid '9e308f79cf6ea573190acd93fe664c82c40f3911'
+    oldFile: !uuid 'eac9210a6f7076d869f202c2f2a44a6492a485ba'
+  /third_party/ots/src/cmap.cc:
+    newFile: !uuid '9a67f8b8c3c48489d666c9cc0265d08120bd450b'
+    oldFile: !uuid '38d15fbb2a7ed604ae60fa202ce5aa51c7a96d66'
+  /third_party/ots/src/gasp.h:
+    newFile: !uuid '6d485ee0224de6dd33603bbea68ab9398b4cde73'
+    oldFile: !uuid '472135c02373ccb54252231e9209aad2419a59a5'
+  /third_party/ots/src/glyf.h:
+    newFile: !uuid 'a9ffc1628b6212d31c28ec45921955a628e5f95e'
+    oldFile: !uuid 'cac54d27361f048ed10d40f0fc844ef6d11d0ad3'
+  /third_party/ots/src/metrics.h:
+    newFile: !uuid '0b2e9bd7ff783ed86b2b1c954caf3f9c9b2da1db'
+    oldFile: !uuid 'cec7fd43d3ec8ad022ff83bd5ac4a43b275f28c8'
+  /third_party/ots/src/ots.cc:
+    newFile: !uuid 'db014615d4de658e4717eb1318d1dc3ef43c06e4'
+    oldFile: !uuid '99a2dca8b603a12982ff5dfc23bcce6d161de59e'
+  /third_party/ots/src/ots.h:
+    newFile: !uuid 'e57658a46cd4f1e7f31c06472f9c089771ae3e78'
+    oldFile: !uuid '2b987adc1b9030404bf954388b2431520a986989'
+  /third_party/ots/src/woff2.cc:
+    newFile: !uuid 'f2f86e9e92dc0d4832ac5f86bb2d3e74510f50f7'
+    oldFile: !uuid '5acb28a80a729228f0d08ee6fbf5e410561f65b7'
+  /third_party/skia:
+    newFile: !uuid '4f6552cbbd02c5efac6a4bba3449b162e59c61a7'
+    oldFile: !uuid '97da5d40399491da6c9e942a943c14f144b28678'
+  /third_party/skia/include:
+    newFile: !uuid '4a5d142771144c3af4b3e62f67e9c8e14401c4fc'
+    oldFile: !uuid 'f6df78694b71ac5cb5353ca8c847c72ce51f7688'
+  /third_party/skia/include/core:
+    newFile: !uuid '534dc9d3c208dc2a501054b47ca14979b45ec865'
+    oldFile: !uuid 'b01d0b3de64135cb130925a07364e7133c253495'
+  /third_party/skia/include/core/SkPathRef.h:
+    newFile: !uuid '195ba220b58b54c2e2f9322ebf7ed63051c13357'
+    oldFile: !uuid 'df7d406c520a773a1a4dbf8bfae8b9a555d0d8ac'
+  /third_party/skia/include/core/SkRRect.h:
+    newFile: !uuid '1d12ac60d4e77d86fe631071b1968f1aee4315d8'
+    oldFile: !uuid '75cd05c0469416efe5c6609982ed5c60b484b4f9'
+  /third_party/skia/include/core/SkXfermode.h:
+    newFile: !uuid 'a5173d41456b1e8f41faf7b97dc55b257ca57d33'
+    oldFile: !uuid 'c7e6fba569a1eb764df9242a017974ff4d4fbbdb'
+  /third_party/skia/src:
+    newFile: !uuid '7624ef901aa5e7e41a0a5182d31a2b5a95e81247'
+    oldFile: !uuid '8ddaf7aa2d6b5e4aab96fee46c8477fded6050d5'
+  /third_party/skia/src/core:
+    newFile: !uuid '1cabf1a1e10b7478b420f546fa2733d91d935d55'
+    oldFile: !uuid '556a64f5708fdcbf9a73420f4590a67df4541a97'
+  /third_party/skia/src/core/Sk4x4f.h:
+    newFile: !uuid 'd359335bb4c6478de1bea2374fe003ace171ba33'
+    oldFile: !uuid 'c09296e1297e70184b383bcab360b23ff266dcb7'
+  /third_party/skia/src/core/SkLinearBitmapPipeline_core.h:
+    newFile: !uuid 'd71aae3ec82c8415cd01e0d3014dcc4d2c14c8b1'
+    oldFile: !uuid '304f357f6d05841ea5e35d723fbf22daf9657bb6'
+  /third_party/skia/src/core/SkPaint.cpp:
+    newFile: !uuid 'cbfa87c397fac6a891edfa1fde0fba509f46da0a'
+    oldFile: !uuid '3a755022cdff704cf8bab61298bb9d25529e1a31'
+  /third_party/skia/src/ports:
+    newFile: !uuid '90aeb025a06d8b13e4e1f88939d7d56f63045851'
+    oldFile: !uuid 'b40b24f1d3c7252c7dcc700ceb14d16b54890023'
+  /third_party/skia/src/ports/SkFontConfigInterface_direct.cpp:
+    newFile: !uuid '55c5efb82a5a989c42703f9046ad8210b9b9974e'
+    oldFile: !uuid '0c2d1c4b8803ff2312494dfa70e17f36913e3424'
+  /third_party/skia/src/ports/SkFontConfigInterface_direct.h:
+    newFile: !uuid '5267700fa620818004f1c52b130fbfa4b8c139d9'
+    oldFile: !uuid '091156b0d83409cae62dba39f8814504855017e7'
+  /third_party/skia/src/ports/SkFontMgr_custom.cpp:
+    newFile: !uuid '3866a4ebf7dbcfa4902600df075785363af17c0a'
+    oldFile: !uuid '8421eddd91949e5716eab9305d10dcfea36ed934'
+  /third_party/skia/src/ports/SkFontMgr_fontconfig.cpp:
+    newFile: !uuid 'faacb34ee3a7e4d164311993b180939e8d575229'
+    oldFile: !uuid '45145484aa7dc4fc743f2a511339613c83e9fbe0'
+  /third_party/skia/src/ports/_SkFontHost_FreeType_common.h:
+    newFile: null
+    oldFile: !uuid '883a360e71e204a758f95de1f4b26a249bd76ac5'
+  /third_party/smhasher:
+    newFile: !uuid '1dda049809ff219030e1ccc321f699737da60644'
+    oldFile: !uuid 'a3d1b8757ccd504beb1102814c9a1dc0401fdbef'
+  /third_party/smhasher/src:
+    newFile: !uuid '468b3dd308332822ae7263c5ddb561037cd2e57d'
+    oldFile: !uuid '688d44f0e4298f747dbe1a2af90bd14b6fe46886'
+  /third_party/smhasher/src/Platform.h:
+    newFile: !uuid 'e31b661d36c0f2843b4bb9a5bfadae71d2e5d854'
+    oldFile: !uuid 'ddcac1649fe4d187194f979fa7e55ab352ccbcdf'
+  /ui:
+    newFile: !uuid 'e36126355e603bc679bbad8789424d046dbc7bcc'
+    oldFile: !uuid '5b2d43a8d1a00d793275a9976bfc186f82ea464e'
+  /ui/gfx:
+    newFile: !uuid '5d82709ba235b2f4a4cb232ad6c4961031bb91c0'
+    oldFile: !uuid '2f5a48dfcf2e688e90180106e692ff4d378eb0fc'
+  /ui/gfx/font_fallback_linux.cc:
+    newFile: !uuid '09af817a960e1e9237d666cd06dc0094fa919d71'
+    oldFile: !uuid '2572d3617aa587843ef8feb26000876a7ce7892b'
+  /ui/gfx/font_render_params.cc:
+    newFile: !uuid '1132950f4dd26aa77d0c6ebc115dc883f5cae850'
+    oldFile: !uuid '4a73b13e7449d0265d020b8ec552b4460b07e9ed'
+  /ui/gfx/font_render_params.h:
+    newFile: !uuid 'e34ba05fedec1b37cdf731a4044c4e3c32cbb98f'
+    oldFile: !uuid 'eb1cc15981a2cf5d037b23097bf8085d466d0485'
+  /ui/gfx/font_render_params_linux.cc:
+    newFile: !uuid 'fad36d73714223e2a7e4647d9b3a73ab3062bcd1'
+    oldFile: !uuid '9b4e21c0bb6cf6a0ceed58d0c3bff53c8d4108d0'
+  /ui/gfx/geometry:
+    newFile: !uuid '6259c196ecd5223170a54b7cfc7a7852d5289163'
+    oldFile: !uuid '5b18ccfd70d4274c982697108d3b854b39ec33ef'
+  /ui/gfx/geometry/box_f.cc:
+    newFile: !uuid '2089d3a92d4b8dd74557ccb985f58d389a87359c'
+    oldFile: !uuid '53e380c37520759e80a266e3b3a593fd4b9e7d98'
+  /ui/gfx/geometry/cubic_bezier.cc:
+    newFile: !uuid '2c20b01eabae745085fa4f63787292fb6ddc3b8a'
+    oldFile: !uuid '061d8e096438f4a2a7c4762f1413bd53e890f57f'
+  /ui/gfx/geometry/rect.cc:
+    newFile: !uuid '93e4b5e64ed857b4fae0ef6a87a419ec196eb4f7'
+    oldFile: !uuid 'a4094ccdbb4560270fb62910d759d3c46fb1b132'
+  /ui/gfx/geometry/rect.h:
+    newFile: !uuid 'd827ee020702cdf619928d3009a0fa1985f7208c'
+    oldFile: !uuid 'c977af77d4e1bbbbc65b958eb5ad96850c495791'
+  /ui/gfx/geometry/rect_gfx.cc:
+    newFile: !uuid 'b8b93b677395de2bf782f19a996eabec554f8b46'
+    oldFile: !uuid 'a4094ccdbb4560270fb62910d759d3c46fb1b132'
+  /ui/gfx/linux_font_delegate.h:
+    newFile: !uuid 'aea7a6ba7f4b9a3d5a5bfad6984f640b4692d4db'
+    oldFile: !uuid 'd9f082da0da5f0918858c21035dd8cc7268b8608'
+  /ui/gfx/native_widget_types.h:
+    newFile: !uuid '6f39d2998258b2105e933f2a3d0f64168c103a25'
+    oldFile: !uuid 'db453c523d4423ae9ae0ea487935e8a4f9280e62'
+  /ui/gfx/platform_font_linux.cc:
+    newFile: !uuid '3b1e6d954f8233d1751b2e46f22dd7b9513a35d0'
+    oldFile: !uuid '6bada3494db3b24c3880adcf67e1a1524a3a912c'
+  /ui/gfx/platform_font_linux.h:
+    newFile: !uuid '6d112684a979d4492043b19f9108b4e038e7051a'
+    oldFile: !uuid '1068294d26d7aa3d216ad4efed62568c53f65e9c'
+  /url:
+    newFile: !uuid '1512b138e2a19973cbf5418b0ae8f35a060f16c3'
+    oldFile: !uuid 'e4f2ac40942e4885bbe641d607915fcd8f759166'
+  /url/url_canon_ip.cc:
+    newFile: !uuid '9ee77f523df9c0f642a9ce2de1dca620c4c69a36'
+    oldFile: !uuid '6147c00f8ddf5367ecd3175bb99821ffd6feaef7'
+  /url/url_canon_relative.cc:
+    newFile: !uuid 'c2a05ced28aa1f24bb7f163dd08558705c3369bf'
+    oldFile: !uuid 'c10268cdf4de91c3faa5b98a58bd65754728a3ff'
+  /v8_5_7:
+    newFile: !uuid 'b0c3ed8847d0fb6cf94450391c36fba1fb40d5d1'
+    oldFile: !uuid 'd2f5a3fcf823cd01680a61ab3cfd72dc9b96320e'
+  /v8_5_7/include:
+    newFile: !uuid '5615c02a411070fcb652bb2bb9197dadd5b72826'
+    oldFile: !uuid '3b47b7ef71ec1a1fdb669022e3c0ee3fc755b038'
+  /v8_5_7/include/v8.h:
+    newFile: !uuid '5e628bbb4cc11b8c051d14c4514c5e14016ed608'
+    oldFile: !uuid '41fc8df160bbc43ec5a767740c9203c05700d624'
+  /v8_5_7/src:
+    newFile: !uuid '7dde8ecd26a01ec756c58f0c8a3bc0fb8caf8cc9'
+    oldFile: !uuid 'f7a66fc2de065196cfc3dde15b32f169e576e6b1'
+  /v8_5_7/src/allocation.cc:
+    newFile: !uuid '7483845ab2cdc245123db64460e578c7f201d0d3'
+    oldFile: !uuid 'ce9a5226e7e239aad7be808b2e7b6ca5d24dabd2'
+  /v8_5_7/src/api.cc:
+    newFile: !uuid '04316dc501c0e8e45abb0ccae43d9eb2e3286644'
+    oldFile: !uuid 'dde2b87a3f730d2034e3669dd964d6d9d7e9aaae'
+  /v8_5_7/src/arm:
+    newFile: !uuid 'ddf772b0e1fe2287a1ed8dd79d5bb6f4bdc2f08a'
+    oldFile: !uuid '93d0b225bf93a0a9d204730c49551a18d5d4d44a'
+  /v8_5_7/src/arm/simulator-arm.cc:
+    newFile: !uuid '5d832e1defdef053d0af5e0bf00f09d345b91949'
+    oldFile: !uuid '5b0c7d603eec3f47d852eda7503a38c1b7ee8f20'
+  /v8_5_7/src/arm64:
+    newFile: !uuid '2d20ef4856eeb98795f95cde41aea8c1553d6d2c'
+    oldFile: !uuid '8ea977dfad65162283d4b23de9cc8aadbbd84754'
+  /v8_5_7/src/arm64/simulator-arm64.cc:
+    newFile: !uuid 'd91abddddcc162602a5406e18bb60a5be9dac3fa'
+    oldFile: !uuid '83b4cf7ee8954f0838a8389eb3a5c971558eb5a2'
+  /v8_5_7/src/arm64/utils-arm64.h:
+    newFile: !uuid '66143c5622ae604f08d35f3ca227143c5e86579b'
+    oldFile: !uuid '35d982483750d65647980b274025f88598837d09'
+  /v8_5_7/src/asmjs:
+    newFile: !uuid '67286c7f522041f556f3a6e367b4a50cc65494a3'
+    oldFile: !uuid 'f6f85310e7d5d8a8febe6d216a6cda079ee60fd0'
+  /v8_5_7/src/asmjs/asm-js.cc:
+    newFile: !uuid 'c3b4f9faa49d9caa44d97a438f3ef87eb334aae1'
+    oldFile: !uuid '71a88a1ccdeca599de05f3eaef465264ecd87c9e'
+  /v8_5_7/src/assembler.cc:
+    newFile: !uuid '62a8bffc8b05e4cc15d2b341afc2d16615f2de61'
+    oldFile: !uuid 'b9b41e5110681d878f30fbd725fc192beee0d235'
+  /v8_5_7/src/ast:
+    newFile: !uuid 'd262ed099f275a83e077fffa3c03ca2468420cfd'
+    oldFile: !uuid '195b2d72c5d9e8e22b649fe1eb3b82b7c7a154ae'
+  /v8_5_7/src/ast/ast-types.cc:
+    newFile: !uuid '4bf5f2ae86dbb1f9201a7b64126651f2d4f1b52f'
+    oldFile: !uuid 'bb50a15f01f72a69aaa1ed0343d670d10fd20db7'
+  /v8_5_7/src/base:
+    newFile: !uuid '99fcc385b8109c628242f393f9f4965a5e9d0a71'
+    oldFile: !uuid '95628efe2decf7cb4e2b61a1ba352230fe9bda5a'
+  /v8_5_7/src/base/build_config.h:
+    newFile: !uuid '76e8d4cc355d342a469e792731f3f3a5070e25f1'
+    oldFile: !uuid 'd113c2a0fcc60544bb41872078eced1193848c92'
+  /v8_5_7/src/base/platform:
+    newFile: !uuid '8d3e87d51dd8b8617fd4ede89685a580d835b432'
+    oldFile: !uuid '7712a6e8bd03c1f8e6bbcc6cd08174a3138d3e1e'
+  /v8_5_7/src/base/platform/platform-aix.cc:
+    newFile: !uuid '001dfe1ce5086a2870e62f5d639644dc4354ba81'
+    oldFile: !uuid '6d6adfb2cb1b19020921dbe5dde30d286bb4fe10'
+  /v8_5_7/src/base/platform/platform-cygwin.cc:
+    newFile: !uuid '443154d120f62729c2f52fe97fabf55e2d73af3c'
+    oldFile: !uuid 'ba0f45667f333ce6df54d5b9dcaa63d0b1ac5fb3'
+  /v8_5_7/src/base/platform/platform-freebsd.cc:
+    newFile: !uuid '6dfa7d28f90981bfeef35e2727b1142c4f3a0cd1'
+    oldFile: !uuid 'efb1872f3576bb0ba05732e7406d32bdeb151712'
+  /v8_5_7/src/base/platform/platform-linux.cc:
+    newFile: !uuid 'e7200bb808bceda3a2f51a0098457689379c4bb2'
+    oldFile: !uuid 'cd52dfe8813c24351a3b59818e78513f3b7a49fa'
+  /v8_5_7/src/base/platform/platform-macos.cc:
+    newFile: !uuid '35ee1ea0b9bd1f95eb83d12e79d5f3e64f284e29'
+    oldFile: !uuid '69c181677787da9ba3760b614892726cb96f53d8'
+  /v8_5_7/src/base/platform/platform-openbsd.cc:
+    newFile: !uuid 'a558789ef7a1ff867fc7c34737213cb0a24d982e'
+    oldFile: !uuid '29c518a898767f14d8477f233e857f81bc63e0c7'
+  /v8_5_7/src/base/platform/platform-posix.cc:
+    newFile: !uuid '2f3164f943520939002b6d87b1005ca718f6740e'
+    oldFile: !uuid 'fd47931b6b0cfae2ea96c8efdb32727c2cdf373c'
+  /v8_5_7/src/base/platform/platform-qnx.cc:
+    newFile: !uuid 'ec44d0282bb3be580bed0fa21ca9fe76e0564ff1'
+    oldFile: !uuid '6ff953d65cda0d423c06880c7e7255cd3f8efe42'
+  /v8_5_7/src/base/platform/platform-solaris.cc:
+    newFile: !uuid '7c17073f7f7d10cb467c6985dc4970e68e716aca'
+    oldFile: !uuid '6783c6ba8922977e225581f0ce8d633f5601736c'
+  /v8_5_7/src/builtins:
+    newFile: !uuid 'f95cab5973c32ccbf321e342768882107d931790'
+    oldFile: !uuid 'afc7f8a88340848a3a4f577fb194d7325b19b030'
+  /v8_5_7/src/builtins/builtins-array.cc:
+    newFile: !uuid '1ddd50867f3d37860eff6856fdf81d909934382c'
+    oldFile: !uuid 'd3839c7670d43b3d451bb3bd12c60f1f51f442c4'
+  /v8_5_7/src/builtins/builtins-date.cc:
+    newFile: !uuid '54869e02bcc2b146237a71064743da48dd56c68e'
+    oldFile: !uuid 'e82ec083fdee831cb7976892ea52d083de7ef57e'
+  /v8_5_7/src/builtins/builtins-math.cc:
+    newFile: !uuid 'baa31491dd6e408895791c906b6f62e59bc3b2cb'
+    oldFile: !uuid 'f8bc3e194d89e85756ca60cf4728db897cae5789'
+  /v8_5_7/src/builtins/builtins-number.cc:
+    newFile: !uuid 'cf980df6208ff5c121a82faf16f866b6072c1aa9'
+    oldFile: !uuid '91fa9d8dcfe693739093fb5f8b89e570623163b7'
+  /v8_5_7/src/code-stubs.cc:
+    newFile: !uuid '2d8a0243fc693ab1f3b17a274d6c435c9b82f5d7'
+    oldFile: !uuid '23e36cdb7d19a800cf46ea0fe06f34934d238939'
+  /v8_5_7/src/codegen.cc:
+    newFile: !uuid '514041a961c7028871cb2dc8ac5d551612f04ca6'
+    oldFile: !uuid 'afd8a6f592972da8bf5d9e150a4b7fa5566ae191'
+  /v8_5_7/src/compiler:
+    newFile: !uuid 'a761be263f58f01b033623db6468d4b644bf8d75'
+    oldFile: !uuid '1434896c470173621f7199ffaa4ac292d4c79b0a'
+  /v8_5_7/src/compiler/node-matchers.h:
+    newFile: !uuid 'e3ed34b168eb2bd66b064c3d2ff7064edb3c4d3b'
+    oldFile: !uuid '5aae7262f8211078f2a57459a3dd0c44eafda230'
+  /v8_5_7/src/compiler/operation-typer.cc:
+    newFile: !uuid '4523e321b6ba874e932f5b83849d3effe66d8063'
+    oldFile: !uuid '005b4b686c150eef0f9e6f28912612f5ac274621'
+  /v8_5_7/src/compiler/types.cc:
+    newFile: !uuid '5108636cdf3eadc68988923d27785a713c52abde'
+    oldFile: !uuid 'cc1a002b8be83b43c4adb441b34e988e01c87579'
+  /v8_5_7/src/conversions-inl.h:
+    newFile: !uuid 'a1873971588ddd59a98d14eff83a900041573065'
+    oldFile: !uuid '16745275d71818a47d4defb9b2c517fe91b454de'
+  /v8_5_7/src/conversions.cc:
+    newFile: !uuid 'fbe8499aeaf985617aedf92054cf018bff08bfa4'
+    oldFile: !uuid '6048b34abf703bbe242572da228e912c1ef52f8d'
+  /v8_5_7/src/crankshaft:
+    newFile: !uuid 'd07c3c6590719309f4c36c08d8ea5b894c2f63d6'
+    oldFile: !uuid '0cebedfd791a98045e332108b994d0f4f6195483'
+  /v8_5_7/src/crankshaft/hydrogen-instructions.cc:
+    newFile: !uuid '185955d21ae1caa09e2268aea001bce95a4157ec'
+    oldFile: !uuid '2e28c70489b0b587863d83e2ffec1d1dafc8b0d1'
+  /v8_5_7/src/crankshaft/hydrogen-instructions.h:
+    newFile: !uuid 'c57d01eb4acc2ed60e80c231fdcf052ce251092b'
+    oldFile: !uuid '71d3f870c4b88919ad52beccf59af5f84d05a56a'
+  /v8_5_7/src/elements.cc:
+    newFile: !uuid 'f8c9b322d05b72c24510720259deba0b1e32c19d'
+    oldFile: !uuid '5d91aa37966cdf608553171476f2b48cc4e6ed80'
+  /v8_5_7/src/heap:
+    newFile: !uuid '1353038f8f1788cd224769c0c84c05a77bde16d7'
+    oldFile: !uuid 'd361dee2458488339be9ad0c6581b3ea8ad1006e'
+  /v8_5_7/src/heap/heap.cc:
+    newFile: !uuid 'b173b1a03752247bac050ab1bbe34c7b94f2cf6c'
+    oldFile: !uuid 'c886bbff7c4c02c3c5fe24d5fdf1c524d4afb0e4'
+  /v8_5_7/src/ic:
+    newFile: !uuid '30dc7607448729ca616344377e129a5084894b3d'
+    oldFile: !uuid 'fa3bff8ce4e5f7313c0d03e2bbc95ad1a104a59f'
+  /v8_5_7/src/ic/ic-stats.cc:
+    newFile: !uuid '636c5a35cc3628e3b0e7b543fcbe6ffaf7bba77f'
+    oldFile: !uuid '1acbfd194fada70d2def98f98acba6c29d685805'
+  /v8_5_7/src/ic/ic.cc:
+    newFile: !uuid '32aa508c1540168b588e1d1af82972593854b027'
+    oldFile: !uuid '1124af02a29f7114b002dee955f07a52a10fb2f0'
+  /v8_5_7/src/json-stringifier.cc:
+    newFile: !uuid '40ddc1b34534975f8e6a841385685495f59a8453'
+    oldFile: !uuid '29685c20e22b6eadceca8ea0eba12f668aa7035f'
+  /v8_5_7/src/libplatform:
+    newFile: !uuid '622040f57f1ea56a627e93e213dcea45cf0e1c36'
+    oldFile: !uuid '3085b7625f5d4a0c6cc19cd7ec0f1c1b35288e05'
+  /v8_5_7/src/libplatform/tracing:
+    newFile: !uuid 'df7d4c6119213ee7cc18fa77883b2187e70263b9'
+    oldFile: !uuid 'b7162a0d68b065e36078d629ccb337f0b070e67c'
+  /v8_5_7/src/libplatform/tracing/trace-writer.cc:
+    newFile: !uuid '1254ec357cfdf30c11a8ee2de1413373f9be7b23'
+    oldFile: !uuid '7445087c565850395b89b0ddc9b78be764743563'
+  /v8_5_7/src/mips:
+    newFile: !uuid '6c4a47be17e7f341da708d02e4b192989b01ce4a'
+    oldFile: !uuid 'd0675cc7dab8e79cb9aa5b96d388d3840dfc5c03'
+  /v8_5_7/src/mips/simulator-mips.cc:
+    newFile: !uuid 'e17a13ef3078bd37e95be1a80fbc08cc67a6a69f'
+    oldFile: !uuid '7ff3d144e7a019ff35ccc427ebc8788789e03557'
+  /v8_5_7/src/mips64:
+    newFile: !uuid '76a1f8691adefe15b17c55e307e64c67a669f115'
+    oldFile: !uuid 'bf9d9408c5f566c3431f946501503f4426348107'
+  /v8_5_7/src/mips64/simulator-mips64.cc:
+    newFile: !uuid '1c0e3da62576ee0e2849e6bf67d6686784c7068f'
+    oldFile: !uuid '591ddaf3a107b7dd537e5e6527cf47b7121c738c'
+  /v8_5_7/src/objects-inl.h:
+    newFile: !uuid 'f93ecd84b843f7638b088f4ae0d3183ed7721494'
+    oldFile: !uuid 'b1165b3ae7ea74daef4df6ec236d76fdc3b2eaf7'
+  /v8_5_7/src/objects-printer.cc:
+    newFile: !uuid '301a1df878abb84fe399d09faa4517cc712284bb'
+    oldFile: !uuid 'cf4c5d88755cecf6647185fa2cc307110122da84'
+  /v8_5_7/src/objects.cc:
+    newFile: !uuid 'b675ac707e3c226e8da7d567bf55238689a746eb'
+    oldFile: !uuid 'f41b635f300fa6913cfd0ae96cdfc196a1b847cd'
+  /v8_5_7/src/ostreams.cc:
+    newFile: !uuid '70167ddfc028a66da313d76ca759d794bf860e3c'
+    oldFile: !uuid '939f20c2b022af8c093f7049950029a177425c3e'
+  /v8_5_7/src/ppc:
+    newFile: !uuid 'd5f9d56da4f6cbc9c7ec8613fb1113f81bae8b36'
+    oldFile: !uuid '7ef5aa31e0c7607de9f50cef46ca332be0626ca5'
+  /v8_5_7/src/ppc/simulator-ppc.cc:
+    newFile: !uuid '74308df89445eb0812e3f426cf16bfbf0559a62c'
+    oldFile: !uuid '84fbb399b3ecf5e5078e5f63af1c0410e3a9948b'
+  /v8_5_7/src/runtime:
+    newFile: !uuid '0817008de16bdc234da32fbc7c1f2c06e2d8ce34'
+    oldFile: !uuid 'b359d421bd6a8cb94250adacd4687d8b52573bbe'
+  /v8_5_7/src/runtime/runtime-futex.cc:
+    newFile: !uuid 'adeb5b54e9df37cf52ab8c210c9fd71c42ea3d81'
+    oldFile: !uuid 'a93bb23645bbd5ef81e3347bb8469f88e374bad4'
+  /v8_5_7/src/runtime/runtime-simd.cc:
+    newFile: !uuid '36bff8298e218c8300bb1f18c4a073d66399fe1f'
+    oldFile: !uuid '9542a4420a200383e088e202208fc9acd056789f'
+  /v8_5_7/src/runtime/runtime-strings.cc:
+    newFile: !uuid 'ca3bb5660e8535519f4d1872357739cdd2cc4f33'
+    oldFile: !uuid '328bdceb376c469e90c103c9464732415ba527e4'
+  /v8_5_7/src/runtime/runtime-test.cc:
+    newFile: !uuid '9bbeaf234a81ca76a102075a340a5117cbc15eef'
+    oldFile: !uuid '62dcb07ff8b10583a39b19a632d4a8e85f0b2d78'
+  /v8_5_7/src/s390:
+    newFile: !uuid '839958ed012036014c9c2bdbb221ea1caa9147a9'
+    oldFile: !uuid '2601b957fe2fdb28af8862b0c776b1902e1e6ea2'
+  /v8_5_7/src/s390/simulator-s390.h:
+    newFile: !uuid '687c49f009067f2acb9d523ebbb0918d05ed1f0f'
+    oldFile: !uuid '66730b5d7475aec51ad323ea9972e4658f151146'
+  /v8_5_7/src/string-stream.cc:
+    newFile: !uuid 'd4684a11cf282d2f33f7016cc0f01d84e33094bd'
+    oldFile: !uuid '0d1e70d9a90756206b18cde39ccd08a92ffff6cb'
+  /v8_5_7/src/utils.h:
+    newFile: !uuid '798f1680b5731d53b772a77b1994d866e7a31bb9'
+    oldFile: !uuid 'fe28d5bb9e577c340091aae8294678c2431c47e8'
+  /v8_5_7/src/value-serializer.cc:
+    newFile: !uuid 'e7148eab9cb8b184ad0b8c30d17376a11ee37354'
+    oldFile: !uuid 'd1c945800209e120c5c908ae048959f0474d7561'
+  /v8_5_7/src/wasm:
+    newFile: !uuid 'b5e10b03a02b26a78def36eda0ee8a546ff41ff8'
+    oldFile: !uuid '198850ede21895c22db6bdc3627f3c607ec67101'
+  /v8_5_7/src/wasm/wasm-interpreter.cc:
+    newFile: !uuid '24af88cda1c5858f45aed0544568be849a54778e'
+    oldFile: !uuid '1c70c674053b78c703215870561848ef7eb8ed44'
+  /v8_7_5:
+    newFile: !uuid '0f7e1500d8393f0a50122b21d0a6282eb36b13f8'
+    oldFile: !uuid '12d6730757b6ac4d6f36831af737b8980aa04cd3'
+  /v8_7_5/src:
+    newFile: !uuid '28f1f4d4b77bcbd1e2ad842ad24309c3aa59890f'
+    oldFile: !uuid '7058dafdd7e763d8cd9e3801d86ea26520c7f750'
+  /v8_7_5/src/api.cc:
+    newFile: !uuid '9d6c3c8c6e55378a43f83f20d3c746cb435af5cf'
+    oldFile: !uuid '2d91fbcceb5e46b920e00bd77d8aa5dea3a48e9f'
+  /v8_7_5/src/arm:
+    newFile: !uuid '05790f7ac16a6477391bb6d9666913bef2bc1724'
+    oldFile: !uuid 'ddc3f15373911af0a02695b9c06194dfabece928'
+  /v8_7_5/src/arm/simulator-arm.cc:
+    newFile: !uuid '633a9193aa9fd909a4a08e8eb1b65c8fc622a83f'
+    oldFile: !uuid '13e7a54e968dd281727dff8cbf0968e73c9b6939'
+  /v8_7_5/src/arm64:
+    newFile: !uuid '4b37c500c3f0bddaaf07eb5630d5e2a49f8c2e86'
+    oldFile: !uuid '2dacf5e08e83ea340a77e27de6fd1ceab8ab88cd'
+  /v8_7_5/src/arm64/simulator-arm64.cc:
+    newFile: !uuid '16b1012948e3dcb1d7101b14c8cb9f08c992272c'
+    oldFile: !uuid '00d73bad337c5ce6c23fedc3af838d294fcd0df4'
+  /v8_7_5/src/arm64/simulator-arm64.h:
+    newFile: !uuid '24569bdf333b6aea6581746efef3fa0df5f54698'
+    oldFile: !uuid 'f76065c93cf991b53d6998ac1ecaf4711decc0a0'
+  /v8_7_5/src/arm64/simulator-logic-arm64.cc:
+    newFile: !uuid '9a382897ab7fe3ae9b39818b541fd33fefc5fa5f'
+    oldFile: !uuid '7214573353fe9b56f59ee47f8912d1013b5255c2'
+  /v8_7_5/src/arm64/utils-arm64.h:
+    newFile: !uuid '2b137f26fd1a00964d211efade488cdec0563e92'
+    oldFile: !uuid '7446f32c8d1b002c9e752bd254332836434f9de5'
+  /v8_7_5/src/asmjs:
+    newFile: !uuid '21a35f6716b4d26a872b6cf027ccd9b7951f58e9'
+    oldFile: !uuid 'efb9c62fe9505c2fec7972881f617d3fcf4ac876'
+  /v8_7_5/src/asmjs/asm-js.cc:
+    newFile: !uuid 'a358c73e366cfc9942918e4d7a3f6bb1614ff215'
+    oldFile: !uuid 'be70cb2d273fcde6b8537dd886df133d6ea5f712'
+  /v8_7_5/src/asmjs/asm-scanner.cc:
+    newFile: !uuid '778545dd93b012e821e9cdc723a3a9cab6864cdb'
+    oldFile: !uuid 'f236e96758e9051d1b8909bbc1a1b79afc1c0604'
+  /v8_7_5/src/base:
+    newFile: !uuid 'bd58503e4aa8c54636ff031ae095825db65e354d'
+    oldFile: !uuid 'e423f8581f0cd813863df1a7477e95cf7cbe1e9f'
+  /v8_7_5/src/base/compiler-specific.h:
+    newFile: !uuid '7878d6c50249cc98fc0eeffd680c84f0f4821faf'
+    oldFile: !uuid '0e116b09001e203f8e97dbc48e764fa0811eb657'
+  /v8_7_5/src/base/overflowing-math.h:
+    newFile: !uuid 'd7bd1cccb6ec63aa60278692b0373cf0b666b11e'
+    oldFile: !uuid '7d9d350c47ddfcce6fddd41bf59c2bef6972ce57'
+  /v8_7_5/src/base/platform:
+    newFile: !uuid '41f4319874639117cd19cb82b4ae463911d21691'
+    oldFile: !uuid 'da2d960fbe863c2c9af58abe1d01e4748999b4f5'
+  /v8_7_5/src/base/platform/platform-aix.cc:
+    newFile: !uuid 'c764f5fe3734a25a4930cf0767185673b0e0c26e'
+    oldFile: !uuid '41f55ff8afd49ad4d0de7289efcf90fe195341d9'
+  /v8_7_5/src/base/platform/platform-cygwin.cc:
+    newFile: !uuid '3218a2f98e945f54999abdaf0cb47c275145ab7a'
+    oldFile: !uuid 'c7cc62c6262f11a55024b5553fc4c854a4841d25'
+  /v8_7_5/src/base/platform/platform-posix-time.cc:
+    newFile: !uuid '46719a3d9954b6eb272694edaa3f1bdbf5518972'
+    oldFile: !uuid '8b62c7dbf6cec7e4b460a2d2e2a5a1f91eaeb5f6'
+  /v8_7_5/src/base/platform/platform-posix.cc:
+    newFile: !uuid '8911bf356a743c75c147c07b93ad862e4bac50b9'
+    oldFile: !uuid '0951a30c010f21352c9715f7348bc9e3bc64359d'
+  /v8_7_5/src/base/platform/platform-solaris.cc:
+    newFile: !uuid '1f60d809f37635036f7db506b2b9fe1ce001f732'
+    oldFile: !uuid '7d6847570780ae5f9b281a04552043eb2a9e3b52'
+  /v8_7_5/src/base/thread-local.h:
+    newFile: !uuid '0e214fbc9470081c8642e6ca6dfd804040aae850'
+    oldFile: !uuid '412e78b2d28855086f2b68d077480c158987f614'
+  /v8_7_5/src/bootstrapper.cc:
+    newFile: !uuid 'ad87fec0130d8b1dfbb50c6ba08a3215df58aad4'
+    oldFile: !uuid '254091fc220849b4a2a4dad9379e9550cac42860'
+  /v8_7_5/src/boxed-float.h:
+    newFile: !uuid 'adbe3be4e4dcc8a4b0e35a250dcb323f3d8d6b1c'
+    oldFile: !uuid '3bac90b2a1117fd32d068e659602961519f8e33b'
+  /v8_7_5/src/builtins:
+    newFile: !uuid '7fdd67a047e98fc970ab1fe915d60dc0193d6956'
+    oldFile: !uuid 'c073479f11ff420b377f3aa7c682984c02c0e0cb'
+  /v8_7_5/src/builtins/builtins-date.cc:
+    newFile: !uuid '60f592672264e7f634f6fc530e7e5a349a804081'
+    oldFile: !uuid 'a48de637c5ae9cd3ab9992e7fdbe08c33c36badd'
+  /v8_7_5/src/builtins/builtins-definitions.h:
+    newFile: !uuid 'e089ff7038cc438d6f84cdef454aff1beeed08be'
+    oldFile: !uuid '4381d66e06ede16b6adeae787d7a4a491f09a965'
+  /v8_7_5/src/builtins/builtins-extras-utils.cc:
+    newFile: !uuid 'fcf1bf976bc757798a832b8e4287b24be905b027'
+    oldFile: !uuid '70a3174274a66060eb3e8194e780cc384c7b9713'
+  /v8_7_5/src/builtins/builtins-intl.cc:
+    newFile: !uuid 'a7dfb0757813cf27148094d09d5f83fa8e029a07'
+    oldFile: !uuid 'fa03bd3d9618d520a6f972e964c70e180bec955a'
+  /v8_7_5/src/builtins/builtins-math.cc:
+    newFile: !uuid 'bca7885d0e452b2a80a7ba4d01a64ee45047fcb1'
+    oldFile: !uuid '5bc6dd84ed0dc409fbc3bd2e7d8b4c0eb83808aa'
+  /v8_7_5/src/builtins/builtins-number.cc:
+    newFile: !uuid '647df97bacd9713da6cd5e1b8e8172555b095935'
+    oldFile: !uuid 'c7bb6b879393dbdf90ed0cf3fb4668856c5012b6'
+  /v8_7_5/src/builtins/builtins-sharedarraybuffer.cc:
+    newFile: !uuid 'e018c3ac77851100a91087526b09c8c058cdf532'
+    oldFile: !uuid '7385d12ba443853adb3c0dc0bb670f97cd57a480'
+  /v8_7_5/src/builtins/builtins-typed-array.cc:
+    newFile: !uuid 'd2d6bd87f3e787f7db3ad1354a7bfc973add712d'
+    oldFile: !uuid 'cebe305fae51fc116525ab8380b050b4b3b7fc45'
+  /v8_7_5/src/builtins/generate-bytecodes-builtins-list.cc:
+    newFile: !uuid 'f573c5c683e9e8eddbccec851b0d2a9af4ef4137'
+    oldFile: !uuid 'a26f5e3da61f852853be239c1c1754e8fbf430ec'
+  /v8_7_5/src/compiler:
+    newFile: !uuid 'de289cb8faf3ddaf1615732fd6a15cf1cb60640e'
+    oldFile: !uuid '0c764ec8965fcbc764938b02334a699a1505bc8a'
+  /v8_7_5/src/compiler/access-info.cc:
+    newFile: !uuid '9dd17dadf4b82b118133d83e21bbe318747089ea'
+    oldFile: !uuid 'ad415881260610b591a52c0d09c1377722b1d904'
+  /v8_7_5/src/compiler/backend:
+    newFile: !uuid '06c98af3901622b4618e595fc61bd5d0feb4d54a'
+    oldFile: !uuid '3ae3b895866afca0024dddfac1573162ce16bc19'
+  /v8_7_5/src/compiler/backend/ia32:
+    newFile: !uuid '4eb53f17f70380e70e6eea964f760521c284bcba'
+    oldFile: !uuid 'a15164fe0812925b4f4b599fe0b0d3e1b1fea672'
+  /v8_7_5/src/compiler/backend/ia32/code-generator-ia32.cc:
+    newFile: !uuid '7e1a3eb3c88225028db7f6a37cc4a021f356dbab'
+    oldFile: !uuid '9b30e479485b4d50f698aa0571960aa66f5e6d72'
+  /v8_7_5/src/compiler/backend/ia32/instruction-scheduler-ia32.cc:
+    newFile: !uuid '4fbb91fc14dc1f115e7c0458fe3a7815d79edb37'
+    oldFile: !uuid 'a527f08a128b7ad0ca743bc42855b797db77510b'
+  /v8_7_5/src/compiler/backend/ia32/instruction-selector-ia32.cc:
+    newFile: !uuid '7a927d92f20c7364a68dec9128b4fc2ebb143ee5'
+    oldFile: !uuid 'c1a2762bf9d37a7fc5f8ada623ff830049b3868d'
+  /v8_7_5/src/compiler/effect-control-linearizer.cc:
+    newFile: !uuid '2bb2dc111fc41d300a9ddd3bdeeb3ce2624febca'
+    oldFile: !uuid '5ff916a2d4f38d55eef879b9d7432b226b582f37'
+  /v8_7_5/src/compiler/js-heap-broker.cc:
+    newFile: !uuid 'a25d11726ddb83d3ec62cddb915f0ca433982cdd'
+    oldFile: !uuid 'e17a3c9f53b8873d5f80d3e0ec6142d5de0a5135'
+  /v8_7_5/src/compiler/js-operator.h:
+    newFile: !uuid '8a101b349bb705c3392cdf7a9e2df0fd249910a7'
+    oldFile: !uuid 'f074e5f2e47c2820ec7a109a5b6d2ac2b7c9ed2e'
+  /v8_7_5/src/compiler/machine-operator-reducer.cc:
+    newFile: !uuid 'e2ca07deaed59f70680899f976f963f66a986d6f'
+    oldFile: !uuid '68483fa7c60b2a20e9e8847275c1929a9b435c70'
+  /v8_7_5/src/compiler/node-matchers.h:
+    newFile: !uuid 'a8be21d51efdc59b997a9f2507877260cf24ee3f'
+    oldFile: !uuid '6e4154c3e74c9f9e0be74ab9b3849a936dc6de32'
+  /v8_7_5/src/compiler/operation-typer.cc:
+    newFile: !uuid '8e61a87e4a4d9706912cfc3c43f85402086583ac'
+    oldFile: !uuid '0be56b87658705a0066a3caeffb92f06537e0555'
+  /v8_7_5/src/compiler/types.cc:
+    newFile: !uuid '7a35d1cdcfa9d5c1d5a8fbbe2e7f0a62bc37a2ab'
+    oldFile: !uuid '184b1e2330b6cd11dc5320dcc8eac9e6bf3768eb'
+  /v8_7_5/src/compiler/wasm-compiler.cc:
+    newFile: !uuid '915b8d65c8523141af68d371ff63f632321ed144'
+    oldFile: !uuid 'ef91a9d5ed5e4647f7895de108f597a6e75d25f6'
+  /v8_7_5/src/conversions-inl.h:
+    newFile: !uuid '0f6da5845a47a13e0d306b3e9d1c996c6445cded'
+    oldFile: !uuid '18c9fd43b71e53dff8af67134539294010ed822e'
+  /v8_7_5/src/conversions.cc:
+    newFile: !uuid 'cbdc6d2e6c0da5cebec83bf8604e173968069496'
+    oldFile: !uuid 'cf644da670957b6e25324786271711c8f5140b93'
+  /v8_7_5/src/elements.cc:
+    newFile: !uuid '854f6935c943b4de302e42e3c82ffecfc3b2c461'
+    oldFile: !uuid '4f9db522b0720c6e2b5cf9156c4a9eebd20099d9'
+  /v8_7_5/src/heap:
+    newFile: !uuid 'd41771bdc972b1d50dae13e1cd5cf840a19d8230'
+    oldFile: !uuid '78813c949902a460793e1aacafb7e030dd9d0398'
+  /v8_7_5/src/heap/factory.cc:
+    newFile: !uuid '531a98884698ffb610da84e467d0569106990963'
+    oldFile: !uuid 'bc4dc92cefd3e641d3a77a89fce21cfe915efeb3'
+  /v8_7_5/src/heap/setup-heap-internal.cc:
+    newFile: !uuid '35176f12329dc437a1bce70c097dc8643eb9407e'
+    oldFile: !uuid '9ff8eaef9e1e7557636a34860c8aac88276361da'
+  /v8_7_5/src/ia32:
+    newFile: !uuid '77c02437329c5a7932a0e7d7f4d2f9c9bf9c0b1f'
+    oldFile: !uuid '2803c99fdcc6319537a9ffe2385c5ce5769262d8'
+  /v8_7_5/src/ia32/assembler-ia32.cc:
+    newFile: !uuid '33549fe86ef91a5d3977e6cbe5e3eafe584b3d6d'
+    oldFile: !uuid 'bae4eeec17d32f6c80b40067c0830d774dde3933'
+  /v8_7_5/src/ic:
+    newFile: !uuid 'd8f4b38cb9c24b119c784a137cfbb920b1bc1cd4'
+    oldFile: !uuid '819707bc23c3a729cc6a2c4da904b6c370229c0c'
+  /v8_7_5/src/ic/ic.cc:
+    newFile: !uuid '6d7e53c68cb5821951dd7bcdc17e61b4ea521772'
+    oldFile: !uuid '654e1f6e0fd7b82aea7a70a380f9138b3953afa6'
+  /v8_7_5/src/inspector:
+    newFile: !uuid '47805a19b6893493e796146e9e655c7e8adb0d12'
+    oldFile: !uuid '4b0a208f0f4fb1da76ae450223cad28a3ebf8d48'
+  /v8_7_5/src/inspector/string-16.h:
+    newFile: !uuid '5dbf54b88cc3418af801480966639c2a6687211e'
+    oldFile: !uuid '27e0b8aa97418e9fd2e9a929203e9365a456d5a2'
+  /v8_7_5/src/inspector/string-util.cc:
+    newFile: !uuid 'ef3f8249c8f1cb0e3c07169333fa3a0ed73c0e12'
+    oldFile: !uuid '37a9a26373890d8c457b2659d034e522fdd32920'
+  /v8_7_5/src/inspector/value-mirror.cc:
+    newFile: !uuid '48866e09d409e3abbb0b308c7f2427ff6bb341c7'
+    oldFile: !uuid '09ddbde890cd8240e5894b70666b540d601e286f'
+  /v8_7_5/src/interpreter:
+    newFile: !uuid 'fa6881525e81353938b20830e104a7dd3ea8b277'
+    oldFile: !uuid 'cdaae926d8c0c57e9fd55ab9c63a8cfcb60685ed'
+  /v8_7_5/src/interpreter/constant-array-builder.cc:
+    newFile: !uuid '96b0855406ab0a5c1643be0380f268576f56c1d9'
+    oldFile: !uuid '98be1b750f4ce01cd1a4d5f0e87b4b3c41cc2cc5'
+  /v8_7_5/src/json-stringifier.cc:
+    newFile: !uuid 'e6711a830e9516271e6f6591976886973afadc23'
+    oldFile: !uuid '241a784322505d2d9a43035fce58812230967278'
+  /v8_7_5/src/libplatform:
+    newFile: !uuid 'e5215f503255dc190697ce4cac7fe67bcfddcb1c'
+    oldFile: !uuid '79717ace866fdac903b6fc8571b419c167021382'
+  /v8_7_5/src/libplatform/default_platform_wrap.h:
+    newFile: !uuid '519cf1a2c15d6553a19cd73925f788eae10e497b'
+    oldFile: !uuid '0456d082eee3ad2acc86f081084b2e1e4758f888'
+  /v8_7_5/src/libplatform/tracing:
+    newFile: !uuid '9ac1d316c7fb0681d376b739e15ac11203187834'
+    oldFile: !uuid 'c0f975fdbf9ade29ac28ec48bedffe1d46e4c762'
+  /v8_7_5/src/libplatform/tracing/trace-writer.cc:
+    newFile: !uuid 'a665001c8d2e581a4f3acaf1eb15c171329e9339'
+    oldFile: !uuid '3d607636766de06ae0978c544e11d6cf552c032a'
+  /v8_7_5/src/mips:
+    newFile: !uuid 'aadd1396f1ec141a3cca316fbe20f286e51f2c94'
+    oldFile: !uuid '6fbe096c18ca2efa2fea5c693e41db95dee176b2'
+  /v8_7_5/src/mips/simulator-mips.cc:
+    newFile: !uuid 'cf2effe224f41027c970e19c20b1c7574f490505'
+    oldFile: !uuid 'cb40fc5d20dd3561a4ae1af0129f2c605dc96d56'
+  /v8_7_5/src/mips64:
+    newFile: !uuid '18370f3f548e0d0c493d84290bebc2f28ff8bed9'
+    oldFile: !uuid '81edefea18a71386cbe864dd26f06e0abfa7b7ee'
+  /v8_7_5/src/mips64/simulator-mips64.cc:
+    newFile: !uuid '10e8fc7881d2dd533bf611110a029183062fd74a'
+    oldFile: !uuid '1d72bb7b1955f8a56048c1fc759da0d48edac882'
+  /v8_7_5/src/objects:
+    newFile: !uuid 'cd7c692d62af49fdc462003d6b4daaea2fe6fdda'
+    oldFile: !uuid '6b301bed58f3a37fa1953f7f089f530e47e12dfe'
+  /v8_7_5/src/objects-inl.h:
+    newFile: !uuid 'e06da7914776a7a5cfd65946fd5b5b751c61b9fa'
+    oldFile: !uuid 'de5c32117c3472fa421fa585579c04c931d350eb'
+  /v8_7_5/src/objects-printer.cc:
+    newFile: !uuid '0d920a7843195c9161aea60c5d518916e4d95157'
+    oldFile: !uuid 'ebe7953d591821ffba230017c4e96a0895252b60'
+  /v8_7_5/src/objects.cc:
+    newFile: !uuid '70bde59b666a02c0b481fa925b232505274c6e77'
+    oldFile: !uuid 'e1e9f7f66560ff2f54adc51ccaef5ff59ae0bb57'
+  /v8_7_5/src/objects/bigint.cc:
+    newFile: !uuid 'ef120ce7d312dfe4b543cc3213c8c8dd184be482'
+    oldFile: !uuid 'b268f8c06dbc92e27c6f711d3075a99c735bd0ba'
+  /v8_7_5/src/objects/fixed-array-inl.h:
+    newFile: !uuid 'd285f855a7fceec100fcd80e88556ba7716bf3cd'
+    oldFile: !uuid '17be58db6631b69a5b8a1a839c7ab62e32a4269a'
+  /v8_7_5/src/objects/intl-objects.cc:
+    newFile: !uuid '28d158f8c3d423f6b72bf64b6be0c31ad3731c73'
+    oldFile: !uuid '0ab3cbe79cdbab0e12d33a66dd0a8c63f31a1c07'
+  /v8_7_5/src/objects/js-date-time-format.cc:
+    newFile: !uuid 'cbed80e2f4a31ebd8077931acddbc46ca6ab8b69'
+    oldFile: !uuid '35c768e3e660f42284e17b5542ee600089a66682'
+  /v8_7_5/src/objects/js-objects.cc:
+    newFile: !uuid '40da71704955829e26323477a6873e0f0b36d768'
+    oldFile: !uuid '98da8f7b562cb90b7fa6001fb15d40304be57f99'
+  /v8_7_5/src/objects/js-relative-time-format.cc:
+    newFile: !uuid 'ab3562aef4393da2ad2f2e041e09970d2407d99f'
+    oldFile: !uuid 'b2fe5162d5ab5e41f76c6c512b10179468b60446'
+  /v8_7_5/src/objects/ordered-hash-table.cc:
+    newFile: !uuid '5f9d75eef894f6806c217860e8bdd4f56e948ff4'
+    oldFile: !uuid 'e38abeeaa8691eed1892cf7b3226ebf2491dcbc5'
+  /v8_7_5/src/ppc:
+    newFile: !uuid 'dea0f4bf7d753e64b19aff385d2cd13859eb38e9'
+    oldFile: !uuid 'b2627929ab97360b5a03c60a0776d3d2a980666a'
+  /v8_7_5/src/ppc/simulator-ppc.cc:
+    newFile: !uuid 'a1bbe019987a53a0c30b4552ab89e1ec8b2d1033'
+    oldFile: !uuid 'c66beee44139f607afa0e55be6c42394f9d33087'
+  /v8_7_5/src/profiler:
+    newFile: !uuid '4e45d2809bb7cdca3b8cb3918957cde3dce23a35'
+    oldFile: !uuid '10bc2dea4405dd997eea3880d1e2941979dffe91'
+  /v8_7_5/src/profiler/profile-generator-inl.h:
+    newFile: !uuid '045a9f7fd0d14939a65933a6719433704cfab87f'
+    oldFile: !uuid 'f83dc2db47706e19fb8b968e8ed227420968f003'
+  /v8_7_5/src/profiler/profile-generator.cc:
+    newFile: !uuid 'baf7bf322c50ed36a1c20fb0f783baa48ca7466b'
+    oldFile: !uuid 'bc6f7c92b02cde19ab47285ef0f51de6c353ca54'
+  /v8_7_5/src/runtime:
+    newFile: !uuid '1ff97aba67b3ffcaac19af7aa4416cececbc5746'
+    oldFile: !uuid '641657d0a7ab913213d89368406f0816378c0706'
+  /v8_7_5/src/runtime/runtime-array.cc:
+    newFile: !uuid 'b7f91fd7837612a2326f7cc87d2ddfc53f5dc1b9'
+    oldFile: !uuid '38000265f9f54f64149e3c92f1786674d21c36a0'
+  /v8_7_5/src/runtime/runtime-typedarray.cc:
+    newFile: !uuid '8971afbccb1c3f3b7620149aac5e39846984d391'
+    oldFile: !uuid '75f7e44e8f329e085efb0df62511b352bc98cb47'
+  /v8_7_5/src/s390:
+    newFile: !uuid '6ea4ffa7f7dca31ecafddcff1292b5d29a18fd54'
+    oldFile: !uuid 'f89b0530d29f5b17b1445d293b2692defaa03f1e'
+  /v8_7_5/src/s390/simulator-s390.cc:
+    newFile: !uuid 'f4476b64052d761c5b18050eb6d2894e4f8cb141'
+    oldFile: !uuid '403a4a408dd898e34eef379edcfcce25e0617489'
+  /v8_7_5/src/s390/simulator-s390.h:
+    newFile: !uuid '944769802d5dd2e32efd8fc89ba16e69c4962344'
+    oldFile: !uuid '4a80020bd6b111aeeac81ddcd85e9a4b1d458900'
+  /v8_7_5/src/string-stream.cc:
+    newFile: !uuid 'e6b133f0402bbe3278ee099c95629a16a5cd7c9e'
+    oldFile: !uuid '5a52586b32a090127b607d30d808d76e70b6764a'
+  /v8_7_5/src/torque:
+    newFile: !uuid '5ebb50f8349ad60749fe5dc54407525c857b225c'
+    oldFile: !uuid '71d207938042213b666b54ebcece3dc1883ea8a8'
+  /v8_7_5/src/torque/contextual.h:
+    newFile: !uuid 'f951066d86a6fe6fc715d218781f152edc57f3a3'
+    oldFile: !uuid 'c21a361e6304aae837c3cd90af16eb08f8c0f0b5'
+  /v8_7_5/src/torque/ls:
+    newFile: !uuid '161870a58d8ecad16963caa527a4c4a9a5337d21'
+    oldFile: !uuid '75c1b594a9ca397b8237416ceb24e20f90b2ab57'
+  /v8_7_5/src/torque/ls/json-parser-torque.cc:
+    newFile: !uuid '2a489602c29bb6566a8b918c6b2e4a5621e388a6'
+    oldFile: !uuid '3611f59787f9b4b5ac735e42d972e6bbeb6d1932'
+  /v8_7_5/src/torque/torque-compiler.cc:
+    newFile: !uuid '8ef1e13251300b59850ee0dff44dd1f6af894081'
+    oldFile: !uuid 'ac67a3777c4a11ce97f317249eee468290ca2a1c'
+  /v8_7_5/src/torque/utils-torque.cc:
+    newFile: !uuid 'e905f8b56c129bac2a7bc1f5062e310dd5442498'
+    oldFile: !uuid 'bd38d5d1c22d6368a7f6380affdeeae5e4459840'
+  /v8_7_5/src/trap-handler:
+    newFile: !uuid 'e1d815b537d75e20237b718991e4426ba59bc3e0'
+    oldFile: !uuid 'cf601ac35acbfc2c14ca862d0bc2010e944899c7'
+  /v8_7_5/src/trap-handler/handler-inside-posix.cc:
+    newFile: !uuid '57f8ff5c6aab98d0b0367c745620d2a2fbfd6a0e'
+    oldFile: !uuid 'f58ae67f29fc1d27d4977319d9e1eeabfe4ff140'
+  /v8_7_5/src/trap-handler/handler-outside.cc:
+    newFile: !uuid '6e5d5db2a48ccd7c04735d3a31063be9685da4e0'
+    oldFile: !uuid '51d7cbb3d31ae9c19c56191454ab4c029ff6fce0'
+  /v8_7_5/src/trap-handler/handler-shared.cc:
+    newFile: !uuid 'bce61f21d279c59f59669ea74ca31eabe3300fb1'
+    oldFile: !uuid '8f16f55403363beef5a5d7539aad49ccf5a3bd7f'
+  /v8_7_5/src/trap-handler/trap-handler.h:
+    newFile: !uuid 'f7929e76ca1a93cc5a538b57b9ab5d1b51ff8f2c'
+    oldFile: !uuid 'a9c4eb1dffb82dabd94ad72f23ccbf93e2952f39'
+  /v8_7_5/src/utils.h:
+    newFile: !uuid '2587cf6bf118fe94ddfb1da14579c3d8f5260950'
+    oldFile: !uuid '3bf1348e84dd642869507752e2c8761ab334cd3f'
+  /v8_7_5/src/value-serializer.cc:
+    newFile: !uuid 'a53065f77c9f6c5c961a05aae0160a0c607d41aa'
+    oldFile: !uuid 'cf7bfaa93aaa4b557f28df962292f0ed1f21efe9'
+  /v8_7_5/src/vm-state-inl.h:
+    newFile: !uuid 'ab0ce9b3a08be9f79c151cb665fd17c37372055c'
+    oldFile: !uuid '4918b0110b3c759a3b2407d36fa298ad8f4b6e6d'
+  /v8_7_5/src/wasm:
+    newFile: !uuid '588a79afa835ad62ef93f43db4b03f58c07c4f15'
+    oldFile: !uuid '16a23c70cd22f006f071343e983f6f2a4cd4bc69'
+  /v8_7_5/src/wasm/wasm-code-manager.cc:
+    newFile: !uuid '45fa39ca4a7bb4896cdf251be9555341d850c84b'
+    oldFile: !uuid '6f19f79e46ba77693d2097f99c5bc182f730c0fa'
+  /v8_7_5/src/wasm/wasm-interpreter.cc:
+    newFile: !uuid '9a11cd47809076c56dc815ec722e8d1199b6a492'
+    oldFile: !uuid '2c4ef7a08339eca649258079e44c9229cb6bb2a2'
+  /v8_7_5/src/wasm/wasm-js.cc:
+    newFile: !uuid 'c2d7dec8a6996e7e0bf198982700bd3f0ff1f511'
+    oldFile: !uuid '0fb59ceb9a165352e43afc0ba34624b674edeacf'
+  /wke:
+    newFile: !uuid '2edd50ced9e49a4ffa5f85a02b369d04fcac1f3a'
+    oldFile: !uuid 'ab6a96e7bfecf206d96986d4022a9cbaeec2e472'
+  /wke/wke.cpp:
+    newFile: !uuid '9919ca5456fe70e0a1e3ced7c1ad56ca498b8f9b'
+    oldFile: !uuid 'e5fb15de842acbe1442a64fe0d19e9761b362869'
+  /wke/wke2.cpp:
+    newFile: !uuid '461c5717474da8a58253f4efcbbe4aff37dc8bd7'
+    oldFile: !uuid 'e0d57ebd9c50470eea0f00c36a2aaa9b99597f96'
+  /wke/wkeGlobalVar.cpp:
+    newFile: !uuid '35940ca02413dc8d7cb49fbf4e095e9d08aebd12'
+    oldFile: !uuid '66bffeccfbdd443a7d172fa04eb1818b043bf859'
+  /wke/wkeJsBind.cpp:
+    newFile: !uuid 'f90ef85f94e3e8858cfea0aa1bb98a873141a960'
+    oldFile: !uuid 'bde8c57c4358225f66d9ea2a56ae02f90b57085c'
+  /wke/wkeNetHook.cpp:
+    newFile: !uuid '1a1a2281e638f9f0511572a5403cec76c3eae18f'
+    oldFile: !uuid 'cd6ac6459c48338f1014bef7b053055203afc584'
+  /wke/wkeString.cpp:
+    newFile: !uuid '5ea362cbbe9b2a92405f0954b2dbc1e5cf49e01c'
+    oldFile: !uuid 'ed3fe49715e860a6f00a700e1d9e65e0953ba0d2'
+  /wke/wkeString.h:
+    newFile: !uuid 'f9b81b61acfe4f1d060c0c9f14460594d11217fd'
+    oldFile: !uuid '0e914913b50ca7c9d0e7f05e3c46270f54dd63c6'
+  /wke/wkeWebView.cpp:
+    newFile: !uuid '832b853659786d4f8c1fb5b24e58f7b8939b9d56'
+    oldFile: !uuid '2d4849116eaf891eaa2be53c8e18dcf3a4d02697'
+  /wke/wkeWebView.h:
+    newFile: !uuid '4cd63fee8133f85936aac764fc56df67b0a6a401'
+    oldFile: !uuid '2bb2408b8e32370bfccb778258fc271444d2700e'
+  /wke/wkeWebWindow.cpp:
+    newFile: !uuid '150699badb84c223084a649d63afb6576c159e9b'
+    oldFile: !uuid '14be3ba03e045b78e2efb742ecaefda2a7be9336'
+  /wke/wkeWebWindow.h:
+    newFile: !uuid '373fe9a3d1c5bf6323060d733c0a63b34bf721ea'
+    oldFile: !uuid 'd082274de79b8ae49d6f2e6ba1619f56c8b177cf'
+  /wke/wkedefine.h:
+    newFile: !uuid 'd981bc34a3af035e36f45ff257ae3dc88a357706'
+    oldFile: !uuid '6cbe4e26fce5d5cd242ca31df3d0a5970064d8aa'
+  /wkexe:
+    newFile: !uuid '5049b95af3dd3ab3150d8e828ad3d1a847bba898'
+    oldFile: !uuid '2b3e13c2d8d48472e46dd42d8e620839f687a6d8'
+  /wkexe/vip:
+    newFile: !uuid 'c99336f0b34a7c3be7cb45938c5c10e5ffc3f08a'
+    oldFile: !uuid '8e3d7fc52b29ebff15aa98ffe8c5ffd3777bd597'
+  /wkexe/vip/Getopt.c:
+    newFile: !uuid 'b62e2a8bd84e3afd276a33bbe0e4eb1caf3ee539'
+    oldFile: !uuid '7c9e46a2595d4ef1688c7fa0ceb554103af55699'
+  /wkexe/vip/RootWindow.cpp:
+    newFile: !uuid '4a5254b49fb578b972d6cf11c27c9bb62cf13b80'
+    oldFile: !uuid '2b5f71ec8346474da76428a2329f60a869524495'
+  /wkexe/vip/main.cpp:
+    newFile: !uuid 'eef21e8e929c19ca7cf51d7875a00572a527f626'
+    oldFile: !uuid 'dad74b049ecf5f1fb2c13249957903e6d94f337c'
+gitCommitId: !uuid 'c036f5fded5656700842af3ed5028f1582c52d4a'
 renames: {
   }
-revisionId: 57
+revisionId: 58
