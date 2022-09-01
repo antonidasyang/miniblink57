@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /gen:
-    newFile: !uuid 'a0a261840cdbae641dcfa5dec01faf4c2c52ba1e'
-    oldFile: !uuid 'f701e5c6abe0d1f0a9437e1dbbb01e9104ff9d98'
+    newFile: !uuid 'c5fd88d42e3b163b55194a57357dccfa7fe41667'
+    oldFile: !uuid 'a0a261840cdbae641dcfa5dec01faf4c2c52ba1e'
   /gen/v8_7_5:
-    newFile: !uuid '33072a1196ba1bd6d0695101277dde2e3b9fddc0'
-    oldFile: !uuid '1e12b18a02580539b64cea4d183fb1352c27b5f6'
-  /gen/v8_7_5/torque-generated:
-    newFile: !uuid 'f7095e1f529d35b8adc029f6e089d22ba5690671'
-    oldFile: !uuid '42e009b2dfffeade75691a137581ac13782fd64c'
-  /gen/v8_7_5/torque-generated/builtins-array-from-dsl-gen-x64.cc:
-    newFile: !uuid '9b597b114ffe95fe181e4a9709e15eaf00555039'
+    newFile: !uuid 'c076b44fe0897c732dfe8c9ff883765b93bd8714'
+    oldFile: !uuid '33072a1196ba1bd6d0695101277dde2e3b9fddc0'
+  /gen/v8_7_5/extras-libraries-v857.h:
+    newFile: !uuid '93a089374a2232b4af547622e30f7e3577e32607'
     oldFile: null
-gitCommitId: !uuid 'e7f4f36a7c9d8329514d1e62f3ef3f5597bd9c35'
+gitCommitId: !uuid 'b0c93f6cf11c8ca00dd4fe0e7e960669bcbe6faf'
 renames: {
   }
-revisionId: 64
+revisionId: 65
