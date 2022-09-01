@@ -2,70 +2,136 @@
 branches: {
   }
 fileChange:
-  /mbvip:
-    newFile: !uuid 'ddacf7c78757571bf6b4ffb30dc673e445f3dbbe'
-    oldFile: !uuid 'a40bd19df54de32c1290aa08285bf169384efb58'
-  /mbvip/common:
-    newFile: !uuid '0c145dad23146f90f0554123b5de06a994cb099f'
-    oldFile: !uuid '43ee47674f93f5608d6d00d79649bcfd91651009'
-  /mbvip/common/BindJsQuery.cpp:
-    newFile: !uuid '5956a533bffef8f24a86e355f2e879726ed2aab1'
-    oldFile: !uuid '625e2086b0ed6838872bb1c4f08a25b68f540a91'
-  /mbvip/common/CallMgr.cpp:
-    newFile: !uuid 'bf69232f2a2dc1f86499d3faddee37d0742228b6'
-    oldFile: !uuid '710a83b315f6f295f38f9dd9c93c7943864db47d'
-  /mbvip/common/CallMgr.h:
-    newFile: !uuid '082e331be85e0676bc7dc51f0b324b308e51d4e0'
-    oldFile: !uuid '805375e99c0a94609c588ae7ff469b544151f5dc'
-  /mbvip/common/CallbackClosure.h:
-    newFile: !uuid 'ea11ab8ad647123023a9f5b14bd8d73eb702862a'
-    oldFile: !uuid 'efd82c075ba96f851aef5662fb29a1ee6378f67c'
-  /mbvip/common/HeartbeatTimerWin.h:
-    newFile: !uuid '44cb207877266363e546ac7d9bb25eafec9e204e'
-    oldFile: !uuid 'a8885e4bd7461a43141cbf7aaf9f2aa45b765430'
-  /mbvip/common/StringUtil.cpp:
-    newFile: !uuid 'c99b815fb2a8fb6fc0627dc0b864107c827b175e'
-    oldFile: !uuid 'a8a9859a9e648c0caad959c66703bfe9ab8229ab'
-  /mbvip/common/StringUtil.h:
-    newFile: !uuid 'ba18b9de033090b7e02a809bba6574617db05d41'
-    oldFile: !uuid '7854bef93b44642fdddabaf79105a207c769b44d'
-  /mbvip/common/ThreadCall.cpp:
-    newFile: !uuid '0d28ab8172d424d19abbb6edc4f5fab4becf85cf'
-    oldFile: !uuid '1b79b7cfc9ea578db0adf1cf1d4fc5a6a49d18b2'
-  /mbvip/common/ThreadCall.h:
-    newFile: !uuid '9964c93aba0496e4961d8462d5dab88375096750'
-    oldFile: !uuid '6c159c960bb7fd6dbe8bb8e5eee013e1f3fee6f6'
-  /mbvip/common/ThreadCallWrap.cpp:
-    newFile: !uuid '3ef210e6dfec405ef43cb9f5cdd5d53240d66546'
-    oldFile: null
-  /mbvip/common/UrlUtil.h:
-    newFile: !uuid 'f5ca3e172f7218921ef4cf36fb694c230c3bab4e'
-    oldFile: !uuid '0a5be69741f25266c61640779ee9d96de16ddf3a'
-  /mbvip/common/Util.h:
-    newFile: !uuid '63ec310ea22c737e966a7816780adaff5c6549fa'
-    oldFile: !uuid '2d6ba5f4c08a73f344befc58a82ae0ebb150fc76'
-  /mbvip/core:
-    newFile: !uuid 'eeaae7b2ec2c7a5bae78b19d8268cd2e62c04a6c'
-    oldFile: !uuid 'b44dc28e5411872a21140ba6328ce1ff87d0fc64'
-  /mbvip/core/MbWebView.cpp:
-    newFile: !uuid 'caa00932d8485f48912574b5020607cc8123e663'
-    oldFile: !uuid '6bfd26616a0a5be6f219bbcd894d97c71efeb32c'
-  /mbvip/core/MbWebView.h:
-    newFile: !uuid 'f4f2aa7e43a734a2f1befcc8e01d28f61374ed89'
-    oldFile: !uuid 'e2d162975107d069a71f4aad1c5f19cbb7527add'
-  /mbvip/core/PromptWnd.h:
-    newFile: !uuid 'f3dc113f2da956c33c652d6beb8253b641c4888e'
-    oldFile: !uuid 'd1899fb4d38d977a4e60bf36810105dd8713d554'
-  /mbvip/core/mb.cpp:
-    newFile: !uuid '73b3955ff0a6927a2191f03c6aa2c3334be04e83'
-    oldFile: !uuid 'eddbe10f295edb5f4e1f225aaaf0d7359192414e'
-  /mbvip/core/mb.h:
-    newFile: !uuid 'cb9e57449129e2666980c76780b2f7c5d8fd759b'
-    oldFile: !uuid 'f9e81e4707de2181f15e1217b89ae9794c742042'
-  /mbvip/core/mb2.cpp:
-    newFile: !uuid '6baf8ba828cefc38c07f0dd49a6529e5ee79aa4a'
-    oldFile: null
-gitCommitId: !uuid 'aabd81a9434c3a6b312bae775610a69c94a7197d'
+  /content:
+    newFile: !uuid 'c2812ab03684d90204c351e1f306bf08823581ec'
+    oldFile: !uuid '54a53186b041853f73495935a94a3c98dcdc66bf'
+  /content/OrigChromeMgr.cpp:
+    newFile: !uuid '99a5bb478f1ab028ab054226db47c797cfc01504'
+    oldFile: !uuid '9e86437c0bda454e9aa428bf15949da54713d968'
+  /content/RenderWidgetCompositor.cpp:
+    newFile: !uuid 'ce474dde449e205b8e09b092bbbd40832669873a'
+    oldFile: !uuid 'af72f15628de981c8c299c5ea66bc803e1a01c3b'
+  /content/browser:
+    newFile: !uuid '96f3e568151bc4ba4530fb4f1060513231ac17f5'
+    oldFile: !uuid 'c0e8ff36f84dfe93e24917a3d8b1da95c54c8e16'
+  /content/browser/PlatformEventHandler.cpp:
+    newFile: !uuid 'a8e21522ad74e70d68dbfe390c29823b1f7ab1f1'
+    oldFile: !uuid '15af582b36c7fd82417873e1634eb26bfca99377'
+  /content/browser/PlatformMessagePortChannel.h:
+    newFile: !uuid 'bb23fa8c81a4bffa03448174c70bf04813652704'
+    oldFile: !uuid 'dd63791ec62168294aab8769b251b68300267f99'
+  /content/browser/SharedTimerWin.h:
+    newFile: !uuid '7779603985cfa1cb28058f783c0126584b20b7fd'
+    oldFile: !uuid '14bdb8f2d9d075c8b135ff436077979bcfc48998'
+  /content/browser/TouchStruct.h:
+    newFile: !uuid '010cc10e6a3960becdb7ac35c1ba58e621059277'
+    oldFile: !uuid 'c6dc1c858166903b2e6197dfcad16e6b2e413156'
+  /content/browser/WebFrameClientImpl.cpp:
+    newFile: !uuid 'e68dc7966aac164b4d5ce5decbc49565fa3aba5a'
+    oldFile: !uuid '4cb7fc5ee57d861ed585f72854351a828779b335'
+  /content/browser/WebPageImpl.cpp:
+    newFile: !uuid 'b1d171d09b63ac14814809e10577548fc01ae93d'
+    oldFile: !uuid '95ac507ecc4535b57cdfc80490fc6ad3c405408f'
+  /content/browser/WebPageImpl.h:
+    newFile: !uuid 'a8f884a4360b5f1e5b762c15675c4f3e2a16b206'
+    oldFile: !uuid '40a6241132fbab258ddfa6c5a966acade7d422d1'
+  /content/compositor:
+    newFile: !uuid '82b4b414f2d56ef8e470b85f9ddc17f20b9434cf'
+    oldFile: !uuid 'a8aadc96a71956ff4e971fd844ba06017b1419ed'
+  /content/compositor/BrowserContextProvider.h:
+    newFile: !uuid '576ff68c924acb8fb4e6b9da5c8d9cc67661369e'
+    oldFile: !uuid '913c46a3d2b0084460e7d4ca84e79c394fa654bd'
+  /content/compositor/EmptyOutputSurface.cpp:
+    newFile: !uuid '4ca4a228f5298e5731401127cc83d90d87b91583'
+    oldFile: !uuid '85d72054967699a48b0e7836a74d467c0380ca51'
+  /content/compositor/SoftwareOutputDevice.cpp:
+    newFile: !uuid '99311ec31e129d8d91f3dd51f555d8ae56390ef2'
+    oldFile: !uuid 'ce542e68e113c6caef536f083ad977b7ce79ae16'
+  /content/resources:
+    newFile: !uuid '47668f2a54b3e82458b2416b64756bbfe53b88b5'
+    oldFile: !uuid '905991bfa09fab03c2df121cc8730cb3ed6e9f23'
+  /content/resources/LocalizedString.h:
+    newFile: !uuid '504705f4a1be8463057a7d23b77ddec90729a2b3'
+    oldFile: !uuid '03b5fe158c5f6b6be4d651219e5416b9d9eac570'
+  /content/ui:
+    newFile: !uuid 'a9b32434cc81ad894ab451475357a0f8bd8bf30b'
+    oldFile: !uuid '323d79127e67f96d7d4727b47ab024d6bfc55b18'
+  /content/ui/ClipboardUtil.h:
+    newFile: !uuid '16646c18a42f224c20fc72fe691f4d5ec9f46623'
+    oldFile: !uuid '282d09f3ffb3207764e4dc354556d8b0b843ff3c'
+  /content/ui/ContextMeun.h:
+    newFile: !uuid 'be49e0c608402573ccb01239b8c0af0ee4dd19bb'
+    oldFile: !uuid '4ef957e3bd7406fcc791f5dc42eca2fb18db682f'
+  /content/ui/DragHandle.h:
+    newFile: !uuid 'f4a5d16160349a4470ba6d9d83b988fe14787db1'
+    oldFile: !uuid '86d1b8c9481c076c3392e3f42d8ff8fc252ab07f'
+  /content/ui/PlatformCursor.h:
+    newFile: !uuid 'd133a18f636cbcf28a5e5ebd3f3308e77ddf805e'
+    oldFile: !uuid 'e374a02600bd1493b23e154228408b92f069bb46'
+  /content/ui/PopupMenuWinClient.h:
+    newFile: !uuid '9214efcb8e001f839f1e5e9986ec40945a864c66'
+    oldFile: !uuid 'c2b53515983d815c7158ebb5d2280a16ce55ea4a'
+  /content/ui/RunFileChooserImpl.h:
+    newFile: !uuid '32f5fd4f5626d138ac420a312b9b2d47b406b118'
+    oldFile: !uuid 'e75cc4e6e8290f110065b99965b55fd97c5b7ee6'
+  /content/ui/SaveImage.h:
+    newFile: !uuid '45f612da2f280e942b725c3f4862c1b703eefd7f'
+    oldFile: !uuid '79fbe8a4aa2349f32fc0337452e7efbfb60e09c2'
+  /content/ui/ToolTip.h:
+    newFile: !uuid '7dc4b83d15ee431a6dcef5c858b1b461655399d9'
+    oldFile: !uuid '4154f1110a8329115e9e701e938d881842bf0f19'
+  /content/ui/WCDataObject.h:
+    newFile: !uuid 'c420b23cb1ba59eafb4878125209038b2383a87c'
+    oldFile: !uuid '556b6200faa75e11b766df00b1f73a3e06d7d9b6'
+  /content/web_impl_win:
+    newFile: !uuid 'cab50e70a5455c192b369a34f34a990156cac890'
+    oldFile: !uuid '7057473030211ec7f69bae8db06c8205f58323cd'
+  /content/web_impl_win/BlinkPlatformImpl.cpp:
+    newFile: !uuid '7b28999d5324cae9576153487b87909fafcfa8c8'
+    oldFile: !uuid 'ad735505af3e9a6ad6941694b15db04e4d56b866'
+  /content/web_impl_win/BlinkPlatformImpl.h:
+    newFile: !uuid 'bcc4f05db7ff2e9249e1d3b849f7f33346570f8c'
+    oldFile: !uuid 'c376e3ff379861dc33a5a981d81401c5b63ec2d2'
+  /content/web_impl_win/WebClipboardImpl.cpp:
+    newFile: !uuid 'f07885659961109122bdbdd8116b52bb4e52d519'
+    oldFile: !uuid 'ff7a6415a3b886b4c92dfc6959529dff0126dee8'
+  /content/web_impl_win/WebFileUtilitiesImpl.cpp:
+    newFile: !uuid 'f9f76c861b7589ba6128c8ec5b19fd875e22a067'
+    oldFile: !uuid 'efd8b92f1e3349f79a6daabc7210fbde72d7dd43'
+  /content/web_impl_win/WebMediaPlayerImpl.h:
+    newFile: !uuid 'e5d9776711033eff6aea5e68dae33e82bde4bd14'
+    oldFile: !uuid 'c2055c3e3a0cbca737827e92209e995f08a152a2'
+  /content/web_impl_win/WebMessagePortChannelImpl.h:
+    newFile: !uuid '810fe7b6ea25c44fb455fa1f4947ab2fd815e8c0'
+    oldFile: !uuid '0183847f09150d34dc81acb9c91a2b4421519c89'
+  /content/web_impl_win/WebThemeEngineImpl.h:
+    newFile: !uuid '5705c311f5f9848a576c9507ff78b86f7dcdcd22'
+    oldFile: !uuid 'fe78b0bf62c0500d828f8f4e07637bd8dcc6d23f'
+  /content/web_impl_win/WebThreadImpl.cpp:
+    newFile: !uuid '1801bdc8b0265f9d820abd99be60e92ed02d99c0'
+    oldFile: !uuid '0ae559dc92c020584f7cf1b04ea4f3f6215ce48b'
+  /content/web_impl_win/WebThreadImpl.h:
+    newFile: !uuid '24e7c27d178b16c6d9b78a5474e58c28f2979f74'
+    oldFile: !uuid 'da3caa7aa1337d58abdf6085949d580b25a10dbc'
+  /content/web_impl_win/WebTimerBase.cpp:
+    newFile: !uuid '7cfc941be08094f474c5e8053c7e288d32e30f76'
+    oldFile: !uuid 'e5d1f40024284a2bc642700796d7245883fc06f5'
+  /content/web_impl_win/WebURLLoaderImplCurl.cpp:
+    newFile: !uuid '405025bb26637e6925d5c1163fba62821855be30'
+    oldFile: !uuid 'c5cb6e6ce036866e0f36faf9081501d93c75591d'
+  /content/web_impl_win/npapi:
+    newFile: !uuid 'f664dc92d6c1745892cf316ec7e1226ba8699f35'
+    oldFile: !uuid '73699066d968185f84eaf68a0605ef671772c035'
+  /content/web_impl_win/npapi/PluginMainThreadScheduler.cpp:
+    newFile: !uuid '44feaa5c9b2352ef2a51d3e6dd152835d507a56b'
+    oldFile: !uuid '370d0c0d44814f74ee2a54b1e116da4350c65c53'
+  /content/web_impl_win/npapi/PluginMainThreadScheduler.h:
+    newFile: !uuid 'e693a4fca8760248061f7a30686e2ca04fdea52d'
+    oldFile: !uuid '821935299a9c986f0e8c9b84b8e63e2cd4394ee8'
+  /content/web_impl_win/npapi/npapi.cpp:
+    newFile: !uuid '88c293b8d5ee07407b98172aead5fcb3bb1b8892'
+    oldFile: !uuid '3e287ec1297975b936833bdd97945250db9cc213'
+gitCommitId: !uuid 'aabfde0cf83e5aeccb88d7fef16eed219cda3cda'
 renames: {
   }
-revisionId: 54
+revisionId: 55
