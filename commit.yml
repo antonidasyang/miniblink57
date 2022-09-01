@@ -2,16 +2,70 @@
 branches: {
   }
 fileChange:
-  /quickjs:
-    newFile: !uuid '0fa6dd419794624931613082f8f6cc75ac775c3b'
-    oldFile: !uuid 'c7315a21f832c0e39c2f67b94f955a810978318a'
-  /quickjs/quickjs.c:
-    newFile: !uuid '9f14e23031a6978d46454142f814bb1ad9cd9dad'
-    oldFile: !uuid '66a7c6d3fe0b7bec38a56d0e2911607e25073076'
-  /quickjs/quickjs.h:
-    newFile: !uuid '877f7ec55520310ed2b63c92a0db412d113c841c'
-    oldFile: !uuid 'a9efbf130e53d77d236c5997718ccdf691b2cc65'
-gitCommitId: !uuid '05d9d55c798df50e78fe2de3a4cb678d208f16c5'
+  /mbvip:
+    newFile: !uuid 'ddacf7c78757571bf6b4ffb30dc673e445f3dbbe'
+    oldFile: !uuid 'a40bd19df54de32c1290aa08285bf169384efb58'
+  /mbvip/common:
+    newFile: !uuid '0c145dad23146f90f0554123b5de06a994cb099f'
+    oldFile: !uuid '43ee47674f93f5608d6d00d79649bcfd91651009'
+  /mbvip/common/BindJsQuery.cpp:
+    newFile: !uuid '5956a533bffef8f24a86e355f2e879726ed2aab1'
+    oldFile: !uuid '625e2086b0ed6838872bb1c4f08a25b68f540a91'
+  /mbvip/common/CallMgr.cpp:
+    newFile: !uuid 'bf69232f2a2dc1f86499d3faddee37d0742228b6'
+    oldFile: !uuid '710a83b315f6f295f38f9dd9c93c7943864db47d'
+  /mbvip/common/CallMgr.h:
+    newFile: !uuid '082e331be85e0676bc7dc51f0b324b308e51d4e0'
+    oldFile: !uuid '805375e99c0a94609c588ae7ff469b544151f5dc'
+  /mbvip/common/CallbackClosure.h:
+    newFile: !uuid 'ea11ab8ad647123023a9f5b14bd8d73eb702862a'
+    oldFile: !uuid 'efd82c075ba96f851aef5662fb29a1ee6378f67c'
+  /mbvip/common/HeartbeatTimerWin.h:
+    newFile: !uuid '44cb207877266363e546ac7d9bb25eafec9e204e'
+    oldFile: !uuid 'a8885e4bd7461a43141cbf7aaf9f2aa45b765430'
+  /mbvip/common/StringUtil.cpp:
+    newFile: !uuid 'c99b815fb2a8fb6fc0627dc0b864107c827b175e'
+    oldFile: !uuid 'a8a9859a9e648c0caad959c66703bfe9ab8229ab'
+  /mbvip/common/StringUtil.h:
+    newFile: !uuid 'ba18b9de033090b7e02a809bba6574617db05d41'
+    oldFile: !uuid '7854bef93b44642fdddabaf79105a207c769b44d'
+  /mbvip/common/ThreadCall.cpp:
+    newFile: !uuid '0d28ab8172d424d19abbb6edc4f5fab4becf85cf'
+    oldFile: !uuid '1b79b7cfc9ea578db0adf1cf1d4fc5a6a49d18b2'
+  /mbvip/common/ThreadCall.h:
+    newFile: !uuid '9964c93aba0496e4961d8462d5dab88375096750'
+    oldFile: !uuid '6c159c960bb7fd6dbe8bb8e5eee013e1f3fee6f6'
+  /mbvip/common/ThreadCallWrap.cpp:
+    newFile: !uuid '3ef210e6dfec405ef43cb9f5cdd5d53240d66546'
+    oldFile: null
+  /mbvip/common/UrlUtil.h:
+    newFile: !uuid 'f5ca3e172f7218921ef4cf36fb694c230c3bab4e'
+    oldFile: !uuid '0a5be69741f25266c61640779ee9d96de16ddf3a'
+  /mbvip/common/Util.h:
+    newFile: !uuid '63ec310ea22c737e966a7816780adaff5c6549fa'
+    oldFile: !uuid '2d6ba5f4c08a73f344befc58a82ae0ebb150fc76'
+  /mbvip/core:
+    newFile: !uuid 'eeaae7b2ec2c7a5bae78b19d8268cd2e62c04a6c'
+    oldFile: !uuid 'b44dc28e5411872a21140ba6328ce1ff87d0fc64'
+  /mbvip/core/MbWebView.cpp:
+    newFile: !uuid 'caa00932d8485f48912574b5020607cc8123e663'
+    oldFile: !uuid '6bfd26616a0a5be6f219bbcd894d97c71efeb32c'
+  /mbvip/core/MbWebView.h:
+    newFile: !uuid 'f4f2aa7e43a734a2f1befcc8e01d28f61374ed89'
+    oldFile: !uuid 'e2d162975107d069a71f4aad1c5f19cbb7527add'
+  /mbvip/core/PromptWnd.h:
+    newFile: !uuid 'f3dc113f2da956c33c652d6beb8253b641c4888e'
+    oldFile: !uuid 'd1899fb4d38d977a4e60bf36810105dd8713d554'
+  /mbvip/core/mb.cpp:
+    newFile: !uuid '73b3955ff0a6927a2191f03c6aa2c3334be04e83'
+    oldFile: !uuid 'eddbe10f295edb5f4e1f225aaaf0d7359192414e'
+  /mbvip/core/mb.h:
+    newFile: !uuid 'cb9e57449129e2666980c76780b2f7c5d8fd759b'
+    oldFile: !uuid 'f9e81e4707de2181f15e1217b89ae9794c742042'
+  /mbvip/core/mb2.cpp:
+    newFile: !uuid '6baf8ba828cefc38c07f0dd49a6529e5ee79aa4a'
+    oldFile: null
+gitCommitId: !uuid 'aabd81a9434c3a6b312bae775610a69c94a7197d'
 renames: {
   }
-revisionId: 53
+revisionId: 54
