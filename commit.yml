@@ -2,25 +2,94 @@
 branches: {
   }
 fileChange:
-  /quickjs:
-    newFile: !uuid '71a2cba5ace56ca5479cee479529b3dfca2652b3'
-    oldFile: !uuid '0fa6dd419794624931613082f8f6cc75ac775c3b'
-  /quickjs/MiniV8Api.cpp:
-    newFile: !uuid '927550376ce27c99efe595197bd2ea93e4bde5ed'
-    oldFile: !uuid '824cc9d0314fe133788aeb4031ea8aab7eee68ce'
-  /quickjs/MiniV8Api.h:
-    newFile: !uuid '4cf687171a863691f677abed21ef1ce0c318b4a4'
-    oldFile: !uuid '98c1e3b8c4a0d578d03c225f59f04a15b2c04317'
-  /quickjs/MiniV8Impl.cpp:
-    newFile: !uuid '7ffd26bd3ef52c8b0195aaf7770df1d82d2d4232'
-    oldFile: !uuid 'd70643e064ef0f76a1bbb4af8dfa0f3d8efd6eb1'
-  /quickjs/quickjs.c:
-    newFile: !uuid '2e71e8fff3c68f73577fe9dd5628a840ac964d7d'
-    oldFile: !uuid '9f14e23031a6978d46454142f814bb1ad9cd9dad'
-  /quickjs/quickjs.h:
-    newFile: !uuid '0f1fa1880022d928033bb37a05577b42eb73bdd5'
-    oldFile: !uuid '877f7ec55520310ed2b63c92a0db412d113c841c'
-gitCommitId: !uuid '47c9fc2bfe3427e3158bbb3c7424399c686ffdb2'
-renames: {
-  }
-revisionId: 66
+  /fastmake:
+    newFile: !uuid '2ab791de1eda2c8b6057ea9213dde80a1fd8ad6e'
+    oldFile: !uuid '923ff40fdecca46ca4e0873da650dbc3214e89cc'
+  /fastmake/FastMakeMain.cpp:
+    newFile: !uuid '96142fc7f1b626751b16ed915061e2b8127e5d9f'
+    oldFile: !uuid '581342292ae22fb03d9140fa0d44034698c31f2b'
+  /fastmake/QjsFastMake.cpp:
+    newFile: !uuid '8b7dcf04eb88d974985b4bb7778a8e56c435e7d1'
+    oldFile: !uuid '3abda771b03f8a37d95a35c1b708f4b56a2d0789'
+  /fastmake/all_build:
+    newFile: !uuid '4c5618f1c1af648cb0c7e9c3d48aa9f2c6c136a2'
+    oldFile: !uuid 'becaf516e8b84bf86baa4a2f04d3d4c9dfa5e952'
+  /fastmake/all_build/blink_build.js:
+    newFile: !uuid '4a563c171bc730c2630549464827a62ef16c61cb'
+    oldFile: !uuid '92d1bcbcbeb17b2b5db1eff5e50f10dda13e19c1'
+  /fastmake/all_build/chromium_build.js:
+    newFile: !uuid '27b3bd6e8b97aefa451e84781182228bc0f3911e'
+    oldFile: !uuid '709f3e2623cf7bdc62d353412ce1d92766dea8d6'
+  /fastmake/all_build/const_val.js:
+    newFile: !uuid '837bdb50d9f2c7e84f8a65417b59b087f1d2c15d'
+    oldFile: !uuid 'a5e84aca56bb32fee28ae62a5a2c69751847f685'
+  /fastmake/all_build/electron_build.js:
+    newFile: !uuid '0b03fb2525f485a61b4720b31ddd810a436def2a'
+    oldFile: !uuid '32537fee254fff5f168c210abee4cbb8928e9c39'
+  /fastmake/all_build/v8_build.js:
+    newFile: null
+    oldFile: !uuid '1a297ec5429054016222014cfdfe9b579f6e24fb'
+  /fastmake/all_build/wkexe_build.js:
+    newFile: !uuid 'cfee0a5ba92c5fe62efe2d27d85efc8a82cfcd55'
+    oldFile: !uuid 'd96da2cae7a3cbb687ca085128f181551c88ee43'
+  /linux:
+    newFile: !uuid '1cb407a5b5181cc5fe1efedfa31accce8a0dedb1'
+    oldFile: !uuid '4832c830d5a76753c764ea61f5accbdb033539f4'
+  /linux/linuxgdi.cpp:
+    newFile: !uuid '36f61f7784647794f8bc1104b4bcfddba7ae9d3c'
+    oldFile: !uuid '3acdf41abc944d7ea96bc09a16000415ffe53063'
+  /linux/windows.h:
+    newFile: !uuid '8a1b5f58351a3bac5153414027c0887436cf10cb'
+    oldFile: !uuid 'f75e185fd03ccaf3a20cd98c2151695a41478790'
+  /mbvip:
+    newFile: !uuid '843ec632b44e30ecbb2ea79b3f11e24c35d1d8de'
+    oldFile: !uuid 'ddacf7c78757571bf6b4ffb30dc673e445f3dbbe'
+  /mbvip/common:
+    newFile: !uuid '159d896edee2b3dcac269224ed997e6a225a69d9'
+    oldFile: !uuid '0c145dad23146f90f0554123b5de06a994cb099f'
+  /mbvip/common/Util.h:
+    newFile: !uuid 'ad8eb9b9e56cde30aaf1b7d19d33269e9b9e78d1'
+    oldFile: !uuid '63ec310ea22c737e966a7816780adaff5c6549fa'
+  /mbvip/core:
+    newFile: !uuid 'cd2fdf1dd38d04573a22629eeb7445efaad54bc6'
+    oldFile: !uuid 'eeaae7b2ec2c7a5bae78b19d8268cd2e62c04a6c'
+  /mbvip/core/MbWebView.cpp:
+    newFile: !uuid '771ebc99464b0032b7a945a1c8d439ecfeb71d13'
+    oldFile: !uuid 'caa00932d8485f48912574b5020607cc8123e663'
+  /mbvip/core/MbWebView.h:
+    newFile: !uuid '793614da5c44583b6fb08423436be84589c04137'
+    oldFile: !uuid 'f4f2aa7e43a734a2f1befcc8e01d28f61374ed89'
+  /mbvip/core/mb.cpp:
+    newFile: !uuid '6b7292f1144b7f439310cb529c0cecf7a016748f'
+    oldFile: !uuid '73b3955ff0a6927a2191f03c6aa2c3334be04e83'
+  /mbvip/core/mb.h:
+    newFile: !uuid '3a9bf9fe689c2719e0e3bfd068dbfeb84e0cc90a'
+    oldFile: !uuid 'cb9e57449129e2666980c76780b2f7c5d8fd759b'
+  /third_party:
+    newFile: !uuid 'a98ca282573155201d6376176c118fd6fed2c7a3'
+    oldFile: !uuid '4539fda96b571277e8b1e187379d47f6791c27f4'
+  /third_party/libxml:
+    newFile: !uuid '8378a184a1d0c7cc33143da51da35848a868422e'
+    oldFile: !uuid '1b633dd52da46e670e49dc0a41580a0c1ebf1286'
+  /third_party/libxml/linux:
+    newFile: !uuid 'dc0d6494d3208dc2b69bfaa3885f7e9ef338352d'
+    oldFile: !uuid '50c4b16bc20ec608c2bc0b0bb0d25018bc4b44d5'
+  /third_party/libxml/linux/config.h:
+    newFile: null
+    oldFile: !uuid 'ca2f44031e838834d5e56ca85f5a3a8b72c8198d'
+  /third_party/libxml/linux/configlinux.h:
+    newFile: !uuid 'ca2f44031e838834d5e56ca85f5a3a8b72c8198d'
+    oldFile: null
+  /wkexe:
+    newFile: !uuid 'b8ee58c47dbe1c1708e4d649bee4084565a4b76f'
+    oldFile: !uuid '5049b95af3dd3ab3150d8e828ad3d1a847bba898'
+  /wkexe/vip:
+    newFile: !uuid 'a5a3f811fd9f83b0472eb80b0778530df4466be0'
+    oldFile: !uuid 'c99336f0b34a7c3be7cb45938c5c10e5ffc3f08a'
+  /wkexe/vip/main.cpp:
+    newFile: !uuid '0da4c683467baa43d5f7332595b1aff9fe90156f'
+    oldFile: !uuid 'eef21e8e929c19ca7cf51d7875a00572a527f626'
+gitCommitId: !uuid '173dc2aebfd3eb5c725b374e36d7beae4463efcb'
+renames:
+  /third_party/libxml/linux/configlinux.h: /third_party/libxml/linux/config.h
+revisionId: 67
