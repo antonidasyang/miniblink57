@@ -2,16 +2,50 @@
 branches: {
   }
 fileChange:
+  /fastmake:
+    newFile: !uuid '7bcef8a8f4fcd4c1daf7cd80785e2917802e1953'
+    oldFile: !uuid '21064b02f9330b57006993a70cd116d72bfc2f2e'
+  /fastmake/FastMakeMain.cpp:
+    newFile: !uuid 'f9d3e785fc1de4538edcfb6a3177b1119f6d8eff'
+    oldFile: !uuid '96142fc7f1b626751b16ed915061e2b8127e5d9f'
+  /fastmake/all_build:
+    newFile: !uuid '952582e48e9f7da82e81d3eef438797165b6dcb4'
+    oldFile: !uuid 'e7f76bad0bd90d158c3a1a7609a52c076283ec3f'
+  /fastmake/all_build/blink_build.js:
+    newFile: !uuid '6dcb6d5be1f2a5a399fc8875ba11dd59169cfe49'
+    oldFile: !uuid '4a563c171bc730c2630549464827a62ef16c61cb'
+  /fastmake/all_build/v875_1_build.js:
+    newFile: !uuid 'ee2ff3f675ebf9c262971d8db13ff2beebdd6ea3'
+    oldFile: null
+  /fastmake/all_build/v875_2_build.js:
+    newFile: !uuid '24bcd88946c0091bc71c2c95cb5c71660ccffd2f'
+    oldFile: null
+  /fastmake/all_build/v875_build.js:
+    newFile: null
+    oldFile: !uuid '1a297ec5429054016222014cfdfe9b579f6e24fb'
   /linux:
-    newFile: !uuid 'ae51c770a0fba0161f9281f6d2638248005fe925'
-    oldFile: !uuid '1cb407a5b5181cc5fe1efedfa31accce8a0dedb1'
+    newFile: !uuid '91c19ae0b4a3378a5972a44d9f13af160e0161ad'
+    oldFile: !uuid 'ae51c770a0fba0161f9281f6d2638248005fe925'
   /linux/linuxgdi.cpp:
-    newFile: !uuid '21868f5d04e0cd000c4a1ab424137cadb10be3fb'
-    oldFile: !uuid '36f61f7784647794f8bc1104b4bcfddba7ae9d3c'
-  /linux/linuxgdi.h:
-    newFile: !uuid '645389e4eeb0ff17ffd0322ef9ba4d52a010c9a9'
-    oldFile: !uuid '581307933939eeeb88c258148912cee2b5a98d97'
-gitCommitId: !uuid 'fdf10505b156173f873efcc175ee8dc8437d7d8d'
-renames: {
-  }
-revisionId: 70
+    newFile: !uuid 'a87e8ac89f1c1ee047bcfa95b2ba5d5d9e351f94'
+    oldFile: !uuid '21868f5d04e0cd000c4a1ab424137cadb10be3fb'
+  /mbvip:
+    newFile: !uuid 'a565cbfbace4dbd466753de059b6caf4da20854b'
+    oldFile: !uuid '843ec632b44e30ecbb2ea79b3f11e24c35d1d8de'
+  /mbvip/common:
+    newFile: !uuid '77e7d7c3b043d9e136bb439321f45b2832877a96'
+    oldFile: !uuid '159d896edee2b3dcac269224ed997e6a225a69d9'
+  /mbvip/common/CallbackClosure.h:
+    newFile: !uuid '1acfa601a9e9899b98f8401dbf27e371e756a581'
+    oldFile: !uuid 'ea11ab8ad647123023a9f5b14bd8d73eb702862a'
+  /mbvip/core:
+    newFile: !uuid '9a3bedafd3224ec062435f203ee04350a76fa197'
+    oldFile: !uuid 'cd2fdf1dd38d04573a22629eeb7445efaad54bc6'
+  /mbvip/core/MbWebView.cpp:
+    newFile: !uuid '8b440defea5fd850f252719045fe2ca76a4d053d'
+    oldFile: !uuid '771ebc99464b0032b7a945a1c8d439ecfeb71d13'
+gitCommitId: !uuid 'a593b92539bd4874fc656b6a7e0ff41989d66895'
+renames:
+  /fastmake/all_build/v875_1_build.js: /fastmake/all_build/v875_build.js
+  /fastmake/all_build/v875_2_build.js: /fastmake/all_build/v875_build.js
+revisionId: 71
