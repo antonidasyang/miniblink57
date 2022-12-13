@@ -2,10 +2,184 @@
 branches: {
   }
 fileChange:
-  /LICENSE:
-    newFile: !uuid '848479aa29cb9c481f12e413d8af56554db6e443'
-    oldFile: !uuid '261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64'
-gitCommitId: !uuid 'fa990efb2e679c923bd99ae667cc61091cc0c0b3'
+  /build:
+    newFile: !uuid 'f471f4c3f53cddfd361c636e40e68152cd14d94c'
+    oldFile: !uuid 'faae9ee93fc202acaae6740a95bc384683298b50'
+  /build/angle:
+    newFile: !uuid 'a697d5f07a5d09b5b9ee3902b7bd20c74603213e'
+    oldFile: null
+  /build/angle/angle.vcxproj:
+    newFile: !uuid '565b166ed7fb38c1b223c6e675e7ab356b97fd12'
+    oldFile: null
+  /build/angle/angle.vcxproj.filters:
+    newFile: !uuid '6c995b46416b7093b2e6e9ad20523030f49d3cca'
+    oldFile: null
+  /build/blink:
+    newFile: !uuid '4a97641f33d62c767665eeba45c56dcfcd0f0022'
+    oldFile: !uuid '816d2787276ee862bfc0a14dd11159067c235c33'
+  /build/blink/blink.vcxproj:
+    newFile: !uuid 'd0f21b37fcc243e3dd83236a7bde3e786950595c'
+    oldFile: !uuid '1486412b1c67a560b3d04c4d2bbb4b7c628ffdea'
+  /build/blink/blink.vcxproj.filters:
+    newFile: !uuid 'beabdfdf95f69e670c8c6e023650c549fd8ae4d7'
+    oldFile: !uuid 'be410a4d17ad0be4950b3f7c03e227493cb25c21'
+  /build/blink/ffmpeg.dll.lib:
+    newFile: !uuid '0f7e93151173aeb8f8eeddab0bf25fa33f282324'
+    oldFile: null
+  /build/blink/miniblink.aps:
+    newFile: !uuid '64e97b1ae12fc1b8606cffd283d94f7a60ada040'
+    oldFile: null
+  /build/blink/miniblink.rc:
+    newFile: !uuid '99434b11922131b078e5e1985f7fe104f305c3e9'
+    oldFile: null
+  /build/build_config.h:
+    newFile: !uuid '60face5a2ed16b94210bb73ae67955f6d4560fbd'
+    oldFile: !uuid 'efcd431f6baf81675ed8e94a0d84547c4ace5339'
+  /build/chromium:
+    newFile: !uuid '3af686787e52a2992663640b1179b6d5d8ca7705'
+    oldFile: !uuid 'b268b4cf78f94b5ca9c5e311d264d0bc8fee8e5b'
+  /build/chromium/chromium.vcxproj:
+    newFile: !uuid 'db4a4789d630f9e53d1fc641f113a812633429c3'
+    oldFile: !uuid '82c27dc8f1fd1cbf23f32d8c8ba2173cdf5526ba'
+  /build/chromium/chromium.vcxproj.filters:
+    newFile: !uuid 'a804711d748e6b62b90b6520e4f4d768af36ffed'
+    oldFile: !uuid '7713c3f78cf865b64e8bef8d7b96320d24002cf0'
+  /build/electron:
+    newFile: !uuid '4045189aecc348d26b7de0bd045addec5c5d858c'
+    oldFile: !uuid '94d68ae8d4b5c2de2bacd6c6a25749c90c708ca8'
+  /build/electron/electron.vcxproj:
+    newFile: !uuid '6530d2c12aa7006e54d739095849bf53784f872f'
+    oldFile: !uuid '84654b63988ab5d2804cc67a5fe4b7d4e69c97ff'
+  /build/fastmake:
+    newFile: !uuid '7563b876f7ae2e5953621fef49076020c7f4e226'
+    oldFile: !uuid 'cdd6b1e97b792acc0fa3306f301bda46770f32ab'
+  /build/fastmake/fastmake.vcxproj:
+    newFile: !uuid '550ee5d039626fec5564adbd1c13fe83c8511a47'
+    oldFile: !uuid '5f284e1b15caaeb2ab149267f61e378aea021761'
+  /build/fastmake/fastmake.vcxproj.filters:
+    newFile: !uuid 'c56d1477d35968da3021ced4dd2a5ffc37388e2b'
+    oldFile: !uuid '0d58eeed358080f722c815802eb85bc79f049a72'
+  /build/harfbuzz:
+    newFile: !uuid '72b286e10904ab8140d98153bcda0fa0e5ff4066'
+    oldFile: null
+  /build/harfbuzz/harfbuzz.vcxproj:
+    newFile: !uuid 'fc4594fe429e5762592be172d25cba60015e6d9f'
+    oldFile: null
+  /build/harfbuzz/harfbuzz.vcxproj.filters:
+    newFile: !uuid 'b14db1f55d82d4f058107c83026e56b87bfe5bf9'
+    oldFile: null
+  /build/libcurl:
+    newFile: !uuid 'bff202fd552919662045273a9ea264581efbe802'
+    oldFile: null
+  /build/libcurl/libcurl.vcxproj:
+    newFile: !uuid 'f5d4f8ea8381ddb3950f5cc8aaa5c797f7057c5e'
+    oldFile: null
+  /build/libcurl/libcurl.vcxproj.filters:
+    newFile: !uuid '30346183854ac29f6b74baaf36616c75613fa65f'
+    oldFile: null
+  /build/libjpeg:
+    newFile: !uuid '1f6fc7b83e25d777d7a46b5de00b537c0763ac18'
+    oldFile: null
+  /build/libjpeg/libjpeg.vcxproj:
+    newFile: !uuid 'c0cddd7091a33c12af820abc6b0746d9ba7ffffa'
+    oldFile: null
+  /build/libjpeg/libjpeg.vcxproj.filters:
+    newFile: !uuid 'c76e3267a7da13b72ebf1db171b8ccf04bd8bea9'
+    oldFile: null
+  /build/libpng:
+    newFile: !uuid '79668ecb0f2201fc77a44ca8d5a2eb5b7b0a0e2f'
+    oldFile: null
+  /build/libpng/libpng.vcxproj:
+    newFile: !uuid '3ab69a00a17935f38c0041cc31fac9e493bdc420'
+    oldFile: null
+  /build/libpng/libpng.vcxproj.filters:
+    newFile: !uuid '8c197a8f9e4a91050694430644ca761bc654b623'
+    oldFile: null
+  /build/libxml:
+    newFile: !uuid 'a2cdb9577f2ebc27136592288b025a8440f1703b'
+    oldFile: !uuid 'a482e2f078e75bbbdc39763645024255883ae948'
+  /build/libxml/libxml.vcxproj:
+    newFile: !uuid '861943851e026bf2e843bf7f035a7d5ee88b2eb4'
+    oldFile: !uuid '3bac3ef6121e4afe0f9f80f03dc42d630cb2a9c3'
+  /build/libxml/libxml.vcxproj.filters:
+    newFile: !uuid 'e80db1cfee37fcc005c3fee88e52be0d17fea38b'
+    oldFile: !uuid '6ca14880e7a4b0a5fcfcc68e0089ddf27fb6067d'
+  /build/libxml/libxml.vcxproj.user:
+    newFile: null
+    oldFile: !uuid '2a22e69ac41262c47582e5666153ca7a696cf2e4'
+  /build/minichrome57.sln:
+    newFile: !uuid '06c0bd25eca289edbf61f6060becba1df348a7cd'
+    oldFile: !uuid '551262b6355be8f3b503bb7d1e026877c7fd527c'
+  /build/node:
+    newFile: !uuid 'f46001b57d869b743a0a430583c2acd96fbb0ae5'
+    oldFile: !uuid 'f37a8c649817a9fd808184ccdfd71668c9ca6dc8'
+  /build/node/node.vcxproj:
+    newFile: !uuid '1c6c39f7e752e11b4efda59bfcd38e7d51953814'
+    oldFile: !uuid '98cfba30727922350caaf5faaf4e3f5cdcc55a44'
+  /build/ots:
+    newFile: !uuid '32380f1756382a2d97fd5f6be34bae862c65d91d'
+    oldFile: !uuid 'dfb05a1586e6a5a17d7b7713f3d674e1cc00e75a'
+  /build/ots/ots.vcxproj:
+    newFile: !uuid '32cb2ebb0a73e82573427e3c34778e1e10e9d1b4'
+    oldFile: !uuid 'd7a194e5ebd7a40fb749c731c845bffe9c3eba0a'
+  /build/skia:
+    newFile: !uuid '6e9204e7fd9645cef4519e3885e7fe5fee88c22a'
+    oldFile: !uuid 'f3cfddf127aa5b81ffcf9159f65c6e601efb4d18'
+  /build/skia/skia.vcxproj:
+    newFile: !uuid '033e3018da5765609bd624b5dbc3741b8a85cf83'
+    oldFile: !uuid '6acc5034d4e2ceb4daad3d3a0e7bdbe95480795a'
+  /build/skia/skia.vcxproj.user:
+    newFile: null
+    oldFile: !uuid '2a22e69ac41262c47582e5666153ca7a696cf2e4'
+  /build/v8_5_7:
+    newFile: !uuid '376741a2b6d34c92cd82a28e4118dade07c38de7'
+    oldFile: !uuid '70ea98670f547465557fb10b62b83bc93bf77be8'
+  /build/v8_5_7/v8_5_7_1.vcxproj:
+    newFile: !uuid '6b094c6e7cb0bdf54f811f3c5fa190952598e3a1'
+    oldFile: !uuid 'beb188b94d1fbf6e56b17a0457cdfb9863b3eae4'
+  /build/v8_7_5:
+    newFile: !uuid 'e04a484ecb1470b2e6c27f755b2ca68402bdf632'
+    oldFile: !uuid '2b4372ce7d0399067e7ae9d8514f98c4fd2d1dda'
+  /build/v8_7_5/v8_7_5.vcxproj:
+    newFile: !uuid '84a6fa81de000992795e506b6529bb56e5a84692'
+    oldFile: !uuid 'e30bbadf7016cf1d26ba7d02271ed83e95453471'
+  /build/wkexe:
+    newFile: !uuid '70fd462a23c5885b2dacc0b77e45e3466d89923b'
+    oldFile: !uuid '827fa7191b26de434652eff3247a581965e87d5e'
+  /build/wkexe/wkexe.vcxproj:
+    newFile: !uuid 'dba2578df41d49b7f59a917eb840bffc87225f99'
+    oldFile: !uuid '21e109fa578998782959e829e0bff8bfd9b7863a'
+  /build/wolfssl:
+    newFile: !uuid '0129994649cab3a206f32fd42c3546908d23e389'
+    oldFile: null
+  /build/wolfssl/wolfssl.vcxproj:
+    newFile: !uuid 'da2fd46f06a0b3bd0471c17687e158d1a466f6b7'
+    oldFile: null
+  /build/wolfssl/wolfssl.vcxproj.filters:
+    newFile: !uuid '432f993967e070f991ae0a57ddf86d2376abc23f'
+    oldFile: null
+  /build/zlib:
+    newFile: !uuid 'bf14d2f8592427ee5001719a105ae2a163cb3129'
+    oldFile: !uuid '9a9a08853549c83ab60b5d22d538cf8b37dabbb5'
+  /build/zlib/ReadMe.txt:
+    newFile: null
+    oldFile: !uuid '52fa21f27145d925530deaee1e6ad255471bfdf2'
+  /build/zlib/zlib.vcxproj:
+    newFile: !uuid '26d3c64bedf1719abc29ab6b44f983620bf797e8'
+    oldFile: !uuid '319b59a2f5fda008725dfc8346bc880da911551b'
+  /build/zlib/zlib.vcxproj.user:
+    newFile: null
+    oldFile: !uuid '2a22e69ac41262c47582e5666153ca7a696cf2e4'
+  /mbvip:
+    newFile: !uuid '2d1a49e357fd7edc7ccfe0242a951400aaf2710f'
+    oldFile: !uuid 'a565cbfbace4dbd466753de059b6caf4da20854b'
+  /mbvip/core:
+    newFile: !uuid 'a323b4134c364238d4f49dda1eb596686fdb0a90'
+    oldFile: !uuid '9a3bedafd3224ec062435f203ee04350a76fa197'
+  /mbvip/core/mtmb.def:
+    newFile: !uuid '08f3c0bc30bf59224fbe42d44708cea0416e3a63'
+    oldFile: null
+gitCommitId: !uuid '89a53a540398eea66908f39abe387633e7560d2c'
 renames: {
   }
-revisionId: 75
+revisionId: 76
