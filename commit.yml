@@ -2,16 +2,28 @@
 branches: {
   }
 fileChange:
-  /content:
-    newFile: !uuid '5d6887e38c101c8d4e497d4411cd95a892e48f78'
-    oldFile: !uuid 'b86134bfcfd0c83219c9c0c70ea48f432101ac17'
-  /content/web_impl_win:
-    newFile: !uuid '70c40833171b0a3f100e089aa4a4abfb72cc8067'
-    oldFile: !uuid 'cab50e70a5455c192b369a34f34a990156cac890'
-  /content/web_impl_win/BlinkPlatformImpl.cpp:
-    newFile: !uuid '06fdf2386d641e1210e479216717398b7bf01070'
-    oldFile: !uuid '7b28999d5324cae9576153487b87909fafcfa8c8'
-gitCommitId: !uuid 'ce9827919583ecc10ecec6dfa3274372e522eb81'
+  /third_party:
+    newFile: !uuid 'addc7481e7e7e050ba6d71aad007f809cfc45a74'
+    oldFile: !uuid 'e4a4bffba741168d03db0bfb5441c02a92b4faba'
+  /third_party/WebKit:
+    newFile: !uuid 'c4f0bfd0fa4b1bada9a90f6445fe1197d9f6ca47'
+    oldFile: !uuid 'ca591059c380a527103df9e77d4e8705e29772ad'
+  /third_party/WebKit/Source:
+    newFile: !uuid '41d22a688c04478d090b67a08efb0a1a980d1de5'
+    oldFile: !uuid 'ae04650df71853a159425ab2ec6e1970375b6864'
+  /third_party/WebKit/Source/bindings:
+    newFile: !uuid 'ad61f0e360e0e4f2d06502f363dc2663eea0c337'
+    oldFile: !uuid '1bd3573a546e27d02642f410e899b60085374f90'
+  /third_party/WebKit/Source/bindings/core:
+    newFile: !uuid 'c304614f4fcfb873fbf23283ddd1e83fedc9fd3d'
+    oldFile: !uuid 'ce5d70704da715b98d8b44debbd778375ce33465'
+  /third_party/WebKit/Source/bindings/core/v8:
+    newFile: !uuid 'a6a0b6c130a47ff5ed23d0ef2dbcf0690b5c771d'
+    oldFile: !uuid 'a786963836b4cc759f7d650748b015f304d6799d'
+  /third_party/WebKit/Source/bindings/core/v8/V8Initializer.cpp:
+    newFile: !uuid '0ed1c06d99b1e188856f55c11036426b92b3bef3'
+    oldFile: !uuid '6279952d610807b0d5722dca3cbc4cb6adf9aa47'
+gitCommitId: !uuid '3a4c9eecd5851c95960dc7c9ba448c18d23065fb'
 renames: {
   }
-revisionId: 81
+revisionId: 82
