@@ -2,40 +2,16 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '6a2732789f3600e843ce285a5c09dd7a68c2e9e3'
-    oldFile: !uuid 'a929c550f2b3c91f4ef24f78687056ad2fae4323'
-  /fastmake:
-    newFile: !uuid 'beba0030b8a90f53479ecfc3b6665fe7799e1852'
-    oldFile: !uuid 'e1db66aa77685ec1cf627c7ad904ab0e6cbaae45'
-  /fastmake/FastMakeMain.cpp:
-    newFile: !uuid '9b9169007cd6f965999f8aa63e3f66edd20f82c8'
-    oldFile: !uuid '493a062181e79cc602b2305d9c8d878fbbeaf103'
-  /fastmake/all_build:
-    newFile: !uuid '5a48124eb81104666ed37531fcd4eb42a56a6eda'
-    oldFile: !uuid 'bb86670c55d48994e4ad76a8e47b0e8391e8bdf2'
-  /fastmake/all_build/blink_build.js:
-    newFile: !uuid 'a2a30a6f6e1b20fea2f32587ab1405f2554da437'
-    oldFile: !uuid '0d3ab0304876e2ea540174a2bcd2a4482e3a8463'
-  /linux:
-    newFile: !uuid '13cdee7e0342d422c684a5020e2c1b32a4f60f01'
-    oldFile: !uuid 'b3e173fa763885c84b1be94d17b032606252f1e2'
-  /linux/linuxwindows.cpp:
-    newFile: !uuid 'a3de618e11f17a7022cb90f54ca0595c13cf3b33'
-    oldFile: !uuid 'ac9ab05eaaf939bec7e403ee51ffb97317580746'
-  /mbvip:
-    newFile: !uuid '76c3ab7adb292285a24c81bceb84768a6248fc99'
-    oldFile: !uuid '77623f4e4d750146fdc23e407053b8fe577cda12'
-  /mbvip/common:
-    newFile: !uuid '3cac3f2f7c8d8dc7023d996da898f5019283ad32'
-    oldFile: !uuid 'cff6aea99dadb701aa544c8217781dcea69ce8cf'
-  /mbvip/common/StringUtil.cpp:
-    newFile: !uuid '2d6a6954822df63bb5c7091efb7c4d57854ba16b'
-    oldFile: !uuid '908424a17792df50d8ae475a901de4cc5a2c97d7'
-  /mbvip/common/Util.h:
-    newFile: !uuid 'ad8eb9b9e56cde30aaf1b7d19d33269e9b9e78d1'
-    oldFile: !uuid '1b29e2b308b14e98d3888d892c48586def608f55'
-gitCommitId: !uuid 'd1333d8d6f2965ee3c4e8958b0a607de96cdd7fe'
+  /content:
+    newFile: !uuid '5d6887e38c101c8d4e497d4411cd95a892e48f78'
+    oldFile: !uuid 'b86134bfcfd0c83219c9c0c70ea48f432101ac17'
+  /content/web_impl_win:
+    newFile: !uuid '70c40833171b0a3f100e089aa4a4abfb72cc8067'
+    oldFile: !uuid 'cab50e70a5455c192b369a34f34a990156cac890'
+  /content/web_impl_win/BlinkPlatformImpl.cpp:
+    newFile: !uuid '06fdf2386d641e1210e479216717398b7bf01070'
+    oldFile: !uuid '7b28999d5324cae9576153487b87909fafcfa8c8'
+gitCommitId: !uuid 'ce9827919583ecc10ecec6dfa3274372e522eb81'
 renames: {
   }
-revisionId: 80
+revisionId: 81
