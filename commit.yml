@@ -3,51 +3,27 @@ branches: {
   }
 fileChange:
   /third_party:
-    newFile: !uuid 'bbd01933ceaf5b7c1373664700db4a1353b2f2ea'
-    oldFile: !uuid 'addc7481e7e7e050ba6d71aad007f809cfc45a74'
-  /third_party/skia:
-    newFile: !uuid '6cb705ca37d5adb66a42bb87950fd1f6079e6359'
-    oldFile: !uuid 'a28d2a86b9974348ecf03544a56c9d187d01085b'
-  /third_party/skia/include:
-    newFile: !uuid '56eb991d536a0dc693ed13fd89f358956b9655ec'
-    oldFile: !uuid '9cd36db5fe9c144b6f76f031debcaa1c9c5f593f'
-  /third_party/skia/include/effects:
-    newFile: !uuid '950981c28e9a77ad81b359c40761631b94902b7b'
-    oldFile: !uuid '49177566ca809e51160d16c85c392d36347aa465'
-  /third_party/skia/include/effects/SkArithmeticImageFilter.h:
-    newFile: !uuid 'ef596030a7e1381aeea5622fa06d8252ce34b963'
-    oldFile: null
-  /third_party/skia/include/effects/SkXfermodeImageFilter.h:
-    newFile: !uuid 'f50c259d68caa54ae25c2f3c0d2dd28840ad95f7'
-    oldFile: !uuid 'a4bfa66b6dc5a8e48ed96c7df5dbee1deb1e3af5'
-  /third_party/skia/include/private:
-    newFile: !uuid 'bcd3e2f068029e6d0b0ac7b97718d2f217c63ed5'
-    oldFile: !uuid '381bb9825e3b5af3be9721dbeea198271d91ad28'
-  /third_party/skia/include/private/SkOnce.h:
-    newFile: !uuid '525a9c81cf5461b8145a6d0cf3e6dd1da953dffd'
-    oldFile: !uuid 'd17363e59b2a875a248d6a97e1e90d204b11a541'
-  /third_party/skia/include/private/SkSemaphore.h:
-    newFile: !uuid 'ff8a1a8fcb27f374b5e8dad563bf6dd8ea2ef536'
-    oldFile: !uuid '463bbb20204ddc9669d3704c8f81377afaa996da'
-  /third_party/skia/src:
-    newFile: !uuid 'b11d95da0504a1654fd60fca7e999a21eb2110fc'
-    oldFile: !uuid '6abb89123f8905aa468da3246732dc64b2dedef4'
-  /third_party/skia/src/core:
-    newFile: !uuid '0325e3d9e50eb7a57030ed53be6324974dc39f93'
-    oldFile: !uuid '2c57fed4a5bc4396b48789d5b699720c302bfc99'
-  /third_party/skia/src/core/SkMatrix44.cpp:
-    newFile: !uuid 'b1dea1827b30f7581e7dcc243539076c1fef3890'
-    oldFile: !uuid '6c0cf0b2e2fe82c822a5f54db148ca1b7aab83a0'
-  /third_party/skia/src/effects:
-    newFile: !uuid '4b32c52302dd3c6cf9999fa3576057c30eca4955'
-    oldFile: !uuid '804816f16aa81db97430f60fa9eec24385d2eb3b'
-  /third_party/skia/src/effects/SkArithmeticImageFilter.cpp:
-    newFile: !uuid '8bb1805caef9c088761263d14023c7a531733a78'
-    oldFile: null
-  /third_party/skia/src/effects/SkArithmeticModePriv.h:
-    newFile: !uuid '280f9ec37d38a91a92cd75ff466c446ce794a3c8'
-    oldFile: null
-gitCommitId: !uuid '9bc831a860d7cb2c949d35fce63e59d411eee5de'
+    newFile: !uuid '406ca7ab445d7a66722053b1788b9893f7e13895'
+    oldFile: !uuid 'bbd01933ceaf5b7c1373664700db4a1353b2f2ea'
+  /third_party/WebKit:
+    newFile: !uuid '08b3d58f2f6c40fcdf18e50b11bd6a3b2f6250e4'
+    oldFile: !uuid 'c4f0bfd0fa4b1bada9a90f6445fe1197d9f6ca47'
+  /third_party/WebKit/Source:
+    newFile: !uuid 'ef9b2e18f1164183aa25fcc213400e0a4a34efa6'
+    oldFile: !uuid '41d22a688c04478d090b67a08efb0a1a980d1de5'
+  /third_party/WebKit/Source/platform:
+    newFile: !uuid '5b5d3c0bd57ffad64218c81bb32b1b611683058a'
+    oldFile: !uuid '155d0fa1d8fd806321db4bc1079db6b7e1a4f56c'
+  /third_party/WebKit/Source/platform/graphics:
+    newFile: !uuid '22a8cb0aef17ddc7b8ff59a85a9fdda70e74d5aa'
+    oldFile: !uuid '2362a97e56b182c8b9a5a8c96011dabb2bf47011'
+  /third_party/WebKit/Source/platform/graphics/filters:
+    newFile: !uuid 'fb060c53fc0d8c1bdfc798e2b21f3b4529b02945'
+    oldFile: !uuid '1bf007daeede5064a0d3cb2b63680a0f8753f01d'
+  /third_party/WebKit/Source/platform/graphics/filters/FEComposite.cpp:
+    newFile: !uuid 'aaae1d3da23408844af0d4f2736c1dad29d36d27'
+    oldFile: !uuid '2c894414ad0b0dbc25de587738f935285fd40c36'
+gitCommitId: !uuid '6895603fa6ed4bd731789936dee4badea7819e1a'
 renames: {
   }
-revisionId: 83
+revisionId: 84
