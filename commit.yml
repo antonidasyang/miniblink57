@@ -3,24 +3,12 @@ branches: {
   }
 fileChange:
   /quickjs:
-    newFile: !uuid '4bf680d0e701d8ac01a6d97621ea645a0948084b'
-    oldFile: !uuid '269d1aaf1f14a592eb93fa6a8412880fb008ed9d'
-  /quickjs/MiniV8Api.cpp:
-    newFile: !uuid '92d43d00849d9ca4b86437c68267e79293e94593'
-    oldFile: !uuid '23b20392e5b87231753a81bdfeede652da1c8c2b'
-  /quickjs/MiniV8Api.h:
-    newFile: !uuid '5708d149010615eaa7f834eaeff8b3eb1f41a1a6'
-    oldFile: !uuid '054add2a3eb048091b99b8e2419f917d90c599ab'
-  /quickjs/MiniV8Impl.cpp:
-    newFile: !uuid 'aabe5035b9debde485d1ccc3ba5005a0a841ef7b'
-    oldFile: !uuid '9bb64d5766fdab64a69097c065c3ae4a0d4fcd91'
+    newFile: !uuid '5bcf02afa2f2af0861bd6450e1e96cabbb6283bb'
+    oldFile: !uuid '4bf680d0e701d8ac01a6d97621ea645a0948084b'
   /quickjs/quickjs.c:
-    newFile: !uuid '5886090d05c08e4a8142459a555bba8bce35312a'
-    oldFile: !uuid '00f6d39a6712d3b77eab4cde89821b76966efa67'
-  /quickjs/quickjs.h:
-    newFile: !uuid 'f7da1172f1883c77dfb8abbfb773eb6c3513e630'
-    oldFile: !uuid 'b04a0c01f16f1e99cbc2d76c81fe2f583edd0334'
-gitCommitId: !uuid 'c31804ff95f21d57431dd1b1ec598d3e8ad19ecf'
+    newFile: !uuid '5f4b17ca27b94882dabcff5cc512699e8921f959'
+    oldFile: !uuid '5886090d05c08e4a8142459a555bba8bce35312a'
+gitCommitId: !uuid '7c10c30c445bd733944490ec0d2002168d88f849'
 renames: {
   }
-revisionId: 85
+revisionId: 86
