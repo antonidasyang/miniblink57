@@ -2,10 +2,25 @@
 branches: {
   }
 fileChange:
-  /NOTICE:
-    newFile: !uuid '9210c7f770de33b5ad67a8da5c8fd4b355f009bd'
-    oldFile: !uuid 'e73fb81fc2c0161cb0768e1a9f58f253eca96e2c'
-gitCommitId: !uuid 'd509be05e77564be6c2c12769d3e0cc015d07ebb'
+  /third_party:
+    newFile: !uuid 'e941340f4a0399f4da9b5aa64c21d8e7bbf07ed7'
+    oldFile: !uuid '406ca7ab445d7a66722053b1788b9893f7e13895'
+  /third_party/WebKit:
+    newFile: !uuid 'e37614f13461e38d39850580f3216d2451f669bf'
+    oldFile: !uuid '08b3d58f2f6c40fcdf18e50b11bd6a3b2f6250e4'
+  /third_party/WebKit/Source:
+    newFile: !uuid '9596f77731a765ab6beeb09355e2f6e677a72831'
+    oldFile: !uuid 'ef9b2e18f1164183aa25fcc213400e0a4a34efa6'
+  /third_party/WebKit/Source/wtf:
+    newFile: !uuid '5cfcbc5f181ed96dd727af145df6381107f78d55'
+    oldFile: !uuid '58cac56a2fa0485e027f2b0725465e5448e6e552'
+  /third_party/WebKit/Source/wtf/text:
+    newFile: !uuid 'cc9278c5e09eea95f11c7311c066b721c4a15834'
+    oldFile: !uuid 'a01085cbe1d76f9698b9e202b4c1939b4e8c1418'
+  /third_party/WebKit/Source/wtf/text/TextCodecICU.cpp:
+    newFile: !uuid '603aff8c7ef7873f84646b559a9a1f393e0616d1'
+    oldFile: !uuid 'bf82337de8e934eb7887a54f2baf49af1a5c7257'
+gitCommitId: !uuid 'b438c241814a03017838b0844efa2acc52aa8d5d'
 renames: {
   }
-revisionId: 88
+revisionId: 89
