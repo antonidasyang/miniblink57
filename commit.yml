@@ -3,51 +3,24 @@ branches: {
   }
 fileChange:
   /third_party:
-    newFile: !uuid '998eab5f70efc5814f950461dfd615a3194bedc2'
-    oldFile: !uuid '24711a62682025130a04aa13b34b06866f05429f'
+    newFile: !uuid 'b936bc52414384d22c9ba6d14918d5de0be1e00c'
+    oldFile: !uuid '998eab5f70efc5814f950461dfd615a3194bedc2'
   /third_party/WebKit:
-    newFile: !uuid 'b702e119f0313ca347280a6573c135f128bdd0b7'
-    oldFile: !uuid 'acd8c045bfaa923a4b181d8c9e0958dd169cd5ff'
+    newFile: !uuid 'ea4f51679687955d850605b6b0edd6ade6629373'
+    oldFile: !uuid 'b702e119f0313ca347280a6573c135f128bdd0b7'
   /third_party/WebKit/Source:
-    newFile: !uuid '8aac21c60555c64189eb5652ae5e080c2d98cae3'
-    oldFile: !uuid '7fd5e8a60df0ba3407ca53d294ed002d5fa74312'
-  /third_party/WebKit/Source/platform:
-    newFile: !uuid 'ee2fcde7fefc3dc35d9ca9e7392c1ed515ae1db7'
-    oldFile: !uuid '5b5d3c0bd57ffad64218c81bb32b1b611683058a'
-  /third_party/WebKit/Source/platform/fonts:
-    newFile: !uuid 'b579c36b624419b5d11143b8eeb65b5950cb9e14'
-    oldFile: !uuid '5b92e33073d160cdd2895409ec9430cce26c037a'
-  /third_party/WebKit/Source/platform/fonts/shaping:
-    newFile: !uuid 'd5dbe0b44b56001e51b2edcf59aca8a29a28b788'
-    oldFile: !uuid '13b4334a07624611af074bbb14cc81c901f2015d'
-  /third_party/WebKit/Source/platform/fonts/shaping/CachingWordShapeIterator.h:
-    newFile: !uuid 'b5532936601df4daf5e6b1673c50df223a3f71a1'
-    oldFile: !uuid '43786ac702d2e7cca7b34f3d66087056bca53893'
-  /third_party/WebKit/Source/platform/graphics:
-    newFile: !uuid '29d16c745dbf70b5e90755b7c6c078240d40e861'
-    oldFile: !uuid '22a8cb0aef17ddc7b8ff59a85a9fdda70e74d5aa'
-  /third_party/WebKit/Source/platform/graphics/ImageBuffer.cpp:
-    newFile: !uuid '435fca015bac5dc59617fe3a272da37ac03e5642'
-    oldFile: !uuid '32989297a7408561ec14a3316f068f3e4be3667e'
-  /third_party/WebKit/Source/platform/scheduler:
-    newFile: !uuid '686cb80c36de64e166e8b3afc31fc4662cb9e18a'
-    oldFile: !uuid '66e5c1bce67493e4d59296bfeba6ff11edfca8b6'
-  /third_party/WebKit/Source/platform/scheduler/renderer:
-    newFile: !uuid '7fbd6a6cec1e21c597a5b24a8d35624d47dbc62a'
-    oldFile: !uuid 'a643364647a60a58f360125b81d61893c5237c20'
-  /third_party/WebKit/Source/platform/scheduler/renderer/renderer_scheduler_impl.cc:
-    newFile: !uuid '2e4abb8af26b57d78573a95fe6e5eeb91cf05c7e'
-    oldFile: !uuid '9362d3e9c59cac803c0a2351517d73981b2bae07'
-  /third_party/WebKit/Source/platform/scheduler/renderer/web_view_scheduler_impl.cc:
-    newFile: !uuid '70106494833564fc0f7925b2167bfd60c9b35bc0'
-    oldFile: !uuid 'bdc62e836c3820fc48c10e2f97c76d4675ef6e8c'
-  /third_party/WebKit/Source/platform/text:
-    newFile: !uuid '95f3f8033181d18e0cb0ccebc979e569099bf61f'
-    oldFile: !uuid 'bd4ac5bdbcb289c3d4333d36f96094033efcac6d'
-  /third_party/WebKit/Source/platform/text/TextEncodingDetector.cpp:
-    newFile: !uuid 'fc16c9ad4033c094ebda80f2bbe3e873eca36e89'
-    oldFile: !uuid 'd160f5205634a2bfde9040626f5098da38f6fb91'
-gitCommitId: !uuid 'b18985f7cdfb3f0379e963dbdb4e8f2dafa10c94'
+    newFile: !uuid '4804784225ca92d0f993632445e4f24799414eaa'
+    oldFile: !uuid '8aac21c60555c64189eb5652ae5e080c2d98cae3'
+  /third_party/WebKit/Source/core:
+    newFile: !uuid '4d54e7c5687152a9426303795971da6c57a57736'
+    oldFile: !uuid '2fe5e2eb6de878b29035b0a28d32273561103205'
+  /third_party/WebKit/Source/core/editing:
+    newFile: !uuid 'ba8746ad490680d037826d3ab2883188ddbcdecf'
+    oldFile: !uuid '58987e8165a5353e0cd4b3ab53106d08c197e61f'
+  /third_party/WebKit/Source/core/editing/EditingBehavior.cpp:
+    newFile: !uuid '57413bbd06e986d34706b952dac9a27a72a9ed77'
+    oldFile: !uuid 'ff13f2d665e636de8e5e1dde82eaeb062198019e'
+gitCommitId: !uuid 'd7d3d85d09d15a28a965465b626f2f1138b0b410'
 renames: {
   }
-revisionId: 91
+revisionId: 92
