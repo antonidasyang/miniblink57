@@ -2,31 +2,25 @@
 branches: {
   }
 fileChange:
-  /third_party:
-    newFile: !uuid '5da1cc90af76eeecb79d0acd45b9a332c59ea262'
-    oldFile: !uuid 'dcc3348fa01d8bb7c7b4083248d586471b1d1efa'
-  /third_party/WebKit:
-    newFile: !uuid 'e8bc1bd9a87af00a0b491b7d926d9401afef25b9'
-    oldFile: !uuid 'd8ec3d383c19f02b1d2597d3ce76c93756e743dd'
-  /third_party/WebKit/Source:
-    newFile: !uuid '4a5da8b7ce5bd72c5ae2ffcbcc0fb3ea57c1bb54'
-    oldFile: !uuid '2cfed74d30c541e28844655c4cd2ded0fab9e483'
-  /third_party/WebKit/Source/core:
-    newFile: !uuid '519bd9fa91d5a6e48db65dc86d432ca5d8d8345e'
-    oldFile: !uuid '88e72d6b710876fb93443bdd807affd8fe68f15c'
-  /third_party/WebKit/Source/core/dom:
-    newFile: !uuid '353ed6ffb6c8bcd5026551c7068f266c15276384'
-    oldFile: !uuid 'cf637f4c3f439572cd1abc5566cce4de3b3af02a'
-  /third_party/WebKit/Source/core/dom/IntersectionObservation.cpp:
-    newFile: !uuid 'd8310431f598648ca3decd37f6c73d274f6afb93'
-    oldFile: !uuid '2aa15c59cda22994d1ed173535d18fe628fa57eb'
-  /third_party/WebKit/Source/core/dom/IntersectionObserverEntry.cpp:
-    newFile: !uuid 'c47b1530ef805894933d68ca49a445781485dd96'
-    oldFile: !uuid '4b146e0663869246989d0aa167a0d92cfb970f02'
-  /third_party/WebKit/Source/core/dom/IntersectionObserverEntry.h:
-    newFile: !uuid '0ec94cb15d8b5df7e40d0c95308f3ca103448758'
-    oldFile: !uuid '4ec87c750909a08c210929e6faa330054a98bfc9'
-gitCommitId: !uuid 'e8255b48c0738f105c261705a58916f74216a59c'
+  /gen:
+    newFile: !uuid '702b98623af7b25d758fa8d804373faf39fcf3f7'
+    oldFile: !uuid 'fcb35e8a0d180ecbef567cbc84b79e98838f602b'
+  /gen/blink:
+    newFile: !uuid '0e816faf03a973f7d115868bbd8c21f28dd0692b'
+    oldFile: !uuid '5f3ae21e3bee1f2bc1cfc027f92a880f08bde2d3'
+  /gen/blink/bindings:
+    newFile: !uuid '5ca0f1625f135e89cf964b204371dfe1b3217867'
+    oldFile: !uuid 'b5a9db2b092a66dc43887b863a642c7d428f1e39'
+  /gen/blink/bindings/core:
+    newFile: !uuid '8f16ca0b67eaa2f040d1b33893015e78b095afe4'
+    oldFile: !uuid 'a0852f15f30652791d49e61f8d49411804073870'
+  /gen/blink/bindings/core/v8:
+    newFile: !uuid '7773a09730777f0378cbe8030892db0683f3cbc8'
+    oldFile: !uuid '0d271e3fcbdb2391929908623d53438503beea90'
+  /gen/blink/bindings/core/v8/V8IntersectionObserverEntry.cpp:
+    newFile: !uuid '0eb309e377c7789e1116f14dcf4548fe72c766ea'
+    oldFile: !uuid '82f33c3e884c51ca5f26eb83c4eedf599151a1c6'
+gitCommitId: !uuid '61355d35167b6800315426e59f9114e462405659'
 renames: {
   }
-revisionId: 95
+revisionId: 96
