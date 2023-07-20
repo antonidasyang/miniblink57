@@ -2,43 +2,2314 @@
 branches: {
   }
 fileChange:
-  /fastmake:
-    newFile: !uuid '5f5f10edffa9598434a3726298354f1b4f46fc18'
-    oldFile: !uuid 'f56d62b0b3d6fe648095f92eb8816870697c47ba'
-  /fastmake/all_build:
-    newFile: !uuid '5201a73b7bf0ca949b8d2bd56c08a44c74b6254f'
-    oldFile: !uuid 'ef8d0ff652c7820aeb577451862e6a23c6e8b247'
-  /fastmake/all_build/blink_build.js:
-    newFile: !uuid 'c4590c8fe207138a930914b12041438161ea8723'
-    oldFile: !uuid '1784379cbedabef347712c33bbe02a921d28c8d6'
-  /fastmake/all_build/chromium_build.js:
-    newFile: !uuid 'be63ee9fe0783cf71b486b46baef5926726839ad'
-    oldFile: !uuid '35fd6798f90b31f05d6c262620a7ab3a2c0aacbc'
-  /fastmake/all_build/const_val.js:
-    newFile: !uuid '22126c103f751c3049e9baf7e94eab0ff34e36a7'
-    oldFile: !uuid '83bab01a1a32dbba5c4491901d47fb438845c344'
-  /fastmake/all_build/skia_build.js:
-    newFile: !uuid 'b937f6d4c6319dacb6e3ad38298f0c7e517cde44'
-    oldFile: !uuid '32dc65b83a71f985a49a65c36008918534378f8b'
-  /fastmake/all_build/util_build.js:
-    newFile: !uuid '63b39130c9d520067730f7718f0da3c3bdb68a41'
-    oldFile: !uuid 'f4e22383f948756fdeaa70e7ba3873fe6dcc9dff'
-  /fastmake/all_build/v857_build.js:
-    newFile: !uuid '4bd964bfc3432b6650ec7ca7574864676ed81e14'
-    oldFile: !uuid '1183792614e7f9d33c45c3a436840751aadc4147'
-  /fastmake/all_build/v875_1_build.js:
-    newFile: !uuid '79d30bb1829325acd33b7e70ca5c113cf2c0df1d'
-    oldFile: !uuid 'ee2ff3f675ebf9c262971d8db13ff2beebdd6ea3'
-  /fastmake/all_build/v875_2_build.js:
-    newFile: !uuid 'ffd2ef60371787a1a0c38bb458fab0fbce5a2260'
-    oldFile: !uuid '24bcd88946c0091bc71c2c95cb5c71660ccffd2f'
-  /fastmake/all_build/v875_build.js:
-    newFile: !uuid '42044613d5a9549d91b7ea3dd5ce9c3fe6337f69'
-    oldFile: !uuid '193f54873b23cc866cc24ede2f6ae5040cc73a73'
-  /fastmake/all_build/wkexe_build.js:
-    newFile: !uuid '5fce026dd0b81e2095dd5bc1271ecb41bda3cec0'
-    oldFile: !uuid 'ddcff5edaf113a7d27dec6a531f4959eb8a72e93'
-gitCommitId: !uuid '0aa34691f4da86f7b20b15886520fdb3d6096c9c'
+  /third_party:
+    newFile: !uuid 'd1085c3cb025f61d2e73fa950c46e79f65b9d989'
+    oldFile: !uuid '5da1cc90af76eeecb79d0acd45b9a332c59ea262'
+  /third_party/libjpeg_turbo:
+    newFile: !uuid 'ddcad037e7e8f949d11e7463164656423c2c2e2b'
+    oldFile: null
+  /third_party/libjpeg_turbo/BUILDING.md:
+    newFile: !uuid 'f91abcd44bc6cb387e92c512800a44aa4cc9a1f8'
+    oldFile: null
+  /third_party/libjpeg_turbo/CMakeLists.txt:
+    newFile: !uuid '81a42f412b24aefa599a4df523c76a23fb1848e1'
+    oldFile: null
+  /third_party/libjpeg_turbo/ChangeLog.md:
+    newFile: !uuid '498b8f2729dad1d4f7acc53a6c1a88f84a48faa7'
+    oldFile: null
+  /third_party/libjpeg_turbo/LICENSE.md:
+    newFile: !uuid 'a1cdad52faf4c4c0feaa8657c014808287464dfc'
+    oldFile: null
+  /third_party/libjpeg_turbo/Makefile.am:
+    newFile: !uuid '9b41d54fec15e8deaf79010a1d938ff6b072117a'
+    oldFile: null
+  /third_party/libjpeg_turbo/Makefile.in:
+    newFile: !uuid 'fcd189878c1a02622c906d7a218af013ff61feda'
+    oldFile: null
+  /third_party/libjpeg_turbo/README:
+    newFile: !uuid 'c9853afde1689091817b9dd117a6f58a38bf36ac'
+    oldFile: null
+  /third_party/libjpeg_turbo/README.ijg:
+    newFile: !uuid '9453c195010fb0ace756f8e46d74c7688bb1c857'
+    oldFile: null
+  /third_party/libjpeg_turbo/README.md:
+    newFile: !uuid '01e391ea7c08e3c074679f517608c965ef53b9f0'
+    oldFile: null
+  /third_party/libjpeg_turbo/Win32.Mak:
+    newFile: !uuid '2b47becdc40eaa0fd705bf9cd849ba8fbb2ff149'
+    oldFile: null
+  /third_party/libjpeg_turbo/aclocal.m4:
+    newFile: !uuid '39d81caa53a88d150dbc15ff16d341d0e24e5e7a'
+    oldFile: null
+  /third_party/libjpeg_turbo/ar-lib:
+    newFile: !uuid '61ca3013844f137b0450b3e527c8cba43da84da4'
+    oldFile: null
+  /third_party/libjpeg_turbo/cderror.h:
+    newFile: !uuid '2844346ee38bbcfa8537683fa64342c49ce06e16'
+    oldFile: null
+  /third_party/libjpeg_turbo/cdjpeg.c:
+    newFile: !uuid '5278c1dbef3fbf0c2dc7ebde76152d1cb873b974'
+    oldFile: null
+  /third_party/libjpeg_turbo/cdjpeg.h:
+    newFile: !uuid '082687ce06dbcc1f1257129ecb78776ff18a96ab'
+    oldFile: null
+  /third_party/libjpeg_turbo/change.log:
+    newFile: !uuid 'e4d0ddc4bd71ba0bea13d64988bfede730dddffe'
+    oldFile: null
+  /third_party/libjpeg_turbo/cjpeg.1:
+    newFile: !uuid '569dc3fa3f9f6374235d50dde9f567fc184b1e1d'
+    oldFile: null
+  /third_party/libjpeg_turbo/cjpeg.c:
+    newFile: !uuid 'c99a133e12a365c8599308ef02b49541846a1dfe'
+    oldFile: null
+  /third_party/libjpeg_turbo/ckconfig.c:
+    newFile: !uuid 'fb9429af08bc52129641a552f449a2b9b802f403'
+    oldFile: null
+  /third_party/libjpeg_turbo/cmakescripts:
+    newFile: !uuid '354d5af8b5ed75c8f02f8f268b8fdc00b5456276'
+    oldFile: null
+  /third_party/libjpeg_turbo/cmakescripts/BuildPackages.cmake:
+    newFile: !uuid '3d35886f464ce5c30d62e07e044121afda3e6f6b'
+    oldFile: null
+  /third_party/libjpeg_turbo/cmakescripts/GNUInstallDirs.cmake:
+    newFile: !uuid '6408fca77712a5ba649f5d601e130af24e8ea721'
+    oldFile: null
+  /third_party/libjpeg_turbo/cmakescripts/cmake_uninstall.cmake.in:
+    newFile: !uuid '6726a0d6a8d22132546c66a0b56f7e2aea25bf01'
+    oldFile: null
+  /third_party/libjpeg_turbo/cmakescripts/testclean.cmake:
+    newFile: !uuid 'fc3fc25e965855fe18640bba2dc0f7f00cf90a7a'
+    oldFile: null
+  /third_party/libjpeg_turbo/cmyk.h:
+    newFile: !uuid 'c9f7ccbb8fc65780fbb9248169c6479a39c6d796'
+    oldFile: null
+  /third_party/libjpeg_turbo/coderules.txt:
+    newFile: !uuid 'a2f593adab7c2f4acc3a940164d0cbb6b30e123b'
+    oldFile: null
+  /third_party/libjpeg_turbo/compile:
+    newFile: !uuid 'c78fd0948f827acaa434cda0de6fe84d6ed8cdee'
+    oldFile: null
+  /third_party/libjpeg_turbo/config.guess:
+    newFile: !uuid 'b2e7d1d160bb460b26b9df12e0e9f1217de45eea'
+    oldFile: null
+  /third_party/libjpeg_turbo/config.sub:
+    newFile: !uuid '6761a24dafd1ce62a10420b1e44691fc8f1177bd'
+    oldFile: null
+  /third_party/libjpeg_turbo/configure:
+    newFile: !uuid '2d180ad4f38f3295b08080dfd9c7c4eade781dac'
+    oldFile: null
+  /third_party/libjpeg_turbo/configure.ac:
+    newFile: !uuid 'f7e79b69191ee25805677f078ebb7dceb6336301'
+    oldFile: null
+  /third_party/libjpeg_turbo/croptest.in:
+    newFile: !uuid '7e3c2931b12b853b49b90f6aed12ac73b8850569'
+    oldFile: null
+  /third_party/libjpeg_turbo/depcomp:
+    newFile: !uuid '830c36525bf58e050338d508b0ee46f9f9f85e68'
+    oldFile: null
+  /third_party/libjpeg_turbo/djpeg.1:
+    newFile: !uuid '31431b9829d8f08fa945cec9b288df2b637e846d'
+    oldFile: null
+  /third_party/libjpeg_turbo/djpeg.c:
+    newFile: !uuid 'd47984e64071a7aaa11b20619899843dfd52327c'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc:
+    newFile: !uuid '806cf89e673ee48c055c480861418b109ab9ba38'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html:
+    newFile: !uuid '5b889d5cf91bb4859ff4a1b3163fad701b5741e3'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/annotated.html:
+    newFile: !uuid 'b7773dd4ada332b6524d571a413e2bbbd2d26f02'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/bc_s.png:
+    newFile: !uuid '224b29aa9847d5a4b3902efd602b7ddf7d33e6c2'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/bdwn.png:
+    newFile: !uuid '940a0b950443a0bb1b216ac03c45b8a16c955452'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/classes.html:
+    newFile: !uuid 'bfcf32a95670ccc9b976de6b7c700449d72e03a2'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/closed.png:
+    newFile: !uuid '98cc2c909da37a6df914fbf67780eebd99c597f5'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/doc.png:
+    newFile: !uuid '17edabff95f7b8da13c9516a04efe05493c29501'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/doxygen-extra.css:
+    newFile: !uuid 'f1bd4c2695319077a9928a5699a3f347079efc9a'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/doxygen.css:
+    newFile: !uuid 'f640966e203cc52d3a860454212a6a16c47aac7b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/doxygen.svg:
+    newFile: !uuid 'd42dad52d5d1d835a65d89dbddd042c44ee40d3b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/dynsections.js:
+    newFile: !uuid '3174bd7bebbfd7f0d536023e43f8bebf4f40faad'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/folderclosed.png:
+    newFile: !uuid 'bb8ab35edce8e97554e360005ee9fc5bffb36e66'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/folderopen.png:
+    newFile: !uuid 'd6c7f676a3b3ef8c2c307d319dff3c6a604eb227'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/functions.html:
+    newFile: !uuid '055b876fd243278959ce94dfa6c7032f33c93e1b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/functions_vars.html:
+    newFile: !uuid '540b3e44dc05b2b181ae48034aee82c054036399'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/group___turbo_j_p_e_g.html:
+    newFile: !uuid 'bf100736fe3682649de5d80e4556440e636b252c'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/index.html:
+    newFile: !uuid '165a589f04b5b28459e7ef46c4ddf1faafcdb5dd'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/jquery.js:
+    newFile: !uuid '103c32d79b749c24101fba7ff19fd17ee1a59724'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/menu.js:
+    newFile: !uuid '2fe2214f26aafa79ae0a11cecc6f127d13ff9eb9'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/menudata.js:
+    newFile: !uuid 'fa25d4254581a3a49dd06aa00920f47fcfd5cec4'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/modules.html:
+    newFile: !uuid 'b3fa1c06129701c3bb207e893934ccaebb44903b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/nav_f.png:
+    newFile: !uuid '72a58a529ed3a9ed6aa0c51a79cf207e026deee2'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/nav_g.png:
+    newFile: !uuid '2093a237a94f6c83e19ec6e5fd42f7ddabdafa81'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/nav_h.png:
+    newFile: !uuid '33389b101d9cd9b4c98ad286b5d9c46a6671f650'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/open.png:
+    newFile: !uuid '30f75c7efe2dd0c9e956e35b69777a02751f048b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search:
+    newFile: !uuid '498beb771084905d8af7e788aa3979ef3fe115b7'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_0.html:
+    newFile: !uuid 'a34319f3095081cfc50008dc8dda02588cd44eb5'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_0.js:
+    newFile: !uuid '54c73561418002b643826c611185a3f31c87e713'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_1.html:
+    newFile: !uuid '51aff6f69cae8c3b53c814e6022909de43eff7cb'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_1.js:
+    newFile: !uuid '73ec5f552f65c431b9d8bd4a3f88ba7bb5f428cb'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_2.html:
+    newFile: !uuid '1f81f6645eaa41cc0d6caf0b46512858b3b065f4'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_2.js:
+    newFile: !uuid '1c5615e3d50f0e5aa036ce15136f765082dc4a4d'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_3.html:
+    newFile: !uuid '2e31ab9110e15dca1aa1211204b9de5d1435c57d'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_3.js:
+    newFile: !uuid '77d139a01f2cbbd286450b370e4aaa27e7be6c7f'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_4.html:
+    newFile: !uuid '0540c1633667640a85c5293a40f55989a1d78781'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_4.js:
+    newFile: !uuid 'f976db4d3de115d4650474ee984e0e03885e9ba6'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_5.html:
+    newFile: !uuid 'ebec30bfa22fc621c1ce2eb27563587ed8af689f'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_5.js:
+    newFile: !uuid '193b900760e56bd92e7813ff0463c7ceec3eaba4'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_6.html:
+    newFile: !uuid '31cbd052ed6a57125164ff3f3bc6270e9b8af261'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_6.js:
+    newFile: !uuid 'aa311074efb5c5668736900033919697c1d1a877'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_7.html:
+    newFile: !uuid '18c555de264a7eaab630641f00b2f666e2d8e641'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_7.js:
+    newFile: !uuid '46e4994990de25ff5532768b242af089088f3a05'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_8.html:
+    newFile: !uuid '0f9eb416d3d4fd623c0d60b4a99b4851ded23a93'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_8.js:
+    newFile: !uuid '157ee981068dfe4efed2402896282f63ef3884fe'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_9.html:
+    newFile: !uuid 'd27c0f7c2dc2358a4b17b16aa2591020e9acdd9b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/all_9.js:
+    newFile: !uuid '80ac522352d09c2688e028671b3eaba3310d0bfc'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/classes_0.html:
+    newFile: !uuid '7e0afc8447c2c41e467814a7bac405daea91856b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/classes_0.js:
+    newFile: !uuid 'ed057f2a03e5a9f7de2aa57ebf17cce226c96380'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/close.svg:
+    newFile: !uuid 'a933eea1a26b0c7ada7cd0053522238923996df1'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/enums_0.html:
+    newFile: !uuid '9035e6aa12120a30f95607d9ce87aa3c4f99607d'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/enums_0.js:
+    newFile: !uuid '0e15c9a3897d0f5bc17438ee833f2e6b45af1243'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/enumvalues_0.html:
+    newFile: !uuid 'c2cd472acd31260a65ec7a97c007a704b5cace24'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/enumvalues_0.js:
+    newFile: !uuid '67c78fef560822b7964c57044cf18a3ffc849c3b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/functions_0.html:
+    newFile: !uuid 'f04535ae67847d65edeaf03627670fa47e4daf36'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/functions_0.js:
+    newFile: !uuid '4a9ea5b4e4a1bab5e818b618e26b3daa46889739'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/groups_0.html:
+    newFile: !uuid '5c10318cac1654a434bacbe767906aedad49de94'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/groups_0.js:
+    newFile: !uuid 'b4e000d7ceae4563941c4693103eb2af1fcc1a1f'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/mag_sel.svg:
+    newFile: !uuid '03626f64a02be69e427a4a9f29a99052ccd235a1'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/nomatches.html:
+    newFile: !uuid '4377320895b9a5b98e140ebf2f76ec09158d1156'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/search.css:
+    newFile: !uuid '933cf0880822844d43d990898f29ea2784606e19'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/search.js:
+    newFile: !uuid '92b609464afbf6a4fb3eb1a005600f607ef3fe2b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/search_l.png:
+    newFile: !uuid 'fd5f7daa41a4c79b4ae9bea5aa7bdfb94e14084b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/search_m.png:
+    newFile: !uuid 'b429a16ba641960da1e52e5da85dc80fd82635c8'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/search_r.png:
+    newFile: !uuid '1af5d21ee13e070d7600f1c4657fde843b953a69'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/searchdata.js:
+    newFile: !uuid '332a8aa4890c47f8b7c416f4a88c5e095cdd4593'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/typedefs_0.html:
+    newFile: !uuid 'b66f0a7b911dfcf60b99e47cff62c6df5b9387b1'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/typedefs_0.js:
+    newFile: !uuid 'bad1a20095ff069d4509ed811ee2f1f8eeedceda'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_0.html:
+    newFile: !uuid '2edd1114bd19559313505a1710a88dabc44e93c1'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_0.js:
+    newFile: !uuid '9ed036c1102367a8813948cdcfa489e32788f3b4'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_1.html:
+    newFile: !uuid '98b95a99c0f190e1c3e2700cae4c8b1a3a7c00e0'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_1.js:
+    newFile: !uuid '3dc21087358991b857405a1909ea61cd722e8efb'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_2.html:
+    newFile: !uuid '3e0c5910a879ee6b642af03848536f9f3a23f8ea'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_2.js:
+    newFile: !uuid 'f0d8327c779f73757142e805ebd9a56cbc0ea042'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_3.html:
+    newFile: !uuid '7867da33244458a9c006d85aee69162109aa886a'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_3.js:
+    newFile: !uuid 'e7192581f85fef322dced4cfc7e3df14296757dd'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_4.html:
+    newFile: !uuid '732dee2e2f51097522ae08acbfc6284062d05e9c'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_4.js:
+    newFile: !uuid '265062340ea7ffd72c568e42b3cbc030ce3e9dfe'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_5.html:
+    newFile: !uuid 'ad9b545638c95e1d98a2b5f42fc3bc16e10b9753'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_5.js:
+    newFile: !uuid '2639dfd36376ab9c8a37ae050367eef2c874da36'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_6.html:
+    newFile: !uuid '1cf2da1954a891fbf5838582fe897b9d9a8ed24a'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_6.js:
+    newFile: !uuid '50b3fd761f9bd880e69b8562f2bb553b11a7636c'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_7.html:
+    newFile: !uuid 'ab2db0b895f5438ea38482d31485f72cfbc84ef0'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_7.js:
+    newFile: !uuid 'cd4a680051b8977c9c85db9c06e80bf6ea7fd479'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_8.html:
+    newFile: !uuid 'baec040fc24ce8824d289b17a188984be6da475c'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_8.js:
+    newFile: !uuid '61434f04510a7bd2c02bea44fefd2db4e4640898'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_9.html:
+    newFile: !uuid 'df2fea0f99e5027b7a3a3c01d8d6de59696734b5'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/search/variables_9.js:
+    newFile: !uuid '32719d415f16b149c14bfd643f14b05126a29ec1'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/splitbar.png:
+    newFile: !uuid 'fe895f2c58179b471a22d8320b39a4bd7312ec8e'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/structtjregion.html:
+    newFile: !uuid 'daa206aaefdc261218e55acde9d79652c5da1170'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/structtjscalingfactor.html:
+    newFile: !uuid '021a36f0eae46337efd2025f8d62c01c4924bccd'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/structtjtransform.html:
+    newFile: !uuid '92aa3fa3d36e109a41da843c9efb19668474ea8c'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/sync_off.png:
+    newFile: !uuid '3b443fc62892114406e3d399421b2a881b897acc'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/sync_on.png:
+    newFile: !uuid 'e08320fb64e6fa33b573005ed6d8fe294e19db76'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/tab_a.png:
+    newFile: !uuid '3b725c41c5a527a3a3e40097077d0e206a681247'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/tab_b.png:
+    newFile: !uuid 'e2b4a8638cb3496a016eaed9e16ffc12846dea18'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/tab_h.png:
+    newFile: !uuid 'fd5cb705488e60fcf30f56fcc951dee74f3b095b'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/tab_s.png:
+    newFile: !uuid 'ab478c95b67371d700a20869f7de1ddd73522d50'
+    oldFile: null
+  /third_party/libjpeg_turbo/doc/html/tabs.css:
+    newFile: !uuid '85a0cd5b5857b5fc94039256cd05e133b7e3bd9d'
+    oldFile: null
+  /third_party/libjpeg_turbo/doxygen-extra.css:
+    newFile: !uuid 'f1bd4c2695319077a9928a5699a3f347079efc9a'
+    oldFile: null
+  /third_party/libjpeg_turbo/doxygen.config:
+    newFile: !uuid '6deb064ecabcaf1e27054fb00e8a7179e7eebc65'
+    oldFile: null
+  /third_party/libjpeg_turbo/example.c:
+    newFile: !uuid 'e21cf1212661b9c5044e315a155892f0a08db5b3'
+    oldFile: null
+  /third_party/libjpeg_turbo/example.txt:
+    newFile: !uuid 'bc0ba49d29217bd1faa8390b98ff503572c0b42d'
+    oldFile: null
+  /third_party/libjpeg_turbo/filelist.txt:
+    newFile: !uuid '54d3c167835d619c8756adbecf25cbb00497c026'
+    oldFile: null
+  /third_party/libjpeg_turbo/fuzz:
+    newFile: !uuid '279ce377c00fb74b8c6d8899c3e1f351a86d506b'
+    oldFile: null
+  /third_party/libjpeg_turbo/fuzz/CMakeLists.txt:
+    newFile: !uuid 'dcd19c3a892a991d422e2abe853e4048609e53cf'
+    oldFile: null
+  /third_party/libjpeg_turbo/fuzz/build.sh:
+    newFile: !uuid '882ce7dc780546567b8bce761c2f052e32c8ea13'
+    oldFile: null
+  /third_party/libjpeg_turbo/fuzz/cjpeg.cc:
+    newFile: !uuid 'ee7b7ab8c372ff47ab3e7ca46e619ec61ce31ff5'
+    oldFile: null
+  /third_party/libjpeg_turbo/fuzz/compress.cc:
+    newFile: !uuid '539932f13de9d58cfd33f2ff4ba9b271abe74521'
+    oldFile: null
+  /third_party/libjpeg_turbo/fuzz/compress_yuv.cc:
+    newFile: !uuid '021d661508eb6a96ad672c5067baafe4f45e89ca'
+    oldFile: null
+  /third_party/libjpeg_turbo/fuzz/decompress.cc:
+    newFile: !uuid 'c7fcb500189bd0dea29991ce9d0f7fffbebc80d9'
+    oldFile: null
+  /third_party/libjpeg_turbo/fuzz/decompress_yuv.cc:
+    newFile: !uuid 'd603fd819f91966c76a6bd5cd5f3a3a84f6355e1'
+    oldFile: null
+  /third_party/libjpeg_turbo/fuzz/transform.cc:
+    newFile: !uuid 'b8a7516d978f8453f67383d47a7b5ad1164316f1'
+    oldFile: null
+  /third_party/libjpeg_turbo/iccjpeg.c:
+    newFile: !uuid 'c5be78721e94f233d42bb86894d4b3f78d3f2c49'
+    oldFile: null
+  /third_party/libjpeg_turbo/iccjpeg.h:
+    newFile: !uuid 'eae0276aed611889d19abd34c5a8a0cf5ea18e45'
+    oldFile: null
+  /third_party/libjpeg_turbo/install-sh:
+    newFile: !uuid 'cf1173514ae3ab25589256181b7c3518eac0cd12'
+    oldFile: null
+  /third_party/libjpeg_turbo/install.txt:
+    newFile: !uuid 'b21a6844fa2febec1b7b28c5e41c261d5323f9ee'
+    oldFile: null
+  /third_party/libjpeg_turbo/jaricom.c:
+    newFile: !uuid '215640cc446404847d2d2f50604d30d3a27dadc7'
+    oldFile: null
+  /third_party/libjpeg_turbo/java:
+    newFile: !uuid 'c44a4e32311cc036b5cdf767b1ab2da84978fab0'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/CMakeLists.txt:
+    newFile: !uuid '3d863bdd0b88176ae83b6583c335927b0a7b92e1'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/MANIFEST.MF:
+    newFile: !uuid '723bc51a51f54744ef6e57f1032b642199da6da3'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/README:
+    newFile: !uuid '5af1e31ddc4da118dec5b292c1680cad7b32884a'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/TJBench.java:
+    newFile: !uuid '0fadab141409b3a32d7e50934156c6b290a497a2'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/TJExample.java:
+    newFile: !uuid '7859886988c4e0a8c3b1d95cb0451fe653ffa2f7'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/TJUnitTest.java:
+    newFile: !uuid '91ad5fd951a349826f62956c3b512e232cc9f0a1'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc:
+    newFile: !uuid 'd4799d985b141a3d7827e5f10f6150fd4d89bb5f'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/allclasses-frame.html:
+    newFile: !uuid 'fecac06d0ea0862000b6f1ef0bddf421e518c061'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/allclasses-noframe.html:
+    newFile: !uuid '1f7fd3c6ba62657c48e9796718142eaed4c72460'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/constant-values.html:
+    newFile: !uuid '07ba05270d326d5b639bbe73b972390c581d85b1'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/deprecated-list.html:
+    newFile: !uuid '31d4e643a2fac34c06ab14cc70db0f3bee3f2599'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/help-doc.html:
+    newFile: !uuid '6645d95753648397668e4e844d76954745a4e6bf'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/index-all.html:
+    newFile: !uuid '3a49818e5fc32ee820458b08e291b92e0875b19b'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/index.html:
+    newFile: !uuid '4e2107549f04eb0dddedb9fca86a93584aace0b5'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org:
+    newFile: !uuid 'ea05ff67053ff86af861e5090f2f1d5eaf377c0f'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo:
+    newFile: !uuid 'a862de8fd9eabac9b88ab921065d0a7cf3337c78'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg:
+    newFile: !uuid 'c33432495bd0e11ffe882c82992c5ccff22ffe9f'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/TJ.html:
+    newFile: !uuid '2a3de371c26fa5c321cb5c6071c725d52811247a'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/TJCompressor.html:
+    newFile: !uuid 'a53f87973eaf6064719c43ca158d85afca26eba6'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/TJCustomFilter.html:
+    newFile: !uuid '412dcd46794abc96592caa67134cf881809f52a9'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/TJDecompressor.html:
+    newFile: !uuid 'b281e327a2e3b78aebf451b644f8b7bd97ee175e'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/TJException.html:
+    newFile: !uuid '66d73e740d4476e5932c5d6593f4924841765c8c'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/TJScalingFactor.html:
+    newFile: !uuid '4006baca5750b9c291156e5354cd9a18eb313f14'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/TJTransform.html:
+    newFile: !uuid '5f22691efbb75a33a9e83c59d13fd5e4dfc5f3c3'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/TJTransformer.html:
+    newFile: !uuid 'a30fe30cab06b8ef80ca911e0fd45e4d7b7dee9d'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/YUVImage.html:
+    newFile: !uuid 'd4485ed6b90a45163f7f47d47e1db0fa57b1cad2'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/package-frame.html:
+    newFile: !uuid '08a8bf83e59ab7186974f218f1ac961d73c5a533'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/package-summary.html:
+    newFile: !uuid 'dedcce5c2a86426a3ad940d28f6da7e264aac5bb'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/org/libjpegturbo/turbojpeg/package-tree.html:
+    newFile: !uuid '5f0f8c3ee3257fb4f6c74c68ba0bc61be475c788'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/overview-tree.html:
+    newFile: !uuid 'b6599954aee9df385880ebc298c7778a62b81c27'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/package-list:
+    newFile: !uuid '918d9368fd08ebec7c65ee928e342f0eae926067'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/resources:
+    newFile: !uuid '7e52429665c66b01b70a3bf6688e11b08fba0090'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/resources/background.gif:
+    newFile: !uuid 'f471940fde2f39ef8943a6af9569bcf986b1579b'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/resources/tab.gif:
+    newFile: !uuid '1a73a83be11dde2d0003b716ca778fafc6f34ad7'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/resources/titlebar.gif:
+    newFile: !uuid '17443b3e16942feb776754978f8a8485ffbcaf84'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/resources/titlebar_end.gif:
+    newFile: !uuid '3ad78d461b2b332860475cd35c9459fbbf4eab0a'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/script.js:
+    newFile: !uuid 'b34635693143ac308ba6d22c29554e5631f64b74'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/serialized-form.html:
+    newFile: !uuid '45bbc862581297f6b6d0f338fab710ecf2cd4512'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/doc/stylesheet.css:
+    newFile: !uuid '0aeaa97fe05f89f7f1290a2d66d812f7f05bcf7e'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org:
+    newFile: !uuid '22c911f2a9ec98f881b2997d8e308df92db4b1bb'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo:
+    newFile: !uuid '0dfdadf23d1390d7068141625c82aab17afb96b3'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg:
+    newFile: !uuid '66092c13264a1dfda7939a621d32c5b4cdcbd251'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJ.java:
+    newFile: !uuid 'd791e001d8f379cde351f4382d07a035e7ee9a34'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJCompressor.java:
+    newFile: !uuid 'c62079943065566c5add2f839f4aee1e7b8e95a7'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJCustomFilter.java:
+    newFile: !uuid '9a34587a182a61a73d9311a57c87ded3530a00c1'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJDecompressor.java:
+    newFile: !uuid 'cba9ff03265fe48214cb9aced32d29c1d622f477'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJException.java:
+    newFile: !uuid 'd03a25655640b62b1665d7642eb32fe2232536a2'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJLoader-unix.java.in:
+    newFile: !uuid 'd8cc49505ea1f6599c47538e122c05d1d275612e'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJLoader-win.java.in:
+    newFile: !uuid '83977806e48bb796b590191098283e9d5666c3e2'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJScalingFactor.java:
+    newFile: !uuid 'ccf91797d48ed555b3d1c743d6f75c00abce271d'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJTransform.java:
+    newFile: !uuid '41c4b45ed73de8da4fb7445d3f35bd1e647db402'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/TJTransformer.java:
+    newFile: !uuid 'd7a56f35a6a21110f3015c9af72ab7a61d76c7c6'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org/libjpegturbo/turbojpeg/YUVImage.java:
+    newFile: !uuid '4da9843a8a513bcccc214645c10629edf62bf3e9'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org_libjpegturbo_turbojpeg_TJ.h:
+    newFile: !uuid '8ec4ecd62da5b83179c278ba6c37a34d2cb62e54'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org_libjpegturbo_turbojpeg_TJCompressor.h:
+    newFile: !uuid 'e76bd0ef9d29b061ae268404034e91c1719d4c04'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org_libjpegturbo_turbojpeg_TJDecompressor.h:
+    newFile: !uuid '2d58e735110395738616d425d0f4afbc81a910b7'
+    oldFile: null
+  /third_party/libjpeg_turbo/java/org_libjpegturbo_turbojpeg_TJTransformer.h:
+    newFile: !uuid 'a9dad4d68f0d119504b783825a50c5cc0338d359'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcapimin.c:
+    newFile: !uuid '178c55ba47ceb9e2b3d65ac20b3eb41fdafbc78b'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcapistd.c:
+    newFile: !uuid 'aa2aad9f66cdbc7a7edd1ff173c118b4fdb0bc24'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcarith.c:
+    newFile: !uuid 'b6d093f70e0eca10d8ac6902faa62c556652f2b7'
+    oldFile: null
+  /third_party/libjpeg_turbo/jccoefct.c:
+    newFile: !uuid '068232a527d1addbd21b906a80c80c1dcdcde1cb'
+    oldFile: null
+  /third_party/libjpeg_turbo/jccolext.c:
+    newFile: !uuid '303b322ce67404f1a07d0217eda1fcac51e39644'
+    oldFile: null
+  /third_party/libjpeg_turbo/jccolor.c:
+    newFile: !uuid 'bdc563c723ca9537895ecdc5cb8bf8a5e4d17e0c'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcdctmgr.c:
+    newFile: !uuid '7dae17a6e1494457638908fddb475689c9346f48'
+    oldFile: null
+  /third_party/libjpeg_turbo/jchuff.c:
+    newFile: !uuid '2bce767ebd7068b029598bc952fc3dde711790d2'
+    oldFile: null
+  /third_party/libjpeg_turbo/jchuff.h:
+    newFile: !uuid '314a2325c9e55b9958dedea9d101b3dc2af221ef'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcicc.c:
+    newFile: !uuid '11037ff6941b8cd251d6bc69765d8bc186dad824'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcinit.c:
+    newFile: !uuid '157353a22e9d1cd4354207514cb7ca0892b51025'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcmainct.c:
+    newFile: !uuid '3f23028c467e5da2f7c59dc5f9b4c1077a4e5960'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcmarker.c:
+    newFile: !uuid '801fbab4ef01741ee9e19d000fd0fa90839eb7d5'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcmaster.c:
+    newFile: !uuid '998dc40a5c968e1c2ebb4286cbf42adba3e9b1e5'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcomapi.c:
+    newFile: !uuid 'efbb8357b0c6ee3329d761f07d83de830ae9642f'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.bcc:
+    newFile: !uuid 'ae2e97e70df6c689d8cebe82c58dfe17ae8d40e9'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.cfg:
+    newFile: !uuid '4f1796097d637302b19eb1a94aa2eda30864d138'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.dj:
+    newFile: !uuid '9c0f2cebbf6be8f0ff39c4d778db25337669d31f'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.h:
+    newFile: !uuid 'b897e0a46e3578073dda77fb1ee66ad1547dd42c'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.h.in:
+    newFile: !uuid 'd4284d97b8124865eed7bfab4d23a4bdeba541dc'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.mac:
+    newFile: !uuid 'a5e5519fe8671b9aacb070f86fca6037f69bcf91'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.manx:
+    newFile: !uuid '46ce2261f4352dc54202fe08f11dfeac357662e1'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.mc6:
+    newFile: !uuid '4dae6d059e43c33249e8ba9f11552c710cf1f726'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.sas:
+    newFile: !uuid '8dc8cc18427b9630dde4d25d958047cb9479d534'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.st:
+    newFile: !uuid 'e0af8e1003c8d05ae7f7e51a0e0f21ff0d7af795'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.txt:
+    newFile: !uuid '21f35c13f5a0dcd5f07061ecf992f16f12c36aa2'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.vc:
+    newFile: !uuid '9b71ed2db149f17820e14ee021a16fae4b1c58f0'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.vms:
+    newFile: !uuid 'bdaa027e56d206f75e8a08b5ca98eefabe511aae'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfig.wat:
+    newFile: !uuid 'f1e0c02f67bcffc63bdd1f4847ace85a0fb0dee9'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfigint.h:
+    newFile: !uuid '6694ec766ee7b5bc259c30975d73b7b71b87676d'
+    oldFile: null
+  /third_party/libjpeg_turbo/jconfigint.h.in:
+    newFile: !uuid '68cbc2a505e6dd17616d6dec5ebdfd230c39eff9'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcparam.c:
+    newFile: !uuid '5bc7174dcb545290adc46837cde4c847ed210393'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcphuff.c:
+    newFile: !uuid 'bd14fc27d5e2bc195ecd9559a550c2f8e121ba6c'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcprepct.c:
+    newFile: !uuid 'd59713ae68e1652d9f7535ea2ceee4cdefb81ca5'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcsample.c:
+    newFile: !uuid 'e8515ebf0fce4ed070ea88384fcdcd24760c4075'
+    oldFile: null
+  /third_party/libjpeg_turbo/jcstest.c:
+    newFile: !uuid '8b1fe38082b1d159954e803b8cc97acb7357d175'
+    oldFile: null
+  /third_party/libjpeg_turbo/jctrans.c:
+    newFile: !uuid 'ab6a2186db6f7b9ec545548028c98e732d32c107'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdapimin.c:
+    newFile: !uuid '5ab37c8906bfa4e74918c038fd041ca0a35f13c0'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdapistd.c:
+    newFile: !uuid '695a6200992d472d14c152ead1b96abe6421f7eb'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdarith.c:
+    newFile: !uuid '7f0d3a785c392b465ddc154f1668f6defa5c6801'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdatadst-tj.c:
+    newFile: !uuid 'fdaa2de1de3bd51b4dc8bd6228fb1601152dd26e'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdatadst.c:
+    newFile: !uuid '246fffb58aa28ec6062557ab510370cf2dd8feb4'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdatasrc-tj.c:
+    newFile: !uuid '69fb5eaacd22d1008e1895c62f0fcb1ba291272c'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdatasrc.c:
+    newFile: !uuid 'eadb4a2c90d582ade619f5b21d35a73fa48e7063'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdcoefct.c:
+    newFile: !uuid '15e6cded628e3bd015dda30f14843830848c7bb3'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdcoefct.h:
+    newFile: !uuid '9a0e78066364733ec036b7415a41defa4455f284'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdcol565.c:
+    newFile: !uuid '53c7bd9187d459de652fc7f9babafb3b5e3c6612'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdcolext.c:
+    newFile: !uuid '863c7a2fbc76a9226dafd3a6167d6209adeeae92'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdcolor.c:
+    newFile: !uuid '8da2b4eaf2e9194115e6f78e9e1085d24081931c'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdct.h:
+    newFile: !uuid '66d1718b770bd7668e4c8a7b275475695f6b2e1c'
+    oldFile: null
+  /third_party/libjpeg_turbo/jddctmgr.c:
+    newFile: !uuid '266f446623cdb9d80b8b3ed71a2a2e957e4ac6db'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdhuff.c:
+    newFile: !uuid 'f786c105473519cb79c5937a8570d253371b003a'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdhuff.h:
+    newFile: !uuid 'cfa0b7f5588893d78f428bef6ad634f791540996'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdicc.c:
+    newFile: !uuid 'a1a5b867ae2b6cdd49b8619ebff6f828e3a3a2f6'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdinput.c:
+    newFile: !uuid 'deec618f268ef39d02a4e30a0095a566b45dfeb7'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdmainct.c:
+    newFile: !uuid '50301d6b50d85180e77d1c8082394d578c59becd'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdmainct.h:
+    newFile: !uuid '37b201ca88260543a4a7e4b8662fd94c9681a3e0'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdmarker.c:
+    newFile: !uuid 'b964c3a1a6aca7647966e9fb00e0733825f76da5'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdmaster.c:
+    newFile: !uuid 'cbc8774b1f2bce6a51141d49920e28f2ee0577da'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdmaster.h:
+    newFile: !uuid '76897e2820f82b5812cb34ceb4bd7f458dc69653'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdmerge.c:
+    newFile: !uuid '3a456d65812852caccc584e9ec835a708c6ab396'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdmerge.h:
+    newFile: !uuid 'b583396b106564d2b5afc93d5425dc42ed029a03'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdmrg565.c:
+    newFile: !uuid '980a4e216e4dd7fa9885a2949033746dfd9d8309'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdmrgext.c:
+    newFile: !uuid '9bf4f1a307f372b25318a79a056220297401650a'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdosaobj.txt:
+    newFile: !uuid 'b3b15add11673572756940ec4c00bae2f1bcffe8'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdphuff.c:
+    newFile: !uuid 'c6d82ca14b8cd1c28f816ecb84e34d8d4f568490'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdpostct.c:
+    newFile: !uuid '6a2cf5c1b31ed2df6d0b30388f3517a552d5fb1c'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdsample.c:
+    newFile: !uuid 'eaad72a030898f6c688c4b3d57d7d9a3a30970f3'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdsample.h:
+    newFile: !uuid 'a6bf08a032ac87e75c57d67ffbfca81dc30219db'
+    oldFile: null
+  /third_party/libjpeg_turbo/jdtrans.c:
+    newFile: !uuid 'd7ec4b83b3a4504b52b286f2ebf2c439748bb3c3'
+    oldFile: null
+  /third_party/libjpeg_turbo/jerror.c:
+    newFile: !uuid '936c4f5d80a4de71d17ac63b1521f68723362e59'
+    oldFile: null
+  /third_party/libjpeg_turbo/jerror.h:
+    newFile: !uuid '4476df2c934b4d85633360f5095bf3a2d7ae03b2'
+    oldFile: null
+  /third_party/libjpeg_turbo/jfdctflt.c:
+    newFile: !uuid 'ab6f6d08253ca882f80f21cd5cd913eea47c3771'
+    oldFile: null
+  /third_party/libjpeg_turbo/jfdctfst.c:
+    newFile: !uuid '4c9ce0de8faac48e49b1a88ac4eaa7e92488e8fc'
+    oldFile: null
+  /third_party/libjpeg_turbo/jfdctint.c:
+    newFile: !uuid 'c95a3a7fb8a634b605866389addc173fd0d211bf'
+    oldFile: null
+  /third_party/libjpeg_turbo/jidctflt.c:
+    newFile: !uuid '5aee74e2321ed81f12d968a834b52bb7ec1448a8'
+    oldFile: null
+  /third_party/libjpeg_turbo/jidctfst.c:
+    newFile: !uuid '89a20c937bbe100ddbd246a8468a9a0dce51a78b'
+    oldFile: null
+  /third_party/libjpeg_turbo/jidctint.c:
+    newFile: !uuid 'bb087480192063824e9eff0698156c9b37bdf0be'
+    oldFile: null
+  /third_party/libjpeg_turbo/jidctred.c:
+    newFile: !uuid '1dd65a94d975176c4ab6cda797a971f8eac9875f'
+    oldFile: null
+  /third_party/libjpeg_turbo/jinclude.h:
+    newFile: !uuid 'c1bcf7d9da62976bcc18377bc0f71c3863b183c3'
+    oldFile: null
+  /third_party/libjpeg_turbo/jmemansi.c:
+    newFile: !uuid '1c13f0c25caa48a1840484afbcf0ae01fb57ee09'
+    oldFile: null
+  /third_party/libjpeg_turbo/jmemdos.c:
+    newFile: !uuid '0955047ecc7f2c1d83cb14af11c5795b039349b7'
+    oldFile: null
+  /third_party/libjpeg_turbo/jmemdosa.asm:
+    newFile: !uuid 'c6ec48b346d477db66bf6b54590129330b63cf61'
+    oldFile: null
+  /third_party/libjpeg_turbo/jmemmac.c:
+    newFile: !uuid 'a6f043ed46fccc21bebcd63263c400999be51d3c'
+    oldFile: null
+  /third_party/libjpeg_turbo/jmemmgr.c:
+    newFile: !uuid '5ac2cff9aa2cf5c85cfca60e271b0d3e74eb03b0'
+    oldFile: null
+  /third_party/libjpeg_turbo/jmemname.c:
+    newFile: !uuid '6491ff79c98db08d0f75ab2b848d54409585828b'
+    oldFile: null
+  /third_party/libjpeg_turbo/jmemnobs.c:
+    newFile: !uuid '089be8f500d251c00cd314dba3750e544fc9f2bd'
+    oldFile: null
+  /third_party/libjpeg_turbo/jmemsys.h:
+    newFile: !uuid 'c6138a1c009ee82596857554ae8c9b48d033791d'
+    oldFile: null
+  /third_party/libjpeg_turbo/jmorecfg.h:
+    newFile: !uuid 'fb3a9cf411cc97909c33cacb3e8fefc2783ccd55'
+    oldFile: null
+  /third_party/libjpeg_turbo/jpeg_nbits_table.h:
+    newFile: !uuid 'fcf73878c3188a549e01d020b587106729846f2d'
+    oldFile: null
+  /third_party/libjpeg_turbo/jpegcomp.h:
+    newFile: !uuid 'c4834ac0df9dfcea43bcb1cdf5c10c3331b6a6b7'
+    oldFile: null
+  /third_party/libjpeg_turbo/jpegint.h:
+    newFile: !uuid '195fbcb9b6754d0f97cd3f7c03b64ab681d15b3e'
+    oldFile: null
+  /third_party/libjpeg_turbo/jpeglib.h:
+    newFile: !uuid 'd7664f063092ea2504fc128887815a7c58154d34'
+    oldFile: null
+  /third_party/libjpeg_turbo/jpegtran.1:
+    newFile: !uuid 'da7a266974322d17a1dadc9cda57e47fe1cc9b33'
+    oldFile: null
+  /third_party/libjpeg_turbo/jpegtran.c:
+    newFile: !uuid '244996dd7812992721eb83c7225ea0823daef3c8'
+    oldFile: null
+  /third_party/libjpeg_turbo/jquant1.c:
+    newFile: !uuid '73b83e16e5ccc47b506f6a4991a190d81349f811'
+    oldFile: null
+  /third_party/libjpeg_turbo/jquant2.c:
+    newFile: !uuid '44efb18cadf1d6fabeb867c9e3c94bb0cbd38b59'
+    oldFile: null
+  /third_party/libjpeg_turbo/jsimd.h:
+    newFile: !uuid '6c203655ef84594a712eb1126e7e7e23bfa5652d'
+    oldFile: null
+  /third_party/libjpeg_turbo/jsimd_none.c:
+    newFile: !uuid '5b38a9fb5c99affd4a6b727131526fa9e8c0f4d2'
+    oldFile: null
+  /third_party/libjpeg_turbo/jsimddct.h:
+    newFile: !uuid '55ee8cf67f56a03a105cf46d3e7500c77c278287'
+    oldFile: null
+  /third_party/libjpeg_turbo/jstdhuff.c:
+    newFile: !uuid '036d6495a56ce6ce5aaecdfb1b2604385c446951'
+    oldFile: null
+  /third_party/libjpeg_turbo/jutils.c:
+    newFile: !uuid '5c5bb17dc52cf0a9a7f551778963c476111aab29'
+    oldFile: null
+  /third_party/libjpeg_turbo/jversion.h:
+    newFile: !uuid '2ab534af4147f0e0d8c07c5a14df037186305545'
+    oldFile: null
+  /third_party/libjpeg_turbo/libjpeg.map:
+    newFile: !uuid '46679042e7eb224b67923d646af98a2a1c77c4f8'
+    oldFile: null
+  /third_party/libjpeg_turbo/libjpeg.map.in:
+    newFile: !uuid 'b4480d834773f4cf23ba5611ebd353aa5b98a728'
+    oldFile: null
+  /third_party/libjpeg_turbo/libjpeg.pc.in:
+    newFile: !uuid '44ca2e8ee982b80e26d6d1b673f428fc4b6de7b1'
+    oldFile: null
+  /third_party/libjpeg_turbo/libjpeg.txt:
+    newFile: !uuid '3c680b5fe242f9ee2f90f90f11b4593e5501539f'
+    oldFile: null
+  /third_party/libjpeg_turbo/ltmain.sh:
+    newFile: !uuid 'c7cb0da458b2aa4fc1fdce3cb7942946b5f06a3b'
+    oldFile: null
+  /third_party/libjpeg_turbo/makcjpeg.st:
+    newFile: !uuid '3cbad5ed6364ac150f9d8246dbfe3116588fc189'
+    oldFile: null
+  /third_party/libjpeg_turbo/makdjpeg.st:
+    newFile: !uuid '52179e3e6e0e20cf12cfb1fa7c24c5cd54a67e51'
+    oldFile: null
+  /third_party/libjpeg_turbo/makeadsw.vc6:
+    newFile: !uuid '9af6a19940f4c5e437a97f984c6387f9849315d0'
+    oldFile: null
+  /third_party/libjpeg_turbo/makeasln.v15:
+    newFile: !uuid 'f687301926fdab00a13780fac47c8821b35e63b8'
+    oldFile: null
+  /third_party/libjpeg_turbo/makecdep.vc6:
+    newFile: !uuid '5436a59671ee33cea3a0da4dd42397fb1adca5bf'
+    oldFile: null
+  /third_party/libjpeg_turbo/makecdsp.vc6:
+    newFile: !uuid 'c9d3d4a82e826b0240a42acecb325c6d07965511'
+    oldFile: null
+  /third_party/libjpeg_turbo/makecfil.v15:
+    newFile: !uuid '62f13fe2215848a860dad9890a2752955214c729'
+    oldFile: null
+  /third_party/libjpeg_turbo/makecmak.vc6:
+    newFile: !uuid '53235add55f57f66b344db5b3c03738e126d139c'
+    oldFile: null
+  /third_party/libjpeg_turbo/makecvcx.v15:
+    newFile: !uuid 'e232227bde47be0dff26a4c691e54f6074f5c3f3'
+    oldFile: null
+  /third_party/libjpeg_turbo/makeddep.vc6:
+    newFile: !uuid '79a44a1c024139bef6fc2b1926e3fb89146446a3'
+    oldFile: null
+  /third_party/libjpeg_turbo/makeddsp.vc6:
+    newFile: !uuid 'fdb5e5a482b14785c3238d0feb21c664909ef3ea'
+    oldFile: null
+  /third_party/libjpeg_turbo/makedfil.v15:
+    newFile: !uuid '6846e1469ec7b5970ef24f30d560603156f99d07'
+    oldFile: null
+  /third_party/libjpeg_turbo/makedmak.vc6:
+    newFile: !uuid 'fd89563f5366df959ab9af4897d3fe79171aa257'
+    oldFile: null
+  /third_party/libjpeg_turbo/makedvcx.v15:
+    newFile: !uuid '9d6c52d3abaf10b1d98a7312d221dd0399df476d'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.ansi:
+    newFile: !uuid '6d17037d808ac489d974b097dd0fc7d5d74e6cd9'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.b32:
+    newFile: !uuid '09146a1faa4989152059c373274ed97f03b5eef2'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.bcc:
+    newFile: !uuid '120b8b8b71bc6218d0209a7b51499bed5f7239fc'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.dj:
+    newFile: !uuid '5eaf88e22bbc7185efc5975eb69b7a4f44f39979'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.manx:
+    newFile: !uuid 'f31fb59e666d77aad75ee1b4c9706caf1c97dd5e'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.mc6:
+    newFile: !uuid '07cef030a16e916cf7af1d0c52ac26ad3f74c6be'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.mms:
+    newFile: !uuid '009ac70fbaf9e9eec2a6b57b49d0c64e411eae2c'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.sas:
+    newFile: !uuid 'a85e7705170e35653e0483a78bb9f688bf9f8a35'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.unix:
+    newFile: !uuid '558287008364bdc850507479bc4e4f334b8dfa2c'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.vc:
+    newFile: !uuid '965f5bd314fb2fffbcb72c59b15b3fb6523d2f4d'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.vms:
+    newFile: !uuid '5d89ff28e1ec47fb88cc73a9d1dfd54be19d24d9'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.vs:
+    newFile: !uuid 'd80032c143bbb591f3ef53ab3ebe6196b41e1415'
+    oldFile: null
+  /third_party/libjpeg_turbo/makefile.wat:
+    newFile: !uuid 'd0847063c00b46e3bf769475f6fc712637cf1d8c'
+    oldFile: null
+  /third_party/libjpeg_turbo/makejdep.vc6:
+    newFile: !uuid 'd1e3c5f90a9cab1dfb6eb879882f66d414967a29'
+    oldFile: null
+  /third_party/libjpeg_turbo/makejdsp.vc6:
+    newFile: !uuid 'ba87738a2e9df687b558c03a8c83473136668d1f'
+    oldFile: null
+  /third_party/libjpeg_turbo/makejdsw.vc6:
+    newFile: !uuid '86c8fe5b422a469c5f858bf0ff9a866ef40e58ec'
+    oldFile: null
+  /third_party/libjpeg_turbo/makejfil.v15:
+    newFile: !uuid '123c07d1d9a606ed11f38d1f03bede94983e2ab6'
+    oldFile: null
+  /third_party/libjpeg_turbo/makejmak.vc6:
+    newFile: !uuid 'eff0c72c0227e9a9bb3498108b48dc45e46edc32'
+    oldFile: null
+  /third_party/libjpeg_turbo/makejsln.v15:
+    newFile: !uuid 'f85ab502a86544e840bad1336face4b65feb23b1'
+    oldFile: null
+  /third_party/libjpeg_turbo/makejvcx.v15:
+    newFile: !uuid '112cd1c4c9e6ce074440aedeed12febcaaeef10a'
+    oldFile: null
+  /third_party/libjpeg_turbo/makeproj.mac:
+    newFile: !uuid '4c01e15baac3a3eff1d212ffc58529283394aef1'
+    oldFile: null
+  /third_party/libjpeg_turbo/makerdep.vc6:
+    newFile: !uuid '27052b04922747e7b4f3baef297be3a940261919'
+    oldFile: null
+  /third_party/libjpeg_turbo/makerdsp.vc6:
+    newFile: !uuid 'f62700ecfe025d832f5f291921106effc6724175'
+    oldFile: null
+  /third_party/libjpeg_turbo/makerfil.v15:
+    newFile: !uuid '2b2fcb3208d86b1542d97c5bb02502e80ddd4ecd'
+    oldFile: null
+  /third_party/libjpeg_turbo/makermak.vc6:
+    newFile: !uuid 'ac76914c67b80f4d6afffc419e9c4a0428bf16d8'
+    oldFile: null
+  /third_party/libjpeg_turbo/makervcx.v15:
+    newFile: !uuid 'bffdeb5c8e4107d1adb7c8bf76462813959ae8de'
+    oldFile: null
+  /third_party/libjpeg_turbo/maketdep.vc6:
+    newFile: !uuid 'ee26cf177e94390f57f095a95e1edf07cfe8e76b'
+    oldFile: null
+  /third_party/libjpeg_turbo/maketdsp.vc6:
+    newFile: !uuid '4df6026fbce73a815651ee2f0f9f62ba738883fe'
+    oldFile: null
+  /third_party/libjpeg_turbo/maketfil.v15:
+    newFile: !uuid '52f4b022da52043a2cb95d02e939ac43e1023559'
+    oldFile: null
+  /third_party/libjpeg_turbo/maketmak.vc6:
+    newFile: !uuid '3f35c281443696cf7146f7bb5598ccfa66799413'
+    oldFile: null
+  /third_party/libjpeg_turbo/maketvcx.v15:
+    newFile: !uuid '06fadbc4eb8b26a144bda0e23347755da26277b3'
+    oldFile: null
+  /third_party/libjpeg_turbo/makewdep.vc6:
+    newFile: !uuid '7dd081fd24f2bb6839c6a90480a2fb0fcbdff421'
+    oldFile: null
+  /third_party/libjpeg_turbo/makewdsp.vc6:
+    newFile: !uuid 'f625aecaf16a1b9ec2d154531722556941e25230'
+    oldFile: null
+  /third_party/libjpeg_turbo/makewfil.v15:
+    newFile: !uuid 'df6b35dc555ef3e0f9e16bf2b55867b500b076b9'
+    oldFile: null
+  /third_party/libjpeg_turbo/makewmak.vc6:
+    newFile: !uuid '89ed55544796dea98602a54423e331d8ccfc1a6a'
+    oldFile: null
+  /third_party/libjpeg_turbo/makewvcx.v15:
+    newFile: !uuid '91d5fc90eebe439a8476f6cf3787c52a90189abc'
+    oldFile: null
+  /third_party/libjpeg_turbo/makljpeg.st:
+    newFile: !uuid '0720fb5531d0fb032e3eed80221367a3eed894fb'
+    oldFile: null
+  /third_party/libjpeg_turbo/maktjpeg.st:
+    newFile: !uuid '25ce9266d4e0ecb3c9906016258916c266c2f5db'
+    oldFile: null
+  /third_party/libjpeg_turbo/makvms.opt:
+    newFile: !uuid '26db71422b875d308186aea0714b7b6fc5280cb4'
+    oldFile: null
+  /third_party/libjpeg_turbo/md5:
+    newFile: !uuid '450ee9219f4039642b3e3dc2d0cf31025bf1dd2e'
+    oldFile: null
+  /third_party/libjpeg_turbo/md5/CMakeLists.txt:
+    newFile: !uuid '526ef08ba77327b274c4c6c29489e0af7cd730a6'
+    oldFile: null
+  /third_party/libjpeg_turbo/md5/md5.c:
+    newFile: !uuid '9ef5daafb43bb0fa7ed4dceb2471561c5f723699'
+    oldFile: null
+  /third_party/libjpeg_turbo/md5/md5.h:
+    newFile: !uuid '6d745e9c4d907e11611d476358f7a065b6ad1db5'
+    oldFile: null
+  /third_party/libjpeg_turbo/md5/md5cmp.c:
+    newFile: !uuid '42b94ce21e328ecd2faa88f381976119fdf000df'
+    oldFile: null
+  /third_party/libjpeg_turbo/md5/md5hl.c:
+    newFile: !uuid '8a4a762fab895fa77b4ee11b974bf5a438df4043'
+    oldFile: null
+  /third_party/libjpeg_turbo/missing:
+    newFile: !uuid '5e7b021eccfcac046e533e0f170032d5778f6038'
+    oldFile: null
+  /third_party/libjpeg_turbo/rdbmp.c:
+    newFile: !uuid '358a0267691162956291fbdbb7e8512f614df324'
+    oldFile: null
+  /third_party/libjpeg_turbo/rdcolmap.c:
+    newFile: !uuid 'd2ed95cf80420ed108073c2a6aa6622a60f006c9'
+    oldFile: null
+  /third_party/libjpeg_turbo/rdgif.c:
+    newFile: !uuid 'c814c6b0f2278db5137718457d907464cb47e57c'
+    oldFile: null
+  /third_party/libjpeg_turbo/rdjpgcom.1:
+    newFile: !uuid '97611df813c3135aa9063f49e5efec04b42719a2'
+    oldFile: null
+  /third_party/libjpeg_turbo/rdjpgcom.c:
+    newFile: !uuid '620270e1305a4aec3bb89e7e88cca2f178c7813a'
+    oldFile: null
+  /third_party/libjpeg_turbo/rdppm.c:
+    newFile: !uuid '9699ca5ee850c682f6be59da1f83da68bd29b1bf'
+    oldFile: null
+  /third_party/libjpeg_turbo/rdrle.c:
+    newFile: !uuid 'df871e00a4750331187cdd4ee26b65c709541944'
+    oldFile: null
+  /third_party/libjpeg_turbo/rdswitch.c:
+    newFile: !uuid '886fec39b6279347a4be450f33e1261cbf5c2858'
+    oldFile: null
+  /third_party/libjpeg_turbo/rdtarga.c:
+    newFile: !uuid '8f2d03162d4049249e64bbe482421f6cdb30eefc'
+    oldFile: null
+  /third_party/libjpeg_turbo/readme.dos:
+    newFile: !uuid '4d10d2d700d3ba9d99290f57fa88794ea464c812'
+    oldFile: null
+  /third_party/libjpeg_turbo/release:
+    newFile: !uuid 'bc34652372acc10e360837c38968821ea3d66a3b'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/Config.cmake.in:
+    newFile: !uuid '0c1ba8aa6d952b28282446b64eb246a38e3dfe71'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/Distribution.xml.in:
+    newFile: !uuid 'e1f79eeec11b4da39fdba49ab7c5d68e6e63c5c9'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/License.rtf:
+    newFile: !uuid '5073a27f7a7a3339f8681314194a881da548502b'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/ReadMe.txt:
+    newFile: !uuid '446ce46cfe747d7586e293b216a02591cc59c43c'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/Welcome.rtf.in:
+    newFile: !uuid '6bec24d97b082db117b0dc7a0811b1e4cae07cde'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/deb-control.in:
+    newFile: !uuid '72bceec49e7d07532b331347a56da7f36448ac91'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/installer.nsi.in:
+    newFile: !uuid '65db63da394cb2b12f5f7df362a4b6e741b26a94'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/libjpeg.pc.in:
+    newFile: !uuid '74fb7fc69c176b89f5c72bbbad6d079f9a3f08c2'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/libturbojpeg.pc.in:
+    newFile: !uuid '81a006327c4a58f7b056afbd7472f0d4c7c79df9'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/makedpkg.in:
+    newFile: !uuid '0b7b7e73c0131e9e8405c4c9fc73793e707829aa'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/makemacpkg.in:
+    newFile: !uuid 'c87d3398efeb981992371795e20abaf048495356'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/makerpm.in:
+    newFile: !uuid 'fc3b1d4921d997eb7e882e47936720500bc3f186'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/makesrpm.in:
+    newFile: !uuid '84c39d4ed72d5b1d1130fcb9dc0eceb5195c420c'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/maketarball.in:
+    newFile: !uuid 'e2bbe66e80e46feb9ad80105f21271352fd6edd8'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/rpm.spec.in:
+    newFile: !uuid '7274ea604b9ecee09593bb52de6c043159203e95'
+    oldFile: null
+  /third_party/libjpeg_turbo/release/uninstall.in:
+    newFile: !uuid '34757b0ca9e55a15825e5d1f01b2f0de782e370b'
+    oldFile: null
+  /third_party/libjpeg_turbo/sharedlib:
+    newFile: !uuid 'e7659d25ba14eacf2c69d891e78910be020efb6a'
+    oldFile: null
+  /third_party/libjpeg_turbo/sharedlib/CMakeLists.txt:
+    newFile: !uuid '78a2f28b601872eab7c5b7f92a6a41c92f061f63'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd:
+    newFile: !uuid '0e57052a0cc8e25919103e5b43285da2a44c8c4c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/CMakeLists.txt:
+    newFile: !uuid '7f380dcefb09e5d03ed89f32a8d9cb476b7ddd16'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm:
+    newFile: !uuid '0d718917620c67a837bd3d991b6023705120f43a'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch32:
+    newFile: !uuid 'ff77d7697bd3236632106fc77e1a6f5b79984343'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch32/jccolext-neon.c:
+    newFile: !uuid '362102d2b2d849d486a91debb8779ad8416da1fb'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch32/jchuff-neon.c:
+    newFile: !uuid '19d94f720da0f98c900ef122483f60dedb9d783c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch32/jsimd.c:
+    newFile: !uuid 'fac55dfb28f0b3d451ae0d9ed5da466c008d0401'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch32/jsimd_neon.S:
+    newFile: !uuid '7e1e2b14512282ca7a07bfa0dfbe9ce4615c522c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch64:
+    newFile: !uuid 'c6813def8c07256a7492a3bbe1cd9e0538d35173'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch64/jccolext-neon.c:
+    newFile: !uuid '37130c225ed0dfadbca7063b98b5363b9c15080e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch64/jchuff-neon.c:
+    newFile: !uuid 'f13fd1b573c15d76a167ea16d1f20b941fe68279'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch64/jsimd.c:
+    newFile: !uuid '8570b82c7599a3ffc8c6191dd8b1d58ce3703a25'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/aarch64/jsimd_neon.S:
+    newFile: !uuid '31aa8e258efb653c59e223b222bd282d5aa5baa4'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/align.h:
+    newFile: !uuid 'cff4241e843903b9076da64899539f26b7bf858e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jccolor-neon.c:
+    newFile: !uuid '9fcc62dd25cac5ae470fbd76e202d6f4004bbccf'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jcgray-neon.c:
+    newFile: !uuid '71c7b2de21832ee81f40228eba860a102bb1bff8'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jcgryext-neon.c:
+    newFile: !uuid '416a7385df8595b3d853399f8fa9a1bb60091575'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jchuff.h:
+    newFile: !uuid 'd4edd5ebc7b3603b4acfcd12ba1a9baa16277602'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jcphuff-neon.c:
+    newFile: !uuid '86a263faf75667cb3dbc6d9234402246074a6f73'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jcsample-neon.c:
+    newFile: !uuid '8a3e237838e9f0b68cc924f72b69cc2df3638868'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jdcolext-neon.c:
+    newFile: !uuid 'ae440f45ac5e01bd795694779fb17ae37b69df23'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jdcolor-neon.c:
+    newFile: !uuid '28dbc57243ce9987c6f52be3c893b8cbb51e71f1'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jdmerge-neon.c:
+    newFile: !uuid '18fb9d8a55ab271a32d851303f7d4bfc3b74ce45'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jdmrgext-neon.c:
+    newFile: !uuid 'fa2ec056af80fb3bcd674984654442ebe9500259'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jdsample-neon.c:
+    newFile: !uuid '90ec6782c47fd3070955aaf491d84a1df3566fb1'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jfdctfst-neon.c:
+    newFile: !uuid 'bb371be3999200ddf43873afd471f9178d266226'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jfdctint-neon.c:
+    newFile: !uuid 'ccfc07b15d94c3b469545a3b2bd007562e2c6860'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jidctfst-neon.c:
+    newFile: !uuid 'a91be5362ebeb65ec96c5c3159743333684f30ed'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jidctint-neon.c:
+    newFile: !uuid '043b652e6c55a5627057a05ccfef82aefa880b2e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jidctred-neon.c:
+    newFile: !uuid 'be9627e61d47c90bc06ba0cfb4f931700c9e9fce'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/jquanti-neon.c:
+    newFile: !uuid 'a7eb6f1983b80c7feb0d2d0235daa42151cda49c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/arm/neon-compat.h.in:
+    newFile: !uuid '436c402a1778855a4a9c0659df110f59f6cf0a91'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386:
+    newFile: !uuid '647fc533a1a7226286d195e97b5077f60075d920'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jccolext-avx2.asm:
+    newFile: !uuid 'c46d684436dd774d3a03d771b679ed1deab912c1'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jccolext-mmx.asm:
+    newFile: !uuid '6357a42b2cf4887503da4067b35f09efcdb2e492'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jccolext-sse2.asm:
+    newFile: !uuid 'c6c80852ac5b0356afb912414b065d61e97027b4'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jccolor-avx2.asm:
+    newFile: !uuid '14944e952f19903862fc64af5acb2d0185e2407a'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jccolor-mmx.asm:
+    newFile: !uuid '8cb399bdc43f9e97e84fd9a15df6d611383dc9d1'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jccolor-sse2.asm:
+    newFile: !uuid '686d222ff700037f7deb3c3ac1e1185111c16039'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcgray-avx2.asm:
+    newFile: !uuid '560ee0c71e2b1a4fedf27c3b70764ff475324ec2'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcgray-mmx.asm:
+    newFile: !uuid '79fdf082a84846873ee50ca9ad0e4eb69c7e5fee'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcgray-sse2.asm:
+    newFile: !uuid 'cb4b28e8f495b9a3b30fd2a18f4ab8e58eaabbfd'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcgryext-avx2.asm:
+    newFile: !uuid '3fa7973d72b4445e8997d035cbbce1d67f419c01'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcgryext-mmx.asm:
+    newFile: !uuid '8af42e5a33225cb45287d00321bab467d3c57ce4'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcgryext-sse2.asm:
+    newFile: !uuid 'c9d6ff1e351c394628e164cdb3691c4f1d9ef7b4'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jchuff-sse2.asm:
+    newFile: !uuid '278cf5e83af3d0bdbab68098aae696af82369be5'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcphuff-sse2.asm:
+    newFile: !uuid 'c26b48a47d85ce6465706ef7c66df0c76fb9265d'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcsample-avx2.asm:
+    newFile: !uuid '0a20802dd89086b33dcf5abd7378362a0ac28360'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcsample-mmx.asm:
+    newFile: !uuid '2c223eebe8160ec247f58dbe5a8d1d92751bffe9'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jcsample-sse2.asm:
+    newFile: !uuid '4fea60d2e2106b9beaab57f289843f72f189adc8'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdcolext-avx2.asm:
+    newFile: !uuid '015be0416c5cb3c47ac2bc6231d8e2e2c2613090'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdcolext-mmx.asm:
+    newFile: !uuid '5813cfcb66f57a578e4e8f4f712c26e6a35a8d33'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdcolext-sse2.asm:
+    newFile: !uuid 'd5572b32946ceb75908ac1865dcfa5538c36833a'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdcolor-avx2.asm:
+    newFile: !uuid 'e05b60d001799c6c23444e9a3f32903b5a13fa4a'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdcolor-mmx.asm:
+    newFile: !uuid 'fb7e7bcce4b030bff905d4f27546a9e989672d4c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdcolor-sse2.asm:
+    newFile: !uuid 'b736255317e38f0143e0f6b5cda6f61cc7bd52f0'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdmerge-avx2.asm:
+    newFile: !uuid '711e6792d0f52fc8a728bb510f5fdb1375dae3e4'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdmerge-mmx.asm:
+    newFile: !uuid '6e8311d4081666b06929f05b60fc165e19b37880'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdmerge-sse2.asm:
+    newFile: !uuid 'e32f90aa177836da443f17f12388ea011a7b6aca'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdmrgext-avx2.asm:
+    newFile: !uuid 'e35f7282bc41d071d6104fae2b6c1467f15045ac'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdmrgext-mmx.asm:
+    newFile: !uuid 'eb3e36b4759bfbff33f9f764975eeaadf881acfb'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdmrgext-sse2.asm:
+    newFile: !uuid 'c113dc4d27ed3b0ea2d155f3007c15a514a5c48b'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdsample-avx2.asm:
+    newFile: !uuid 'a800c35e08351f602dc33dde388e2491ec82e847'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdsample-mmx.asm:
+    newFile: !uuid '12c49f0eab5741ed740c77e7b6fca38d54334fa0'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jdsample-sse2.asm:
+    newFile: !uuid '4e28d2f4b80293c4780d4f5daeecafdbf002755d'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jfdctflt-3dn.asm:
+    newFile: !uuid '322ab1632526fa8e65828cab1342b2414cc58d08'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jfdctflt-sse.asm:
+    newFile: !uuid '86952c6499cf5cfe13c265a13d7e5a5d0cffdbf4'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jfdctfst-mmx.asm:
+    newFile: !uuid '80645a50d7e7c815c51638a5226a4a5f4a71f6c8'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jfdctfst-sse2.asm:
+    newFile: !uuid '446fa7a68f78e119f854c22910da9406239778b9'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jfdctint-avx2.asm:
+    newFile: !uuid '23cf733135bbee0f2bc0d9d3165e489525a3edd0'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jfdctint-mmx.asm:
+    newFile: !uuid '34a43b9e5ef638d9ebd8fe8b5fd91444b1adb91a'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jfdctint-sse2.asm:
+    newFile: !uuid '6f8e18cb9d052f3a3285c66b684e96ca5d974e74'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctflt-3dn.asm:
+    newFile: !uuid '87951910d8e555d6a0f33d3b28b1373b6c56595a'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctflt-sse.asm:
+    newFile: !uuid 'b27ecfdf46a0a496c9dde7c72132f0a49b9fcadd'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctflt-sse2.asm:
+    newFile: !uuid 'c646eaef76ef31bff57a31c9e7ad7ca746e9eff1'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctfst-mmx.asm:
+    newFile: !uuid '24622d43693f1dab81a2b5f17240457cfe6fc85b'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctfst-sse2.asm:
+    newFile: !uuid '19704ffa48f369ff7de834b1ae9b91aeb1dcdcf0'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctint-avx2.asm:
+    newFile: !uuid '199c7df3b69c512fef36c35e0e76d3ed3ef29cc9'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctint-mmx.asm:
+    newFile: !uuid 'f15c8d34bcb3018b35db83fa13f91b999cdd8474'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctint-sse2.asm:
+    newFile: !uuid '43e320189b49ef9fed9029b5a6a4e9b3281b4c5c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctred-mmx.asm:
+    newFile: !uuid 'e2307e1cb6c6a16b33c220317c585d7a104f247a'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jidctred-sse2.asm:
+    newFile: !uuid '6e56494e9751cadfa2f1089b489c7d7b9cd5e193'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jquant-3dn.asm:
+    newFile: !uuid '5cb60caa947a0694b0a9a52a664f0e241716256e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jquant-mmx.asm:
+    newFile: !uuid '61305c625de8559b7f57de4a73917afce335ba45'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jquant-sse.asm:
+    newFile: !uuid '218adc976f3c47d8f9e2648d144670148d5507e5'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jquantf-sse2.asm:
+    newFile: !uuid 'a881ab50f924177799cb469ec86692478ccc6303'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jquanti-avx2.asm:
+    newFile: !uuid '5ed6bec246ca15b83d96ed9d1fc689a250991cc5'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jquanti-sse2.asm:
+    newFile: !uuid '0a509408aa1314f5434a60aff46fd61d0a1efa08'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jsimd.c:
+    newFile: !uuid '563949a02b866c5e5c6c570fa01f9a96c89acb3e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/i386/jsimdcpu.asm:
+    newFile: !uuid 'ddcafa9e2139ca20977f8aa6837e0d6bdb73ea48'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/jsimd.h:
+    newFile: !uuid '64747c6360c11a7f93ebb51ece50dbdc95ef6c2a'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips:
+    newFile: !uuid 'e9a1980dd588ac5a1dd19be51488e719b522adb7'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips/jsimd.c:
+    newFile: !uuid 'd2546eed3289b8910934e4d8a62f937b20ebcc01'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips/jsimd_dspr2.S:
+    newFile: !uuid 'c99288a8d1ceab74b7beb610867bf3663d77a982'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips/jsimd_dspr2_asm.h:
+    newFile: !uuid '12cfda486c0b40f1d4ddff7d3d81adf34869caec'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64:
+    newFile: !uuid 'a9fe0add63191bf63b43bdbe59f14e3cf67ce2ac'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jccolext-mmi.c:
+    newFile: !uuid '558eb2ab102021da2c9f83673579becb0fb50d5d'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jccolor-mmi.c:
+    newFile: !uuid '93ef5c79f790eb5b23bf22d4d0c7076a1c20b4ba'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jcgray-mmi.c:
+    newFile: !uuid '9c7b833f2e7b902916c299c17433c6d74b38ab15'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jcgryext-mmi.c:
+    newFile: !uuid '08a83d6699cbdb5dc409b6614514d947e41db1ea'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jcsample-mmi.c:
+    newFile: !uuid '0354dac0879c795162eb95b7794c710a18928d30'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jcsample.h:
+    newFile: !uuid 'bd07fcc4ed4a7825d5907bbac2a7f81ad9877d4c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jdcolext-mmi.c:
+    newFile: !uuid '3b5b2f2030782c605647a5d06f35043420f99ff0'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jdcolor-mmi.c:
+    newFile: !uuid '2c58263dbd6f2df28f1efad49cf8079c92611aa7'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jdmerge-mmi.c:
+    newFile: !uuid '0a39bd56805f12572a842e567d34f747a8f435e0'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jdmrgext-mmi.c:
+    newFile: !uuid 'be09ff2a659e1d534f312423f193d35736a7b1b0'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jdsample-mmi.c:
+    newFile: !uuid '8ae94e7dcf9e5e33f43ba3d7d13ae9124954e7dc'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jfdctfst-mmi.c:
+    newFile: !uuid 'f7caf09a8860ba6ccccb43dd2c0a072271d09c37'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jfdctint-mmi.c:
+    newFile: !uuid '7f4dfe912344a1e8a10e3c88fd436bae8b5d68ee'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jidctfst-mmi.c:
+    newFile: !uuid '503bb35a3cc54765d40756ac01a5c0e526647389'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jidctint-mmi.c:
+    newFile: !uuid 'cd3db980c5d9a360583d52b5b4f7a45657b3cde7'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jquanti-mmi.c:
+    newFile: !uuid '339002fd804e4f88465165af19ead2ccd54b398c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jsimd.c:
+    newFile: !uuid 'e8f1af562bab37c6fd86ff5fe9e255a768de4edc'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/jsimd_mmi.h:
+    newFile: !uuid '5e4261c9d98fd19c874e5649050f8737105a6b67'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/mips64/loongson-mmintrin.h:
+    newFile: !uuid 'db9b35ab6064bd34117a940ef4f1b5d79e2aa428'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/nasm:
+    newFile: !uuid '90d5702ae9da14d0776b065d094bfc551b63e84d'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/nasm/jcolsamp.inc:
+    newFile: !uuid '6f6d7f29d1d95976683e1ecb94449bd8ae179d82'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/nasm/jdct.inc:
+    newFile: !uuid '9192f66f0cefa099b6843259eed5fd84e15106bc'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/nasm/jsimdcfg.inc:
+    newFile: !uuid '667024a5f9dd8256a89f975b8f4e75638bc11214'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/nasm/jsimdcfg.inc.h:
+    newFile: !uuid 'bf2a45ad50c5455a2607d71e0fc9d7090cbc4e8c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/nasm/jsimdext.inc:
+    newFile: !uuid 'e8d50b0349733d73eba4a3e16d4f927d9c2c8484'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc:
+    newFile: !uuid '4fc075e538022a8a2b16a894e23d63c9c595eaaf'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jccolext-altivec.c:
+    newFile: !uuid '170f90ff80a9cd1308e0151a46cd5977f6e45a4e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jccolor-altivec.c:
+    newFile: !uuid 'd670dbcda3971ce55fa659ef9797fff76a467203'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jcgray-altivec.c:
+    newFile: !uuid 'a11a7e70218736ef4a7d15bf6e1a295156ca5074'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jcgryext-altivec.c:
+    newFile: !uuid 'b280cbbded167652259a8ba43464cff393fa4dd4'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jcsample-altivec.c:
+    newFile: !uuid '6e25b8db90700b52998a63bf65d88b1e9a52e684'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jcsample.h:
+    newFile: !uuid 'bd07fcc4ed4a7825d5907bbac2a7f81ad9877d4c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jdcolext-altivec.c:
+    newFile: !uuid '68d52bd8a251f3c8c2b3b632482f6eff33ecc57e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jdcolor-altivec.c:
+    newFile: !uuid 'eb35b671766f2dc6301e4a6ca46bf748ac3f69e6'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jdmerge-altivec.c:
+    newFile: !uuid '79c577f1413e01b62359627878307587adfd57e7'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jdmrgext-altivec.c:
+    newFile: !uuid '40f02c33eaec6a55c73090e57e718676a2092f6b'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jdsample-altivec.c:
+    newFile: !uuid '04df0cf108ccc3c9e7749b743fd4118b26afbcba'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jfdctfst-altivec.c:
+    newFile: !uuid 'ad9af81e0cf283370bf5f8a91ebe3dad6ce03c1c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jfdctint-altivec.c:
+    newFile: !uuid '3d4f017103d5545375b9366557403742b1aff242'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jidctfst-altivec.c:
+    newFile: !uuid '456c6c61741ca2f336210054c15c44c67433d2a2'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jidctint-altivec.c:
+    newFile: !uuid '60e619f11db366b68a1fb7c8d023d3b9bfc4f80e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jquanti-altivec.c:
+    newFile: !uuid '7d6e32542b63bb19442c474765f088ac723d25c0'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jsimd.c:
+    newFile: !uuid 'd0d3981e06693f93ee10d1833e0b8bd592e46b5e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/powerpc/jsimd_altivec.h:
+    newFile: !uuid 'e8bdb06a542529ae9d0975dc0b3c38f147ebeca2'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64:
+    newFile: !uuid 'db806987f0133b4a3955f92c54bb2dffdf67c17c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jccolext-avx2.asm:
+    newFile: !uuid 'ffb527db00e1e9b0098ee30ec7946dd6981d0d06'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jccolext-sse2.asm:
+    newFile: !uuid 'af70ed6010f686f4926172673d66a55cbb252edc'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jccolor-avx2.asm:
+    newFile: !uuid '16b78298dc4ff5791f80dce33bcb122855d2939f'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jccolor-sse2.asm:
+    newFile: !uuid 'e2955c213404085be7d84455150ff74f41b61963'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jcgray-avx2.asm:
+    newFile: !uuid '591255bb1122e391565d528294cdb47ae9894b4c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jcgray-sse2.asm:
+    newFile: !uuid 'e389904f2f85bc53d8432c4f07b66ea76e9bb9fd'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jcgryext-avx2.asm:
+    newFile: !uuid 'ddcc2c0a2fe4d7f398b78eb99df82f76e4496750'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jcgryext-sse2.asm:
+    newFile: !uuid 'f1d399a63b854bc4ed644840fb84cb7ed5c8d7a1'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jchuff-sse2.asm:
+    newFile: !uuid '00720283ec59de4a04a56cac05fb2b0541c366ab'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jcphuff-sse2.asm:
+    newFile: !uuid '01b5c0235faf1eb8600f59bfe8af79236627f03a'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jcsample-avx2.asm:
+    newFile: !uuid 'b32527aebeaacc263a627503f34bc0a84b5b2467'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jcsample-sse2.asm:
+    newFile: !uuid '2fcfe4567ab9d3f178a173e37b2de6648013c758'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdcolext-avx2.asm:
+    newFile: !uuid '2370fda642496a328c627633a42c7a0c98845a09'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdcolext-sse2.asm:
+    newFile: !uuid 'e07c8d75188c7f9ddf447f3048c6f1b0e2018557'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdcolor-avx2.asm:
+    newFile: !uuid '43de9db04dc6c737a08af8f3194a0b4c5aca0622'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdcolor-sse2.asm:
+    newFile: !uuid 'b3f1fec07eb59a6dc8b5524ecc1208d78925572d'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdmerge-avx2.asm:
+    newFile: !uuid '9515a17013d35dce9a3a611fde81328cecd5db05'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdmerge-sse2.asm:
+    newFile: !uuid 'aedccc20f6c0aee70a9dbd454df154198b79bcf5'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdmrgext-avx2.asm:
+    newFile: !uuid '8b264b4f039fb9b22c59348dacd56952bf3e3588'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdmrgext-sse2.asm:
+    newFile: !uuid 'eb3ab9dbd945c2fc83cbb2100836c449169b3b7e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdsample-avx2.asm:
+    newFile: !uuid '1e4979f933e46b98b1d581339421befe6e4bbf5e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jdsample-sse2.asm:
+    newFile: !uuid '38dbceec269d7f7098afe7a5521bae9a098c8e60'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jfdctflt-sse.asm:
+    newFile: !uuid 'ef2796649bc6ade7854d93fbedd4ec7fbb7ee17c'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jfdctfst-sse2.asm:
+    newFile: !uuid '2e1bfe6e8c2fc0489ed48be40306a1a2cb2bf6b7'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jfdctint-avx2.asm:
+    newFile: !uuid 'e56258b48aa31655490d05f95ecfba41d8275982'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jfdctint-sse2.asm:
+    newFile: !uuid 'ec1f383ccb731708aa6028247993cf86fe65182e'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jidctflt-sse2.asm:
+    newFile: !uuid '60bf961896132e72f5a95c59fc95692b6968a111'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jidctfst-sse2.asm:
+    newFile: !uuid 'cb97fdfbb24660e5c70daf87687ff1a825d17e19'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jidctint-avx2.asm:
+    newFile: !uuid 'ca7e317f6e1bbd19c254fd04942d1c1e3fd68dac'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jidctint-sse2.asm:
+    newFile: !uuid '7aa869bc0b518ef81978a174b61e0ee6fd123261'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jidctred-sse2.asm:
+    newFile: !uuid '4ece9d891cbd8b09518895164b8be5a3d321f7ac'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jquantf-sse2.asm:
+    newFile: !uuid 'ab2e3954f63362af6c61d0a7e2197c514399bb75'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jquanti-avx2.asm:
+    newFile: !uuid '70fe81139cc21aabd76e2e7b236041478cfd7460'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jquanti-sse2.asm:
+    newFile: !uuid '3ee442027a5affa31eee15748b51671414d68b64'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jsimd.c:
+    newFile: !uuid 'eb7667999bb6ba3191581640114d7563585c5c66'
+    oldFile: null
+  /third_party/libjpeg_turbo/simd/x86_64/jsimdcpu.asm:
+    newFile: !uuid '705f813d7da609474a5c99ed27ff8e6f63cb6f2d'
+    oldFile: null
+  /third_party/libjpeg_turbo/structure.txt:
+    newFile: !uuid '15b8d378564a28d420b3011f1b07fa54c36ccb52'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages:
+    newFile: !uuid '0e81b70c597a0e37c3ba368be388cbcb79552ff5'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/nightshot_iso_100.bmp:
+    newFile: !uuid '5a2715165b38146091a7a7c199933267267ec464'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/nightshot_iso_100.txt:
+    newFile: !uuid '93208865f86763b55b0ef39f6f5e483e4b7ce988'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/test.scan:
+    newFile: !uuid '2a8ea7f2e12281b338b3e2fe8deb8704b28a5a4a'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/test1.icc:
+    newFile: !uuid 'd0245c813cfb52a7260186c8a9ba5ae6b8160124'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/test1.icc.txt:
+    newFile: !uuid '57fc52f771a19afbda1a1bcd5341f8f5b594009a'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/test2.icc:
+    newFile: !uuid '73f1b5aa69daf42e8bc0e162e5b8a8a91fa528c0'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/test2.icc.txt:
+    newFile: !uuid '57fc52f771a19afbda1a1bcd5341f8f5b594009a'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/testimgari.jpg:
+    newFile: !uuid '896648741b9b512b2f1f8e2ef0471a88ee0e6ca5'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/testimgint.jpg:
+    newFile: !uuid '2501c6159865e84615235a62899150282cab6104'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/testorig.jpg:
+    newFile: !uuid '9816a0c6231a7c5eaafd445368a9eeb1cffc63df'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/testorig.ppm:
+    newFile: !uuid '2a5d1e958b3f858963a34fc3bbd1c609f1c6d2d2'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/testorig12.jpg:
+    newFile: !uuid '861aff98e2a78131bf546b82fd38b00a4f741dd2'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/vgl_5674_0098.bmp:
+    newFile: !uuid 'd74ea64a61ebe5a71cfb9b59c0e6eee063fc91bd'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/vgl_6434_0018a.bmp:
+    newFile: !uuid '25e77b76839e47411cebd6f215bc33ef0886add2'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimages/vgl_6548_0026a.bmp:
+    newFile: !uuid '41e35b59e0d27f6444d281d4f30400b413c49a2a'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimg.bmp:
+    newFile: !uuid '11aa0cbf4115728832db78699bb26ef9f1c55718'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimg.jpg:
+    newFile: !uuid 'a026e486f57de704ac5e9344ea20bb9973935e1d'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimg.ppm:
+    newFile: !uuid '1377eef27ef1cd26fadc5772132324094c64f85c'
+    oldFile: null
+  /third_party/libjpeg_turbo/testimgp.jpg:
+    newFile: !uuid 'ca6acad1936a5d2223ed82f913e61ff15ec448c8'
+    oldFile: null
+  /third_party/libjpeg_turbo/testorig.jpg:
+    newFile: !uuid '9816a0c6231a7c5eaafd445368a9eeb1cffc63df'
+    oldFile: null
+  /third_party/libjpeg_turbo/testprog.jpg:
+    newFile: !uuid '920fee2e32b5a8ab0af796e010ee8a1add3eee63'
+    oldFile: null
+  /third_party/libjpeg_turbo/tjbench.c:
+    newFile: !uuid 'e8e4ddd2a0ea5d5bfb88c4feded9a42416fe058c'
+    oldFile: null
+  /third_party/libjpeg_turbo/tjbenchtest.in:
+    newFile: !uuid '1c08b374c125f0705036fadf7835ffadccea1ad4'
+    oldFile: null
+  /third_party/libjpeg_turbo/tjbenchtest.java.in:
+    newFile: !uuid '689561d26dd8d49250915b8f98aae969f0197ab5'
+    oldFile: null
+  /third_party/libjpeg_turbo/tjexample.c:
+    newFile: !uuid 'a9cd865b3ea796c04c7a22e03a7706c5a7eece52'
+    oldFile: null
+  /third_party/libjpeg_turbo/tjexampletest.in:
+    newFile: !uuid '0d3047e2661028b4be8022154eb797e947a58f1b'
+    oldFile: null
+  /third_party/libjpeg_turbo/tjexampletest.java.in:
+    newFile: !uuid 'd4b63bc54260eead22c1853d2506cc9e401d7074'
+    oldFile: null
+  /third_party/libjpeg_turbo/tjunittest.c:
+    newFile: !uuid 'f59939fdb0450bd3cd3fe3a70db93735ef1bffe2'
+    oldFile: null
+  /third_party/libjpeg_turbo/tjutil.c:
+    newFile: !uuid '2018160b161f63179dbfcf303f5a192f1298627b'
+    oldFile: null
+  /third_party/libjpeg_turbo/tjutil.h:
+    newFile: !uuid '8542bab982ef610cb46d8f7c22d4c997427ba182'
+    oldFile: null
+  /third_party/libjpeg_turbo/transupp.c:
+    newFile: !uuid '6e860778908f7597ae0ce0d1d912a3868fa5df4b'
+    oldFile: null
+  /third_party/libjpeg_turbo/transupp.h:
+    newFile: !uuid 'ea6be1fc3058eaa6884f3cd27893a80d42345c0d'
+    oldFile: null
+  /third_party/libjpeg_turbo/turbojpeg-jni.c:
+    newFile: !uuid '1b728e3a6ca26f2cd55dd573931af9dead804da1'
+    oldFile: null
+  /third_party/libjpeg_turbo/turbojpeg-mapfile:
+    newFile: !uuid '5477fed2c36d882bb25a67a5886671b4b640004a'
+    oldFile: null
+  /third_party/libjpeg_turbo/turbojpeg-mapfile.jni:
+    newFile: !uuid '44327912b326bc225da819746718a6d8bc0e824d'
+    oldFile: null
+  /third_party/libjpeg_turbo/turbojpeg.c:
+    newFile: !uuid '793a3eedc2ab60990ffce086ef9870fd7320278e'
+    oldFile: null
+  /third_party/libjpeg_turbo/turbojpeg.h:
+    newFile: !uuid 'c2f6b5141deaa32fa4461d7e9819ea1ecd07c278'
+    oldFile: null
+  /third_party/libjpeg_turbo/usage.txt:
+    newFile: !uuid 'f7fa3c08ed2eafccc5afb3c35a3f6fea74e4c8fd'
+    oldFile: null
+  /third_party/libjpeg_turbo/win:
+    newFile: !uuid 'eaa366282072d7d6f502228773a339a15c7992da'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/gcc:
+    newFile: !uuid 'e7fa7c67bfd2e93509d7e15c595d3da02f39658f'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/gcc/projectTargets-release.cmake.in:
+    newFile: !uuid '1e1a8a34aff668e64ed6ee05d642ab65615e9fc4'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/jconfig.h.in:
+    newFile: !uuid '13cceef01d1368c2a12d20596cd8e1450396afe5'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/jpeg62-memsrcdst.def:
+    newFile: !uuid '4d24a149eb8af7cff71c1f93fb0379ea662ace21'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/jpeg62.def:
+    newFile: !uuid 'f3c69b26259af45a46ca0e5216dbcc9d9146075c'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/jpeg7-memsrcdst.def:
+    newFile: !uuid 'a005aff07121cd98fdf3a4b862f811372f504228'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/jpeg7.def:
+    newFile: !uuid '49f4c02d606b9fe5a21d06111a91d653ebbe5500'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/jpeg8.def:
+    newFile: !uuid '0a5312563b662d3dbb92bca5b01e6379f435cdbf'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/projectTargets.cmake.in:
+    newFile: !uuid '05ab4984db1fee13bc9717adeb875d3295879d24'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/vc:
+    newFile: !uuid '8bb509601e64194fcdb8ff91a08f84b32b257704'
+    oldFile: null
+  /third_party/libjpeg_turbo/win/vc/projectTargets-release.cmake.in:
+    newFile: !uuid '7abb281b70cf99c869e4b13ec3caef3af7b007ee'
+    oldFile: null
+  /third_party/libjpeg_turbo/winlibs.mak:
+    newFile: !uuid 'bc28c304164e57794e21787170bbcb0cd00a3cfb'
+    oldFile: null
+  /third_party/libjpeg_turbo/winlibs.patch:
+    newFile: !uuid 'f33d62319e8347c76efa13757e4d8889b587fa47'
+    oldFile: null
+  /third_party/libjpeg_turbo/wizard.txt:
+    newFile: !uuid 'c57fe38a542d0585a13c031ba7983bf7055fbd0d'
+    oldFile: null
+  /third_party/libjpeg_turbo/wrbmp.c:
+    newFile: !uuid '408a722a1001f1a6e7a6ba45f0d4fa7ac7a79b70'
+    oldFile: null
+  /third_party/libjpeg_turbo/wrgif.c:
+    newFile: !uuid '82a24291d5e172074238a791a7ac2f0c56fd7bf4'
+    oldFile: null
+  /third_party/libjpeg_turbo/wrjpgcom.1:
+    newFile: !uuid 'a255cab8f8c92b90210999a92d40d837add508ef'
+    oldFile: null
+  /third_party/libjpeg_turbo/wrjpgcom.c:
+    newFile: !uuid '8a4e74161e78c51c04cb2600353e9c7db2c8f969'
+    oldFile: null
+  /third_party/libjpeg_turbo/wrppm.c:
+    newFile: !uuid '3081ec333f816e289c94803171f34ae3b4e0c4d7'
+    oldFile: null
+  /third_party/libjpeg_turbo/wrrle.c:
+    newFile: !uuid 'e4c2121365a6c8107e143ee01a9a68194b616832'
+    oldFile: null
+  /third_party/libjpeg_turbo/wrtarga.c:
+    newFile: !uuid '7a654ff576349e43630806454ca93e5705f7c338'
+    oldFile: null
+  /third_party/libwebp:
+    newFile: !uuid 'c23da11722a8a2d773264da8a0f9eb06eb9bb65f'
+    oldFile: null
+  /third_party/libwebp/LICENSE:
+    newFile: !uuid 'b111a8a1251edfdb5c65cbba07a2f7dc6701b116'
+    oldFile: null
+  /third_party/libwebp/README.chromium:
+    newFile: !uuid 'c19fe94657a7e3e9932be2a995e27e41076fcc40'
+    oldFile: null
+  /third_party/libwebp/dec:
+    newFile: !uuid '64136558aed4459ac4dc74821343f7894cd33e7f'
+    oldFile: null
+  /third_party/libwebp/dec/alphai.h:
+    newFile: !uuid 'd67d572ff166d4367669475e0f3ffb87652ba31c'
+    oldFile: null
+  /third_party/libwebp/dec/buffer.c:
+    newFile: !uuid 'e2c86828157e3756ce298b3ab306ce828c44d671'
+    oldFile: null
+  /third_party/libwebp/dec/dec_alpha.c:
+    newFile: !uuid 'd692f9310d8bd709bb2d1b6b8af5390419979adf'
+    oldFile: null
+  /third_party/libwebp/dec/dec_frame.c:
+    newFile: !uuid '436746adedaee44073ec2d35cea4cde63a443e80'
+    oldFile: null
+  /third_party/libwebp/dec/dec_quant.c:
+    newFile: !uuid '1060c9bda9d57e89636cc46c977a7b9949444b5d'
+    oldFile: null
+  /third_party/libwebp/dec/dec_tree.c:
+    newFile: !uuid '8d1128807eebb88f0ac08fb3dd7c28daf5936fba'
+    oldFile: null
+  /third_party/libwebp/dec/dec_vp8l.c:
+    newFile: !uuid '068b6f00b3affa93021917f6258d0322deafa05e'
+    oldFile: null
+  /third_party/libwebp/dec/decode_vp8.h:
+    newFile: !uuid 'c0aab00a3652565974dc92daea3f203aeb342ef5'
+    oldFile: null
+  /third_party/libwebp/dec/idec.c:
+    newFile: !uuid '970b7e847dd105a99d65247e8ae531bddea87a8f'
+    oldFile: null
+  /third_party/libwebp/dec/io.c:
+    newFile: !uuid '24432f6a2ad907e7ab7ce51c063d7964c8ce1024'
+    oldFile: null
+  /third_party/libwebp/dec/vp8.c:
+    newFile: !uuid 'fbe8987e7962d708cb00da8ef6c74b77bfa9d6e7'
+    oldFile: null
+  /third_party/libwebp/dec/vp8i.h:
+    newFile: !uuid 'b8dee4eeb4420e4ce8259ae1945d533836575f5f'
+    oldFile: null
+  /third_party/libwebp/dec/vp8li.h:
+    newFile: !uuid 'ee1b80ead415d19a7e71bd767b41933abc91ab2f'
+    oldFile: null
+  /third_party/libwebp/dec/webp.c:
+    newFile: !uuid '3393d091957f2a0e99371a25cf3d9430fa9b9f43'
+    oldFile: null
+  /third_party/libwebp/dec/webpi.h:
+    newFile: !uuid '71aa5fd99720c1a48fa60713c94810e9e428e671'
+    oldFile: null
+  /third_party/libwebp/demux:
+    newFile: !uuid 'd005f70fad6ab3e4c64e19c56e5098ca1c884dca'
+    oldFile: null
+  /third_party/libwebp/demux/demux.c:
+    newFile: !uuid '4cc1e3e38d3d3075188131762aa389e0d02d0c4c'
+    oldFile: null
+  /third_party/libwebp/dsp:
+    newFile: !uuid '8dccbe0bfd2c44208b24a56691d40acedcfd8334'
+    oldFile: null
+  /third_party/libwebp/dsp/alpha_processing.c:
+    newFile: !uuid 'd4cc40f78710b13630f947d2a04fa29d9f104491'
+    oldFile: null
+  /third_party/libwebp/dsp/alpha_processing_sse2.c:
+    newFile: !uuid '5eabf6b3281a6b798ce8f7ac634eb7ad5e85a55e'
+    oldFile: null
+  /third_party/libwebp/dsp/cpu.c:
+    newFile: !uuid '1fd49dec3e36f3d31976aa915924d82408149a48'
+    oldFile: null
+  /third_party/libwebp/dsp/dec.c:
+    newFile: !uuid '218ccc47a797bc8fc6e77dafe6d9dedcc17c15eb'
+    oldFile: null
+  /third_party/libwebp/dsp/dec_clip_tables.c:
+    newFile: !uuid 'b2fc24d21d276b237d23cbe1da17278930f232fa'
+    oldFile: null
+  /third_party/libwebp/dsp/dec_mips32.c:
+    newFile: !uuid '9a413e87792b12991bdae49291f3ac113236e4c7'
+    oldFile: null
+  /third_party/libwebp/dsp/dec_sse2.c:
+    newFile: !uuid 'dcacd3b6a7f45be3f0da254585476ac952ab8b89'
+    oldFile: null
+  /third_party/libwebp/dsp/dsp.h:
+    newFile: !uuid '5804a57e925b19a520fccf962972386ff2dff4d5'
+    oldFile: null
+  /third_party/libwebp/dsp/enc.c:
+    newFile: !uuid '4e11f31424d88a303bc07a2a07e0f307040154cb'
+    oldFile: null
+  /third_party/libwebp/dsp/enc_avx2.c:
+    newFile: !uuid 'fbe7294e7658d2da6cf97f9bb739cea91d7d900b'
+    oldFile: null
+  /third_party/libwebp/dsp/enc_mips32.c:
+    newFile: !uuid '6870afd82b410409114cec54313939ebe01e7a5e'
+    oldFile: null
+  /third_party/libwebp/dsp/enc_sse2.c:
+    newFile: !uuid '015e84865703cfa51e35d7e67bb318c74250c7a6'
+    oldFile: null
+  /third_party/libwebp/dsp/lossless.c:
+    newFile: !uuid '5d3d3004defa7909f81a2ecab37abe7d7c333990'
+    oldFile: null
+  /third_party/libwebp/dsp/lossless.h:
+    newFile: !uuid 'f24ce88afa124d252f6849ea6a62f8f64f359924'
+    oldFile: null
+  /third_party/libwebp/dsp/lossless_mips32.c:
+    newFile: !uuid '086ac411727cee64f1ae649b1db35c355c64b209'
+    oldFile: null
+  /third_party/libwebp/dsp/lossless_sse2.c:
+    newFile: !uuid '96fce731e8f593600fc74f303e05cf5344532609'
+    oldFile: null
+  /third_party/libwebp/dsp/upsampling.c:
+    newFile: !uuid '5e050aa4b7f4dd4af55676c66715820c70014040'
+    oldFile: null
+  /third_party/libwebp/dsp/upsampling_sse2.c:
+    newFile: !uuid '3fd2a962aa0b05f20b94ae6cc74eb3aa2efab27d'
+    oldFile: null
+  /third_party/libwebp/dsp/yuv.c:
+    newFile: !uuid 'e6ab30f92454658e60cf9bbcdd8b27f22ed0f66a'
+    oldFile: null
+  /third_party/libwebp/dsp/yuv.h:
+    newFile: !uuid '08e723dc8b7ba513820714c882783ecafa94aed5'
+    oldFile: null
+  /third_party/libwebp/dsp/yuv_mips32.c:
+    newFile: !uuid '290c94d90d13ae22379bcb892c212abef5130b29'
+    oldFile: null
+  /third_party/libwebp/dsp/yuv_sse2.c:
+    newFile: !uuid 'd37c809ceff6b86c65f9a6f2897eb5c6427b7605'
+    oldFile: null
+  /third_party/libwebp/dsp/yuv_tables_sse2.h:
+    newFile: !uuid '643a0d847a05d4957ba404426c01ddf32bda3b7a'
+    oldFile: null
+  /third_party/libwebp/enc:
+    newFile: !uuid '2eecd09505ed52d625cbc4a029605e21a8d159b6'
+    oldFile: null
+  /third_party/libwebp/enc/alpha.c:
+    newFile: !uuid 'a6bec8be731a7a3f513c073d6403aedd5124bc96'
+    oldFile: null
+  /third_party/libwebp/enc/analysis.c:
+    newFile: !uuid '730a916c66612730ea539f75b4275fc714145122'
+    oldFile: null
+  /third_party/libwebp/enc/backward_references.c:
+    newFile: !uuid '860b1a62d6c7153c38141d3db33ea08138941b7e'
+    oldFile: null
+  /third_party/libwebp/enc/backward_references.h:
+    newFile: !uuid 'ada2e83196ba5d5f6d566be5b27ff3b337128ab1'
+    oldFile: null
+  /third_party/libwebp/enc/config.c:
+    newFile: !uuid 'b43163d3ec7c6d72a6e193aab080edc5104f039f'
+    oldFile: null
+  /third_party/libwebp/enc/cost.c:
+    newFile: !uuid 'f2299f985defe73213eeb1b5974c4afa7a83be1c'
+    oldFile: null
+  /third_party/libwebp/enc/cost.h:
+    newFile: !uuid 'a28ca40249986168e524b0c482da194a1452c0ff'
+    oldFile: null
+  /third_party/libwebp/enc/filter.c:
+    newFile: !uuid 'dcbe25afd1179722069a06767976226fa4aed947'
+    oldFile: null
+  /third_party/libwebp/enc/frame.c:
+    newFile: !uuid 'cf80e46cc78dd1ef6ca33eecf956b82b1ffa457c'
+    oldFile: null
+  /third_party/libwebp/enc/histogram.c:
+    newFile: !uuid 'b127d8580870f2082ac412ad405e5418a1d6338c'
+    oldFile: null
+  /third_party/libwebp/enc/histogram.h:
+    newFile: !uuid '54a5ca94681a8d436318c7da2acebe8294b6911b'
+    oldFile: null
+  /third_party/libwebp/enc/iterator.c:
+    newFile: !uuid '8317995d05caebe4e74882dba0e41fb997cdb7fe'
+    oldFile: null
+  /third_party/libwebp/enc/picture.c:
+    newFile: !uuid '701a373e498574b9901e829316055b2bcdfcb058'
+    oldFile: null
+  /third_party/libwebp/enc/picture_csp.c:
+    newFile: !uuid 'dc2b169929c9419c5da8b04c318438dcefb19ccc'
+    oldFile: null
+  /third_party/libwebp/enc/picture_psnr.c:
+    newFile: !uuid '1780b9a158a517d749b4d612c8afa67140ec1516'
+    oldFile: null
+  /third_party/libwebp/enc/picture_rescale.c:
+    newFile: !uuid 'baef2c937d3f6b4ecf7fb993134d040f5bdb1190'
+    oldFile: null
+  /third_party/libwebp/enc/picture_tools.c:
+    newFile: !uuid '38791ed115dba99eb4ea13d0dc3b900745442d23'
+    oldFile: null
+  /third_party/libwebp/enc/quant.c:
+    newFile: !uuid '544f8bc057fdfc71f45a55e4867fe2f8d0c38fea'
+    oldFile: null
+  /third_party/libwebp/enc/syntax.c:
+    newFile: !uuid 'e3ea0bd64057114f2ba41da3251fdee048ba7b35'
+    oldFile: null
+  /third_party/libwebp/enc/token.c:
+    newFile: !uuid '39b7c1db8633e08fcd204982cf3014ca2b03d8a8'
+    oldFile: null
+  /third_party/libwebp/enc/tree.c:
+    newFile: !uuid '478020ab363d449fda602ae8e5e696dfd90fff33'
+    oldFile: null
+  /third_party/libwebp/enc/vp8enci.h:
+    newFile: !uuid '315838e0413d7d4f42768537a2ef5dd847e4636f'
+    oldFile: null
+  /third_party/libwebp/enc/vp8l.c:
+    newFile: !uuid '3225d4d93435baa12ab136e2c96fd1f850d8e6c1'
+    oldFile: null
+  /third_party/libwebp/enc/vp8li.h:
+    newFile: !uuid 'e9e42735e967e64c2f45744f4177a544708e1677'
+    oldFile: null
+  /third_party/libwebp/enc/webpenc.c:
+    newFile: !uuid '8cfb5f9a4d3e8541e02eea18088ba59a3a6d1227'
+    oldFile: null
+  /third_party/libwebp/libwebp.gyp:
+    newFile: !uuid '06005ace5d81c602235e9c5dbcd9eff753eb605b'
+    oldFile: null
+  /third_party/libwebp/libwebp.sln:
+    newFile: !uuid 'd4217b33a5f2c9c014e306bb396ea7d8fc5c3e97'
+    oldFile: null
+  /third_party/libwebp/libwebp.vcxproj:
+    newFile: !uuid '37a87cc71035d499c0ff7d7e3bb19dd58176e57d'
+    oldFile: null
+  /third_party/libwebp/libwebp_dec.vcxproj:
+    newFile: !uuid '5c05b453520d2029fc3300e73111c8adf1625842'
+    oldFile: null
+  /third_party/libwebp/libwebp_dec.vcxproj.filters:
+    newFile: !uuid 'b7d87e65a7a15128618cfdd4cb3d306b30c8061c'
+    oldFile: null
+  /third_party/libwebp/libwebp_demux.vcxproj:
+    newFile: !uuid '7b88c781c04a91111a08ab7369649a09a55a166b'
+    oldFile: null
+  /third_party/libwebp/libwebp_demux.vcxproj.filters:
+    newFile: !uuid '0e715d695c0057ba85bf0d8e3e91a2fdff68a5ea'
+    oldFile: null
+  /third_party/libwebp/libwebp_dsp.vcxproj:
+    newFile: !uuid '7e9aad40bea461f07a004435d8f28e9bf02d2f31'
+    oldFile: null
+  /third_party/libwebp/libwebp_dsp.vcxproj.filters:
+    newFile: !uuid 'd4bbdd060b49ce6bac88fca2af9a15b5722ab64e'
+    oldFile: null
+  /third_party/libwebp/libwebp_dsp_neon.vcxproj:
+    newFile: !uuid 'b816eefdec2201c308eeb57257d1515752e8baeb'
+    oldFile: null
+  /third_party/libwebp/libwebp_enc.vcxproj:
+    newFile: !uuid '5513791035ce1ffacc82f584c68cc03225dfe855'
+    oldFile: null
+  /third_party/libwebp/libwebp_enc.vcxproj.filters:
+    newFile: !uuid 'd8fe8486da30a61906d7a59309b609016b8173b8'
+    oldFile: null
+  /third_party/libwebp/libwebp_utils.vcxproj:
+    newFile: !uuid 'ddeb9219177d6e301a3827570a2f0fc6021bdb09'
+    oldFile: null
+  /third_party/libwebp/libwebp_utils.vcxproj.filters:
+    newFile: !uuid 'c553103b19e9a0f254ed0c0ccf206101b3930949'
+    oldFile: null
+  /third_party/libwebp/utils:
+    newFile: !uuid '4a754865b79223039052954ba985caf2f7acfd3e'
+    oldFile: null
+  /third_party/libwebp/utils/bit_reader.h:
+    newFile: !uuid '43d6e98dee303671d4a0d73be1ea14d43d5c6f4a'
+    oldFile: null
+  /third_party/libwebp/utils/bit_reader_inl.h:
+    newFile: !uuid 'a816d12c1134a23c29bd6bc78180cf255f7c5cbc'
+    oldFile: null
+  /third_party/libwebp/utils/bit_reader_webp.c:
+    newFile: !uuid '39c68340170c9afc21796d36a94ab9d037aeaa26'
+    oldFile: null
+  /third_party/libwebp/utils/bit_writer.c:
+    newFile: !uuid '2167175622de5bdba284042462293af3b902a4e0'
+    oldFile: null
+  /third_party/libwebp/utils/bit_writer.h:
+    newFile: !uuid '59c2ebf0101422bb8383e75411f45f97847c187f'
+    oldFile: null
+  /third_party/libwebp/utils/color_cache.c:
+    newFile: !uuid 'a93bd9076b06d81634399158d56d03ec14a6f705'
+    oldFile: null
+  /third_party/libwebp/utils/color_cache.h:
+    newFile: !uuid 'e1707ca560e10abf41f5f18bf69e11358384300b'
+    oldFile: null
+  /third_party/libwebp/utils/endian_inl.h:
+    newFile: !uuid '7280111b8ce8be5a2e619861e3e757ae9c9364e4'
+    oldFile: null
+  /third_party/libwebp/utils/filters.c:
+    newFile: !uuid 'cd0745fb16a81b55c3ed7ec25cdba6f02e5d39ac'
+    oldFile: null
+  /third_party/libwebp/utils/filters.h:
+    newFile: !uuid '6a57be7714584ac8ef14125ae807accb3328ab22'
+    oldFile: null
+  /third_party/libwebp/utils/huffman.h:
+    newFile: !uuid '201c18fe52acfebe58a92051ef9056658180af9d'
+    oldFile: null
+  /third_party/libwebp/utils/huffman_encode.c:
+    newFile: !uuid '1df61a219c9bcbb4f9430b738d8bd037d595bc74'
+    oldFile: null
+  /third_party/libwebp/utils/huffman_encode.h:
+    newFile: !uuid '7239f1bc516d8d163c10fa8b5a1eabd30fa9ddc9'
+    oldFile: null
+  /third_party/libwebp/utils/huffman_webp.c:
+    newFile: !uuid '79f6c81a5f25897b4b741a1af2535e6eafcd56ae'
+    oldFile: null
+  /third_party/libwebp/utils/quant_levels.c:
+    newFile: !uuid 'f76ff45235fc6f720751a040bf2ce17cf5967ad5'
+    oldFile: null
+  /third_party/libwebp/utils/quant_levels.h:
+    newFile: !uuid '7283047bf60e7c7897da2e52f540474d71a4e258'
+    oldFile: null
+  /third_party/libwebp/utils/quant_levels_dec.c:
+    newFile: !uuid '327a267167a47bbff2a222fe6ad0076655f14458'
+    oldFile: null
+  /third_party/libwebp/utils/quant_levels_dec.h:
+    newFile: !uuid '582089bfa9fb283979f8488b3d563c9932928221'
+    oldFile: null
+  /third_party/libwebp/utils/random.c:
+    newFile: !uuid '1043c7957196f177da2930859945e43145607a36'
+    oldFile: null
+  /third_party/libwebp/utils/random.h:
+    newFile: !uuid '1c746248a92d6e0054482e13e6789025684eef03'
+    oldFile: null
+  /third_party/libwebp/utils/rescaler.c:
+    newFile: !uuid '25546d6f4a0b6ab67dfcc50c401dcdf465c4c783'
+    oldFile: null
+  /third_party/libwebp/utils/rescaler.h:
+    newFile: !uuid '3a6db570116fcf04786bbda31231eb4a17585433'
+    oldFile: null
+  /third_party/libwebp/utils/thread.c:
+    newFile: !uuid '79a9dacae9ad7fc581062e888e5b175c8f85900c'
+    oldFile: null
+  /third_party/libwebp/utils/thread.h:
+    newFile: !uuid '113a613369624b065ee357db8672f8b7b34e7d4e'
+    oldFile: null
+  /third_party/libwebp/utils/utils.c:
+    newFile: !uuid '2e8d43f4d3b5812d5927cb2fbd88ea3ff7308f25'
+    oldFile: null
+  /third_party/libwebp/utils/utils.h:
+    newFile: !uuid '740db2e790756f4009a38a1874fa290d150b1982'
+    oldFile: null
+  /third_party/libwebp/webp:
+    newFile: !uuid 'aa75f36a216f1a9b460600936ec73199d86dd8f6'
+    oldFile: null
+  /third_party/libwebp/webp/config.h:
+    newFile: !uuid '0519ecba6ea913e21689ec692e81e9e4973fbf73'
+    oldFile: null
+  /third_party/libwebp/webp/decode.h:
+    newFile: !uuid '271ef2d09c850f624c05407c68c726366c63efda'
+    oldFile: null
+  /third_party/libwebp/webp/demux.h:
+    newFile: !uuid '527271d9518950cc87fcfe92977bcfc33b3552d8'
+    oldFile: null
+  /third_party/libwebp/webp/encode.h:
+    newFile: !uuid 'c827394eef83f889f107f5163afe33ba97d5cf9c'
+    oldFile: null
+  /third_party/libwebp/webp/format_constants.h:
+    newFile: !uuid 'd63e7e033028551394813a6ab4ad66af06e1d727'
+    oldFile: null
+  /third_party/libwebp/webp/mux_types.h:
+    newFile: !uuid 'efb6782520986f0330a0c8bcc1c21ff23e939a3d'
+    oldFile: null
+  /third_party/libwebp/webp/types.h:
+    newFile: !uuid 'fac5beaadafb5a9565a5a4ba87d3cf080ad46d86'
+    oldFile: null
+gitCommitId: !uuid '26a18cf996636c1d559ed819fba8a22ac3913891'
 renames: {
   }
-revisionId: 97
+revisionId: 98
