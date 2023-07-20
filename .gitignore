@@ -1,8 +1,8 @@
 # Build and Release Folders
 bin-debug/
 bin-release/
-[Oo]bj/
 [Bb]in/
+.vs
 
 # Other files and folders
 .settings/
@@ -12,6 +12,13 @@ bin-release/
 *.air
 *.ipa
 *.apk
+*.tlog
+*.obj
+*.ilk
+*.idb
+*.recipe
+*.pdb
+*.user
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
@@ -29,3 +36,4 @@ bin-release/
 /build/skia/*.user
 /build/wolfssl/*.user
 /build/zlib/*.user
+/out

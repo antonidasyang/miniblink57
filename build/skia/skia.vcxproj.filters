@@ -1707,6 +1707,9 @@
     <ClInclude Include="..\..\third_party\skia\third_party\skcms\skcms_internal.h">
       <Filter>third_party\skcms</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\third_party\skia\include\effects\SkArithmeticImageFilter.h">
+      <Filter>include\effects</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

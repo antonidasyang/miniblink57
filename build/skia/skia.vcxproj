@@ -219,6 +219,7 @@
     <ClInclude Include="..\..\third_party\skia\include\effects\Sk2DPathEffect.h" />
     <ClInclude Include="..\..\third_party\skia\include\effects\SkAlphaThresholdFilter.h" />
     <ClInclude Include="..\..\third_party\skia\include\effects\SkArcToPathEffect.h" />
+    <ClInclude Include="..\..\third_party\skia\include\effects\SkArithmeticImageFilter.h" />
     <ClInclude Include="..\..\third_party\skia\include\effects\SkArithmeticMode.h" />
     <ClInclude Include="..\..\third_party\skia\include\effects\SkBitmapSource.h" />
     <ClInclude Include="..\..\third_party\skia\include\effects\SkBlurDrawLooper.h" />
