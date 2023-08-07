@@ -2,16 +2,34 @@
 branches: {
   }
 fileChange:
-  /content:
-    newFile: !uuid '5f7641c7b93215b52af4dffaeaf14a4e1823b53a'
-    oldFile: !uuid '04fe4892b6d96e6b730c4eac9fb67bda1c95f0c5'
-  /content/web_impl_win:
-    newFile: !uuid 'fce05c6e534f009d66f86e1e98af481649c1e5d6'
-    oldFile: !uuid '096b636a8f4e63ecdf4d7d07ffc253fc264608d5'
-  /content/web_impl_win/WebClipboardImplLinux.cpp:
-    newFile: !uuid 'a1d3c63611c2370b46a2990faf756cf7b36b4788'
+  /mbvip:
+    newFile: !uuid '5083f71933440b247dd14990fc26b24dd0698c84'
+    oldFile: !uuid '12ba56f9ec612fc764c4712015b9c85cb5a005a5'
+  /mbvip/download:
+    newFile: !uuid '9c17e91e5175ce334bb52b2bf7a651c55e563c7f'
     oldFile: null
-gitCommitId: !uuid 'dde9537a276de665521717f469262d2cd39d5bf5'
+  /mbvip/download/DownloadMgr.cpp:
+    newFile: !uuid 'a7860f7a9bfab795d771a2403869ecb13d448fb9'
+    oldFile: null
+  /mbvip/download/DownloadMgr.h:
+    newFile: !uuid 'b93b380bf1d775c7e5b54380132962e6400dc234'
+    oldFile: null
+  /mbvip/download/DownloadPage.htm:
+    newFile: !uuid '7964aebbbaa6f4cc23a06384cbc26cfff1751f87'
+    oldFile: null
+  /mbvip/download/DownloadPageHtml.h:
+    newFile: !uuid 'c18ce27c269cbe0a667d13c6b680f17fca4f842a'
+    oldFile: null
+  /mbvip/download/DownloadUtil.h:
+    newFile: !uuid '2feb913f508784e40f495de67463c277981ea990'
+    oldFile: null
+  /mbvip/download/SimpleDownload.cpp:
+    newFile: !uuid '16634eb39a8caafe40945acf6c9194a8e86c037e'
+    oldFile: null
+  /mbvip/download/SimpleDownload.h:
+    newFile: !uuid 'f934cc42a02fc7c7556540aa95b9eb52e21818c6'
+    oldFile: null
+gitCommitId: !uuid '3d05645509368cc4a0ffd0ed57f1842970d8f977'
 renames: {
   }
-revisionId: 100
+revisionId: 101
