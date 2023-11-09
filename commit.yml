@@ -2,61 +2,28 @@
 branches: {
   }
 fileChange:
-  /gen:
-    newFile: !uuid '856a104c3f5fa0898eac4283f506dc4b48da94c8'
-    oldFile: !uuid '702b98623af7b25d758fa8d804373faf39fcf3f7'
-  /gen/blink:
-    newFile: !uuid '0c7e930db47717c558216b0f21196aaea0ab7b5c'
-    oldFile: !uuid '0e816faf03a973f7d115868bbd8c21f28dd0692b'
-  /gen/blink/bindings:
-    newFile: !uuid '2169ab0f8021874fa8fef03eb9ba30da027e45b2'
-    oldFile: !uuid '5ca0f1625f135e89cf964b204371dfe1b3217867'
-  /gen/blink/bindings/core:
-    newFile: !uuid 'e49303448f9b5dc3059df54c05710e0ee985efda'
-    oldFile: !uuid '8f16ca0b67eaa2f040d1b33893015e78b095afe4'
-  /gen/blink/bindings/core/v8:
-    newFile: !uuid '4113df0bf501ade52813b40ba1f9a314cc1be998'
-    oldFile: !uuid '7773a09730777f0378cbe8030892db0683f3cbc8'
-  /gen/blink/bindings/core/v8/V8Window.cpp:
-    newFile: !uuid '8566dcb0cf04296308f290f97ec49050fa26414b'
-    oldFile: !uuid 'df4bebe9807511f9e8452f167fe12e3c03e0125b'
-  /gen/blink/bindings/modules:
-    newFile: !uuid '9996b526e051a215a208e90294dfcd8fb7ccf546'
-    oldFile: !uuid '4e63cfe110176d26b37ff9894f3f500d056a55e7'
-  /gen/blink/bindings/modules/v8:
-    newFile: !uuid '38409070d34f667c90c5ed46e8e2dadbebda41ff'
-    oldFile: !uuid 'a34a02f330bf71e3d58989bd4f1d7a201fdece06'
-  /gen/blink/bindings/modules/v8/V8Crypto.cpp:
-    newFile: !uuid '8b30addf84052a6aa8b72884d653aaab72148d27'
-    oldFile: !uuid 'e21cb9546ffd324b472545171058ab2f5973ad6a'
-  /gen/blink/bindings/modules/v8/V8OffscreenCanvasRenderingContext2D.cpp:
-    newFile: !uuid 'eba0a635d2a82b77a5ee2b07f73acd75d11ba8e0'
-    oldFile: !uuid '78f86d69886205d63c304cd8cebf31a0bc19fb1f'
-  /gen/blink/bindings/modules/v8/V8WindowPartial.cpp:
-    newFile: !uuid 'a9feee014cfc49f50941967c24f33bc31f65bbc8'
-    oldFile: !uuid 'd9cc0fd72c5dc5f6c6a815f187b59cabb1422529'
-  /gen/blink/core:
-    newFile: !uuid '3e8242c0051480d14885cce05661ca6f71c79568'
-    oldFile: !uuid '8f7b4e05c6b2230036bbccc96c8088ab41ccacc4'
-  /gen/blink/core/HTMLNames.cpp:
-    newFile: !uuid '0f02bd002cb7ec45217f8945e84056faeb7c63ed'
-    oldFile: !uuid '2d480288f7f9e022655894f6566aff4c80f9dfe3'
-  /gen/blink/core/HTMLNames.h:
-    newFile: !uuid '44e52302eb7953a2efe9a7a4a2a56cf83506a752'
-    oldFile: !uuid '8324c3171d4a2428b1fa0a628a82424465dbe9f3'
-  /gen/devtools:
-    newFile: !uuid 'fad6dc36aa8eb41942bc0445de9ba5804a7905ee'
-    oldFile: !uuid '3b238344b30587f7c14c63d790ed651340303c7a'
-  /gen/devtools/console:
-    newFile: !uuid 'a7080c1dd16739e1bf58ae3b2b01df38cc6d0161'
-    oldFile: !uuid 'c5abfb58ca0cde59d44f9a11c8a609125bbe4414'
-  /gen/devtools/console/console_module.js:
-    newFile: !uuid '14018fd421995bdd219eba8c6dedd41f6d062f7d'
-    oldFile: !uuid '792a79d58fc7fd2d19830831471c628e59b48366'
-  /gen/devtools/inspector.js:
-    newFile: !uuid 'd0446a1f30d8f5273a0f958ac4d35269b06462e8'
-    oldFile: !uuid 'fb3e8032f9644f2be621b9bf4ca111be5ef836fb'
-gitCommitId: !uuid 'b0ebd6648b754e23ae4988efb90f49a5550517c7'
+  /third_party:
+    newFile: !uuid '5aca68c8363b402374f239561acf3f3bdd8562e5'
+    oldFile: !uuid '6bef75dc0a545c8511d0da336b95ae58fd2078a6'
+  /third_party/WebKit:
+    newFile: !uuid '6b584eac8e067146911f17cf837cdef62401360f'
+    oldFile: !uuid 'c085c2fd76f697f808e1cde0b0961838cfc4c118'
+  /third_party/WebKit/Source:
+    newFile: !uuid '476c34b5779b078830eb55d49f592ccdc643e736'
+    oldFile: !uuid '4cb301fa789dff2d5ce8ef7c670f2a8ab9feff95'
+  /third_party/WebKit/Source/bindings:
+    newFile: !uuid '3c7ea3e71a9f0334331d029c487ca078eddd83a2'
+    oldFile: !uuid '733dbb465aab428b5dfed476f5a06106fe857f6a'
+  /third_party/WebKit/Source/bindings/core:
+    newFile: !uuid 'f443b9ebb83ceeaf43bd57aa144ead6304458d40'
+    oldFile: !uuid 'c12a8b6b4d9ac462703e60bfa4ceefe5b3597775'
+  /third_party/WebKit/Source/bindings/core/v8:
+    newFile: !uuid '681e9ff1106d434fda43547a2c2b7878d1611dfa'
+    oldFile: !uuid '27a474f14cd604a40329e9710fe08bbbd6a9c513'
+  /third_party/WebKit/Source/bindings/core/v8/Modulator.cpp:
+    newFile: !uuid 'e7707e426f560b1d1d3a009eedc11641f96006d9'
+    oldFile: !uuid '2fb0f170ea339a5e872257fbdb672dcfb011b697'
+gitCommitId: !uuid '85f300e6b82cd65096140eeac73a5dd97d97da60'
 renames: {
   }
-revisionId: 108
+revisionId: 109
