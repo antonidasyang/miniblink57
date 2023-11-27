@@ -2,55 +2,22 @@
 branches: {
   }
 fileChange:
-  /content:
-    newFile: !uuid 'b323994dbb126eebf9fb161c22bfd61b9313fe7b'
-    oldFile: !uuid '5f7641c7b93215b52af4dffaeaf14a4e1823b53a'
-  /content/browser:
-    newFile: !uuid '611160b83e4d89f802fe857293da59f1909e4dbf'
-    oldFile: !uuid '411caeaf4c0c44560f5218b4c1f00e52da306c6f'
-  /content/browser/PageNavController.cpp:
-    newFile: !uuid '4c354f3196e83f9c52b891683726eb1f5befd871'
-    oldFile: !uuid '78dd04eff7d461552c6e1332740ff90c76b5482f'
-  /content/browser/WebFrameClientImpl.cpp:
-    newFile: !uuid '4bf0f9fbc6680d670c6d312c49de4549772ed4c0'
-    oldFile: !uuid 'e68dc7966aac164b4d5ce5decbc49565fa3aba5a'
-  /content/browser/WebFrameClientImpl.h:
-    newFile: !uuid '677dc931b649a750f56799b6bbe5b1d9694309c1'
-    oldFile: !uuid 'f88bac0c497d74c2c952ac67b31c4be1a1d8a22d'
-  /content/browser/WebPage.cpp:
-    newFile: !uuid 'd479d2fc1170171ff231b1dbea260656a593f9ba'
-    oldFile: !uuid '556cd5c0844afdeb3e0f9f78dadaa44fa454a07f'
-  /content/browser/WebPage.h:
-    newFile: !uuid '17670ccffc63e6180501d21148ae1dc1c5949d28'
-    oldFile: !uuid '73a9885e2aa4dec5d611ac7ccc15bb16294c2a7c'
-  /content/browser/WebPageImpl.cpp:
-    newFile: !uuid '2cdf233af505d8583d3095d39ef9665d2d222b01'
-    oldFile: !uuid '0f9c542ec895cdfc31d0514e3efbb0080091d100'
-  /content/browser/WebPageImpl.h:
-    newFile: !uuid 'e6035ff1e4b9a6c480334bda8a6e47b939f8460d'
-    oldFile: !uuid '0a56ed0948b1cea62f30f2d46878a90916fe45fc'
-  /content/devtools:
-    newFile: !uuid 'db9656db13fa5301aa62d337433345d2c397ec88'
-    oldFile: !uuid '4929b6783e9473e87f391c9e69bc40df63fe0554'
-  /content/devtools/DevToolsAgent.cpp:
-    newFile: !uuid '733b8ae0478de1726ea63c4c7a8a1f54e29c276c'
-    oldFile: !uuid 'abe36f2a354b87421c4d015692d7d4cb136ce050'
-  /content/devtools/DevToolsClient.cpp:
-    newFile: !uuid '2f3f82785015550f5cbbdcb5b50c60d60ae0e92c'
-    oldFile: !uuid 'b790b95312c1a4169dd5da97ce2da74de309abee'
-  /content/ui:
-    newFile: !uuid '32c3083ac65eefa2ff241c763f21080c6b0ca9ed'
-    oldFile: !uuid 'a9b32434cc81ad894ab451475357a0f8bd8bf30b'
-  /content/ui/RunFileChooserImpl.h:
-    newFile: !uuid '7f9101ea86fd740948b2e5fbe7b06da1b58cb178'
-    oldFile: !uuid '32f5fd4f5626d138ac420a312b9b2d47b406b118'
-  /content/web_impl_win:
-    newFile: !uuid 'c51e64c388bbe139be5f2e257823f476b3f04ee7'
-    oldFile: !uuid 'fce05c6e534f009d66f86e1e98af481649c1e5d6'
-  /content/web_impl_win/BlinkPlatformImpl.cpp:
-    newFile: !uuid '5f0ac284de6b95b80ff0c7b1c44974fb3c6856d2'
-    oldFile: !uuid '23325b05353869542980d7682ab7ffc384a22bfa'
-gitCommitId: !uuid '8977275e312bd1d156760645a063e06d7a5a8b99'
+  /base:
+    newFile: !uuid '290722baf4976378967d52819c148fc698698d55'
+    oldFile: !uuid 'ee708bb282e65bbb318f32bae00a843b00ee54c1'
+  /base/synchronization:
+    newFile: !uuid '9a3a10a5729f41b5678214931275a5391ba27cf8'
+    oldFile: !uuid 'da88196581f88e9c7b0e30f4dfd6f3409ad53e26'
+  /base/synchronization/sync_xp.h:
+    newFile: !uuid 'a3154d93ea5945c858933203e94a1aa3347dfff8'
+    oldFile: !uuid '629560cfb941a5988d868720b571e62dba7bbf20'
+  /base/win:
+    newFile: !uuid 'f6b943c8a4d8959bf9b79331970ed388c7f4e42d'
+    oldFile: !uuid '8bc45362d155338788751c023d7bbbf2fa9a7500'
+  /base/win/dllmain.cc:
+    newFile: !uuid '05cedb2a8d8c54f5cee940112c4ddb315cee42ac'
+    oldFile: !uuid '1be5e60f3dc52118857eff470b114c21ef9972db'
+gitCommitId: !uuid '30d27506cb04a1370b20820a147aba26066f58f6'
 renames: {
   }
-revisionId: 116
+revisionId: 117
