@@ -2,31 +2,28 @@
 branches: {
   }
 fileChange:
-  /mbvip:
-    newFile: !uuid 'fe4cf2be41511b70ce47c2a5b1b9e5c63a2c88ae'
-    oldFile: !uuid '5083f71933440b247dd14990fc26b24dd0698c84'
-  /mbvip/core:
-    newFile: !uuid '8987fd3a861d1b2e78be72e08a0a488c127e56cb'
-    oldFile: !uuid 'eba9a85077f135b1ab808f7abcbf842dd0f9aeb7'
-  /mbvip/core/MbCallback.h:
-    newFile: !uuid '4d2ba6b86b2ba326ac6e1a6f7e17a271be31c369'
-    oldFile: !uuid 'fa51d0b2e9dc73a5cde87e3788bb5e7500ccdba7'
-  /mbvip/core/MbWebView.cpp:
-    newFile: !uuid '7b76cfb263308a8128f8eebeb3c8801d5e52cefe'
-    oldFile: !uuid 'ebec15f57ebf0c87cc2b4f1fe84a662d136e89e9'
-  /mbvip/core/MbWebView.h:
-    newFile: !uuid '3847c54eddce91004323f2fed03109457af026a0'
-    oldFile: !uuid '61d83796be089749c250c9e7b641a20892a1b11e'
-  /mbvip/core/mb.cpp:
-    newFile: !uuid '74e6ecabfe640f2ed69b3d450b02f1d056a0b008'
-    oldFile: !uuid '7cda6bc89a59727171e2e85f9037c2236d00650e'
-  /mbvip/core/mb.h:
-    newFile: !uuid '7f68214ed955d220ef5a53c1fdc62af415ff192f'
-    oldFile: !uuid '3a959795ce672138a3c1a82b9b37b4c050c65cab'
-  /mbvip/core/mtmb.def:
-    newFile: !uuid '4b94c99e515ea309d0b3da9d4b2d632ba6ca6bca'
-    oldFile: !uuid '1574153a3ca901a7c669117ae541818dd270d9bb'
-gitCommitId: !uuid '9f25acf6195a03fe63416a2e31637c5355f54a75'
+  /fastmake:
+    newFile: !uuid 'e59a0c1d870838e14ef55983a349e18095573836'
+    oldFile: !uuid 'dd9f3724c351c076e179c520a41d0feae99f0a82'
+  /fastmake/FastMakeMain.cpp:
+    newFile: !uuid 'e003655da34ac7927d765c7bb214ab8d19f6332d'
+    oldFile: !uuid '735a61d4e1b8aabb2095ce4b1ed6d3fd2a6e1fa8'
+  /fastmake/all_build:
+    newFile: !uuid '7343090861001d61005a7aa06bd44cc3773c5691'
+    oldFile: !uuid '71a5738b5793222b37ff17b52c901eacd93ff07b'
+  /fastmake/all_build/blink_build.js:
+    newFile: !uuid 'e3ac9decb2b1d9e5e479a0aa960f287aeefbef83'
+    oldFile: !uuid '877ab5ceaa301b59d9e6eac49e986c6b827345c2'
+  /fastmake/all_build/const_val.js:
+    newFile: !uuid 'cb9a69fd75d4bf36a30072216fea4d7b8870797c'
+    oldFile: !uuid 'c8cb41a3bff90680b0247c13e89300877059cb56'
+  /fastmake/all_build/util_build.js:
+    newFile: !uuid 'fe5b59c2743161ea51a024f6c8e160d7c9097649'
+    oldFile: !uuid '63b39130c9d520067730f7718f0da3c3bdb68a41'
+  /fastmake/all_build/webdriver.js:
+    newFile: !uuid '6a870df3985bc542405fa5501b484be362ff66f1'
+    oldFile: null
+gitCommitId: !uuid 'bb408c6c63bca68a48cc56c3a7b3ac5d3f050a35'
 renames: {
   }
-revisionId: 118
+revisionId: 119
