@@ -2,22 +2,31 @@
 branches: {
   }
 fileChange:
-  /base:
-    newFile: !uuid '290722baf4976378967d52819c148fc698698d55'
-    oldFile: !uuid 'ee708bb282e65bbb318f32bae00a843b00ee54c1'
-  /base/synchronization:
-    newFile: !uuid '9a3a10a5729f41b5678214931275a5391ba27cf8'
-    oldFile: !uuid 'da88196581f88e9c7b0e30f4dfd6f3409ad53e26'
-  /base/synchronization/sync_xp.h:
-    newFile: !uuid 'a3154d93ea5945c858933203e94a1aa3347dfff8'
-    oldFile: !uuid '629560cfb941a5988d868720b571e62dba7bbf20'
-  /base/win:
-    newFile: !uuid 'f6b943c8a4d8959bf9b79331970ed388c7f4e42d'
-    oldFile: !uuid '8bc45362d155338788751c023d7bbbf2fa9a7500'
-  /base/win/dllmain.cc:
-    newFile: !uuid '05cedb2a8d8c54f5cee940112c4ddb315cee42ac'
-    oldFile: !uuid '1be5e60f3dc52118857eff470b114c21ef9972db'
-gitCommitId: !uuid '30d27506cb04a1370b20820a147aba26066f58f6'
+  /mbvip:
+    newFile: !uuid 'fe4cf2be41511b70ce47c2a5b1b9e5c63a2c88ae'
+    oldFile: !uuid '5083f71933440b247dd14990fc26b24dd0698c84'
+  /mbvip/core:
+    newFile: !uuid '8987fd3a861d1b2e78be72e08a0a488c127e56cb'
+    oldFile: !uuid 'eba9a85077f135b1ab808f7abcbf842dd0f9aeb7'
+  /mbvip/core/MbCallback.h:
+    newFile: !uuid '4d2ba6b86b2ba326ac6e1a6f7e17a271be31c369'
+    oldFile: !uuid 'fa51d0b2e9dc73a5cde87e3788bb5e7500ccdba7'
+  /mbvip/core/MbWebView.cpp:
+    newFile: !uuid '7b76cfb263308a8128f8eebeb3c8801d5e52cefe'
+    oldFile: !uuid 'ebec15f57ebf0c87cc2b4f1fe84a662d136e89e9'
+  /mbvip/core/MbWebView.h:
+    newFile: !uuid '3847c54eddce91004323f2fed03109457af026a0'
+    oldFile: !uuid '61d83796be089749c250c9e7b641a20892a1b11e'
+  /mbvip/core/mb.cpp:
+    newFile: !uuid '74e6ecabfe640f2ed69b3d450b02f1d056a0b008'
+    oldFile: !uuid '7cda6bc89a59727171e2e85f9037c2236d00650e'
+  /mbvip/core/mb.h:
+    newFile: !uuid '7f68214ed955d220ef5a53c1fdc62af415ff192f'
+    oldFile: !uuid '3a959795ce672138a3c1a82b9b37b4c050c65cab'
+  /mbvip/core/mtmb.def:
+    newFile: !uuid '4b94c99e515ea309d0b3da9d4b2d632ba6ca6bca'
+    oldFile: !uuid '1574153a3ca901a7c669117ae541818dd270d9bb'
+gitCommitId: !uuid '9f25acf6195a03fe63416a2e31637c5355f54a75'
 renames: {
   }
-revisionId: 117
+revisionId: 118
