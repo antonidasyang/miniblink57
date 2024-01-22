@@ -2,55 +2,25 @@
 branches: {
   }
 fileChange:
-  /content:
-    newFile: !uuid 'e0e13eb4e90a62ed611059ddb92cedd57a54db26'
-    oldFile: !uuid 'b323994dbb126eebf9fb161c22bfd61b9313fe7b'
-  /content/OrigChromeMgr.cpp:
-    newFile: !uuid '327065ea1d80e5fb4c6fdc2ad9d1a105959f3743'
-    oldFile: !uuid '5196e01b6721f0f4860caa33fa9d816571cbedd1'
-  /content/OrigChromeMgr.h:
-    newFile: !uuid '51f90232223773dff220fd3da1f50933c609cde8'
-    oldFile: !uuid 'a442d066496e208da7bff35ae51cd5044a1a6b7a'
-  /content/TaskObserverAdapter.h:
-    newFile: !uuid '6ae594375e27ccd42dac7cb6cc05dd23d083f65b'
-    oldFile: null
-  /content/browser:
-    newFile: !uuid 'dc0be89886f138fb8bc82bb9ce9387360127712f'
-    oldFile: !uuid '611160b83e4d89f802fe857293da59f1909e4dbf'
-  /content/browser/WebFrameClientImpl.cpp:
-    newFile: !uuid '0a6b08bb42174e30db103b84b489d983d73250fb'
-    oldFile: !uuid '4bf0f9fbc6680d670c6d312c49de4549772ed4c0'
-  /content/browser/WebPageImpl.cpp:
-    newFile: !uuid '2d3d7cbca3c70d3d04b4182f4f78032a1c608407'
-    oldFile: !uuid '2cdf233af505d8583d3095d39ef9665d2d222b01'
-  /content/resources:
-    newFile: !uuid 'a5889fad39a995ab48177807d8410511e6f8f02c'
-    oldFile: !uuid '47668f2a54b3e82458b2416b64756bbfe53b88b5'
-  /content/resources/MediaPlayerData.h:
-    newFile: !uuid 'bd0d7c083ed7a008a660dc9a13a5c49990736be4'
-    oldFile: !uuid 'a8ba0f2ddc4b9ad72679e84f9ee8167f6770ab85'
-  /content/resources/MediaPlayerDataNew.cpp:
-    newFile: !uuid '78168d6bf3e3223a4187e79b9295a7d3f23d44d6'
-    oldFile: null
-  /content/ui:
-    newFile: !uuid '1fc834b7c856e35660ed4a62fc59949cc1d1d8aa'
-    oldFile: !uuid '32c3083ac65eefa2ff241c763f21080c6b0ca9ed'
-  /content/ui/RunFileChooserImpl.h:
-    newFile: !uuid '5b88ff3ab1b601573bc27b2eacd859a2b79722d6'
-    oldFile: !uuid '7f9101ea86fd740948b2e5fbe7b06da1b58cb178'
-  /content/web_impl_win:
-    newFile: !uuid 'e115b0de8894490d7422fa5bfa806f370c0a9357'
-    oldFile: !uuid 'c51e64c388bbe139be5f2e257823f476b3f04ee7'
-  /content/web_impl_win/BlinkPlatformImpl.cpp:
-    newFile: !uuid 'c2b615b8158a4f54cab9707641c78a7afa8e1894'
-    oldFile: !uuid '5f0ac284de6b95b80ff0c7b1c44974fb3c6856d2'
-  /content/web_impl_win/WebThreadImpl.cpp:
-    newFile: !uuid '45bb6152211d8869e5207f6f3abc3e2ecdb04f0f'
-    oldFile: !uuid '1801bdc8b0265f9d820abd99be60e92ed02d99c0'
-  /content/web_impl_win/WebThreadImpl.h:
-    newFile: !uuid '485434a023a2d49be72ad4db860584386c2e940e'
-    oldFile: !uuid '24e7c27d178b16c6d9b78a5474e58c28f2979f74'
-gitCommitId: !uuid 'c3f78fe5e69b1fc6154035001f6b80b1483b451a'
+  /third_party:
+    newFile: !uuid '0f90081adecbd8fc511a1f39193956e08aadef2a'
+    oldFile: !uuid '9be735e67fea2da70c31a5c7422e7c300483ec71'
+  /third_party/WebKit:
+    newFile: !uuid 'b7d63a797c2ff9d422ed68b34ee19b0f3768a0be'
+    oldFile: !uuid '805c2e12db266cafcc1bb353ddd293987f5802d5'
+  /third_party/WebKit/Source:
+    newFile: !uuid '41b27c9d49791a8624a48ad2ffb00c6f0a370a52'
+    oldFile: !uuid 'c138c161d314fa0423f6ffc2a9f8910beb93e352'
+  /third_party/WebKit/Source/wtf:
+    newFile: !uuid 'fc4d9ca585203ebafca3a40861ded26c03988371'
+    oldFile: !uuid 'b509c8210122d63e5608bb090cd2726743dfe561'
+  /third_party/WebKit/Source/wtf/allocator:
+    newFile: !uuid '2e45176d81764d357ff6bc07d6330bb818df9a6a'
+    oldFile: !uuid '289db9196a2beb44bbe63373c791bb15547f7c0f'
+  /third_party/WebKit/Source/wtf/allocator/PageAllocator.cpp:
+    newFile: !uuid '978ff8b41769ab018517ac193fa15c9a320c5b09'
+    oldFile: !uuid 'b170b2eec07a6dba4a570898ac823b1cbcc5da3b'
+gitCommitId: !uuid '25445ff3b24cd6ecbe5a1101d5f12a576a7a2c9d'
 renames: {
   }
-revisionId: 123
+revisionId: 124
