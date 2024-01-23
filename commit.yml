@@ -3,513 +3,93 @@ branches: {
   }
 fileChange:
   /third_party:
-    newFile: !uuid '82b235031d3ba8b4ba755239b17d2b0d2d03f37f'
-    oldFile: !uuid '0f90081adecbd8fc511a1f39193956e08aadef2a'
-  /third_party/libwebp:
-    newFile: !uuid 'fa1131dcf859b9797cc5d00ea782664057487871'
-    oldFile: !uuid 'c23da11722a8a2d773264da8a0f9eb06eb9bb65f'
-  /third_party/libwebp/BUILD.gn:
-    newFile: !uuid '542244791e43b4cbf86994cfebc47d1b9af69be9'
-    oldFile: null
-  /third_party/libwebp/DEPS:
-    newFile: !uuid 'bcf207f860e75a85c3af820e1a3dba26880de893'
-    oldFile: null
-  /third_party/libwebp/OWNERS:
-    newFile: !uuid '02b84b6a5de594aa916b20919c9c75df0259aa86'
-    oldFile: null
-  /third_party/libwebp/README.chromium:
-    newFile: !uuid '5ab23390e0ef5d20e9b20c0cdba51e84bcbea33b'
-    oldFile: !uuid 'c19fe94657a7e3e9932be2a995e27e41076fcc40'
-  /third_party/libwebp/dec:
-    newFile: !uuid '4604d95cc2bdf438f943c76de709c7f83e4b3262'
-    oldFile: !uuid '64136558aed4459ac4dc74821343f7894cd33e7f'
-  /third_party/libwebp/dec/alphai.h:
-    newFile: !uuid '69dd7c0f5d610db7ba218402b785d180f2aed2d3'
-    oldFile: !uuid 'd67d572ff166d4367669475e0f3ffb87652ba31c'
-  /third_party/libwebp/dec/common.h:
-    newFile: !uuid '6961e22470ea3d3abf90aa3e4d439c241508421f'
-    oldFile: null
-  /third_party/libwebp/dec/dec_alpha.c:
-    newFile: !uuid 'd88f01d8de875a67139e915435eb391b35eaf988'
-    oldFile: !uuid 'd692f9310d8bd709bb2d1b6b8af5390419979adf'
-  /third_party/libwebp/dec/dec_buffer.c:
-    newFile: !uuid '547e69b434f8018f3712e64df27b449a4f1f168e'
-    oldFile: null
-  /third_party/libwebp/dec/dec_frame.c:
-    newFile: !uuid '22d291d2cd8a0b3f451aed8f1acb2d154890efbf'
-    oldFile: !uuid '436746adedaee44073ec2d35cea4cde63a443e80'
-  /third_party/libwebp/dec/dec_idec.c:
-    newFile: !uuid '8de131916e035c5c441b9bcf90868e4fa89551ea'
-    oldFile: null
-  /third_party/libwebp/dec/dec_io.c:
-    newFile: !uuid '8d5c43f325d0b0d37ad67c8e4b0a7fb6e8af7488'
-    oldFile: null
-  /third_party/libwebp/dec/dec_quant.c:
-    newFile: !uuid '5b648f942c5e7d4ad2aaa7dff16ab9d4e32e94f0'
-    oldFile: !uuid '1060c9bda9d57e89636cc46c977a7b9949444b5d'
-  /third_party/libwebp/dec/dec_tree.c:
-    newFile: !uuid 'c2007ea733dd1ef926118b6f107fda26c1a1d6cf'
-    oldFile: !uuid '8d1128807eebb88f0ac08fb3dd7c28daf5936fba'
-  /third_party/libwebp/dec/dec_vp8.c:
-    newFile: !uuid '336680c38c03bc3f52fe79f02b9dc115a18c7a5f'
-    oldFile: null
-  /third_party/libwebp/dec/dec_vp8l.c:
-    newFile: !uuid 'cb2e3176b6346051f5250ea5fe5a265fc3731978'
-    oldFile: !uuid '068b6f00b3affa93021917f6258d0322deafa05e'
-  /third_party/libwebp/dec/dec_webp.c:
-    newFile: !uuid '90d8a45d230ff94d0c29452874581b49a7ba2e61'
-    oldFile: null
-  /third_party/libwebp/dec/decode_vp8.h:
-    newFile: !uuid 'b9337bbec0e1c0dbf9c19be35f36dbf711796aa7'
-    oldFile: !uuid 'c0aab00a3652565974dc92daea3f203aeb342ef5'
-  /third_party/libwebp/dec/vp8i.h:
-    newFile: !uuid '313d8a7b9486f83bdb1e008a3e076696ab19ef22'
-    oldFile: !uuid 'b8dee4eeb4420e4ce8259ae1945d533836575f5f'
-  /third_party/libwebp/dec/vp8li.h:
-    newFile: !uuid '9313bdc0af97f0e21433bd83e5f8fbdbb263320f'
-    oldFile: !uuid 'ee1b80ead415d19a7e71bd767b41933abc91ab2f'
-  /third_party/libwebp/dec/webpi.h:
-    newFile: !uuid '991b194c228c61b310c44d6e8e57e76863deb207'
-    oldFile: !uuid '71aa5fd99720c1a48fa60713c94810e9e428e671'
-  /third_party/libwebp/demux:
-    newFile: !uuid '014a93b2ae00dbad93cc7d315642ce34edc2e2f7'
-    oldFile: !uuid 'd005f70fad6ab3e4c64e19c56e5098ca1c884dca'
-  /third_party/libwebp/demux/anim_decode.c:
-    newFile: !uuid 'f1cf176e72d410664d8dc7578f19d449cc8ae704'
-    oldFile: null
-  /third_party/libwebp/demux/demux.c:
-    newFile: !uuid '1cb9bd5780cc449841dac7a3c090012d2ab9ce0a'
-    oldFile: !uuid '4cc1e3e38d3d3075188131762aa389e0d02d0c4c'
-  /third_party/libwebp/dsp:
-    newFile: !uuid 'de68cb0956049aa3626c76e1c671dadcf5544857'
-    oldFile: !uuid '8dccbe0bfd2c44208b24a56691d40acedcfd8334'
-  /third_party/libwebp/dsp/alpha_processing.c:
-    newFile: !uuid '1716cace8d558993187b56202512ac6b549fa55d'
-    oldFile: !uuid 'd4cc40f78710b13630f947d2a04fa29d9f104491'
-  /third_party/libwebp/dsp/alpha_processing_mips_dsp_r2.c:
-    newFile: !uuid 'c631d78905c375c7169acd13c8671ec6d5ec0ece'
-    oldFile: null
-  /third_party/libwebp/dsp/alpha_processing_sse2.c:
-    newFile: !uuid '5acb481dcddbb7d71c0008d45f56d3cafbd8bb6d'
-    oldFile: !uuid '5eabf6b3281a6b798ce8f7ac634eb7ad5e85a55e'
-  /third_party/libwebp/dsp/alpha_processing_sse41.c:
-    newFile: !uuid '986fde94ed1fc381b4adf44a7326522369558b46'
-    oldFile: null
-  /third_party/libwebp/dsp/argb.c:
-    newFile: !uuid 'cc1f9a96c316aa68e14e5baeec8d94111e1d3f23'
-    oldFile: null
-  /third_party/libwebp/dsp/argb_mips_dsp_r2.c:
-    newFile: !uuid 'af65acb8ff70eb2f207ec6db28365506a5bf5ddb'
-    oldFile: null
-  /third_party/libwebp/dsp/argb_sse2.c:
-    newFile: !uuid 'afcb1957e71e046ad2bade94d1205c27c56f3698'
-    oldFile: null
-  /third_party/libwebp/dsp/common_sse2.h:
-    newFile: !uuid '7cea13fb3cb580afedea46958c33af804fe4bc75'
-    oldFile: null
-  /third_party/libwebp/dsp/cost_mips32.c:
-    newFile: !uuid 'd1e240e1912cd9018fc31866f64b983be25e89a9'
-    oldFile: null
-  /third_party/libwebp/dsp/cost_mips_dsp_r2.c:
-    newFile: !uuid 'ce64067756fb03de486d60a85fb87c1cfa9acc2b'
-    oldFile: null
-  /third_party/libwebp/dsp/cost_sse2.c:
-    newFile: !uuid '0cb1c1fa04421db60625cfee8dc6fe13c3758eed'
-    oldFile: null
-  /third_party/libwebp/dsp/cpu.c:
-    newFile: !uuid 'cbb08db90ae33840d381519930d5980178fbd8bf'
-    oldFile: !uuid '1fd49dec3e36f3d31976aa915924d82408149a48'
-  /third_party/libwebp/dsp/dec.c:
-    newFile: !uuid '49bd16d97617fbad3cca81b1ce4f6ca8285a75ae'
-    oldFile: !uuid '218ccc47a797bc8fc6e77dafe6d9dedcc17c15eb'
-  /third_party/libwebp/dsp/dec_clip_tables.c:
-    newFile: !uuid '3b6dde86ba0b605be21f40342e5f1d2e4d43a3d6'
-    oldFile: !uuid 'b2fc24d21d276b237d23cbe1da17278930f232fa'
-  /third_party/libwebp/dsp/dec_mips32.c:
-    newFile: !uuid '4e9ef42605963bdf73c7375a63b2064fffa5c11b'
-    oldFile: !uuid '9a413e87792b12991bdae49291f3ac113236e4c7'
-  /third_party/libwebp/dsp/dec_mips_dsp_r2.c:
-    newFile: !uuid 'db5c6572284f8c8679294e7437efa744c5f3d7f6'
-    oldFile: null
-  /third_party/libwebp/dsp/dec_msa.c:
-    newFile: !uuid 'f76055cab07c4fdfb47dc145880d4fdbac57c95d'
-    oldFile: null
-  /third_party/libwebp/dsp/dec_neon.c:
-    newFile: !uuid 'a63f43fe172dbba84f7e7ecc3bebc76c2a30b85b'
-    oldFile: null
-  /third_party/libwebp/dsp/dec_sse2.c:
-    newFile: !uuid 'f0a8ddcaf338ba13fff60ef5cc7606179797e7ad'
-    oldFile: !uuid 'dcacd3b6a7f45be3f0da254585476ac952ab8b89'
-  /third_party/libwebp/dsp/dec_sse41.c:
-    newFile: !uuid '8d6aed13e6e414f41de5bf361cbc27b76656e83a'
-    oldFile: null
-  /third_party/libwebp/dsp/dsp.h:
-    newFile: !uuid 'abf51c126d5fdbafecf484903e63ed231bae9a53'
-    oldFile: !uuid '5804a57e925b19a520fccf962972386ff2dff4d5'
-  /third_party/libwebp/dsp/dsp_cost.c:
-    newFile: !uuid 'fe72d26e7917855688687a5c9560491d6a7d0238'
-    oldFile: null
-  /third_party/libwebp/dsp/enc.c:
-    newFile: !uuid 'db0e9e70ae74ffa3c3f92c2c93809b36e29c1583'
-    oldFile: !uuid '4e11f31424d88a303bc07a2a07e0f307040154cb'
-  /third_party/libwebp/dsp/enc_avx2.c:
-    newFile: !uuid '93efb30b106560d91cd60f0f11da141775a53738'
-    oldFile: !uuid 'fbe7294e7658d2da6cf97f9bb739cea91d7d900b'
-  /third_party/libwebp/dsp/enc_mips32.c:
-    newFile: !uuid 'fd10143de9068199fff9fb7e68f332ec7c953413'
-    oldFile: !uuid '6870afd82b410409114cec54313939ebe01e7a5e'
-  /third_party/libwebp/dsp/enc_mips_dsp_r2.c:
-    newFile: !uuid '7ab96f6800a915e5cfe01fc9b95e5d71e898158b'
-    oldFile: null
-  /third_party/libwebp/dsp/enc_neon.c:
-    newFile: !uuid '46f6bf9a33f8d3fcf16b9bbebd9b11161a9c15d9'
-    oldFile: null
-  /third_party/libwebp/dsp/enc_sse2.c:
-    newFile: !uuid '4a2e3ce14f8d390de9f7b4b5e027a80c1631fc03'
-    oldFile: !uuid '015e84865703cfa51e35d7e67bb318c74250c7a6'
-  /third_party/libwebp/dsp/enc_sse41.c:
-    newFile: !uuid 'a1783901a6b48af3d9d2f040b3fd509726a45439'
-    oldFile: null
-  /third_party/libwebp/dsp/filters.c:
-    newFile: !uuid '9f04faf0cb1a4430f4600393aafabf841f8217e1'
-    oldFile: null
-  /third_party/libwebp/dsp/filters_mips_dsp_r2.c:
-    newFile: !uuid '1d82e3c2e19fa02304cb88572c37064161142f78'
-    oldFile: null
-  /third_party/libwebp/dsp/filters_sse2.c:
-    newFile: !uuid '61bc6b51e351f467210665a2a8d49c81630c8881'
-    oldFile: null
-  /third_party/libwebp/dsp/lossless.c:
-    newFile: !uuid 'af913efccb4ae66ee5a11cb7b8231be222c8412f'
-    oldFile: !uuid '5d3d3004defa7909f81a2ecab37abe7d7c333990'
-  /third_party/libwebp/dsp/lossless.h:
-    newFile: !uuid '9f0d7a25b72d9fb2802e407d1b19fea5a1e8bbb5'
-    oldFile: !uuid 'f24ce88afa124d252f6849ea6a62f8f64f359924'
-  /third_party/libwebp/dsp/lossless_enc.c:
-    newFile: !uuid '256f6f5f8b7f6538b42b779f1b6af229cd2309b7'
-    oldFile: null
-  /third_party/libwebp/dsp/lossless_enc_mips32.c:
-    newFile: !uuid '49c666d4fd547d5c52d55eb1b88c3f39a2a73f09'
-    oldFile: null
-  /third_party/libwebp/dsp/lossless_enc_mips_dsp_r2.c:
-    newFile: !uuid '0abf3c4f366db5b7668ea3bda9a259d3b9cb2adf'
-    oldFile: null
-  /third_party/libwebp/dsp/lossless_enc_neon.c:
-    newFile: !uuid '4c56f2594b98740700edf2d7bf31720688ed658f'
-    oldFile: null
-  /third_party/libwebp/dsp/lossless_enc_sse2.c:
-    newFile: !uuid '7c894e7ca4d32f9fb95df2e8de89f3e46f2e2167'
-    oldFile: null
-  /third_party/libwebp/dsp/lossless_enc_sse41.c:
-    newFile: !uuid '3e493198dbefc708a18d994bfcab4a6af9069b86'
-    oldFile: null
-  /third_party/libwebp/dsp/lossless_mips_dsp_r2.c:
-    newFile: !uuid '90aed7f1510d2be5b17becb87ceb949a70762e97'
-    oldFile: null
-  /third_party/libwebp/dsp/lossless_neon.c:
-    newFile: !uuid '6faccb8f977a184d31b126504a6a1005686a65f8'
-    oldFile: null
-  /third_party/libwebp/dsp/lossless_sse2.c:
-    newFile: !uuid '2d016c2911b7db88cbd93cb0a026be588c27b6d0'
-    oldFile: !uuid '96fce731e8f593600fc74f303e05cf5344532609'
-  /third_party/libwebp/dsp/mips_macro.h:
-    newFile: !uuid '44aba9b71d888f3b77fde78d4d06174457e9a3a5'
-    oldFile: null
-  /third_party/libwebp/dsp/msa_macro.h:
-    newFile: !uuid '5c707f476ae6f030966f22b35fbff34da5b57ed1'
-    oldFile: null
-  /third_party/libwebp/dsp/neon.h:
-    newFile: !uuid '0a06266848f223b99ee60e44aefc1929da3b46a6'
-    oldFile: null
-  /third_party/libwebp/dsp/rescaler.c:
-    newFile: !uuid 'f5b07756cfdc08620f1b72eeeba59dbb59933abd'
-    oldFile: null
-  /third_party/libwebp/dsp/rescaler_mips32.c:
-    newFile: !uuid 'ddaa39133639a6b8d1998ab42c88e0a6f807db5f'
-    oldFile: null
-  /third_party/libwebp/dsp/rescaler_mips_dsp_r2.c:
-    newFile: !uuid 'b457d0a30a6861197914d432c89a47b4a7db3c22'
-    oldFile: null
-  /third_party/libwebp/dsp/rescaler_neon.c:
-    newFile: !uuid '16fd450ea3e7c328bca2e397a102c8c2ca0610da'
-    oldFile: null
-  /third_party/libwebp/dsp/rescaler_sse2.c:
-    newFile: !uuid '5b9702817c0befffaa8b4ff5fc4475c43c032f59'
-    oldFile: null
-  /third_party/libwebp/dsp/upsampling.c:
-    newFile: !uuid '651274fcee6bc849cba0da71234bf2d6cf5d7323'
-    oldFile: !uuid '5e050aa4b7f4dd4af55676c66715820c70014040'
-  /third_party/libwebp/dsp/upsampling_mips_dsp_r2.c:
-    newFile: !uuid 'ed2eb748255e97dd3bf93391f6a03797e403e5cd'
-    oldFile: null
-  /third_party/libwebp/dsp/upsampling_neon.c:
-    newFile: !uuid '2b0c99bddb1de9d0f287b80b9d837317bf462550'
-    oldFile: null
-  /third_party/libwebp/dsp/upsampling_sse2.c:
-    newFile: !uuid 'b5b668900f3adee533e1605517f2da804de61c01'
-    oldFile: !uuid '3fd2a962aa0b05f20b94ae6cc74eb3aa2efab27d'
-  /third_party/libwebp/dsp/yuv.c:
-    newFile: !uuid 'f50a253168fee677de8effcd772d846cdeb3f3dd'
-    oldFile: !uuid 'e6ab30f92454658e60cf9bbcdd8b27f22ed0f66a'
-  /third_party/libwebp/dsp/yuv.h:
-    newFile: !uuid '01c40fcb8465d434bac4845028609d3383f889b5'
-    oldFile: !uuid '08e723dc8b7ba513820714c882783ecafa94aed5'
-  /third_party/libwebp/dsp/yuv_mips32.c:
-    newFile: !uuid 'e61aac571fff10c025158b858ba01d96ee654357'
-    oldFile: !uuid '290c94d90d13ae22379bcb892c212abef5130b29'
-  /third_party/libwebp/dsp/yuv_mips_dsp_r2.c:
-    newFile: !uuid '1720d4190f21ce1d6daaf274cee6f378abb90552'
-    oldFile: null
-  /third_party/libwebp/dsp/yuv_sse2.c:
-    newFile: !uuid 'e19bddff6c5d17819d602730d3e1c032c70ddc79'
-    oldFile: !uuid 'd37c809ceff6b86c65f9a6f2897eb5c6427b7605'
-  /third_party/libwebp/enc:
-    newFile: !uuid 'a2339bf50723fbb2adc6bc6e422cfb81f5be9c4e'
-    oldFile: !uuid '2eecd09505ed52d625cbc4a029605e21a8d159b6'
-  /third_party/libwebp/enc/backward_references.h:
-    newFile: !uuid '0cadb11e11ef421d5099aa9037f98be8f936b28f'
-    oldFile: !uuid 'ada2e83196ba5d5f6d566be5b27ff3b337128ab1'
-  /third_party/libwebp/enc/cost.h:
-    newFile: !uuid 'ad7959feb41b4c084ed9e54d2f230b283be3c970'
-    oldFile: !uuid 'a28ca40249986168e524b0c482da194a1452c0ff'
-  /third_party/libwebp/enc/delta_palettization.h:
-    newFile: !uuid 'e41c0c5ab56095e93d2ed77f526a858e261c21de'
-    oldFile: null
-  /third_party/libwebp/enc/enc_alpha.c:
-    newFile: !uuid '03e3ad07f5f86743c32370946724fcd6bf52afbb'
-    oldFile: null
-  /third_party/libwebp/enc/enc_analysis.c:
-    newFile: !uuid '136c331289092af1e301ff12bbec133577ef201d'
-    oldFile: null
-  /third_party/libwebp/enc/enc_backward_references.c:
-    newFile: !uuid '136a24a8c31c810bd8b1b228f07ad2c9681de364'
-    oldFile: null
-  /third_party/libwebp/enc/enc_config.c:
-    newFile: !uuid 'f9f7961d58816cf996bd3dfef035d43cd8ac789e'
-    oldFile: null
-  /third_party/libwebp/enc/enc_cost.c:
-    newFile: !uuid '87f89378a78d0907dc928ac2e653c3578eb21f8a'
-    oldFile: null
-  /third_party/libwebp/enc/enc_delta_palettization.c:
-    newFile: !uuid '062e588d79f2db7823d3e5b8b013a5d2be07d367'
-    oldFile: null
-  /third_party/libwebp/enc/enc_filter.c:
-    newFile: !uuid 'e8ea8b4ff29c2dcd9f2bc17c9a9cdb1e3974c64f'
-    oldFile: null
-  /third_party/libwebp/enc/enc_frame.c:
-    newFile: !uuid '57fc471d17c74574e894666418ca29bee099327e'
-    oldFile: null
-  /third_party/libwebp/enc/enc_histogram.c:
-    newFile: !uuid '36b7f2262599c94728d30966a8370eb538722f51'
-    oldFile: null
-  /third_party/libwebp/enc/enc_iterator.c:
-    newFile: !uuid '99d960a547dd00a40038c230447b5a30c27c8968'
-    oldFile: null
-  /third_party/libwebp/enc/enc_near_lossless.c:
-    newFile: !uuid 'f4ab91f5716ba7fcbdad7b1acb21bd187c9f9ca2'
-    oldFile: null
-  /third_party/libwebp/enc/enc_picture.c:
-    newFile: !uuid '28c56cd6e54d18cbfa9933b25f3bf7ad0e74942f'
-    oldFile: null
-  /third_party/libwebp/enc/enc_picture_csp.c:
-    newFile: !uuid '188a3ca55bfae2d6409f301f96a3887297b6233f'
-    oldFile: null
-  /third_party/libwebp/enc/enc_picture_psnr.c:
-    newFile: !uuid '329757deb148ae9e726b54e9a45cb844fcb618ad'
-    oldFile: null
-  /third_party/libwebp/enc/enc_picture_rescale.c:
-    newFile: !uuid '9f19e8e80f48ceb86e686d1aec918119acd0eb7c'
-    oldFile: null
-  /third_party/libwebp/enc/enc_picture_tools.c:
-    newFile: !uuid 'bf97af84081a8173aaead759c8362897eb3eca9d'
-    oldFile: null
-  /third_party/libwebp/enc/enc_quant.c:
-    newFile: !uuid '07ffaf0aebc08303e7b10344a4d66db1f4c39ed3'
-    oldFile: null
-  /third_party/libwebp/enc/enc_syntax.c:
-    newFile: !uuid 'a0e79ef404735b2b25bab97f9fa082ddc2c23c23'
-    oldFile: null
-  /third_party/libwebp/enc/enc_token.c:
-    newFile: !uuid '087940e5ffdc260032c8cad17ff157f6cac76d72'
-    oldFile: null
-  /third_party/libwebp/enc/enc_tree.c:
-    newFile: !uuid 'f141006d19b2d96965fec0315d4dcbdada01e03c'
-    oldFile: null
-  /third_party/libwebp/enc/enc_vp8l.c:
-    newFile: !uuid 'e4ad2959b825c3bb8367d2a54deec3fd4801a203'
-    oldFile: null
-  /third_party/libwebp/enc/enc_webpenc.c:
-    newFile: !uuid 'a7d04ea2cef54455c2d60bfa715422134ed1966e'
-    oldFile: null
-  /third_party/libwebp/enc/histogram.h:
-    newFile: !uuid 'd303d1d58ba61caae7b7e85bc1f08a96340e0ed9'
-    oldFile: !uuid '54a5ca94681a8d436318c7da2acebe8294b6911b'
-  /third_party/libwebp/enc/vp8enci.h:
-    newFile: !uuid '5b4e162a58f34b487cc03093484482fdd08e405b'
-    oldFile: !uuid '315838e0413d7d4f42768537a2ef5dd847e4636f'
-  /third_party/libwebp/enc/vp8li.h:
-    newFile: !uuid '371e276ee091967a89cda0df01fdb108ffd21a17'
-    oldFile: !uuid 'e9e42735e967e64c2f45744f4177a544708e1677'
-  /third_party/libwebp/libwebp.vcxproj:
-    newFile: !uuid '5831f46fa1a0e77008e6c28bddc09f655a248201'
-    oldFile: !uuid '37a87cc71035d499c0ff7d7e3bb19dd58176e57d'
-  /third_party/libwebp/libwebp.vcxproj.filters:
-    newFile: !uuid '1a8ebb763886103a3df6d6ea1f1008f0566c7e45'
-    oldFile: null
-  /third_party/libwebp/libwebp_dec.vcxproj:
-    newFile: !uuid 'd76ed915a1c07604ab0d9fadfdc12b6247cca04d'
-    oldFile: !uuid '5c05b453520d2029fc3300e73111c8adf1625842'
-  /third_party/libwebp/libwebp_dec.vcxproj.filters:
-    newFile: !uuid '08d28b13fc4c291d726261a127e0e4ffd9473ddc'
-    oldFile: !uuid 'b7d87e65a7a15128618cfdd4cb3d306b30c8061c'
-  /third_party/libwebp/libwebp_demux.vcxproj:
-    newFile: !uuid 'a53871c1f00a6aa10b338255d28d7b9f4d80204c'
-    oldFile: !uuid '7b88c781c04a91111a08ab7369649a09a55a166b'
-  /third_party/libwebp/libwebp_demux.vcxproj.filters:
-    newFile: !uuid 'fdd81bc1b7403300faaa3e5cb668f6a4bac973d7'
-    oldFile: !uuid '0e715d695c0057ba85bf0d8e3e91a2fdff68a5ea'
-  /third_party/libwebp/libwebp_dsp.vcxproj:
-    newFile: !uuid '568074a626ff8b0ca76169b4a198fe88c20d3f49'
-    oldFile: !uuid '7e9aad40bea461f07a004435d8f28e9bf02d2f31'
-  /third_party/libwebp/libwebp_dsp.vcxproj.filters:
-    newFile: !uuid '6a05a46de0887499f3981bb7e19f25536606314d'
-    oldFile: !uuid 'd4bbdd060b49ce6bac88fca2af9a15b5722ab64e'
-  /third_party/libwebp/libwebp_dsp_sse2.vcxproj:
-    newFile: !uuid 'aceb4503e7fe03ef08c70c03f3e1eb20e3017e55'
-    oldFile: null
-  /third_party/libwebp/libwebp_dsp_sse2.vcxproj.filters:
-    newFile: !uuid '2ceb42f43377c0a5d848d6f91ec2a7df9675f34d'
-    oldFile: null
-  /third_party/libwebp/libwebp_dsp_sse41.vcxproj:
-    newFile: !uuid 'c70b12b5c4bcbd3c55523010e9ef676bdcd2dcd8'
-    oldFile: null
-  /third_party/libwebp/libwebp_dsp_sse41.vcxproj.filters:
-    newFile: !uuid '83674740f3fd125be075c5b891e8804c076197ea'
-    oldFile: null
-  /third_party/libwebp/libwebp_enc.vcxproj:
-    newFile: !uuid '04008eed49bf3f264fa88ca50f1b39882d7fb0f2'
-    oldFile: !uuid '5513791035ce1ffacc82f584c68cc03225dfe855'
-  /third_party/libwebp/libwebp_enc.vcxproj.filters:
-    newFile: !uuid 'ccf4422abb4dab65de1f9ecfd718751a8037053b'
-    oldFile: !uuid 'd8fe8486da30a61906d7a59309b609016b8173b8'
-  /third_party/libwebp/libwebp_utils.vcxproj:
-    newFile: !uuid '7a7582e4bf6d3fd921a007798dc3e16eccb88e24'
-    oldFile: !uuid 'ddeb9219177d6e301a3827570a2f0fc6021bdb09'
-  /third_party/libwebp/libwebp_utils.vcxproj.filters:
-    newFile: !uuid '1b8cd7a161eeba3a2dd26b61392dcf5f31b34957'
-    oldFile: !uuid 'c553103b19e9a0f254ed0c0ccf206101b3930949'
-  /third_party/libwebp/utils:
-    newFile: !uuid '9d55464c6555d79f7ff458714091504a57f39952'
-    oldFile: !uuid '4a754865b79223039052954ba985caf2f7acfd3e'
-  /third_party/libwebp/utils/bit_reader.h:
-    newFile: !uuid 'ec3426cd11c892c1e4d7c3aaa503125902d2b4a0'
-    oldFile: !uuid '43d6e98dee303671d4a0d73be1ea14d43d5c6f4a'
-  /third_party/libwebp/utils/bit_reader_inl.h:
-    newFile: !uuid '99ed3137d2cf912acec9f605adc161eb88a4173c'
-    oldFile: !uuid 'a816d12c1134a23c29bd6bc78180cf255f7c5cbc'
-  /third_party/libwebp/utils/bit_writer.h:
-    newFile: !uuid 'ef360d1dc6f315fcd7692f6da391d0ed3135daec'
-    oldFile: !uuid '59c2ebf0101422bb8383e75411f45f97847c187f'
-  /third_party/libwebp/utils/color_cache.c:
-    newFile: !uuid 'c34b2e7f1a636c9aeaa972d7471ed77efb195913'
-    oldFile: !uuid 'a93bd9076b06d81634399158d56d03ec14a6f705'
-  /third_party/libwebp/utils/color_cache.h:
-    newFile: !uuid 'a9a9f64270fe18f630ecdd36073d8f3e85d1db59'
-    oldFile: !uuid 'e1707ca560e10abf41f5f18bf69e11358384300b'
-  /third_party/libwebp/utils/endian_inl.h:
-    newFile: !uuid 'e11260ff7d8d7f601b1ba5c78b01216a40b6735f'
-    oldFile: !uuid '7280111b8ce8be5a2e619861e3e757ae9c9364e4'
-  /third_party/libwebp/utils/filters.h:
-    newFile: !uuid '088b132fc5c823619f92db8385e50fb9fc47aba4'
-    oldFile: !uuid '6a57be7714584ac8ef14125ae807accb3328ab22'
-  /third_party/libwebp/utils/huffman.h:
-    newFile: !uuid 'c6dd6aaa4524742b74aa83385a272ec8041ec475'
-    oldFile: !uuid '201c18fe52acfebe58a92051ef9056658180af9d'
-  /third_party/libwebp/utils/huffman_encode.h:
-    newFile: !uuid 'a157165148514aea523a4b79405181c897a1ebfa'
-    oldFile: !uuid '7239f1bc516d8d163c10fa8b5a1eabd30fa9ddc9'
-  /third_party/libwebp/utils/quant_levels.c:
-    newFile: !uuid 'd7c8aab92212394b01a9a359b67ea15e93254fd0'
-    oldFile: !uuid 'f76ff45235fc6f720751a040bf2ce17cf5967ad5'
-  /third_party/libwebp/utils/quant_levels.h:
-    newFile: !uuid '1cb5a32caea6ee45a113565e74474e8a67dc25c6'
-    oldFile: !uuid '7283047bf60e7c7897da2e52f540474d71a4e258'
-  /third_party/libwebp/utils/quant_levels_dec.c:
-    newFile: !uuid 'ee0a3fe127d26e3fe1d41fc96949516b73a8c5e8'
-    oldFile: !uuid '327a267167a47bbff2a222fe6ad0076655f14458'
-  /third_party/libwebp/utils/quant_levels_dec.h:
-    newFile: !uuid '59a13495d335a432ab9151d474eba14a273b59ab'
-    oldFile: !uuid '582089bfa9fb283979f8488b3d563c9932928221'
-  /third_party/libwebp/utils/random.h:
-    newFile: !uuid 'c392a615caf947cdc9913bd92175e6b4ec38b118'
-    oldFile: !uuid '1c746248a92d6e0054482e13e6789025684eef03'
-  /third_party/libwebp/utils/rescaler.h:
-    newFile: !uuid '98b01a76d077dd775e5f8d86f33c7ddf80c4c405'
-    oldFile: !uuid '3a6db570116fcf04786bbda31231eb4a17585433'
-  /third_party/libwebp/utils/thread.h:
-    newFile: !uuid '840831185502d42a3246e4b7ff870121c8064791'
-    oldFile: !uuid '113a613369624b065ee357db8672f8b7b34e7d4e'
-  /third_party/libwebp/utils/util_bit_reader.c:
-    newFile: !uuid '50ffb74f9c8b9016e2ee9986ace64ae1c0d66392'
-    oldFile: null
-  /third_party/libwebp/utils/util_bit_writer.c:
-    newFile: !uuid '064428691b4788befb0813bdf4cee3e3162c74de'
-    oldFile: null
-  /third_party/libwebp/utils/util_filters.c:
-    newFile: !uuid '15543b1271e67904991a419d3babbaeb161973c4'
-    oldFile: null
-  /third_party/libwebp/utils/util_huffman.c:
-    newFile: !uuid '36e5502836ab82bd5294f107e231c919601f19c8'
-    oldFile: null
-  /third_party/libwebp/utils/util_huffman_encode.c:
-    newFile: !uuid '4e5ef6b447d54102111672d5700b1a2657a67af1'
-    oldFile: null
-  /third_party/libwebp/utils/util_random.c:
-    newFile: !uuid '24e96ad648b9c1a7fa303e4a4eccc431c8821d26'
-    oldFile: null
-  /third_party/libwebp/utils/util_rescaler.c:
-    newFile: !uuid 'd2278a52ffb86690c4b90e63c62f86b7414924f3'
-    oldFile: null
-  /third_party/libwebp/utils/util_thread.c:
-    newFile: !uuid 'ddbde272a6755a81e94bc4a5875fccee18d197e4'
-    oldFile: null
-  /third_party/libwebp/utils/utils.h:
-    newFile: !uuid '3a5d4e6a7885283295e05325d841a176f825f643'
-    oldFile: !uuid '740db2e790756f4009a38a1874fa290d150b1982'
-  /third_party/libwebp/utils/utils_webp.c:
-    newFile: !uuid '82dbf8d5e5151ebbcca096a1c7f5919cc144f15e'
-    oldFile: null
-  /third_party/libwebp/webp:
-    newFile: !uuid '5d1939789bf748c207add7430206bfe57c27d8d6'
-    oldFile: !uuid 'aa75f36a216f1a9b460600936ec73199d86dd8f6'
-  /third_party/libwebp/webp/config.h:
-    newFile: !uuid 'f2fc851b5b5f60e6af5aacdd27b93e7e6b479a55'
-    oldFile: !uuid '0519ecba6ea913e21689ec692e81e9e4973fbf73'
-  /third_party/libwebp/webp/decode.h:
-    newFile: !uuid '4c5e74ac3693cb0621ad5b6c31d2590fc78b05a5'
-    oldFile: !uuid '271ef2d09c850f624c05407c68c726366c63efda'
-  /third_party/libwebp/webp/demux.h:
-    newFile: !uuid '454f6914b2ff3f0776b5a181c0eb5682d888d2a2'
-    oldFile: !uuid '527271d9518950cc87fcfe92977bcfc33b3552d8'
-  /third_party/libwebp/webp/encode.h:
-    newFile: !uuid 'b65e27e7fdd78abd0f1f72522f8044f322350f35'
-    oldFile: !uuid 'c827394eef83f889f107f5163afe33ba97d5cf9c'
-  /third_party/libwebp/webp/extras.h:
-    newFile: !uuid '1c24be2e0c1fc77b107e56bf7ecf12f69944d8b5'
-    oldFile: null
-  /third_party/libwebp/webp/format_constants.h:
-    newFile: !uuid 'b6e78a643ed0b4368fabf14639ddae673666695d'
-    oldFile: !uuid 'd63e7e033028551394813a6ab4ad66af06e1d727'
-  /third_party/libwebp/webp/mux.h:
-    newFile: !uuid 'b72658c7411aa34113121ce74282fa59671afd8b'
-    oldFile: null
-  /third_party/libwebp/webp/mux_types.h:
-    newFile: !uuid 'c94043a3c025e9c278b764e5bf6ed46add751f84'
-    oldFile: !uuid 'efb6782520986f0330a0c8bcc1c21ff23e939a3d'
-  /third_party/libwebp/webp/types.h:
-    newFile: !uuid '9b036e0cd6fa3e315f40df5201e167b9fc0a5a51'
-    oldFile: !uuid 'fac5beaadafb5a9565a5a4ba87d3cf080ad46d86'
-gitCommitId: !uuid 'f00b4f33d029ae8840c953a531a256c019fa7a01'
+    newFile: !uuid '3a300fd35d04c22b1dbb16c8ea509275d5564be4'
+    oldFile: !uuid '82b235031d3ba8b4ba755239b17d2b0d2d03f37f'
+  /third_party/WebKit:
+    newFile: !uuid 'cf7ee5dec4680db8611c9fd59aa0b471d14652e3'
+    oldFile: !uuid 'b7d63a797c2ff9d422ed68b34ee19b0f3768a0be'
+  /third_party/WebKit/Source:
+    newFile: !uuid 'bb4e6309dfe23a56eeb154fad05ae9039b1e9933'
+    oldFile: !uuid '41b27c9d49791a8624a48ad2ffb00c6f0a370a52'
+  /third_party/WebKit/Source/bindings:
+    newFile: !uuid 'aee665b0b8e8c019a4f1750984f4fc40eefc8d53'
+    oldFile: !uuid '3c7ea3e71a9f0334331d029c487ca078eddd83a2'
+  /third_party/WebKit/Source/bindings/core:
+    newFile: !uuid '8c5991be988f4b90fa5f76c195417c4244c4c62e'
+    oldFile: !uuid 'f443b9ebb83ceeaf43bd57aa144ead6304458d40'
+  /third_party/WebKit/Source/bindings/core/v8:
+    newFile: !uuid '1ae184c697c5cd474962e5bdffd333d7e8ae0b96'
+    oldFile: !uuid '681e9ff1106d434fda43547a2c2b7878d1611dfa'
+  /third_party/WebKit/Source/bindings/core/v8/V8Binding.cpp:
+    newFile: !uuid '8b1205961da578a7610b2b362abbc67d50b1acc8'
+    oldFile: !uuid 'e878133f08c6dc410eb25f4aba3322012605be99'
+  /third_party/WebKit/Source/bindings/core/v8/V8PerContextData.cpp:
+    newFile: !uuid '48560c15713aa91edc997ab8b9c5eede280f1ff5'
+    oldFile: !uuid 'b1d1c2e0962ceb3039899caf9a1d9524ea900e06'
+  /third_party/WebKit/Source/bindings/core/v8/V8PerContextData.h:
+    newFile: !uuid 'a58d38b62f2da5763b8f83a32665f0763f643e8b'
+    oldFile: !uuid 'a3b97d82b2667a8860a4d4e3f70aeec4b53cb2cf'
+  /third_party/WebKit/Source/core:
+    newFile: !uuid 'e7280dfe02b9eb2fabea89b02b3b208c7bcd2dac'
+    oldFile: !uuid 'a32d5aecac7f5bf127d8a9b3c2cf1d390ef642a8'
+  /third_party/WebKit/Source/core/frame:
+    newFile: !uuid 'd4dc7ba66ab7884c698656a3dbef5856a739bf45'
+    oldFile: !uuid '372a1be2cd6ed850f4417fa2c4e239c238b8e54f'
+  /third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:
+    newFile: !uuid 'b70f827b71f597a3ad8d598c593674a1ec14f904'
+    oldFile: !uuid '13dd2fd7a2eecec3d6cd0fcce7ffe41b566d630e'
+  /third_party/WebKit/Source/core/html:
+    newFile: !uuid '9997768f5db7d0c0f605a2865b81c9f56ed537ab'
+    oldFile: !uuid 'ac949c740baec23764c05a9bbbfee07c90a1cba7'
+  /third_party/WebKit/Source/core/html/shadow:
+    newFile: !uuid '4d08921a6ee5548ff3706101ea32cd60f1317f4a'
+    oldFile: !uuid '342e7af4035a6937ca8e3757f12fc2b8b9380608'
+  /third_party/WebKit/Source/core/html/shadow/MediaControlElements.cpp:
+    newFile: !uuid '0274fbb62b00adb7f7d219517416e1c6d57e4a6e'
+    oldFile: !uuid '53dbfc3b37ace7a8dc9708b15a976796718c6e84'
+  /third_party/WebKit/Source/core/html/shadow/MediaControls.cpp:
+    newFile: !uuid 'e3568641a3a83424cbed3bce3da9b30a6057122a'
+    oldFile: !uuid '8f4d2fcbb9ad1024a1c191fb159f1384c83a410d'
+  /third_party/WebKit/Source/core/loader:
+    newFile: !uuid '739a48b8f9d5a4ca47be72a1699395454c09a18e'
+    oldFile: !uuid '2bb2f22371ada8541b7d661c28840f0703a9e112'
+  /third_party/WebKit/Source/core/loader/ImageLoader.cpp:
+    newFile: !uuid '331ab28affa9167d283f79a204a31d16fc7df6cc'
+    oldFile: !uuid '3de427746097848a9a17951b99d2af1fd63c21fb'
+  /third_party/WebKit/Source/core/xml:
+    newFile: !uuid 'fc3d70258b92ff5594f04ac230893c5cdf289063'
+    oldFile: !uuid '48c14e5a1faee97806ee3a8895f3d9919b37dc7d'
+  /third_party/WebKit/Source/core/xml/XPathParser.cpp:
+    newFile: !uuid 'f9a2afbba83b287fe052a6656f956f62024752db'
+    oldFile: !uuid '4872a66a23becc023d9ff375d84177631315419d'
+  /third_party/WebKit/Source/platform:
+    newFile: !uuid '5a7896e2952199cf9cb5142afdaa5db66ebdf0fb'
+    oldFile: !uuid '14041ff9e7ce7ff63accef3897df8c769836a0ab'
+  /third_party/WebKit/Source/platform/fonts:
+    newFile: !uuid 'b47f8299890b0799e32fdf6fe5a524f5faa543de'
+    oldFile: !uuid '64700201226810e5736dd9967791de696d5cb573'
+  /third_party/WebKit/Source/platform/fonts/skia:
+    newFile: !uuid 'a7b8073b6896dd5a4a63645101ec4cf841c8adc2'
+    oldFile: !uuid '7e619f52538c7a05493933e50e5dff285cc4ed9a'
+  /third_party/WebKit/Source/platform/fonts/skia/FontCacheSkia.cpp:
+    newFile: !uuid 'bf71ea3750249714412c45996017c11fcf156e49'
+    oldFile: !uuid '40d0fa24f740300011c10dfaea150955963eacb6'
+  /third_party/WebKit/Source/platform/heap:
+    newFile: !uuid '0188e205e45d4d0c0d2c959e310ccfe561473260'
+    oldFile: !uuid '0adaf25cfc39e127743557178b1ab60f92ed603d'
+  /third_party/WebKit/Source/platform/heap/asm:
+    newFile: !uuid 'df1191ab6b2339d00bde9d62a4ac803da3234013'
+    oldFile: !uuid '0f0e74f7368f0d6405c903929b7a91dd3f903ed2'
+  /third_party/WebKit/Source/platform/heap/asm/SaveRegisters_x86.cpp:
+    newFile: !uuid '9420a43224fe1263552d0e1bdefa27ee956162f7'
+    oldFile: !uuid 'c4ba0d633b759233e9ce967fcff8004444cf13fa'
+  /third_party/WebKit/Source/wtf:
+    newFile: !uuid '42f4141250370c465b3b09026e45f5aa4b91e804'
+    oldFile: !uuid 'fc4d9ca585203ebafca3a40861ded26c03988371'
+  /third_party/WebKit/Source/wtf/MathExtras.h:
+    newFile: !uuid '2f6e557087b7de230d52ff0647b8bf7e01c2cf50'
+    oldFile: !uuid 'c56fdc7652e8657e5ae6cff8b89cf5151869deea'
+gitCommitId: !uuid 'c238ff6fd796875721513f810a791f498523f57f'
 renames: {
   }
-revisionId: 126
+revisionId: 127
