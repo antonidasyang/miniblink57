@@ -2,16 +2,995 @@
 branches: {
   }
 fileChange:
+  /base:
+    newFile: !uuid 'ea4d4b83efae3814a5db9a3b7624fdeab148f854'
+    oldFile: !uuid '91579c0746078497cdc33ecceb0386d399336d31'
+  /base/synchronization:
+    newFile: !uuid '1149c9d90a1094f58767a70bf1344c756b5a93cb'
+    oldFile: !uuid '1006aa85c44fa67ce42047e2e90e4907cc608e64'
+  /base/synchronization/sync_xp.h:
+    newFile: !uuid '37fe6274aca36a352f628dafb9502ddbd512e949'
+    oldFile: !uuid 'b5fd41b5b32ec1b578b47d8fe83b686dce1583c9'
+  /base/win:
+    newFile: !uuid 'c81a30c74971510db1ed6ee66e3315fbdef9ab1b'
+    oldFile: !uuid '59da4881b636b5acf180a3575284f525a4374460'
+  /base/win/dllmain.cc:
+    newFile: !uuid 'cff2bd93d2aec90b562831e6e66b4b57f5a66790'
+    oldFile: !uuid '8ba3780138a07875cfeeca09b9cfbed08b077ac6'
+  /build:
+    newFile: !uuid 'dc30606e16d1d451dbcb5165422618dff0ea7af2'
+    oldFile: !uuid 'd149bc1f9e712eafca813a88883c7f107578390f'
+  /build/angle:
+    newFile: !uuid '228f141809d13ad3b6f7e0b57d9029cba1d48055'
+    oldFile: !uuid '8ab671db04289e8a561b2b4c00e82c6fdce91cb7'
+  /build/angle/angle.vcxproj:
+    newFile: !uuid '5201a3fd1bbf9a4211cab584fdcee8e70a13e713'
+    oldFile: !uuid '1bea8e37014fa63c2aac147f59462c675301cc59'
+  /build/blink:
+    newFile: !uuid '70c3438875884f5ea6145acd463a74d3d290961a'
+    oldFile: !uuid '1f06a029a45482bfd4ca348a1c7f59c3ef7d887f'
+  /build/blink/blink.vcxproj:
+    newFile: !uuid '0d2b5313c00fc4afb4e9710e3064e08071cdba70'
+    oldFile: !uuid '51b4396dbce57060fff26dc0fba70acb46d68cf7'
+  /build/blink/blink.vcxproj.filters:
+    newFile: !uuid '2f37bdb44dedaf4fdf57a035e3dff71b7e7422c6'
+    oldFile: !uuid '7baa0859d2887a69dbcce6d3a8e28ccb74978d91'
+  /build/build_config.h:
+    newFile: !uuid '52d4ad281dd98b5f470684e37e64b4dd4850d3f4'
+    oldFile: !uuid '60face5a2ed16b94210bb73ae67955f6d4560fbd'
+  /build/chromium:
+    newFile: !uuid 'e563c2a9870dca3b8b0b8e1ed63c4b968aef5348'
+    oldFile: !uuid '0a4096d9ffb0edc08714a5bedadd8654e475b2ae'
+  /build/chromium/chromium.vcxproj:
+    newFile: !uuid 'e9f5b743c6628013ff783989c00d84bc4bd4e8e8'
+    oldFile: !uuid 'b14e53427917ddce4a766fbf03404c7ed4a78f04'
+  /build/fastmake:
+    newFile: !uuid '4d8d680ab001d675283cede5bcaf089f9e6aa776'
+    oldFile: !uuid 'bed5407ba278872e18aac6a0e7afae55913c4ef7'
+  /build/fastmake/fastmake.vcxproj.user:
+    newFile: !uuid '8a61fac182685485a49628da36b7addac27506a3'
+    oldFile: !uuid '88a550947edbc3c5003a41726f0749201fdb6822'
+  /build/harfbuzz:
+    newFile: !uuid 'b825da1c2952902ce1ad32a271a324dab0c1a006'
+    oldFile: !uuid '2fca84a776d892df972609131b30ca243ee90f35'
+  /build/harfbuzz/harfbuzz.vcxproj:
+    newFile: !uuid 'ed32819eece822190226e5e7c7092f6e3bdaadcf'
+    oldFile: !uuid 'e87083c0ff99af0b70fac8930eaf6b6489646a39'
+  /build/libcurl:
+    newFile: !uuid '0454dee8899a05ffc7dc3b12c9b6ad70d8feac1c'
+    oldFile: !uuid '873b824e45998bffe02f9776ee4fbfd5fa8f5f3c'
+  /build/libcurl/libcurl.vcxproj:
+    newFile: !uuid '6463c829e95f3e1a3d8766ed3ff3d5e18fd0abaf'
+    oldFile: !uuid 'a9b6b08e8252b94226e433c74bb1b11948af5730'
+  /build/libjpeg:
+    newFile: !uuid 'f01845e664f616d7310efcf42566ef776050b6d6'
+    oldFile: !uuid 'ecd8911532b5d6124ef675e024765e1e4228fea5'
+  /build/libjpeg/libjpeg.vcxproj:
+    newFile: !uuid '376259420599e2f0f23971584fe32abdec0633a9'
+    oldFile: !uuid 'd1ab46e33a666a3ac9cc61c6b387f9aee71f9ae4'
+  /build/libpng:
+    newFile: !uuid '39d0fbb5c3144288e0c5307c39ff51e76fc3ecbf'
+    oldFile: !uuid '158240761c6582bfe396c10343c4240b8167257b'
+  /build/libpng/libpng.vcxproj:
+    newFile: !uuid '04e84e11fa098f4b4430d794c1258dd22280be8c'
+    oldFile: !uuid '3bc93d7f384a71d5ead75bd19a1349c49db1bf75'
+  /build/libxml:
+    newFile: !uuid '3c046c4ddc7f1dba68fe22c429a66d64d5fa8b98'
+    oldFile: !uuid 'c27fb618ac3327919abd45b605ced83f1b6006a3'
+  /build/libxml/libxml.vcxproj:
+    newFile: !uuid 'b6a03c0f52deec8292bf5996e1f3c3ca83cca772'
+    oldFile: !uuid '75fc83f7d1766bd412e3519c3a9d1768f2b0090f'
+  /build/minichrome57.sln:
+    newFile: !uuid 'a013850e138e5a5de989bab58e22f02c96ceb6f5'
+    oldFile: !uuid 'ed425f9c84ce7a2030511bf5245cfb1684642bff'
+  /build/node:
+    newFile: !uuid '75631dd0c62d712f46f8294a6a973bda614129a5'
+    oldFile: !uuid 'aa08771f74a3aad90d4042647ca6336be6d977ad'
+  /build/node/node.vcxproj:
+    newFile: !uuid 'e0970ec4d4882c71019cc19d286a3dd4a0c989d1'
+    oldFile: !uuid '94043cddfb51e18d102097e0d10c5685f611cbfa'
+  /build/ots:
+    newFile: !uuid 'b4e66f2bba0457835fbcc909b8e241994e90a836'
+    oldFile: !uuid '9645de194418fb7b90c4b0822afb4e86375b778b'
+  /build/ots/ots.vcxproj:
+    newFile: !uuid '639d46ad029c38606c4a5191d30df35ad1fb6152'
+    oldFile: !uuid '2f00305c64dae94a61d3fc10a1456412e4df7d96'
+  /build/ots/ots.vcxproj.user:
+    newFile: !uuid '0f14913f3c72094bb7b1e695e153ade04b17d5b0'
+    oldFile: !uuid '88a550947edbc3c5003a41726f0749201fdb6822'
+  /build/skia:
+    newFile: !uuid '765e6421cec377b65489ebf8bd048d3e75377bc4'
+    oldFile: !uuid '89ecb6bbf499b6bb77e880745b20c32c58848e4c'
+  /build/skia/skia.vcxproj:
+    newFile: !uuid '88fb0f0b68da6e504444dbc53becdca72e832714'
+    oldFile: !uuid 'f6af6665b4983b0b8fb98c3fb5c2984d990b9c4d'
+  /build/v8_5_7:
+    newFile: !uuid '98e9c724869598ca674192a9bcbaec30c4f1c9cc'
+    oldFile: !uuid '90dbee6ac87eb36e9a71cd1d082882e3139c5c9f'
+  /build/v8_5_7/v8_5_7_1.vcxproj:
+    newFile: !uuid 'bbbf2dba16aa302d779c313112f66a8514773f76'
+    oldFile: !uuid 'b45c78281ef7b4580acd9b3c8eb8dad80853de1f'
+  /build/v8_5_7/v8_5_7_1.vcxproj.filters:
+    newFile: !uuid 'b4d3eafd8953090c20b36b02872024660fb64529'
+    oldFile: !uuid 'a617b815cb5a67235ed425348f8c5810a8c9d97c'
+  /build/v8_5_7/v8_5_7_1.vcxproj.user:
+    newFile: !uuid '0f14913f3c72094bb7b1e695e153ade04b17d5b0'
+    oldFile: !uuid '88a550947edbc3c5003a41726f0749201fdb6822'
+  /build/v8_7_5:
+    newFile: !uuid 'fbcb775a8d03a8777781057bbd255772739c837a'
+    oldFile: !uuid 'e24d50887ed2fcecfe5935d704c47f38d1d69d8b'
+  /build/v8_7_5/v8_7_5.vcxproj:
+    newFile: !uuid '5fcdfeb88e8f7c191a3162ca39a228edfdbd601b'
+    oldFile: !uuid '2a3b62c15d27de47d1a520115a7182730e41e556'
+  /build/v8_7_5/v8_7_5.vcxproj.filters:
+    newFile: !uuid '8b1029d9662f8eab5cb4cea4f467fa6397565f10'
+    oldFile: !uuid '02b031735a9b8c5a8b1337e5742c268145c3d708'
+  /build/webdriver:
+    newFile: !uuid 'e6d21c238fac197dd952ef66d083d537360610d9'
+    oldFile: !uuid 'f91f3a4ff05f77e8e084ae79f6ff0c3ecd790395'
+  /build/webdriver/webdriver.vcxproj:
+    newFile: !uuid 'a79b4aec112892f39bb16c35dd1024f0453f70ae'
+    oldFile: !uuid 'ae64fbac5ccf662e0822b95a6a655f28b5badadb'
+  /build/wkexe:
+    newFile: !uuid '29e6bbe5b8d32cf830de03321bc83d2d33be8062'
+    oldFile: !uuid 'b28a9500766de413a611539a92895ec33b53c0fc'
+  /build/wkexe/wkexe.vcxproj:
+    newFile: !uuid '7da913325efe44f71d1d64ddb2b914153c41a6c6'
+    oldFile: !uuid 'b79686f17f3796fbc8066e90b462777e80c61a06'
+  /build/wolfssl:
+    newFile: !uuid 'a123120762035569419791b6a8d4b6ecc1f80928'
+    oldFile: !uuid '86d9dd98ae6991e950085ce8f3147643ff9b4794'
+  /build/wolfssl/wolfssl.vcxproj:
+    newFile: !uuid 'e7da1ff5ae4499c92ddc74b0cd96aaf7966c4929'
+    oldFile: !uuid '8ba4263176af0b4f637c9cc9b958835df1dcb028'
+  /build/zlib:
+    newFile: !uuid '95bbdccf16032fd87b75147e9021b3436ed37ecb'
+    oldFile: !uuid 'b933c30087231bf53a66a00e76bad9af5d4b3d81'
+  /build/zlib/zlib.vcxproj:
+    newFile: !uuid '1bde7f430fcc8773e03b676a76af61ec3682ecc6'
+    oldFile: !uuid '896638fb682d63cda53949e20aa09f568a1207ac'
+  /build/zlib/zlib.vcxproj.filters:
+    newFile: !uuid 'ad9b7ed8289e15adce2f4785504e06800b72315f'
+    oldFile: !uuid 'd87461d314620b9ca76acfbbaaaf3f843a3e9d56'
   /content:
-    newFile: !uuid '9b49a279009ed6e3bdea1147836dd84d711c0941'
-    oldFile: !uuid 'e0e13eb4e90a62ed611059ddb92cedd57a54db26'
-  /content/browser:
-    newFile: !uuid '00be0fa7a48d69d975d1d4f43435c36f77af52a8'
-    oldFile: !uuid 'dc0be89886f138fb8bc82bb9ce9387360127712f'
-  /content/browser/WebFrameClientImpl.cpp:
-    newFile: !uuid '1abfa2f420fcd353d0e750e9634e5a35ad777fda'
-    oldFile: !uuid '0a6b08bb42174e30db103b84b489d983d73250fb'
-gitCommitId: !uuid 'fd3cf7bab380e91182574ed2458345011388b3bc'
-renames: {
-  }
-revisionId: 128
+    newFile: !uuid '391cd24f3677d10eb611f0c307c14a3197f6ddb5'
+    oldFile: !uuid '9b49a279009ed6e3bdea1147836dd84d711c0941'
+  /content/web_impl_win:
+    newFile: !uuid 'e66126f8d4667c43fb4cb1d28859e97b0ff5eb96'
+    oldFile: !uuid 'e115b0de8894490d7422fa5bfa806f370c0a9357'
+  /content/web_impl_win/npapi:
+    newFile: !uuid 'd80c789a7d2da83ad42134406ef90834658b1e36'
+    oldFile: !uuid 'f664dc92d6c1745892cf316ec7e1226ba8699f35'
+  /content/web_impl_win/npapi/WebPluginImpl.cpp:
+    newFile: !uuid 'a30e65fdcd5451c088329a1ef92474468e6ebcc8'
+    oldFile: !uuid '1c273f901a784da8edefb78980d3f3830f7f917d'
+  /fastmake:
+    newFile: !uuid 'd4b24d50848c570a033145133fa0ecb4e3c1ad40'
+    oldFile: !uuid '06287db563f21de5e2ea69a2b72ef99f2cd4ce96'
+  /fastmake/FastMakeMain.cpp:
+    newFile: !uuid 'a1110845887cee5cca8c253a3099d33601d713e0'
+    oldFile: !uuid '4db443cd1eb4ed156525e74ff1bcec974c5d3773'
+  /fastmake/all_build:
+    newFile: !uuid 'bf12261a0d1891a31490065be6d4986e8319ea01'
+    oldFile: !uuid 'c188b79d7ad565b955250741e96a97d8d1c7b255'
+  /fastmake/all_build/blink_build.js:
+    newFile: !uuid '8d23c580b5efb15c651a9dc97756e49b76bf92e4'
+    oldFile: !uuid 'aa1e0d8fe2c16925f04ec1b6e5a85afeba8f59fe'
+  /fastmake/all_build/chromium_build.js:
+    newFile: !uuid 'b15e62c2c13dac9aa7494c062ada7a69be286066'
+    oldFile: !uuid 'f7d0244517f08eea8fadcb3db5eeae9b632a3cce'
+  /gen:
+    newFile: !uuid '826f98b8c8958707560c621278fea945303a36d3'
+    oldFile: !uuid '87ead4b1df65457b6561722601267b49d378f5f7'
+  /gen/blink:
+    newFile: !uuid '421ed7d8471f7e68e34d56b7e9c0af595335cfb7'
+    oldFile: !uuid '4f4a9be64e47944bb9f2fdc3f53376b0b24433b9'
+  /gen/blink/bindings:
+    newFile: !uuid 'db1d3317b581048f527d726890807baa03ad01d8'
+    oldFile: !uuid 'a0d46083d267a1ff9da5055cdfbc49a486743d41'
+  /gen/blink/bindings/core:
+    newFile: !uuid 'f2110de34afbf76f9c21877b127a37297a202dd3'
+    oldFile: !uuid 'ef2b72ccf6d596b4670644cc97ef142894f9feeb'
+  /gen/blink/bindings/core/v8:
+    newFile: !uuid '0160087648a3af9b82bc42970cee3a63c359159b'
+    oldFile: !uuid '61c891f73d4efe5fd7833c158b449bd050dc706d'
+  /gen/blink/bindings/core/v8/AddEventListenerOptionsOrBoolean.cpp:
+    newFile: !uuid '1b5e82943ff7cb1ae5ccbc012a6ceb97ace95cd9'
+    oldFile: !uuid '20e5e9e730c3c14277d666c4da90ee1680185ddc'
+  /gen/blink/bindings/core/v8/EventListenerOptionsOrBoolean.cpp:
+    newFile: !uuid 'c5b1dc89d208a77288d95a30335441ed671aee15'
+    oldFile: !uuid '2bbc71f8a5a4a096895d2080c282da0ecf34cf8a'
+  /gen/blink/bindings/core/v8/V8ArrayBuffer.cpp:
+    newFile: !uuid '1c81e293d9c68fafc67de32d6bbf44ff07ad00d3'
+    oldFile: !uuid '6da4a2ed412cc0db0740b14971ce4ef3b7e86ea3'
+  /gen/blink/bindings/core/v8/V8ConsoleBase.cpp:
+    newFile: !uuid '24eb004b07a9f5ea3e2bb596b9fddb6f0ad48ad8'
+    oldFile: !uuid '2d469797b348b954bd07c7d47b5772131513281b'
+  /gen/blink/bindings/core/v8/V8MessageChannel.cpp:
+    newFile: !uuid 'fd485c236ae3f1359b4fd1ac547ac2cfeaa3bdae'
+    oldFile: !uuid '31f97be5f0363c401c1155369ef66ababe6f7306'
+  /gen/blink/bindings/core/v8/V8SharedArrayBuffer.cpp:
+    newFile: !uuid '0b4921d1b0769e789fcfe92c9ec2f81a052a0dd5'
+    oldFile: !uuid '3e8d3008e5f4253621a265509659f07620b8fd83'
+  /gen/blink/bindings/core/v8/V8Window.cpp:
+    newFile: !uuid '44db987f9529ccc7703e135075e9c962b348486e'
+    oldFile: !uuid '32c0109e0451481e20a7019f49250a1726d35b0d'
+  /gen/blink/bindings/modules:
+    newFile: !uuid '14220358942e3f6628ed14a652978f9ebb5c469e'
+    oldFile: !uuid '9996b526e051a215a208e90294dfcd8fb7ccf546'
+  /gen/blink/bindings/modules/v8:
+    newFile: !uuid 'a3a7aeb24f2bd657ddc53b9fc79197f2d3c2e728'
+    oldFile: !uuid '38409070d34f667c90c5ed46e8e2dadbebda41ff'
+  /gen/blink/bindings/modules/v8/BooleanOrConstrainBooleanParameters.cpp:
+    newFile: !uuid '2ae64c0336714201be3d15d84a82a8409cc1aec4'
+    oldFile: !uuid 'e1018f7744cfdb7885fde84bc086dd42fa7343cb'
+  /gen/blink/bindings/modules/v8/BooleanOrMediaTrackConstraints.cpp:
+    newFile: !uuid '79dd715dd7070b2ef0c987c691b63ae5aad7c6b7'
+    oldFile: !uuid '1365e2a8f5769ae519ff0c9b1101de39bca2ed03'
+  /gen/blink/bindings/modules/v8/V8CanvasRenderingContext2D.cpp:
+    newFile: !uuid '15ea3b0ede9f9592b82a68ff8a7692776c40460b'
+    oldFile: !uuid '141eff27361684726fc2e0caba2c9c37272c379a'
+  /gen/blink/core:
+    newFile: !uuid '24f0c3734fb689eb508df5d89528f3fc57dede3a'
+    oldFile: !uuid '3e8242c0051480d14885cce05661ca6f71c79568'
+  /gen/blink/core/inspector:
+    newFile: !uuid '4628eb988ca1891c9887b2fa9e4ac1a953fb9d99'
+    oldFile: !uuid '7162a8e54aea1573b2bc6798e7b3bad8901fecc0'
+  /gen/blink/core/inspector/protocol:
+    newFile: !uuid '1988c5cb3e3366958497619d7c73c7969913ec14'
+    oldFile: !uuid 'e108ba47285b21024d52233de88644884d5478c8'
+  /gen/blink/core/inspector/protocol/Debugger.h:
+    newFile: !uuid '6bece5f078bde88d5d4513e0f1a0b5394a7f9995'
+    oldFile: !uuid 'a429f13bfaac3ee1a3614e5e35fdfb213748604b'
+  /gen/blink/core/inspector/protocol/Protocol.cpp:
+    newFile: !uuid 'f08a629cba56a7af29805c16cb2d61f31bbd39f3'
+    oldFile: !uuid 'ef89ce1a6b3bcede739e8ad7508b96bde4a0896d'
+  /gen/blink/core/inspector/protocol/Runtime.h:
+    newFile: !uuid '81fd5587451a443a3dc09d3a70fd18c9a7898ad3'
+    oldFile: !uuid '9f77f1b67f1da2c6dae0d7345d04369470c14789'
+  /gen/v8_7_5:
+    newFile: !uuid '81e71428d2a7b5856a4fe50fc282541b4807db38'
+    oldFile: !uuid 'c076b44fe0897c732dfe8c9ff883765b93bd8714'
+  /gen/v8_7_5/src:
+    newFile: !uuid 'a7ad08dc1cd4d95b8b41cfbf79d1278b38a43616'
+    oldFile: !uuid '16bbc1ff29f92780bc106f000627823f06c6a5db'
+  /gen/v8_7_5/src/inspector:
+    newFile: !uuid 'fcb20dac3d7cc2d00e97d15a37c247999461515a'
+    oldFile: !uuid '898ce638864d88ac888d539c0ce8fbceebd9d3de'
+  /gen/v8_7_5/src/inspector/protocol:
+    newFile: !uuid '45c92893048b154a79619a8cf3d5d7dced2acf90'
+    oldFile: !uuid 'e950e8d1d98290d63db171efe5f51986bd222990'
+  /gen/v8_7_5/src/inspector/protocol/ProtocolV8.cpp:
+    newFile: !uuid '743566bbfc4ef74540de4f972185198b0ad9b1d9'
+    oldFile: !uuid 'dccf0a20e13552a24f45110b25ae4b3965e3f2d4'
+  /gen/v8_7_5/torque-generated:
+    newFile: !uuid '53c3146d1e992b82a8cbbd22f2110ee8aa0df50b'
+    oldFile: !uuid 'f7095e1f529d35b8adc029f6e089d22ba5690671'
+  /gen/v8_7_5/torque-generated/builtins-array-from-dsl-gen.cc:
+    newFile: !uuid '6967686bf3d52b16cdcd705c24da0629dd7f07a2'
+    oldFile: !uuid 'd3f2e81bdfa0da682f29546d0675732b7867ecb8'
+  /gen/v8_7_5/torque-generated/builtins-base-from-dsl-gen.cc:
+    newFile: !uuid '1787d128594f9d2c9acf3e7cac550c38e7fa41cd'
+    oldFile: !uuid '96fada4c751833f8cb3c7233b1d55acc3c56d547'
+  /gen/v8_7_5/torque-generated/builtins-test-from-dsl-gen.cc:
+    newFile: !uuid '92a3ff8aabff8ac1e9ed44fc74b377abe243e17e'
+    oldFile: !uuid '0e45b80fded52321631c33772083acec5ade1c2f'
+  /gin:
+    newFile: !uuid 'e9ba6e38b7d7edcf7d1c2eba7f82948dd335415f'
+    oldFile: !uuid '7edfca0473d0bd2138361a2c6277b4aacc777277'
+  /gin/public:
+    newFile: !uuid 'ae771ebfb49b3ce2394e84ee6c49e6060c5eca57'
+    oldFile: !uuid 'af61557ae54d7e57598b45fad454544c54e77ae5'
+  /gin/public/v8_platform.h:
+    newFile: !uuid '991cf76ba734b609d8750332539fb9feefa31247'
+    oldFile: !uuid 'b8c4204ae4ac3d09464dd3cfca77eea074868155'
+  /gin/v8_platform.cc:
+    newFile: !uuid 'cce3592d8a3302f1d6878c5af2a72037b609f13a'
+    oldFile: !uuid '73a886fb87196708a41ed1843314e44fe3bcec12'
+  /linux:
+    newFile: !uuid '171f9d6fb52807cbf2735daeebf83507263ba548'
+    oldFile: !uuid 'a3e076919ae1d0b2c3170b40b238a45029404e9a'
+  /linux/linuxgdi.cpp:
+    newFile: !uuid '450db6b69a2a1474e58311d225c3ba1735e3b9db'
+    oldFile: !uuid '46d1630a7b794a237305f7f09cf6713f6acf7e80'
+  /linux/linuxwindows.cpp:
+    newFile: !uuid 'd7135dd231751a5e92581f8e30add3860a9b7f7c'
+    oldFile: !uuid '1d946c8cd460cfad03d626a4fba6e52761009a5d'
+  /mbvip:
+    newFile: !uuid '45d5bb53a4718ecc57b5567f730e82832470f31c'
+    oldFile: !uuid 'fe4cf2be41511b70ce47c2a5b1b9e5c63a2c88ae'
+  /mbvip/common:
+    newFile: !uuid 'c37283c0bbbedb7f430ae3d3cf2de0850c183303'
+    oldFile: !uuid 'c22bb47377fcb219e639cf67efb64f1b7169c276'
+  /mbvip/common/ThreadCall.cpp:
+    newFile: !uuid 'e6112bbf4d8c50a86148536bc20436dfe2256534'
+    oldFile: !uuid '8107fce7a651f63943772c8b40a23a22dc37b914'
+  /mbvip/core:
+    newFile: !uuid '0c2d187b05e0806388eba5a3ff9136f404698553'
+    oldFile: !uuid '8987fd3a861d1b2e78be72e08a0a488c127e56cb'
+  /mbvip/core/MbCallback.h:
+    newFile: !uuid '1f51855154e8e97518fa82a7e636248906e5a13d'
+    oldFile: !uuid '4d2ba6b86b2ba326ac6e1a6f7e17a271be31c369'
+  /mbvip/core/MbWebView.cpp:
+    newFile: !uuid 'ce2fa93048e1b293d93bcef97f158224eeb3ed8a'
+    oldFile: !uuid '7b76cfb263308a8128f8eebeb3c8801d5e52cefe'
+  /mbvip/core/mb.cpp:
+    newFile: !uuid '2ede3f0d275af2dfe673f75dc8ab117be7040743'
+    oldFile: !uuid '74e6ecabfe640f2ed69b3d450b02f1d056a0b008'
+  /media:
+    newFile: !uuid '09bb21fc6a0279da83faac651ae6df7a60df0588'
+    oldFile: !uuid 'd7b3473427a6b470002b9fe7ac828262ee5044ce'
+  /media/filters:
+    newFile: !uuid 'a5aed4bfc490016cca49c200a65266598ef07e88'
+    oldFile: !uuid 'b87262834458a1b8ab8da57e765b8a20edc26190'
+  /media/filters/ffmpeg_demuxer.cc:
+    newFile: !uuid '924d6bcd98a55fe351127be71bb232ffd5bed7e8'
+    oldFile: !uuid '2e121d104b0e325cfe13fa0570b5969b2bf65498'
+  /net:
+    newFile: !uuid '5842ed5468327b02d25c54b3c560445acdac46ef'
+    oldFile: !uuid '2b1868c1abf484b56d5ae1ee34a61c85496c1b48'
+  /net/WebStorageAreaImpl.cpp:
+    newFile: !uuid '86b98101832102fb5e2f17a731c1591f80dbfa3a'
+    oldFile: !uuid '38d3569ddc90d72357dc36105aab7556c49c1e51'
+  /net/WebURLLoaderManager.cpp:
+    newFile: !uuid 'e1ce9e230bb4fbe803f1502c58bf442504cac23a'
+    oldFile: !uuid '1e917e2642e6994deb61bc8f1fca4fc01b8d418e'
+  /net/WebURLLoaderManagerMainTask.h:
+    newFile: !uuid '1c5442a98922a8841dcc936e1eb54b600d6594e5'
+    oldFile: !uuid 'f340052b645c915c7e8c7a4abb70a40afd7adfe0'
+  /net/cookies:
+    newFile: !uuid '82c6484dd3564c1614836c6bdf4bb4faef0dbe34'
+    oldFile: !uuid '7ccd244a2ac7a7ec6636b884c2e16e14f921a9c1'
+  /net/cookies/WebCookieJarCurlImpl.cpp:
+    newFile: !uuid '9889a02e253de2c1bb662061bde9a390701f3323'
+    oldFile: !uuid 'a37df2d7b873574fa32b4810de1dc156cbd001e7'
+  /node:
+    newFile: !uuid 'd46d3ad0cf37bf024d0e25e25bdb5b4864f50d61'
+    oldFile: !uuid 'b751f1030be483c7f9adb67b8bd768b093b00568'
+  /node/openssl:
+    newFile: !uuid 'd63d8f99bcccd89b45680be0dda015c4f60994d1'
+    oldFile: !uuid 'b8e1406c82a951c46eb256dfbbc41489208414ed'
+  /node/openssl/openssl:
+    newFile: !uuid '2a9870b169dfa6532a386ef14b7082f167888919'
+    oldFile: !uuid 'ce88c73ef988a315e793f938b18240af61b14bf2'
+  /node/openssl/openssl.vcxproj:
+    newFile: !uuid '98e52cb2a467d51f8ef909f8639964165257ee6b'
+    oldFile: !uuid '9ab24da08b9b8da16802e62e362a835b4c5f5418'
+  /node/openssl/openssl/crypto:
+    newFile: !uuid '6751878262d7ef689a2e526a6a48c607542b4d42'
+    oldFile: !uuid '41e273bd5391c9e7ec192974db9bc33b028beb75'
+  /node/openssl/openssl/crypto/internal.h:
+    newFile: !uuid '378a70fe26704f95bb98821bb61bffdb98691288'
+    oldFile: !uuid '019dfc7bcf224f87cc10919c7cbad519794270d8'
+  /node/openssl/openssl/include:
+    newFile: !uuid 'e8de86d999078cceef48752cc9cfd44baed27829'
+    oldFile: !uuid '90b8b3bde484c7721b678f2e19a085d299c8a609'
+  /node/openssl/openssl/include/openssl:
+    newFile: !uuid '8f7a4d51b36c7cbd1da9f810a6814696bd62561e'
+    oldFile: !uuid 'c3589a6af8d1870330493676051a746f0bd8d45f'
+  /node/openssl/openssl/include/openssl/base.h:
+    newFile: !uuid '04d06bfc947706b90e27eaba2ee729bdbc59e891'
+    oldFile: !uuid '520b717985bd8efab7cdeb9621e992554c03f97e'
+  /node/openssl/openssl/include/openssl/cpu.h:
+    newFile: !uuid '4905c827ed1958ae7072a3171dc9696711232c20'
+    oldFile: !uuid 'ad5fc949247842241fcfd3bf367b268c988832f2'
+  /node/openssl/openssl/include/openssl/span.h:
+    newFile: !uuid 'dc3d99ab3af2be0133258dcf8d882486d31921cf'
+    oldFile: !uuid 'effe70b39dd45bcaba31042a5e91a38f4f2e7a48'
+  /node/openssl/openssl/include/openssl/ssl.h:
+    newFile: !uuid '2e4f1fcfe1815ad21474c3ae7ad0dce4b6e3aa0e'
+    oldFile: !uuid 'b7a7aa8ed1783aa383748d5c5d6167e26dcb3488'
+  /node/openssl/openssl/ssl:
+    newFile: !uuid '46dcedd773259e8d6aa3ebbe3320c10539bffdad'
+    oldFile: !uuid '86aad396cb7ee114d9ea782ff6535dc5695d64dd'
+  /node/openssl/openssl/ssl/d1_lib.cc:
+    newFile: !uuid '18a8bbe79fe2c46ec111a36cebb0377e6fc65846'
+    oldFile: !uuid 'd986cf7f86ed6278a67418e921a24f4ccea79c53'
+  /quickjs:
+    newFile: !uuid '5d27b3bc0a3750023d694b40fe95e7f13da475a4'
+    oldFile: !uuid '5bcf02afa2f2af0861bd6450e1e96cabbb6283bb'
+  /quickjs/EmptyCFun.cpp:
+    newFile: !uuid 'c72987763dacb0dfdcac88a204c20525e91a339e'
+    oldFile: !uuid '46bcbc8c88ebd9e2606cca439859d21a91bb9418'
+  /quickjs/MiniV8Api.cpp:
+    newFile: !uuid '8c00d4343fabd00b3b8f6f5a1fcf917e5e32024d'
+    oldFile: !uuid '92d43d00849d9ca4b86437c68267e79293e94593'
+  /quickjs/MiniV8Api.h:
+    newFile: !uuid '8f4525a7e2109ac7c17c9932681019932818b49b'
+    oldFile: !uuid '5708d149010615eaa7f834eaeff8b3eb1f41a1a6'
+  /quickjs/MiniV8Impl.cpp:
+    newFile: !uuid '314e0059cf741994c1b6203456784ef45a7a2272'
+    oldFile: !uuid 'aabe5035b9debde485d1ccc3ba5005a0a841ef7b'
+  /quickjs/cutils.c:
+    newFile: !uuid '8b535e8419cbfa16133d95d9a81ab692a4eaf065'
+    oldFile: !uuid 'febf6deb3bfd839de66f981978d4d644646d37c7'
+  /quickjs/cutils.h:
+    newFile: !uuid 'ef827d88a0e04b23dd51aea67eb829f2e39ea87c'
+    oldFile: !uuid '5d5a68a8835ccec150369f2d7913511aad037635'
+  /quickjs/libbf.c:
+    newFile: !uuid 'fe1628e797d0db22cf4c2e4ad2eb0ad783340e9a'
+    oldFile: !uuid 'a5b1e3a6411e63da3372d936ace2f893adcdcd32'
+  /quickjs/libbf.h:
+    newFile: !uuid 'ced9d31d94abcb6c21bbab0292bdc2d8da025bb4'
+    oldFile: !uuid 'a8b5b051504ff92f1040b2417ab9bb2264a66aba'
+  /quickjs/libregexp.c:
+    newFile: !uuid 'cb84e176f1ac5aa70e6813ff6f783326aea03e44'
+    oldFile: !uuid '76faf63ec7025581429dee584233df2c3707fe64'
+  /quickjs/libregexp.h:
+    newFile: !uuid '9aedb7e937d08814f59a840a2467ccb43446a1ef'
+    oldFile: !uuid 'cd0b24f2d7ea499fcf8c6a5e7c920fb174af0bcb'
+  /quickjs/libunicode-table.h:
+    newFile: !uuid '1727525fb3d810f033c9462357259d2210cfe6bf'
+    oldFile: !uuid '521f2f3190a2c7f933d0147a9dea5379264d9463'
+  /quickjs/libunicode.c:
+    newFile: !uuid '63c12a077115969684e1be53ed7c9589021f6dbc'
+    oldFile: !uuid '1978fdd7d420d80763cff5ab10d7e700e70c7cb0'
+  /quickjs/quickjs-atom.h:
+    newFile: !uuid '8dac1820f9b47631a9fd024c34d86633b48304b2'
+    oldFile: !uuid '233294c6cd943e311f244910b30bc94583a0478a'
+  /quickjs/quickjs-libc.c:
+    newFile: !uuid '9c052137cbcf2800f87c5523bcd25aa59012191e'
+    oldFile: !uuid 'b31347f1eb418935258ec9617aef0d8303066056'
+  /quickjs/quickjs-libc.h:
+    newFile: !uuid 'fbbe5b0166eb1a1f2875dccd5d06d1d401a5d53b'
+    oldFile: !uuid 'b4372766a0fab6be0bb0f4cd5683a73e858db21a'
+  /quickjs/quickjs-opcode.h:
+    newFile: !uuid 'c731a14a9cefe9f24d0b33278bb7f095efc80b8f'
+    oldFile: !uuid '910bb75c0590f392827bd428f2ac47a38fd44b98'
+  /quickjs/quickjs.c:
+    newFile: !uuid '49bbf3c5e7fa279da5a499f79b85df1c7bc34e95'
+    oldFile: !uuid '5f4b17ca27b94882dabcff5cc512699e8921f959'
+  /quickjs/quickjs.h:
+    newFile: !uuid 'faeaca39cf10badbb2180651e1f0f841ff44f6b5'
+    oldFile: !uuid 'f7da1172f1883c77dfb8abbfb773eb6c3513e630'
+  /quickjs/unicode_gen_def.h:
+    newFile: !uuid '55f6790a206da948d2837744abc3f1d987b34925'
+    oldFile: !uuid '08dd8d78a39777225d02cc04bdc8407ed2c33414'
+  /skia:
+    newFile: !uuid '5dee55641cc942cbc6c2487c3284c640a13102b9'
+    oldFile: !uuid '62c176b58bccd05205f6b8ee7514a589c2ba75b6'
+  /skia/ext:
+    newFile: !uuid '9f7b3f6de87d9568678566acc39c33d12d6ce065'
+    oldFile: !uuid '8d1954b036b6d8abf2b600d6b883986816b7c36d'
+  /skia/ext/convolver_SSE2.cc:
+    newFile: !uuid '1e5af03676c80868d9d87f2d2b8e837726cb3118'
+    oldFile: !uuid 'a6c7c90cb41efea87ddc83c039fc17c76b3a0542'
+  /third_party:
+    newFile: !uuid '759a4a58502f1af898213d6fd561edd58a6ad152'
+    oldFile: !uuid '3a300fd35d04c22b1dbb16c8ea509275d5564be4'
+  /third_party/WebKit:
+    newFile: !uuid 'c834fcc4bdd3d3006c6115c82b4baa0b8e360a8b'
+    oldFile: !uuid 'cf7ee5dec4680db8611c9fd59aa0b471d14652e3'
+  /third_party/WebKit/Source:
+    newFile: !uuid 'fb53d45415a75f4ba0c5418a2c719864df79c93b'
+    oldFile: !uuid 'bb4e6309dfe23a56eeb154fad05ae9039b1e9933'
+  /third_party/WebKit/Source/bindings:
+    newFile: !uuid '0881b4df8e2d606e6d5579307b1524cd0c7f63d7'
+    oldFile: !uuid 'aee665b0b8e8c019a4f1750984f4fc40eefc8d53'
+  /third_party/WebKit/Source/bindings/core:
+    newFile: !uuid 'bfd89a241b964969f1c9ecd3d79a1596707d2665'
+    oldFile: !uuid '8c5991be988f4b90fa5f76c195417c4244c4c62e'
+  /third_party/WebKit/Source/bindings/core/v8:
+    newFile: !uuid 'ae65728b4cc0ad805c983865b4e0e3e89f2e6d44'
+    oldFile: !uuid '1ae184c697c5cd474962e5bdffd333d7e8ae0b96'
+  /third_party/WebKit/Source/bindings/core/v8/DictionaryHelperForCore.cpp:
+    newFile: !uuid 'ab094c60487c0890d678105a39bb3d7ffed629dd'
+    oldFile: !uuid '2989e2a5d22cea617f302297a0f8e1af3ba04956'
+  /third_party/WebKit/Source/bindings/core/v8/DictionaryIterator.cpp:
+    newFile: !uuid 'd859071a2a8671c370260bdbefd40e049a0f668c'
+    oldFile: !uuid '8d766a932ac85f0b83700b512bcc23154bf761d1'
+  /third_party/WebKit/Source/bindings/core/v8/DocumentWriteEvaluator.cpp:
+    newFile: !uuid '6e2972ce1b6626416ab58f1760da963176eea21d'
+    oldFile: !uuid '4b3249025f282997b27f0bc228ef93e89ce53f4e'
+  /third_party/WebKit/Source/bindings/core/v8/ModuleRecord.cpp:
+    newFile: !uuid '5f43fa0dbb79a3f5be7e543d30c84d21fe87f616'
+    oldFile: !uuid '3775a7bd41ed5a1c73042990a67f3d5a73891ef0'
+  /third_party/WebKit/Source/bindings/core/v8/ScriptController.cpp:
+    newFile: !uuid 'a22ff3854a864f409bb51cb4448e6c115402cbc7'
+    oldFile: !uuid 'a47dfda14281b651b6a3859443ff3e9405e2c1ab'
+  /third_party/WebKit/Source/bindings/core/v8/ScriptModule.cpp:
+    newFile: !uuid 'ede80c4144f4b57bc0947c44b9e429e13e295e9f'
+    oldFile: !uuid 'd6be8d3add023168ac948e538baa71a6dfa2fac3'
+  /third_party/WebKit/Source/bindings/core/v8/ScriptStreamer.cpp:
+    newFile: !uuid 'babd64dcd17b5707f06203ae9fd04d8665a5c775'
+    oldFile: !uuid '4e4f701d3fd51fdf507058728c52761adc127648'
+  /third_party/WebKit/Source/bindings/core/v8/ScriptStreamer.h:
+    newFile: !uuid '713bb6a6e329ed3d3a38720e20433c8596ead731'
+    oldFile: !uuid 'd71a8d2a2e69fd2af5417c3bee62cc73c4ca9ead'
+  /third_party/WebKit/Source/bindings/core/v8/ScriptString.cpp:
+    newFile: !uuid 'ff2ef9243baec5fba9346f82f6f6aa27d711d332'
+    oldFile: !uuid '020663093917b685211aaada9683936f194c007d'
+  /third_party/WebKit/Source/bindings/core/v8/ScriptValueSerializer.cpp:
+    newFile: !uuid 'd644c1566b979f26a3a3aa8050d0a0ae373267a2'
+    oldFile: !uuid 'd332d8afcc0c6d7522f9884df1592f128a36aadc'
+  /third_party/WebKit/Source/bindings/core/v8/ScriptWrappableVisitor.cpp:
+    newFile: !uuid 'ba0cb6c32406f614e71559e4ffbd3b27f0b94a2b'
+    oldFile: !uuid '318d1f8bb3980d5c744711657f8ac0df5ba5300b'
+  /third_party/WebKit/Source/bindings/core/v8/ScriptWrappableVisitor.h:
+    newFile: !uuid 'f27bf8440fa83294210f2ee07ae4eb30e2b94001'
+    oldFile: !uuid '27101cc4011dd49c561df545fce355f0d2f33cd6'
+  /third_party/WebKit/Source/bindings/core/v8/SerializedScriptValue.cpp:
+    newFile: !uuid 'bfdaa1c29859c7540d54e61e7c27b7ad17ae900b'
+    oldFile: !uuid '761fb5832e394dd6a563526cd24f9d84972f1df3'
+  /third_party/WebKit/Source/bindings/core/v8/SourceLocation.cpp:
+    newFile: !uuid '8362fb73065d690ad016ecade994e42418eb34b1'
+    oldFile: !uuid '263c195d9a163df1abd34c8df5dbf09b89a04ad1'
+  /third_party/WebKit/Source/bindings/core/v8/V8Binding.cpp:
+    newFile: !uuid 'c279120fef92417cff29addcc05195bf58222426'
+    oldFile: !uuid '8b1205961da578a7610b2b362abbc67d50b1acc8'
+  /third_party/WebKit/Source/bindings/core/v8/V8Binding.h:
+    newFile: !uuid '51c417577f29b6c5a681d8333c4dcd52674db05f'
+    oldFile: !uuid '5cc837b0d60987878fbd2e4d1880687996923817'
+  /third_party/WebKit/Source/bindings/core/v8/V8BindingMacros.h:
+    newFile: !uuid '0eca68dd4aca389b2d8dfdfa52113a0091e428e2'
+    oldFile: !uuid '2e411fba8d2030e40e61f20cdbd8c092dd1498d7'
+  /third_party/WebKit/Source/bindings/core/v8/V8DOMConfiguration.cpp:
+    newFile: !uuid '1c2cf54b24e92a4074c6c18155aba0497c619a6e'
+    oldFile: !uuid '7cda8a9c18232d4fd5060273ba9b0e4642c42d57'
+  /third_party/WebKit/Source/bindings/core/v8/V8GCController.cpp:
+    newFile: !uuid '008eb657025d034fbcfadeecc21d686e88977a10'
+    oldFile: !uuid '8c765e4a5c8b44b49a3a030e59268bb2cf10917c'
+  /third_party/WebKit/Source/bindings/core/v8/V8Initializer.cpp:
+    newFile: !uuid 'dd43405a8ec63d3bac594a7a9f9dcfab9fc11510'
+    oldFile: !uuid 'd3ea34c44eb5bc54f2b5a325fff9d62ea5d1ca97'
+  /third_party/WebKit/Source/bindings/core/v8/V8IteratorResultValue.cpp:
+    newFile: !uuid 'ea3c713eacc9dd9285d222c891de5abe088697d9'
+    oldFile: !uuid '22d5caf0388b57416217feb990f308bee7568209'
+  /third_party/WebKit/Source/bindings/core/v8/V8LazyEventListener.cpp:
+    newFile: !uuid 'f67c757fce9203b10893522aedf904b0c74483b3'
+    oldFile: !uuid '4d65a1dc406038683c4ada747055a9f1c8b315d6'
+  /third_party/WebKit/Source/bindings/core/v8/V8NPObject.cpp:
+    newFile: !uuid 'dd540e274dd57ed57e6eeb1a5c673aa43b346b9c'
+    oldFile: !uuid 'e4e79174a6a03a4ee4e32da5f5b683ed9e177714'
+  /third_party/WebKit/Source/bindings/core/v8/V8NPUtils.cpp:
+    newFile: !uuid 'f1407e93d1c3cfb9a99d678b073090cb9ffaae64'
+    oldFile: !uuid '19f3e797743dca1123f31e2d98b8853d2b24e506'
+  /third_party/WebKit/Source/bindings/core/v8/V8PerIsolateData.cpp:
+    newFile: !uuid '8e919f0ac8284be0674a49f3ce9aeda6282c6a10'
+    oldFile: !uuid '15bb300aaecf332999cc1d6f6b883e3108a02a6a'
+  /third_party/WebKit/Source/bindings/core/v8/V8ScriptRunner.cpp:
+    newFile: !uuid '18a02a14c6a06c8f8a0dde15e09f5d941bd5be18'
+    oldFile: !uuid '50057c98131790ca127176e3b73db59012548ab6'
+  /third_party/WebKit/Source/bindings/core/v8/V8StringResource.cpp:
+    newFile: !uuid 'cd4baf48507c8192d7ce010cbdec7f00a0884db6'
+    oldFile: !uuid '7e8d5ade12dcce67aebdd4763fb7822076a1be78'
+  /third_party/WebKit/Source/bindings/core/v8/custom:
+    newFile: !uuid 'e969afb2e96a22691c5ec17d5a356256b7db54ff'
+    oldFile: !uuid '61290f7c7f7f9f5bb0e42aeea480a5dfacb93a68'
+  /third_party/WebKit/Source/bindings/core/v8/custom/V8DocumentCustom.cpp:
+    newFile: !uuid '72ce6a9bb9eb791667797107cf74a14ab1c34814'
+    oldFile: !uuid '10dbab74705e555b6d7963a54668c4a8785c8716'
+  /third_party/WebKit/Source/bindings/core/v8/custom/V8MessageEventCustom.cpp:
+    newFile: !uuid '34878efecddd6f839602037407e89c7b7237716e'
+    oldFile: !uuid '30300fde4911d9f7f1a2e064fd4e73cde61ec7de'
+  /third_party/WebKit/Source/core:
+    newFile: !uuid 'a93b8abbabbb16c8e613991342d3faae3c155e25'
+    oldFile: !uuid 'e7280dfe02b9eb2fabea89b02b3b208c7bcd2dac'
+  /third_party/WebKit/Source/core/dom:
+    newFile: !uuid '747ed6bab93a495e18c9a7612a2c970424443ade'
+    oldFile: !uuid '3e17b74f451520264eda5ee4ce7bc86c0a449e06'
+  /third_party/WebKit/Source/core/dom/DOMArrayBuffer.cpp:
+    newFile: !uuid 'e69f9fa0301f16cb4b120a160e969d82dc00611a'
+    oldFile: !uuid '124cab88a9d1a76b65f5aa05dc3e75e15108102a'
+  /third_party/WebKit/Source/core/dom/DOMSharedArrayBuffer.cpp:
+    newFile: !uuid 'f4c183e11af99f73f8472e5108db837a7f618ce0'
+    oldFile: !uuid '7d183eb453af1e27d20556c3e233566c54bef954'
+  /third_party/WebKit/Source/core/dom/Document.cpp:
+    newFile: !uuid 'bf6941dc82b936a41d88bad2a21f1d9113054df8'
+    oldFile: !uuid '9d0ac2afaacb666d67dd975260e75327c1563947'
+  /third_party/WebKit/Source/core/dom/PendingScript.cpp:
+    newFile: !uuid '09096fdc9c425548fbe3038a7a3a823b8e848e27'
+    oldFile: !uuid 'fb188df79732caab0272640fef6a67c56dee44ca'
+  /third_party/WebKit/Source/core/html:
+    newFile: !uuid 'c2b2c13f8ff9a267a53701f0a73e28b2360487d2'
+    oldFile: !uuid '9997768f5db7d0c0f605a2865b81c9f56ed537ab'
+  /third_party/WebKit/Source/core/html/forms:
+    newFile: !uuid 'c1acb4211888a6dc57f7109891a2edb68c7d3f44'
+    oldFile: !uuid '2367d6cd2085859f82dcd4ec3d1f7078daaa4a55'
+  /third_party/WebKit/Source/core/html/forms/FileInputType.cpp:
+    newFile: !uuid 'b1c68fe57fb271fb50f745f5c956c7612786e295'
+    oldFile: !uuid '23d88d71456e03fa6bceaf8fa782d31b52361b39'
+  /third_party/WebKit/Source/core/inspector:
+    newFile: !uuid 'a7934380bb702bfe8df3307b2d335b0f1f70546f'
+    oldFile: !uuid '3b0d6fd2fb313b81ceb24cb45827493ddd9e3791'
+  /third_party/WebKit/Source/core/inspector/InspectorDOMDebuggerAgent.cpp:
+    newFile: !uuid '724d28b193647ea735669071eb778ca6a12a19db'
+    oldFile: !uuid '8943e482aa36edd683563a9d7262e395d85e693e'
+  /third_party/WebKit/Source/core/inspector/InspectorSession.cpp:
+    newFile: !uuid 'd645b1ba18fa99c74e2756baa9dbaa42cf2b19a1'
+    oldFile: !uuid '49a04ecaa1e68a3d21a64784afcf542d97d00b10'
+  /third_party/WebKit/Source/core/inspector/InspectorTraceEvents.cpp:
+    newFile: !uuid '5a486eaf30debeda7148859fcec0f209ce76d454'
+    oldFile: !uuid '03d8fba9ea2bbdb2b40066ab4461cd77e9c060ae'
+  /third_party/WebKit/Source/core/inspector/MainThreadDebugger.cpp:
+    newFile: !uuid '04a96f1e217c2abc288e5a5dec73f7f6dd7a67dc'
+    oldFile: !uuid '25d186188ff374903a64cb5f86e2e921d39fbb38'
+  /third_party/WebKit/Source/core/inspector/ThreadDebugger.h:
+    newFile: !uuid 'ffe1a1c2bc324f0e24f221ec229ec86f53113054'
+    oldFile: !uuid 'f2c5a2eb02a234e50362f573d3ecee3a25218306'
+  /third_party/WebKit/Source/core/streams:
+    newFile: !uuid 'd1ac365eaedb97174c5c88162ca5301ab5b615d4'
+    oldFile: !uuid '11765719feded59bb28530be023d4360490e3d95'
+  /third_party/WebKit/Source/core/streams/ReadableStreamOperations.cpp:
+    newFile: !uuid '2db9eb899fdd7bde39eb5836169fa06aebe782a0'
+    oldFile: !uuid '943b1fafb0e4bc6fb2301be5b581aae4687139f2'
+  /third_party/WebKit/Source/modules:
+    newFile: !uuid '273cbb2225ba4cb214aa4d2d5dc525cd47453be8'
+    oldFile: !uuid 'b176a4a8c8be716c9952bffa44a4fbbb103163de'
+  /third_party/WebKit/Source/modules/fetch:
+    newFile: !uuid '8fad43de581a3d2cc0e803e2bd2b3823a0a06baf'
+    oldFile: !uuid 'b5f47ea52bc8df8da6cdcdcea65418e72bd0f9f0'
+  /third_party/WebKit/Source/modules/fetch/Body.cpp:
+    newFile: !uuid 'a37af13d6bef6d33b964d1bf7284a59e7aa40fef'
+    oldFile: !uuid '4b9539e1833e59bfbba2d64ab7dc9c9288d7f399'
+  /third_party/WebKit/Source/platform:
+    newFile: !uuid '845de81b779f0227ff87d3f8e909a6fbb507097a'
+    oldFile: !uuid '5a7896e2952199cf9cb5142afdaa5db66ebdf0fb'
+  /third_party/WebKit/Source/platform/UserGestureIndicator.cpp:
+    newFile: !uuid '90c277c9fa28754b60f08c734e1af81dcba94ea2'
+    oldFile: !uuid '48dd167b272448da67d1065c59a684c1d719f031'
+  /third_party/WebKit/Source/platform/exported:
+    newFile: !uuid '220c68a67f113cfeef8e08825cc68d3fa96991e7'
+    oldFile: !uuid '06108a9caab088bda08adc1292daa0343846d97a'
+  /third_party/WebKit/Source/platform/exported/Platform.cpp:
+    newFile: !uuid 'a992870ecbe06c373626eb908a0f65ede2d28860'
+    oldFile: !uuid '01da606113d50008a5ba6196e351f22e2a163392'
+  /third_party/WebKit/Source/platform/fonts:
+    newFile: !uuid '1c2fd09680b8b3f826f8f581f0e7a249081eba05'
+    oldFile: !uuid 'b47f8299890b0799e32fdf6fe5a524f5faa543de'
+  /third_party/WebKit/Source/platform/fonts/Font.cpp:
+    newFile: !uuid 'df7c784610596f3b5ca6ec60f88dbe0db72bcfea'
+    oldFile: !uuid '8d5b42e15ac8b90d182a9ac552089a30cd61676c'
+  /third_party/WebKit/Source/platform/fonts/FontFallbackList.cpp:
+    newFile: !uuid 'd67eb1c32bb4723c364234bf43f0cbeaadea0e23'
+    oldFile: !uuid '5a1487d8186dd93c8b155566c0bf3553836177f8'
+  /third_party/WebKit/Source/platform/heap:
+    newFile: !uuid 'd6da2ea4102c30a1b0430211e08b8cee31ff6297'
+    oldFile: !uuid '0188e205e45d4d0c0d2c959e310ccfe561473260'
+  /third_party/WebKit/Source/platform/heap/UnifiedHeapController.cpp:
+    newFile: !uuid '93de4061d9cf2089e61f2f80627870e8d8d4cf75'
+    oldFile: !uuid 'bf6256aed51823f1af564ee150d86e6de7d09a0b'
+  /third_party/WebKit/Source/platform/heap/UnifiedHeapController.h:
+    newFile: !uuid '3b67b9c612debf1149ec6173b8eb6db36b5a9ba2'
+    oldFile: !uuid '2036d7b9550d9491254138e72eaaa5ad9b9705c0'
+  /third_party/WebKit/Source/platform/heap/Visitor.h:
+    newFile: !uuid '151775c5e0dd3d9d152980a0190f1d06ddbfc228'
+    oldFile: !uuid '6c93ca0b0fbc4d210a692692da2c89b0b7830b9f'
+  /third_party/WebKit/Source/platform/heap/asm:
+    newFile: !uuid 'e8784014cd721f242f048b88a1d3a6a43c35b41f'
+    oldFile: !uuid 'df1191ab6b2339d00bde9d62a4ac803da3234013'
+  /third_party/WebKit/Source/platform/heap/asm/SaveRegisters_arm64.S:
+    newFile: !uuid '00410717e0213bcdbdebc86c7f1ef55ae919de7f'
+    oldFile: !uuid '7bb988d0d153fef227cd7d1133dba10e96931d84'
+  /third_party/WebKit/Source/platform/heap/asm/SaveRegisters_x86.cpp:
+    newFile: !uuid 'deeaedf067321adc9c3ae7b92003deb7df04bc18'
+    oldFile: !uuid '9420a43224fe1263552d0e1bdefa27ee956162f7'
+  /third_party/WebKit/Source/platform/weborigin:
+    newFile: !uuid 'beac92e451b6341324710f1dcef72682082f037b'
+    oldFile: !uuid '4b800585c5c5f03570b8ec18e12281b9de3b77cb'
+  /third_party/WebKit/Source/platform/weborigin/KURL.cpp:
+    newFile: !uuid '371c73246f73d8ee23d8b48b8ae8213690e7a7a1'
+    oldFile: !uuid '787f29640be0d922508fec1b2ba50e29510fb3b2'
+  /third_party/WebKit/Source/web:
+    newFile: !uuid '73dfb5cd7c8b52f6a1590c2b3c5ec6d7314269bb'
+    oldFile: !uuid '907b2579b0550649435fcd681d849685caab4e85'
+  /third_party/WebKit/Source/web/WebDevToolsFrontendImpl.cpp:
+    newFile: !uuid 'c8edf0214d959451e333ce64c6e085dab626d629'
+    oldFile: !uuid '7ec8ac378491b70f92a90e196c1a1589c17e6793'
+  /third_party/WebKit/Source/web/WebFrameSerializerImpl.cpp:
+    newFile: !uuid '2ae97468b61f95510acb1f02463cf597611a891c'
+    oldFile: !uuid '234958837e9c577e8a26295342985394dbd851c5'
+  /third_party/WebKit/Source/web/WebLocalFrameImpl.cpp:
+    newFile: !uuid 'f4d20e3a534f32a9aca5487b6091c314fa41bcdf'
+    oldFile: !uuid 'dee8ca0f68b061289022d846d851027e14f44709'
+  /third_party/WebKit/public:
+    newFile: !uuid 'f5a7ce9839608aa9a746df132af8d7d0c6395796'
+    oldFile: !uuid 'a21e9af7d0c1c1eb78a8631c3d0ae4e7a4240bf5'
+  /third_party/WebKit/public/web:
+    newFile: !uuid '0287dd70466a56a244310edee81b6790086239a6'
+    oldFile: !uuid '5e51b850cd9f935a63e21fa1a1e7bfc4d25cfd4f'
+  /third_party/WebKit/public/web/WebHistoryCommitType.h:
+    newFile: !uuid '2d805db368ca3ab1511aa584ea68f9d0ed8865d7'
+    oldFile: !uuid 'd0c7138e55b0a64b28d834a88025f9472dad596f'
+  /third_party/fontconfig:
+    newFile: !uuid 'f0fd4c4d6aff0eaeecac2cfc9c24757f6b514aea'
+    oldFile: !uuid '282b6189ac07c81c6b8cc3f8a5c32f3459bd5d32'
+  /third_party/fontconfig/include:
+    newFile: !uuid '98d890fbf03608954f0825adb2265a4a0bc32474'
+    oldFile: !uuid '8ab1b0a423952d743d27d98f89bbb647dfd8d482'
+  /third_party/fontconfig/include/src:
+    newFile: !uuid 'a76f0fdfd422087e3b09a90f97b99f077bca3f40'
+    oldFile: !uuid '8647c2f1a72bd3ab3a16b3e6f7f99ab6efc68a18'
+  /third_party/fontconfig/include/src/fcalias.h:
+    newFile: !uuid 'e64412309241727607440ed8b5c67354879e1fea'
+    oldFile: !uuid 'f8cc77449d0f1fab6aba8e9e18f6f8a5d3e4bba4'
+  /third_party/fontconfig/include/src/fcaliastail.h:
+    newFile: !uuid '2fb83b26c20c52cc4de739f9e307d32e1138a1ec'
+    oldFile: !uuid 'c779f563f97e7ba829ec3bb23b67e88f5fe7ef9a'
+  /third_party/libjpeg_turbo:
+    newFile: !uuid 'a084323c5092e30c39c65f1cfcb3cc5c49d561cf'
+    oldFile: !uuid 'ddcad037e7e8f949d11e7463164656423c2c2e2b'
+  /third_party/libjpeg_turbo/jdapimin.c:
+    newFile: !uuid '804ee92f422f3dce92bc35730905d26801a82c43'
+    oldFile: !uuid '5ab37c8906bfa4e74918c038fd041ca0a35f13c0'
+  /third_party/libpng:
+    newFile: !uuid '5ee08e1319297d7ea0fda16e49638b37e42c6680'
+    oldFile: !uuid '291a0080b9e8c9be700541f759bbded0d2079b6a'
+  /third_party/libpng/pngpriv.h:
+    newFile: !uuid '39fbe00ba77cbb7be299afbcc34ac639a649feb0'
+    oldFile: !uuid 'ed61165b2dfbf72c44dcf3c402a146d011ad2d8e'
+  /third_party/libxml:
+    newFile: !uuid 'd64d5ed1c6178c8833e75e27d5c963f6cd53c16f'
+    oldFile: !uuid '64b21cee00149d1fae8294bf9c6b20892b8e753b'
+  /third_party/libxml/src:
+    newFile: !uuid 'dc4c3a2346ebf4b3099e49ac5cb8628e87655085'
+    oldFile: !uuid '895c58f7b1deb3ffa8323562736a9babf0e3a6a9'
+  /third_party/libxml/src/xmlIO.c:
+    newFile: !uuid 'bce15ceed2464d03c1222c443c905f7631aa89ef'
+    oldFile: !uuid '8fc00e3c3929453a2ac1741056ca797c1f2ec386'
+  /third_party/skia:
+    newFile: !uuid 'af04b483232b975ac5dd8f68ef2827c784b4b5ef'
+    oldFile: !uuid 'd314e4eafc1852a572e4951e884d7300c60cd9b0'
+  /third_party/skia/src:
+    newFile: !uuid 'e117b0e5e9252efda00b6ec2696fd40eaaaac462'
+    oldFile: !uuid '6956d2192ee6058c216d77168db18b69be553889'
+  /third_party/skia/src/opts:
+    newFile: !uuid '02f6e8358c812d7bb655fa0b0c125a24b000edb6'
+    oldFile: !uuid '6069d47ba9ee4e75645d99e8b042dc6b8bebcd41'
+  /third_party/skia/src/opts/SkBitmapFilter_opts_SSE2.cpp:
+    newFile: !uuid 'b9917ac2f2aa65ba2873bd50824b624cd8773582'
+    oldFile: !uuid 'abf5d4000c6f50da29875f0c142d30a892387924'
+  /third_party/skia/src/opts/SkBitmapProcState_arm_neon.cpp:
+    newFile: !uuid '3e66e59add7c905095e40810cd68629669fd57a5'
+    oldFile: !uuid 'ef584ae03ae46120bd2b989819bbb6415167583c'
+  /third_party/skia/src/opts/SkBitmapProcState_matrixProcs_neon.cpp:
+    newFile: !uuid 'fd20717cab0e07315a72dde03cedd6fcf2e44339'
+    oldFile: !uuid 'a6a23622f05946e43821fe12d77ab324c8de33a1'
+  /third_party/skia/src/opts/SkBitmapProcState_opts_SSE2.cpp:
+    newFile: !uuid '86c8e5f7ece3d03b4ccaf755d73078624f4ddb26'
+    oldFile: !uuid 'da9bc28a690aa9cda0b2daededf97b44b7b0362d'
+  /third_party/skia/src/opts/SkBitmapProcState_opts_SSSE3.cpp:
+    newFile: !uuid 'ce3d2822fdc052ed146e2cb03091c204c611c0eb'
+    oldFile: !uuid '94c245d2c4dce1f9903622048a08154aec9300c3'
+  /third_party/skia/src/opts/SkBitmapProcState_opts_arm.cpp:
+    newFile: !uuid '45451729b885ab4d20f81e2ee90809f3d833760f'
+    oldFile: !uuid '8223c1a190cfdd9c8cbf67114f673ca5e79e5bed'
+  /third_party/skia/src/opts/SkBlitMask_opts_arm.cpp:
+    newFile: !uuid 'aab9e0393b76d3e7a7d5347b60d7ac8dc79d1be6'
+    oldFile: !uuid '633e43eb4427c725b648205f7314c7497985669e'
+  /third_party/skia/src/opts/SkBlitMask_opts_arm_neon.cpp:
+    newFile: !uuid 'c68dcf76f2cc3bc31715fb26fcf71a6435bf7a9e'
+    oldFile: !uuid '7f5167679880e5fa113cd8757f7f45b8c206ef50'
+  /third_party/skia/src/opts/SkBlitMask_opts_none.cpp:
+    newFile: !uuid '631a2ab887deeca3358ed87fb72f49510be3eec3'
+    oldFile: !uuid '3b20c5bfcd19b11f53bc286156e8057553f31179'
+  /third_party/skia/src/opts/SkBlitRow_opts_SSE2.cpp:
+    newFile: !uuid '15abd8f848d6b800144771d44a0e40cb3bd8f826'
+    oldFile: !uuid '9530198ef0a01e32be8ba88b096d6a47f8471715'
+  /third_party/skia/src/opts/opts_check_x86.cpp:
+    newFile: !uuid 'd5fb59dc15d50841518fec83babd69e7ae8a0d6c'
+    oldFile: !uuid '8889721107e736b2d23243fa060feb76bf22d057'
+  /third_party/skia/src/ports:
+    newFile: !uuid 'ccede20161aade4f3d21b9aed41ebc3242709f1e'
+    oldFile: !uuid 'ad07c5403676f8910415d05217f86d8dd301ec15'
+  /third_party/skia/src/ports/SkFontMgr_custom.cpp:
+    newFile: !uuid '5625bb2c1d3b976659062c739fbf555d0cd16a82'
+    oldFile: !uuid '3866a4ebf7dbcfa4902600df075785363af17c0a'
+  /third_party/skia/src/ports/SkOSFile_posix.cpp:
+    newFile: !uuid 'bc53225c432bfa4742c88baa85b97e6f1437a6e8'
+    oldFile: !uuid '1a5e123e8271bc6a58c1a1bfe637ae212494a767'
+  /third_party/zlib:
+    newFile: !uuid '09c0f8de115f4532eec2dbdd6c9b370d63fbc2a8'
+    oldFile: !uuid 'e8dfdb8b6b5fc499a64dab1f0c09941905509218'
+  /third_party/zlib/adler32.c:
+    newFile: !uuid 'cfd755522dbe6913045ca475ee3fad70c2abb48b'
+    oldFile: !uuid 'd0be4380a39c9c5bf439b1552c43585b5aafad0a'
+  /third_party/zlib/compress.c:
+    newFile: !uuid 'cbd49276ca610d23be28912998ba2011c27d9497'
+    oldFile: !uuid 'e2db404abf888bd2c85844985b5ae9784b955c63'
+  /v8_5_7:
+    newFile: !uuid '909561b99d1a53e40d16a1a5252609a05cda7c27'
+    oldFile: !uuid 'f191b0ee8ba3948790f1e193d7a07a08a4137d2e'
+  /v8_5_7/src:
+    newFile: !uuid '27a424d74eb99ff06b0a831a01aeaef9000d6364'
+    oldFile: !uuid 'b6e81e8630a71e0178f435330031e5d9a0712bbe'
+  /v8_5_7/src/compiler:
+    newFile: !uuid '9afb5a6ce439174bc65538bd0c262c09eec79435'
+    oldFile: !uuid 'a761be263f58f01b033623db6468d4b644bf8d75'
+  /v8_5_7/src/compiler/x64:
+    newFile: !uuid 'd767fe9654cc1b597637615f8eba9f0b90d1b442'
+    oldFile: !uuid '350f104b99ea17fd659f1fce01b5736991ca59cf'
+  /v8_5_7/src/compiler/x64/instruction-selector-x64.cc:
+    newFile: !uuid '8f74a6ed0e21dda11b339de7adf881c1db0937e5'
+    oldFile: !uuid 'b43d42679e449c9ee7b9f675e123988f9964946c'
+  /v8_5_7/src/compiler/x64/unwinding-info-writer-x64.cc:
+    newFile: !uuid '8c155f6593e85e0f47dca3ce196f0246a8acfeaf'
+    oldFile: !uuid '31338bdaffc758a8e943f5b45d874ec67e3090dd'
+  /v8_5_7/src/x64:
+    newFile: !uuid '25bafca206e9763aae9d61872aa55d75a7199a5c'
+    oldFile: !uuid '32f8e84cfbd0265069ee80d43031a36f181139f8'
+  /v8_5_7/src/x64/eh-frame-x64.cc:
+    newFile: !uuid '3ad0a6df17c7324fee3e874647552e70948336c9'
+    oldFile: !uuid 'afbcf2167e67400a2db2b59bf6fe97b1864390d6'
+  /v8_7_5:
+    newFile: !uuid '9c3ad6ae013efc1d7bab781134f067c80c5b4a17'
+    oldFile: !uuid '227dbc0d6f26a4df02d3d50b265c8d8819346974'
+  /v8_7_5/src:
+    newFile: !uuid '6a161af30d2c194a810e06405e116ed673834ef7'
+    oldFile: !uuid 'd1e488059bfef513d13dcac8568ed9964e3b4962'
+  /v8_7_5/src/arm64:
+    newFile: !uuid '7c1ec450ca3bbc193c536b51f2cf72bcb861ca40'
+    oldFile: !uuid '4b37c500c3f0bddaaf07eb5630d5e2a49f8c2e86'
+  /v8_7_5/src/arm64/utils-arm64.h:
+    newFile: !uuid '9dda98e193583f75e6c052f6857020d34d676eb3'
+    oldFile: !uuid '2b137f26fd1a00964d211efade488cdec0563e92'
+  /v8_7_5/src/asmjs:
+    newFile: !uuid 'a5311cfebb3f9d7e396078732143d20ee4ff3c25'
+    oldFile: !uuid '21a35f6716b4d26a872b6cf027ccd9b7951f58e9'
+  /v8_7_5/src/asmjs/asm-scanner.cc:
+    newFile: !uuid '3cd648f5fb648e11e77f11e30757477fca975092'
+    oldFile: !uuid '778545dd93b012e821e9cdc723a3a9cab6864cdb'
+  /v8_7_5/src/base:
+    newFile: !uuid '8e3b13a2098f34568b5d95d82e5876aa834185eb'
+    oldFile: !uuid 'bd58503e4aa8c54636ff031ae095825db65e354d'
+  /v8_7_5/src/base/overflowing-math.h:
+    newFile: !uuid '872eb8eb48802b861ed654c7fd86ffaeda44f1fb'
+    oldFile: !uuid 'd7bd1cccb6ec63aa60278692b0373cf0b666b11e'
+  /v8_7_5/src/base/platform:
+    newFile: !uuid '6a9899036a1092fb0a11c5e6e784ce2880731303'
+    oldFile: !uuid '41f4319874639117cd19cb82b4ae463911d21691'
+  /v8_7_5/src/base/platform/platform-posix-time.cc:
+    newFile: !uuid 'd1b18ebd4e063c9326aa238b736bc440c88aa899'
+    oldFile: !uuid '46719a3d9954b6eb272694edaa3f1bdbf5518972'
+  /v8_7_5/src/base/platform/platform-posix.cc:
+    newFile: !uuid '559c1ffd08e2521852dc4a143596b57152b9c4fd'
+    oldFile: !uuid '8911bf356a743c75c147c07b93ad862e4bac50b9'
+  /v8_7_5/src/boxed-float.h:
+    newFile: !uuid 'e7609c650831d1a91b519350b491cf785aa5e3c6'
+    oldFile: !uuid 'adbe3be4e4dcc8a4b0e35a250dcb323f3d8d6b1c'
+  /v8_7_5/src/compiler:
+    newFile: !uuid 'a66301323b77a5878d301126beac5f8d9570d51e'
+    oldFile: !uuid 'de289cb8faf3ddaf1615732fd6a15cf1cb60640e'
+  /v8_7_5/src/compiler/backend:
+    newFile: !uuid '9ad2ebbcfa6882d216c4a1e97506f4f6cbda88e7'
+    oldFile: !uuid '06c98af3901622b4618e595fc61bd5d0feb4d54a'
+  /v8_7_5/src/compiler/backend/x64:
+    newFile: !uuid '5df1e0e91bd34d95b7a6bc633b2d172e2cdf5d36'
+    oldFile: !uuid '6ff52b6c5b5db8d73d6310ef971a1c2380f1b33c'
+  /v8_7_5/src/compiler/backend/x64/code-generator-x64.cc:
+    newFile: !uuid '84142771a90099cc5621d1c438b6ef45ad0f951d'
+    oldFile: !uuid '228dac3ac1f055c852283d3d3a1ad937f1e16e79'
+  /v8_7_5/src/compiler/backend/x64/instruction-scheduler-x64.cc:
+    newFile: !uuid '4dcaee4cfbd491adfada43ab4ec3299d2e864f77'
+    oldFile: !uuid '3052e30df1cf3e46b8e424f00c628d7ee32707a4'
+  /v8_7_5/src/compiler/backend/x64/instruction-selector-x64.cc:
+    newFile: !uuid '08f91253841218c2e2ebb405a1cc3bb20d126ae7'
+    oldFile: !uuid 'cec3b87061e536c1d06672a6664f69561ab58ffd'
+  /v8_7_5/src/compiler/backend/x64/unwinding-info-writer-x64.cc:
+    newFile: !uuid 'af57f9325422ecc839dad2a5c35d493e9781d9bf'
+    oldFile: !uuid '9d8eb8c2e52206225edf41407c8395c008cc7fb6'
+  /v8_7_5/src/compiler/js-operator.h:
+    newFile: !uuid '4e2d6953191af55dd74d138139a23bebdd63e4c3'
+    oldFile: !uuid '8a101b349bb705c3392cdf7a9e2df0fd249910a7'
+  /v8_7_5/src/compiler/node-matchers.h:
+    newFile: !uuid '5aede6c8bc7e5a00d68f0274d5fb3079fba84b8d'
+    oldFile: !uuid 'a8be21d51efdc59b997a9f2507877260cf24ee3f'
+  /v8_7_5/src/conversions-inl.h:
+    newFile: !uuid '2287cbab1b7512134574efaa30292b524f49bd7a'
+    oldFile: !uuid '0f6da5845a47a13e0d306b3e9d1c996c6445cded'
+  /v8_7_5/src/inspector:
+    newFile: !uuid '3da794603d53ea7a014ec7e9953f0b13bc295ad6'
+    oldFile: !uuid '47805a19b6893493e796146e9e655c7e8adb0d12'
+  /v8_7_5/src/inspector/string-util.cc:
+    newFile: !uuid '0b475d7c3c4d7298e1b57423fa869392800c5957'
+    oldFile: !uuid 'ef3f8249c8f1cb0e3c07169333fa3a0ed73c0e12'
+  /v8_7_5/src/inspector/v8-inspector-impl.cc:
+    newFile: !uuid '9614376863e1502546c64b9540d9687549458f33'
+    oldFile: !uuid '05e8ea557cca84efba91fd45d130f30a68c6f2c6'
+  /v8_7_5/src/inspector/v8-inspector-session-impl.cc:
+    newFile: !uuid 'd989efbefd1b15dcb1adeff4c33e61f860c3f535'
+    oldFile: !uuid 'd7076cb7f3ed31da053e8686c40641f5d840e9c0'
+  /v8_7_5/src/inspector/value-mirror.cc:
+    newFile: !uuid 'c3797a8108fa4740b4f2b20bdeaba495731ff0d2'
+    oldFile: !uuid '48866e09d409e3abbb0b308c7f2427ff6bb341c7'
+  /v8_7_5/src/libplatform:
+    newFile: !uuid '658efed91d0e8b29f84dd08795a7074a164b7b3d'
+    oldFile: !uuid 'e5215f503255dc190697ce4cac7fe67bcfddcb1c'
+  /v8_7_5/src/libplatform/default-platform-wrap.cc:
+    newFile: !uuid 'c23f0b2970b90593d8eeb9845a97cce1d6061b52'
+    oldFile: null
+  /v8_7_5/src/libplatform/default-platform-wrap.h:
+    newFile: !uuid '519cf1a2c15d6553a19cd73925f788eae10e497b'
+    oldFile: null
+  /v8_7_5/src/libplatform/default_platform_wrap.cc:
+    newFile: null
+    oldFile: !uuid '43a0e6e2ce06a2fd02af3f96dd15847cd86d5e7f'
+  /v8_7_5/src/libplatform/default_platform_wrap.h:
+    newFile: null
+    oldFile: !uuid '519cf1a2c15d6553a19cd73925f788eae10e497b'
+  /v8_7_5/src/libplatform/tracing:
+    newFile: !uuid 'ec3fc9b55523f58f0a15c7beee2aa133c9726418'
+    oldFile: !uuid '9ac1d316c7fb0681d376b739e15ac11203187834'
+  /v8_7_5/src/libplatform/tracing/trace-writer.cc:
+    newFile: !uuid 'dbc91cc1754512f26e89cca00e35de780b7bfb1c'
+    oldFile: !uuid 'a665001c8d2e581a4f3acaf1eb15c171329e9339'
+  /v8_7_5/src/objects:
+    newFile: !uuid 'cae1a77e562ebfb38d7f88b8e3ffb05749ef4b05'
+    oldFile: !uuid 'cd7c692d62af49fdc462003d6b4daaea2fe6fdda'
+  /v8_7_5/src/objects-inl.h:
+    newFile: !uuid 'ce91afffaf5106abd0f16a06c7de849950ce390c'
+    oldFile: !uuid 'e06da7914776a7a5cfd65946fd5b5b751c61b9fa'
+  /v8_7_5/src/objects/fixed-array-inl.h:
+    newFile: !uuid '59f7b3c5e6ee5127b0172d9be94029b4dfb5e292'
+    oldFile: !uuid 'd285f855a7fceec100fcd80e88556ba7716bf3cd'
+  /v8_7_5/src/trap-handler:
+    newFile: !uuid 'b11648f70f2212be472b1288bd42ab67d6fba8ad'
+    oldFile: !uuid 'e1d815b537d75e20237b718991e4426ba59bc3e0'
+  /v8_7_5/src/trap-handler/handler-inside-posix.cc:
+    newFile: !uuid '9bef919d89dca5b91e46a372fe3139eeb834d0b3'
+    oldFile: !uuid '57f8ff5c6aab98d0b0367c745620d2a2fbfd6a0e'
+  /v8_7_5/src/x64:
+    newFile: !uuid 'a1a89d9260a074c5a7016ff253182c5288c92512'
+    oldFile: !uuid '45d7eed3eb07ce862097563a5696851c60dd2183'
+  /v8_7_5/src/x64/assembler-x64.cc:
+    newFile: !uuid 'e521a3cc3d93dac2ac27d9df8ce29f0ad62ab8c0'
+    oldFile: !uuid '7903ac2065ee801c650f14b16c9fc141a7d86205'
+  /v8_7_5/src/x64/eh-frame-x64.cc:
+    newFile: !uuid '20667478cdb4e3412b6c6263d9e19c0aa6bfc801'
+    oldFile: !uuid 'b7808552d212e8b76588dca78e2a78696485b49b'
+  /webdriver:
+    newFile: !uuid '311670988eb2b8c60318846f0868264084c2c920'
+    oldFile: !uuid '3b7b0420d3f49caf8ce718c36dc068f8906a145e'
+  /webdriver/CommandHandlers:
+    newFile: !uuid '09f8c6bfa0b8d39ec74c4ac423cb8faa61a492a8'
+    oldFile: !uuid '605f34aada24cb02d6064b0b2488e6cf0b0f9979'
+  /webdriver/CommandHandlers/CreateNewWindowCommandHandler.cpp:
+    newFile: !uuid '6536af4db870ebc7166942183e87d69f39653690'
+    oldFile: !uuid 'f51bd653cf1fcd2d3f9b71765a3043ef62462774'
+  /webdriver/CommandHandlers/ExecuteAsyncScriptCommandHandler.cpp:
+    newFile: !uuid '57b8d65b3479937b6aa5c96d051f5607e5c44db8'
+    oldFile: !uuid 'de00fa61b7f89e43fbb5ea6b6bdfc96e56977107'
+  /webdriver/CommandHandlers/FindElementCommandHandler.cpp:
+    newFile: !uuid '41a0fe4ac1beec6442e680ba763680d2b15ad477'
+    oldFile: !uuid '8ab984a731bb576a19c9859d08a5e271aa036027'
+  /webdriver/CommandHandlers/GoToUrlCommandHandler.cpp:
+    newFile: !uuid '62e826f8ecf73893bd85e4fd2d8464472fea09ec'
+    oldFile: !uuid '8da57d40de99d7b53f1fdbae63a7a5f08016aee1'
+  /webdriver/EmptyMain.cpp:
+    newFile: !uuid '14b6bde53b55fae9cef9566f5388f7e0542f09f0'
+    oldFile: null
+  /webdriver/MBCommandExecutor.cpp:
+    newFile: !uuid 'c6feaf0a3cca3a1a09319e1a219262266df26dde'
+    oldFile: !uuid '160b5b9499978d9d0cf7ae3115db40004db380b3'
+  /webdriver/WebDriver.cpp:
+    newFile: !uuid '1b28142346d3d0e558d0ce2184a81f1cea9a9ebd'
+    oldFile: !uuid '706b3b4df2c12daabc7c93431ad6541fc4302cb3'
+  /wke:
+    newFile: !uuid '1be37fcd32e619e9793867f70954dd809b3f65dc'
+    oldFile: !uuid 'd9d6b23a869ce9e6d3f1b005cd5830f465f93402'
+  /wke/wkeJsBind.cpp:
+    newFile: !uuid '3bec7a6bab6470ff9754b1b8497be101b7652134'
+    oldFile: !uuid '2236c5ce2bfde70f341e75f335505e7d1c626bd2'
+  /wke/wkeWebView.cpp:
+    newFile: !uuid 'ab5e0e5ccd18ebbbe7e7368a5884302575ad86cf'
+    oldFile: !uuid 'eb505a15436ad4106d2a777c3592f2e48ac34e8d'
+  /wkexe:
+    newFile: !uuid '8b5b27810c64f9ef37e312e9681616ea84247af7'
+    oldFile: !uuid '68c76535a628bbf8da6d2624f15a257a6f7de1bd'
+  /wkexe/vip:
+    newFile: !uuid '6f723704094b27fb836ea9df18a0d85efd89db90'
+    oldFile: !uuid 'c41265d3137b7df35f0a7ae6fff6009f86c9b413'
+  /wkexe/vip/RootWindow.cpp:
+    newFile: !uuid '5638bec6ddef1e33f9cba66027d509460ef57d30'
+    oldFile: !uuid '4a5254b49fb578b972d6cf11c27c9bb62cf13b80'
+  /wkexe/vip/main.cpp:
+    newFile: !uuid '6944e66117fb22b3b19ce90db7170289b57439a2'
+    oldFile: !uuid '0da4c683467baa43d5f7332595b1aff9fe90156f'
+  /wkexe/vip/wkexe_linux.cpp:
+    newFile: !uuid '8d866cd6b55c303310b69b1c3f5ec3ac0f8bc79b'
+    oldFile: !uuid '6165ec2b0bc29e63e2e31645e210cfebb0b143e9'
+gitCommitId: !uuid '72ee110aada7bebe920bbdd73dc82ec65bde7bc0'
+renames:
+  /v8_7_5/src/libplatform/default-platform-wrap.cc: /v8_7_5/src/libplatform/default_platform_wrap.cc
+  /v8_7_5/src/libplatform/default-platform-wrap.h: /v8_7_5/src/libplatform/default_platform_wrap.h
+revisionId: 129
